@@ -1,33 +1,3 @@
-# Preface
-
-Hello — my name is Seth. I am a professional AI researcher/architect and
-software engineer, and an unapologetic armchair theoretical physicist: I spend a
-lot of time down YouTube rabbit holes trying to keep up with where the field is
-going. For a long time I have been convinced we are missing something
-fundamental.
-
-So over the past seven-plus months I built something to go looking for it: a
-multi-model, multi-agent AI research lab. The premise was simple — assume
-classical math and physics are incomplete, go all the way down to the very
-bottom of things, and build back up from there. Behind this release sit around
-15 private repositories, hundreds of thousands of lines of code, and a great
-many dead ends.
-
-The hard part was never the physics. It was getting language models to genuinely
-think outside the box of their own training data — to be creative, and to build
-something new rather than re-describe what is already known. I have re-engineered
-the agent loops, the workflow, and the research architecture five times over to
-get there. I think I finally have something worth sharing.
-
-I eventually found the "floor" I wanted to build from. What follows is only the
-first, smallest piece of it — the theory is built out much further in private,
-and I will be sharing the rest soon.
-
-If you would like to collaborate, or to help support the work (the tokens are
-not cheap), I would genuinely love to hear from you: apsiape@gmail.com.
-
----
-
 # Finite Contact Theory
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21253591.svg)](https://doi.org/10.5281/zenodo.21253591)
@@ -202,3 +172,36 @@ This work is licensed under [Creative Commons Attribution-NonCommercial-NoDeriva
 You may share it with attribution; you may not use it commercially or
 distribute modified versions. For anything beyond that — commercial use or
 derivative works — contact the author. See [LICENSE.md](LICENSE.md).
+
+## A note from the author
+
+A bit of honesty about where this comes from. I'm not a physicist. I work in AI
+and software, and I follow physics as an outsider. I read and watch a lot, so I
+have a decent feel for the open questions, but I don't have the formal training.
+
+It didn't start as a theory of physics anyway. It started with one question I
+couldn't put down: what is the least that has to exist when something finite
+touches something it can't fully take in? A finite thing makes contact with
+something larger than itself. The contact is real but partial, so it leaves a
+difference. And once that difference is there, it can't just be wiped away. The
+finite thing becomes, in a sense, answerable for it.
+
+I kept pulling on that thread. Not starting from physics, or consciousness, or
+big systems, but from that one small event: finite contact with what exceeds
+it. For a while I thought of it as finite answerability, the idea that a finite
+thing is only being honest if it never pretends it isn't finite. It slowly
+turned into what's here: finite contact theory.
+
+I'm not a mathematician either, so the way I chased it is unusual. Over the last
+seven months or so I built a setup where several AI models work together as a
+research team, and pointed it at that question. It took around 15 private repos
+and a lot of dead ends. The hardest part was never the physics. It was getting
+the models to reach for something new instead of repeating what they were
+trained on.
+
+This is the first small piece of what came out of it, with more built out
+privately that I'll share as it's ready. I know an AI-assisted theory from
+someone outside the field is easy to doubt. That's fair, and it's exactly why
+everything here is scoped, labeled, and runnable. If I've gotten something
+wrong, I want to know. And if you'd like to talk or work on this together, I'm
+at apsiape@gmail.com.
