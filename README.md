@@ -30,6 +30,8 @@ not cheap), I would genuinely love to hear from you: apsiape@gmail.com.
 
 # Finite Contact Theory
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21253591.svg)](https://doi.org/10.5281/zenodo.21253591)
+
 > **Quantum mechanics, not assumed — grown.**
 > From a finite floor of one-use marks, with no Hilbert space, no probability,
 > and no continuum granted at the start, this program reconstructs the
@@ -183,8 +185,16 @@ program.
 
 ## Citation
 
-Citation metadata is in [CITATION.cff](CITATION.cff). The preferred citation
-will be finalized at the first tagged DOI release.
+Archived and citable via Zenodo. Please cite as:
+
+> Douglas, S. (2026). *Finite Contact Theory v0.1: Growing the Bell/CHSH
+> Quantum Boundary from a Finite One-Use Floor* (v0.1.0). Zenodo.
+> https://doi.org/10.5281/zenodo.21253592
+
+- **Concept DOI** (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591)
+- **Version DOI** (v0.1.0 specifically): [10.5281/zenodo.21253592](https://doi.org/10.5281/zenodo.21253592)
+
+Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 
 ## Rights
 

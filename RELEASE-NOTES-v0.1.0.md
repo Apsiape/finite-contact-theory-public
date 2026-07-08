@@ -5,6 +5,9 @@ Finite One-Use Floor.
 
 Status: release notes for the first public snapshot.
 
+DOI (this version): [10.5281/zenodo.21253592](https://doi.org/10.5281/zenodo.21253592).
+Concept DOI (all versions): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591).
+
 ## The Release Ceiling
 
 The whole release ceiling is a single sentence, quoted identically in the

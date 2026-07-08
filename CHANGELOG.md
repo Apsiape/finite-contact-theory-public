@@ -4,7 +4,8 @@ All notable public-release changes will be recorded here.
 
 ## 0.1.0
 
-First public release; snapshot for the initial DOI.
+First public release. Archived on Zenodo; version DOI
+`10.5281/zenodo.21253592`, concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
