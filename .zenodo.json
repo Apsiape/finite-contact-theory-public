@@ -1,0 +1,25 @@
+{
+  "title": "Finite Contact Theory v0.1: Growing the Bell/CHSH Quantum Boundary from a Finite One-Use Floor",
+  "version": "0.1.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "access_right": "open",
+  "license": "cc-by-nc-nd-4.0",
+  "creators": [
+    {
+      "name": "Douglas, Seth",
+      "orcid": "0009-0007-4708-3252"
+    }
+  ],
+  "description": "A finite reconstruction program for admissible reality, starting below spacetime, probability, observers, Hilbert space, and the completed continuum. This v0.1 chapter grows the Bell/CHSH quantum boundary from a finite one-use floor at binary-Bell finite-carrier scope: witness counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, and a native binary-Bell carrier grammar, each carrying an explicit status label and scope fence, with a shipped dependency-free verification subset and a public correction ledger. Every generalization beyond binary-Bell finite-carrier scope - the general quantum selector, q>=3 carriers, cross-site interlocking, gravity sourcing, and nature-facing predictions - is held open by name. This is the first published chapter of a larger reconstruction program.",
+  "keywords": [
+    "quantum foundations",
+    "reconstruction of quantum theory",
+    "Bell inequalities",
+    "CHSH",
+    "Tsirelson bound",
+    "Born rule",
+    "finite mathematics",
+    "quantum correlations"
+  ]
+}

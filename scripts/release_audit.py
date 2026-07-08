@@ -180,8 +180,8 @@ def check_metadata() -> None:
     if missing:
         raise AuditFailure("CITATION.cff missing expected fields: " + "; ".join(missing))
 
-    if "All rights reserved." not in license_text:
-        raise AuditFailure("LICENSE.md does not contain the conservative rights notice")
+    if "CC BY-NC-ND 4.0" not in license_text:
+        raise AuditFailure("LICENSE.md does not state the CC BY-NC-ND 4.0 license")
 
     print("[PASS] citation and rights metadata")
 

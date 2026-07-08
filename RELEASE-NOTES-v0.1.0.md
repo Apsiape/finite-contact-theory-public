@@ -79,6 +79,6 @@ larger private research ledgers remain cited, historical, or held according to
 
 ## Rights
 
-All rights reserved unless a later release says otherwise. Public visibility is
-for timestamping, citation, review, and scholarly discussion, not an open
-license grant.
+Licensed under CC BY-NC-ND 4.0: share with attribution, no commercial use, no
+distribution of derivative works. For commercial use or derivatives, contact
+the author. See `LICENSE.md`.

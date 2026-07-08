@@ -188,6 +188,7 @@ will be finalized at the first tagged DOI release.
 
 ## Rights
 
-This is a public timestamping and review repository, not an open-source or
-open-content release. Unless a later release states otherwise, all rights are
-reserved. See [LICENSE.md](LICENSE.md).
+This work is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+You may share it with attribution; you may not use it commercially or
+distribute modified versions. For anything beyond that — commercial use or
+derivative works — contact the author. See [LICENSE.md](LICENSE.md).
