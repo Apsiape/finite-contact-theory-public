@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 812" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="1080" height="812" fill="#ffffff"/>
+<rect x="16" y="16" width="1048" height="780" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="44" y="62" font-size="31" font-weight="700" fill="#0f172a">Finite Contact Theory &#8212; the reconstruction ladder</text>
+<text x="44" y="92" font-size="17" fill="#475569">Quantum structure, <tspan font-weight="700" fill="#15803d">grown</tspan> from a finite one-use floor &#8212; not assumed. Every rung carries its own status and scope.</text>
+<rect x="44" y="128" width="604" height="48" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray=""/>
+<text x="62" y="157.0" font-size="15" font-weight="400" fill="#334155">finite one-use contact</text>
+<rect x="568" y="141.0" width="68" height="22" rx="11" fill="#e2e8f0"/>
+<text x="602.0" y="156.0" font-size="11" font-weight="700" fill="#475569" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">PRIMITIVE</text>
+<line x1="70" y1="176" x2="70" y2="188" stroke="#94a3b8" stroke-width="2"/>
+<path d="M 66 184 L 70 188 L 74 184" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<rect x="44" y="188" width="604" height="48" rx="9" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray=""/>
+<text x="62" y="217.0" font-size="15" font-weight="400" fill="#334155">witness fibers · trace classes</text>
+<rect x="561" y="201.0" width="75" height="22" rx="11" fill="#e2e8f0"/>
+<text x="598.5" y="216.0" font-size="11" font-weight="700" fill="#475569" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">DEFINITION</text>
+<line x1="70" y1="236" x2="70" y2="248" stroke="#94a3b8" stroke-width="2"/>
+<path d="M 66 244 L 70 248 L 74 244" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<rect x="44" y="248" width="604" height="48" rx="9" fill="#dcfce7" stroke="#4ade80" stroke-width="1.4" stroke-dasharray=""/>
+<text x="62" y="277.0" font-size="15" font-weight="600" fill="#14532d">coherent counting measure</text>
+<rect x="580" y="261.0" width="56" height="22" rx="11" fill="#16a34a"/>
+<text x="608.0" y="276.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">THEOREM</text>
+<line x1="70" y1="296" x2="70" y2="308" stroke="#94a3b8" stroke-width="2"/>
+<path d="M 66 304 L 70 308 L 74 304" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<rect x="44" y="308" width="604" height="48" rx="9" fill="#dbeafe" stroke="#60a5fa" stroke-width="1.4" stroke-dasharray=""/>
+<text x="62" y="337.0" font-size="15" font-weight="600" fill="#1e3a8a">one-receiver gluing</text>
+<rect x="580" y="321.0" width="56" height="22" rx="11" fill="#2563eb"/>
+<text x="608.0" y="336.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">THEOREM</text>
+<line x1="70" y1="356" x2="70" y2="368" stroke="#94a3b8" stroke-width="2"/>
+<path d="M 66 364 L 70 368 L 74 364" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<rect x="44" y="368" width="604" height="48" rx="9" fill="#dcfce7" stroke="#4ade80" stroke-width="1.4" stroke-dasharray=""/>
+<text x="62" y="397.0" font-size="15" font-weight="600" fill="#14532d">rational Born weights = counting through gluing</text>
+<rect x="476" y="381.0" width="160" height="22" rx="11" fill="#16a34a"/>
+<text x="556.0" y="396.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">THEOREM · rational scope</text>
+<line x1="70" y1="416" x2="70" y2="428" stroke="#94a3b8" stroke-width="2"/>
+<path d="M 66 424 L 70 428 L 74 424" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<rect x="44" y="428" width="604" height="48" rx="9" fill="#ccfbf1" stroke="#2dd4bf" stroke-width="1.4" stroke-dasharray=""/>
+<text x="62" y="457.0" font-size="15" font-weight="600" fill="#134e4a">CHSH / Pell boundary → 2√2</text>
+<rect x="458" y="441.0" width="178" height="22" rx="11" fill="#0d9488"/>
+<text x="547.0" y="456.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">THEOREM+RECOVERY · rational</text>
+<line x1="70" y1="476" x2="70" y2="488" stroke="#94a3b8" stroke-width="2"/>
+<path d="M 66 484 L 70 488 L 74 484" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<rect x="44" y="488" width="604" height="48" rx="9" fill="#dcfce7" stroke="#4ade80" stroke-width="1.4" stroke-dasharray=""/>
+<text x="62" y="517.0" font-size="15" font-weight="600" fill="#14532d">carrier grammar grown from one-use  ·  t = k∕n</text>
+<rect x="494" y="501.0" width="142" height="22" rx="11" fill="#16a34a"/>
+<text x="565.0" y="516.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">THEOREM · binary-Bell</text>
+<line x1="70" y1="536" x2="70" y2="548" stroke="#94a3b8" stroke-width="2"/>
+<path d="M 66 544 L 70 548 L 74 544" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<rect x="44" y="548" width="604" height="48" rx="9" fill="#bbf7d0" stroke="#16a34a" stroke-width="2.6" stroke-dasharray=""/>
+<text x="62" y="577.0" font-size="15" font-weight="700" fill="#052e16">the quantum boundary is a floor theorem</text>
+<rect x="427" y="561.0" width="209" height="22" rx="11" fill="#15803d"/>
+<text x="531.5" y="576.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">binary-Bell finite-carrier scope</text>
+<line x1="70" y1="596" x2="70" y2="608" stroke="#94a3b8" stroke-width="2"/>
+<path d="M 66 604 L 70 608 L 74 604" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<rect x="44" y="608" width="604" height="48" rx="9" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="62" y="637.0" font-size="15" font-weight="600" fill="#78350f">general selector · q≥3 · gravity sourcing · nature-facing</text>
+<rect x="537" y="621.0" width="99" height="22" rx="11" fill="#d97706"/>
+<text x="586.5" y="636.0" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="SFMono-Regular, Consolas, monospace">OPEN — by name</text>
+<text x="636" y="545" font-size="10.5" fill="#94a3b8" text-anchor="end" font-style="italic">— the horizon (not results) —</text>
+<text x="676" y="146" font-size="15" font-weight="700" fill="#0f172a">STATUS</text>
+<rect x="676" y="155" width="14" height="14" rx="3" fill="#16a34a"/>
+<text x="698" y="167" font-size="12.5" fill="#334155">THEOREM / MEASURED — proved at stated scope</text>
+<rect x="676" y="179" width="14" height="14" rx="3" fill="#2563eb"/>
+<text x="698" y="191" font-size="12.5" fill="#334155">MODEL-SCOPE / RECOVERY</text>
+<rect x="676" y="203" width="14" height="14" rx="3" fill="#d97706"/>
+<text x="698" y="215" font-size="12.5" fill="#334155">OPEN — named, not claimed</text>
+<rect x="676" y="227" width="14" height="14" rx="3" fill="#64748b"/>
+<text x="698" y="239" font-size="12.5" fill="#334155">primitive / definition</text>
+<rect x="668" y="258" width="376" height="286" rx="10" fill="#fef2f2" stroke="#fecaca" stroke-width="1.3"/>
+<text x="684" y="278" font-size="15" font-weight="700" fill="#b91c1c">What we killed &#8212; the kill-list is the point</text>
+<text x="684" y="304" font-size="12.8" fill="#9f1239" text-decoration="line-through">binary arity as uniquely forced by matter</text>
+<text x="684" y="329" font-size="12.8" fill="#9f1239" text-decoration="line-through">matter fixed at dimension 2 across arities</text>
+<text x="684" y="354" font-size="12.8" fill="#9f1239" text-decoration="line-through">closure dynamics selecting Tsirelson</text>
+<text x="684" y="379" font-size="12.8" fill="#9f1239" text-decoration="line-through">a simple arrow statistic as a nature bet</text>
+<text x="684" y="404" font-size="12.8" fill="#9f1239" text-decoration="line-through">graph-floor gravity as a generic GR divergence</text>
+<text x="684" y="429" font-size="12.8" fill="#9f1239" text-decoration="line-through">raw capacity read as memory</text>
+<text x="684" y="454" font-size="12.8" fill="#9f1239" text-decoration="line-through">the completed continuum as a native object</text>
+<text x="684" y="487" font-size="11.5" font-style="italic" fill="#7f1d1d">Ten adversarial passes. Every claim above died on the evidence.</text>
+<rect x="44" y="700" width="992" height="76" rx="10" fill="#0f172a"/>
+<text x="66" y="730" font-size="15" font-family="SFMono-Regular, Consolas, monospace" fill="#7dd3fc">$ python verification/scripts/run_all.py</text>
+<text x="66" y="756" font-size="15" font-family="SFMono-Regular, Consolas, monospace"><tspan font-weight="700" fill="#4ade80">ALL SHIPPED VERIFICATION: PASS</tspan><tspan fill="#94a3b8">   ·   t(k,n)=k/n exactly   ·   Born shares match   ·   no-jam clears depth 7</tspan></text>
+</svg>

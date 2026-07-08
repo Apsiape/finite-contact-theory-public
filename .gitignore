@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs and local outputs
+*.log
+*.tmp
+*.bak
+*.out
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large generated release artifacts should be attached to tagged releases
+# unless intentionally tracked.
+dist/
+build/
+
