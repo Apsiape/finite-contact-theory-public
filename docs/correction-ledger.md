@@ -1,6 +1,6 @@
 # Correction Ledger
 
-Status: pre-release correction ledger, first curated pass.
+Status: public correction ledger, first curated pass.
 
 The correction ledger is part of the method. It records claims that were killed,
 demoted, narrowed, or moved to a hold. A failed claim may leave a useful

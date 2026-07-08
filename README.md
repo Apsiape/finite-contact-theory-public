@@ -168,11 +168,11 @@ because it says too much.
 
 ## Status
 
-This is v0.1: a complete, scoped chapter with its theorem stack, claim register,
-and shipped verification in place. The version is tagged `-pre` only because the
-DOI snapshot is not yet minted — the content is the release, not a placeholder
-for it. The general quantum selector, cross-site interlocking, `q >= 3`, and
-nature-facing claims are deliberately held or open, and named as such.
+This is v0.1.0: a complete, scoped chapter with its theorem stack, claim
+register, and shipped verification in place. The general quantum selector,
+cross-site interlocking, `q >= 3`, and nature-facing claims are deliberately
+held or open, and named as such — this is a first chapter, not a finished
+program.
 
 ## Author
 

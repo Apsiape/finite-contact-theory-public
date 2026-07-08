@@ -1,6 +1,6 @@
 # Evidence Manifest
 
-Status: pre-release evidence posture.
+Status: public evidence posture.
 
 The public repository is being curated from a larger private research
 laboratory. This manifest states whether evidence is shipped here, cited from

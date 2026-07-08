@@ -2,9 +2,9 @@
 
 All notable public-release changes will be recorded here.
 
-## 0.1.0-pre
+## 0.1.0
 
-Pre-release staging for the first public DOI snapshot.
+First public release; snapshot for the initial DOI.
 
 Added:
 

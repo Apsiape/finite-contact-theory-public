@@ -2,7 +2,7 @@
 
 Author: Seth Douglas  
 ORCID: https://orcid.org/0009-0007-4708-3252  
-Status: public v0.1 technical-note draft.
+Status: public v0.1 technical note.
 
 ![The reconstruction ladder: quantum structure grown from a finite one-use floor, each rung labeled by status and scope.](../assets/reconstruction-ladder.svg)
 

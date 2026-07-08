@@ -1,4 +1,4 @@
-# Release Notes: v0.1.0-pre
+# Release Notes: v0.1.0
 
 Title: Finite Contact Theory v0.1: Growing the Bell/CHSH Quantum Boundary from a
 Finite One-Use Floor.

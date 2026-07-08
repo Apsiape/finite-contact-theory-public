@@ -49,7 +49,7 @@ Not yet release-ready:
 - first paper/monograph has release links and needs final human polish;
 - a small shipped verification subset is admitted;
 - links and source references have not had a clean-clone audit;
-- `CITATION.cff` and release metadata are still pre-release.
+- `CITATION.cff` and release metadata are set for the tagged DOI release.
 
 ## Must Finish Before Any DOI
 

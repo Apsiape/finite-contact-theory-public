@@ -5,7 +5,7 @@ Status: PASS
 Script: `scripts/release_audit.py`
 Command: `python scripts\release_audit.py`
 Date run: 2026-07-07
-Environment: Windows / Python 3.13 local pre-release checkout
+Environment: Windows / Python 3.13 local release checkout
 Dependencies: Python standard library; Git for whitespace check
 Expected runtime: under 5 seconds
 Observed runtime: under 1 second
