@@ -29,6 +29,10 @@ from its name.
 | T-11 | Mathematics as stream erasure | `THEOREM / RECOVERY` | Stream-erasure and fiber-collapse constructions. | Mathematics is the phase that erases the which while preserving the law sector. | The private research corpus; stream-erasure artifacts. | "Why this grammar" remains open. |
 | T-12 | Continuum as admitted completion | `RECOVERY / OPEN` | Finite algebraic/computable horizons and Axiom-C completion posture. | Completed continuum objects are received overlays; finite predictive content must be reconstructed horizon by horizon. | The private research corpus. | Interacting-QFT continuum limit remains the universal hard edge. |
 | T-13 | Aperture-level energy and temperature | `MODEL-SCOPE / RECOVERY` | Tested visible sectors and exact-hider comparison. | Temperature and level-2 thermodynamic energy appear where visible entropy production vanishes. | The private research corpus; level-2 results. | Sourcing remains open; unitary grade unmet. |
+| T-14 | Behavior-conditioned capacity: inequality, SDP faithfulness, compression | `THEOREM` | General finite exclusivity graphs; sharp realizations of a fixed behavior. | `beta(p) <= kappa_G(p)`; the capacity is a faithful Gram-fiber SDP; rank-one pure realizations suffice (purify-and-project, capacity non-increasing). | Shipped `exact_gap_certificate.py` support; cited private SDP/compression suite. | Compression fenced to this positive weighted-capacity objective; rank matters elsewhere. |
+| T-15 | Exact strict preparation gap certificate | `THEOREM` (exact) | Pentagon/KCBS, unit weights; the named rational behavior; all sharp realizations, any finite dimension. | An explicit rational behavior is realizable and every sharp realization has capacity strictly above `beta` — `Delta_prep > 0` with every load-bearing step exact. | Shipped `exact_gap_certificate.py` / `FCT-22-exact-gap-certificate-RESULTS.md`. | Magnitude (`~0.0096`) is numerical context; one behavior, no genericity claim. |
+| T-16 | Tightness criterion, pentagon phase geometry, headroom law | `THEOREM` + `MEASURED` | Criterion and headroom inequality general; geometry and closed forms `C_5`-fenced. | `Delta_prep = 0` iff top-eigenvector Gram feasibility; tight set has interior beyond the symmetric orbit; headroom `h >= Delta_prep` with exact re-preparation payoff; canonical form `g(1-F)`. | Cited private suite (behavior-receipt, global-gap, rigidity-bridge). | Two-margin boundary machinery pentagon-only; robust asymmetry bridge is `OPEN` (C1). |
+| T-17 | Anchored dual for the capacity | `THEOREM` (derived) + `MEASURED` (duality) | General derivation; strong duality verified numerically at pentagon reference points. | `kappa(p) = 1 + max{v^T B v - tr B}` over the anchored dual cone; refutes collapse to weighted Lovász theta at `p` and `sqrt(p)`. | Cited dual-check derivation and numerics. | Duality verified to 1e-6 at three points, not proved in full generality here. |
 
 ## Dependency Graph
 
@@ -64,15 +68,21 @@ Parallel recovery/placement rows:
   T-11 mathematics as stream erasure
   T-12 continuum as admitted completion
   T-13 aperture-level energy and temperature
+
+Chapter-2 stack (behavior-conditioned capacity; standard-QM scope):
+  T-14 capacity inequality + SDP faithfulness + compression
+    +-- T-15 exact strict preparation gap certificate
+    +-- T-16 tightness criterion, phase geometry, headroom law
+    +-- T-17 anchored dual
 ```
 
 Evidence state summary:
 
 | evidence state | rows |
 |---|---|
-| shipped public core | T-01, T-03, T-04, T-04b, T-05, T-06, T-07 |
-| shipped support plus cited certificate/private scope | T-08 |
-| cited private theorem/model evidence | T-02, T-05b, T-08a-d, T-09, T-10, T-11, T-12, T-13 |
+| shipped public core | T-01, T-03, T-04, T-04b, T-05, T-06, T-07, T-15 |
+| shipped support plus cited certificate/private scope | T-08, T-14 |
+| cited private theorem/model evidence | T-02, T-05b, T-08a-d, T-09, T-10, T-11, T-12, T-13, T-16, T-17 |
 | held/frontier, not banked theorem | F-01 through F-04 |
 
 The dependency graph is not a claim of unrestricted generality. It is the
@@ -107,6 +117,11 @@ theorems have no dedicated register entry. This table is the map.
 | FCT-18 witness-overlap complementarity | T-07 |
 | FCT-19 binary-Bell quantum boundary | T-08, T-08a-d |
 | FCT-20 carrier states and temperature share the reversible sector | T-09 |
+| FCT-21 behavior-conditioned capacity and universal inequality | T-14 |
+| FCT-22 exact strict preparation gap | T-15 |
+| FCT-23 headroom law | T-16 |
+| FCT-24 pentagon tightness phase geometry | T-16 |
+| FCT-25 sharpness boundary and novelty posture | T-14 (boundary construction), T-17 (dual) |
 | — (tracked by theorem ID) | T-02 integrality blocks native colimits |
 | — (tracked by theorem ID) | T-04, T-04b Born as counting through gluing |
 | — (tracked by theorem ID) | T-11 mathematics as stream erasure |
@@ -254,3 +269,47 @@ Energy and temperature are not introduced at the primitive one-use floor. In
 the tested visible sectors, temperature appears when visible entropy production
 vanishes. Gravity-facing sourcing remains open; the public row is an aperture
 thermodynamics result, not a derivation of gravity.
+
+### T-14 Behavior-Conditioned Capacity: Inequality, Faithfulness, Compression
+
+`beta <= kappa` is a one-line trace bound. For rank-one pure realizations the
+capacity is the minimum of `lambda_max(H)` over Hermitian Gram matrices with
+unit diagonal, zero exclusivity edges, and `H >= vv^T` (`v = sqrt(p)`); the
+reduction is faithful because a bordered-Gram Schur complement reconstructs a
+realization from any feasible `H` and the realization's operator norm equals
+its Gram `lambda_max`. Purify-and-project compresses any mixed/higher-rank
+sharp realization to a rank-one pure one, preserving behavior and exclusivity
+without increasing capacity — fenced to this positive weighted-capacity
+objective. Full detail: chapter 2, section 2.
+
+### T-15 Exact Strict Preparation Gap Certificate
+
+Four exact steps on the pentagon behavior `(49/100, 25/81, 16/25, 36/121,
+4/9)`: realizability by exact rational LDL of `H_feas - vv^T` (five positive
+pivots); rigidity forcing `v` as top eigenvector with unique real part
+(determinant `112/495`); an exact rational witness making `y^T H* y < 0`,
+which kills the entire Hermitian completion family because the imaginary part
+cancels in real quadratic forms; compactness closing the argument. Shipped as
+a stdlib-only script; no floating-point number is load-bearing. The corrected
+uniqueness lemma (imaginary subsystem singular for every behavior vector) was
+found by this certificate and is part of the public correction record.
+
+### T-16 Tightness Criterion, Pentagon Phase Geometry, Headroom Law
+
+`Delta_prep = 0` iff the top-eigenvector Gram feasibility system is solvable.
+On `C_5` the tight set contains the full symmetric contextual line and has
+interior beyond the symmetric orbit; explicit gapped behaviors exist; the
+boundary is semialgebraic with two crossing modes; the symmetric spine is the
+rigidity system's singular locus. The headroom `h = ||K|| - Tr(rho K)` obeys
+`h >= Delta_prep` for every sharp implementation, with re-preparation payoff
+exactly `h`; the canonical pentagon receiver gives `h = g(1-F)`,
+`g = (3*sqrt(5)-5)/2`. Geometry statements are `C_5`-fenced.
+
+### T-17 Anchored Dual
+
+The Lagrangian dual of the capacity SDP is
+`kappa(p) = 1 + max{v^T B v - tr B : A, B >= 0, tr A = 1, (A - B)_ij = 0 on
+non-edges}` — the behavior enters through an indefinite quadratic, not as
+vertex weights. Strong duality verified numerically at three reference points;
+collapse to the weighted Lovász theta at `p` or `sqrt(p)` is refuted at points
+where the values differ decisively.

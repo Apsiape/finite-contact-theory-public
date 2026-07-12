@@ -16,6 +16,11 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   [10.5281/zenodo.21253592](https://doi.org/10.5281/zenodo.21253592). This
   chapter predates the directory convention below and is grandfathered as a
   single file; it is frozen like any other chapter.
+- [`02-behavior-conditioned-capacity/`](02-behavior-conditioned-capacity/paper.md)
+  — **Chapter 2** (v0.2.0): _Behavior-Conditioned Contextual Capacity and an
+  Exact Strict Preparation Gap_. The first chapter under the directory
+  convention; DOIs recorded in its
+  [`RELEASE.md`](02-behavior-conditioned-capacity/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 

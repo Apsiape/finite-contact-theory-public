@@ -15,6 +15,7 @@ SCRIPTS = [
     "rational_born_gluing.py",
     "chsh_pell_boundary.py",
     "native_lift_binary_bell.py",
+    "exact_gap_certificate.py",
 ]
 
 

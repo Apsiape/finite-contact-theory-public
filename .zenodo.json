@@ -1,6 +1,6 @@
 {
-  "title": "Finite Contact Theory v0.1: Growing the Bell/CHSH Quantum Boundary from a Finite One-Use Floor",
-  "version": "0.1.0",
+  "title": "Finite Contact Theory v0.2: Behavior-Conditioned Contextual Capacity and an Exact Strict Preparation Gap",
+  "version": "0.2.0",
   "upload_type": "publication",
   "publication_type": "preprint",
   "access_right": "open",
@@ -11,15 +11,17 @@
       "orcid": "0009-0007-4708-3252"
     }
   ],
-  "description": "A finite reconstruction program for admissible reality, starting below spacetime, probability, observers, Hilbert space, and the completed continuum. This v0.1 chapter grows the Bell/CHSH quantum boundary from a finite one-use floor at binary-Bell finite-carrier scope: witness counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, and a native binary-Bell carrier grammar, each carrying an explicit status label and scope fence, with a shipped dependency-free verification subset and a public correction ledger. Every generalization beyond binary-Bell finite-carrier scope - the general quantum selector, q>=3 carriers, cross-site interlocking, gravity sourcing, and nature-facing predictions - is held open by name. This is the first published chapter of a larger reconstruction program.",
+  "description": "A finite reconstruction program for admissible reality, starting below spacetime, probability, observers, Hilbert space, and the completed continuum. This v0.2 chapter, written in standard quantum-foundations language, defines the behavior-conditioned contextual capacity kappa_G(p) - the least operator-norm capacity any sharp quantum model must carry to reproduce a fixed exclusivity-graph behavior - and the preparation gap Delta_prep = kappa - beta. It proves the universal inequality, a faithful Gram-fiber SDP reduction with a rank-one compression theorem, a headroom law making the gap an operational re-preparation resource, the pentagon tightness phase geometry, and, as the centerpiece, an exact strict-gap certificate: an explicit rational KCBS-pentagon behavior whose every sharp realization in every finite dimension carries capacity strictly above beta, verified end to end in exact rational arithmetic by a shipped dependency-free script. The novelty claim is graded at INTERNAL-BLIND evidence class with published searches and named nearest precedents. The v0.1 binary-Bell quantum-boundary chapter is unchanged; every unearned generalization - general-graph phase geometry, the robust asymmetry bridge, the general quantum selector, gravity sourcing, and nature-facing predictions - is held open by name.",
   "keywords": [
     "quantum foundations",
+    "contextuality",
+    "KCBS inequality",
+    "exclusivity graphs",
+    "Lovasz theta",
+    "semidefinite programming",
+    "self-testing",
+    "quantum correlations",
     "reconstruction of quantum theory",
-    "Bell inequalities",
-    "CHSH",
-    "Tsirelson bound",
-    "Born rule",
-    "finite mathematics",
-    "quantum correlations"
+    "finite mathematics"
   ]
 }

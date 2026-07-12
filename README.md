@@ -14,11 +14,17 @@ faith. This one hands you a script. Run it and watch a fragment of quantum
 mechanics fall out of pure finite counting, with the exact edge of the result
 printed on the screen — then read the list of everything we killed to get here.
 
-**This is v0.1 — _Growing the Bell/CHSH Quantum Boundary from a Finite One-Use
-Floor_ — the first published chapter of a much larger reconstruction program.**
-Everything past this chapter (spacetime, gravity, the continuum, and the general
-quantum case) is held open by name in the horizon and roadmap below. The point of
-a first chapter is that you can check it now.
+**This is v0.2 — two published chapters of a much larger reconstruction
+program.** Chapter 1 (v0.1) grew the Bell/CHSH quantum boundary from a finite
+one-use floor. Chapter 2 adds a standard-language contextuality result with a
+hand-checkable exact certificate: a **behavior-conditioned capacity** and a
+**strict preparation gap** — a quantum behavior whose every sharp realization
+must hold measurement capacity strictly beyond what the behavior itself
+spends, proved in exact rational arithmetic
+([papers/02-behavior-conditioned-capacity/](papers/02-behavior-conditioned-capacity/paper.md)).
+Everything past these chapters (spacetime, gravity, the continuum, and the
+general quantum case) is held open by name in the horizon and roadmap below.
+The point of a chapter is that you can check it now.
 
 ![The reconstruction ladder: quantum structure grown from a finite one-use floor, each rung labeled by status and scope.](assets/reconstruction-ladder.svg)
 
@@ -36,24 +42,27 @@ Expected final line:
 ALL SHIPPED VERIFICATION: PASS
 ```
 
-Along the way it runs five exact checks: the no-jam core clearing depth 7; the
+Along the way it runs six exact checks: the no-jam core clearing depth 7; the
 rational Born weights matching their counting shares; the CHSH ladder climbing
-to `2*sqrt(2)` with every rung on the exact Pell fence `p^2 - 2q^2 = -1`; and
-the complementarity angle coming out as a pure fraction of shared witnesses,
-`t(k,n) = k/n`, exactly. This reproduces the shipped public subset — not the
-full private corpus.
+to `2*sqrt(2)` with every rung on the exact Pell fence `p^2 - 2q^2 = -1`; the
+complementarity angle coming out as a pure fraction of shared witnesses,
+`t(k,n) = k/n`, exactly; and the chapter-2 strict preparation gap certified
+end to end in exact rational arithmetic. This reproduces the shipped public
+subset — not the full private corpus.
 
 ## The one claim
 
 The whole release ceiling is a single sentence, and it is quoted identically in
-the paper, the claim register, and the release notes:
+the chapter-2 paper, the claim register, and the release notes:
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
 > theorem stack — from one-use contact to counting, to one-receiver gluing, to
 > rational Born weights, to the CHSH/Pell boundary, to a carrier grammar grown
-> from one-use contact — under which the quantum boundary is a floor theorem at
-> **binary-Bell finite-carrier scope**, with every unearned generalization left
-> open by name.
+> from one-use contact, to a behavior-conditioned contextual capacity with an
+> exact strict preparation gap — under which the quantum boundary is a floor
+> theorem at **binary-Bell finite-carrier scope**, the preparation gap is an
+> exact theorem at **KCBS-pentagon scope**, and every unearned generalization
+> is left open by name.
 
 The scope fence is not an apology. It is the result. We tell you precisely how
 far the proof reaches; that edge is the theorem. In particular this does **not**
@@ -115,17 +124,18 @@ becomes a scoped theorem, a recovery, a model result, or a clean failure:
 
 ## Read it
 
-1. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — the release narrative.
-2. [docs/mathematical-core.md](docs/mathematical-core.md) — the formal vocabulary.
-3. [docs/theorem-bank.md](docs/theorem-bank.md) — theorem rows and proof sketches.
-4. [docs/public-claim-register.md](docs/public-claim-register.md) — every public claim, labeled and scoped.
-5. [verification/evidence-manifest.md](verification/evidence-manifest.md) — what evidence is shipped, cited, historical, or held.
-6. [docs/finite-contact-theory.md](docs/finite-contact-theory.md) — the extraction plan for the full theory spine: where this chapter sits in the larger program.
+1. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — Chapter 2: the exact preparation gap (standard contextuality language; new in v0.2).
+2. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — Chapter 1: the v0.1 release narrative.
+3. [docs/mathematical-core.md](docs/mathematical-core.md) — the formal vocabulary.
+4. [docs/theorem-bank.md](docs/theorem-bank.md) — theorem rows and proof sketches.
+5. [docs/public-claim-register.md](docs/public-claim-register.md) — every public claim, labeled and scoped.
+6. [verification/evidence-manifest.md](verification/evidence-manifest.md) — what evidence is shipped, cited, historical, or held.
+7. [docs/finite-contact-theory.md](docs/finite-contact-theory.md) — the extraction plan for the full theory spine: where these chapters sit in the larger program.
 
 Short on time? Start with [docs/how-to-read.md](docs/how-to-read.md), and keep
-[docs/glossary.md](docs/glossary.md) open for terms. Where the whole program is
-going, and what remains open, is in
-[docs/release-roadmap.md](docs/release-roadmap.md).
+[docs/glossary.md](docs/glossary.md) open for terms. How the repository grows
+without rewriting its past is [EVOLUTION.md](EVOLUTION.md); what remains open
+is in [docs/roadmap.md](docs/roadmap.md).
 
 ## Verify and audit
 
@@ -140,11 +150,14 @@ because it says too much.
 
 ## Status
 
-This is v0.1.0: a complete, scoped chapter with its theorem stack, claim
-register, and shipped verification in place. The general quantum selector,
-cross-site interlocking, `q >= 3`, and nature-facing claims are deliberately
-held or open, and named as such — this is a first chapter, not a finished
-program.
+This is v0.2.0: two complete, scoped chapters with their theorem stacks,
+claim register, and shipped verification in place. Chapter 2 adds the
+behavior-conditioned capacity, the exact strict preparation gap (FCT-21
+through FCT-25, T-14 through T-17), and one more dependency-free exact script
+to the shipped suite. The general quantum selector, cross-site interlocking,
+`q >= 3`, general-graph phase geometry, and nature-facing claims are
+deliberately held or open, and named as such — these are chapters, not a
+finished program.
 
 ## How this repository evolves
 

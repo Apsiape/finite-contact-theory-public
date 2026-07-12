@@ -40,15 +40,22 @@ REQUIRED_FILES = [
     "README.md",
     "LICENSE.md",
     "CITATION.cff",
+    "EVOLUTION.md",
     "RELEASE-NOTES-v0.1.0.md",
+    "RELEASE-NOTES-v0.2.0.md",
     "docs/mathematical-core.md",
     "docs/public-claim-register.md",
     "docs/theorem-bank.md",
     "docs/correction-ledger.md",
     "docs/release-roadmap.md",
+    "docs/release-checklist.md",
     "papers/finite-contact-theory-v0.1.md",
+    "papers/02-behavior-conditioned-capacity/paper.md",
+    "papers/02-behavior-conditioned-capacity/claims.md",
+    "papers/02-behavior-conditioned-capacity/RELEASE.md",
     "verification/evidence-manifest.md",
     "verification/scripts/run_all.py",
+    "verification/scripts/exact_gap_certificate.py",
 ]
 
 STALE_HOLD_STATUS = [
@@ -166,16 +173,16 @@ def check_metadata() -> None:
     license_text = read_text(ROOT / "LICENSE.md")
 
     required_citation_bits = [
-        'title: "Finite Contact Theory v0.1: Growing the Bell/CHSH Quantum Boundary from a Finite One-Use Floor"',
+        'title: "Finite Contact Theory v0.2: Behavior-Conditioned Contextual Capacity and an Exact Strict Preparation Gap"',
         'family-names: "Douglas"',
         'given-names: "Seth"',
         'orcid: "https://orcid.org/0009-0007-4708-3252"',
         'repository-code: "https://github.com/Apsiape/finite-contact-theory-public"',
     ]
-    # Version may be the pre-release (0.1.0-pre) or the DOI-stamped tag (0.1.0).
+    # Version may be the pre-release (0.2.0-pre) or the DOI-stamped tag (0.2.0).
     # This tolerates the planned bump so the mint step does not fail the gate.
-    if not re.search(r'^version: "0\.1\.0(-pre)?"$', citation, flags=re.MULTILINE):
-        raise AuditFailure('CITATION.cff version must be "0.1.0-pre" or "0.1.0"')
+    if not re.search(r'^version: "0\.2\.0(-pre)?"$', citation, flags=re.MULTILINE):
+        raise AuditFailure('CITATION.cff version must be "0.2.0-pre" or "0.2.0"')
     missing = [bit for bit in required_citation_bits if bit not in citation]
     if missing:
         raise AuditFailure("CITATION.cff missing expected fields: " + "; ".join(missing))
@@ -219,34 +226,64 @@ def scan_for_terms(
     print(f"[PASS] {label}")
 
 
-CANONICAL_CEILING = (
-    "Finite Contact Theory is a finite reconstruction program with a scoped "
-    "theorem stack — from one-use contact to counting, to one-receiver gluing, "
-    "to rational Born weights, to the CHSH/Pell boundary, to a carrier grammar "
-    "grown from one-use contact — under which the quantum boundary is a floor "
-    "theorem at binary-Bell finite-carrier scope, with every unearned "
-    "generalization left open by name."
-)
-
-CEILING_FILES = [
-    "README.md",
-    "papers/finite-contact-theory-v0.1.md",
-    "docs/public-claim-register.md",
-    "RELEASE-NOTES-v0.1.0.md",
+# Each released ceiling is checked verbatim in its advertised locations. The
+# v0.1 ceiling lives on unchanged in the frozen v0.1 paper and notes; the live
+# (v0.2) ceiling controls the README, the claim register, the chapter-2 paper,
+# and the v0.2.0 release notes.
+CANONICAL_CEILINGS = [
+    (
+        "v0.1",
+        (
+            "Finite Contact Theory is a finite reconstruction program with a scoped "
+            "theorem stack — from one-use contact to counting, to one-receiver gluing, "
+            "to rational Born weights, to the CHSH/Pell boundary, to a carrier grammar "
+            "grown from one-use contact — under which the quantum boundary is a floor "
+            "theorem at binary-Bell finite-carrier scope, with every unearned "
+            "generalization left open by name."
+        ),
+        [
+            "papers/finite-contact-theory-v0.1.md",
+            "RELEASE-NOTES-v0.1.0.md",
+        ],
+    ),
+    (
+        "v0.2",
+        (
+            "Finite Contact Theory is a finite reconstruction program with a scoped "
+            "theorem stack — from one-use contact to counting, to one-receiver gluing, "
+            "to rational Born weights, to the CHSH/Pell boundary, to a carrier grammar "
+            "grown from one-use contact, to a behavior-conditioned contextual capacity "
+            "with an exact strict preparation gap — under which the quantum boundary is "
+            "a floor theorem at binary-Bell finite-carrier scope, the preparation gap "
+            "is an exact theorem at KCBS-pentagon scope, and every unearned "
+            "generalization is left open by name."
+        ),
+        [
+            "README.md",
+            "docs/public-claim-register.md",
+            "papers/02-behavior-conditioned-capacity/paper.md",
+            "RELEASE-NOTES-v0.2.0.md",
+        ],
+    ),
 ]
 
 
 def check_canonical_ceiling() -> None:
-    """The one-claim ceiling must appear verbatim in every advertised location."""
+    """Every released ceiling must appear verbatim in its advertised locations."""
     def normalize(text: str) -> str:
         text = text.replace("**", "").replace("> ", " ")
         return re.sub(r"\s+", " ", text)
 
-    target = normalize(CANONICAL_CEILING)
-    missing = [f for f in CEILING_FILES if target not in normalize(read_text(ROOT / f))]
-    if missing:
-        raise AuditFailure("canonical ceiling missing/altered in: " + ", ".join(missing))
-    print(f"[PASS] canonical ceiling verbatim in {len(CEILING_FILES)} files")
+    total = 0
+    for name, ceiling, files in CANONICAL_CEILINGS:
+        target = normalize(ceiling)
+        missing = [f for f in files if target not in normalize(read_text(ROOT / f))]
+        if missing:
+            raise AuditFailure(
+                f"canonical ceiling ({name}) missing/altered in: " + ", ".join(missing)
+            )
+        total += len(files)
+    print(f"[PASS] canonical ceilings verbatim in {total} files")
 
 
 def check_overclaims() -> None:

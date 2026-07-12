@@ -30,6 +30,7 @@ dependency-free. It does not replace the larger locked private research ledgers.
 | Born composition and witness decomposition | `shipped` + `cited` | Public `rational_born_gluing.py`; cited private research corpus | Public script verifies the exact pushforward-counting, exclusivity-lift, and witness-interchange uniqueness core; private evidence carries the gluing-consistency certificate. |
 | Native carrier lift | `shipped` + `cited` | Public `native_lift_binary_bell.py`; cited private research corpus | Public script verifies exact core identities; private evidence carries full native-lift study. |
 | CHSH/Pell boundary core | `shipped` + `cited` | Public `chsh_pell_boundary.py`; cited private research corpus | Public script verifies the exact Pell ladder, the `p^2-2q^2=-1` fence, and the CHSH readout; the theta-body / glue-depth certificate remains cited. |
+| Behavior-conditioned capacity / preparation gap (chapter 2) | `shipped` + `cited` | Public `exact_gap_certificate.py`; cited private SDP, compression, phase-geometry, rigidity-bridge, and dual suites | Public script proves the exact strict-gap certificate end to end (FCT-22); the SDP magnitudes, geometry scans, headroom checks, and dual numerics remain cited (FCT-21/23/24/25). |
 | Sliwa-23/41 certificates | `cited` / `held` split | cited admissibility-calculus tensor-carrier notes; private Sliwa scripts | Cite only as imported recovery unless public artifacts are copied. |
 | CHSH weights / magic bridge | `held` | cited private research corpus (tensor-carrier and frontier notes) | Keep frontier/model-scope; no public-load-bearing use yet. |
 | Level-2 thermodynamics | `cited` | The private research corpus | Cite for aperture/temperature row; avoid gravity overclaim. |
@@ -56,6 +57,7 @@ Current shipped scripts:
 - `verification/scripts/rational_born_gluing.py`
 - `verification/scripts/chsh_pell_boundary.py`
 - `verification/scripts/native_lift_binary_bell.py`
+- `verification/scripts/exact_gap_certificate.py`
 
 Current shipped result ledgers:
 
@@ -64,6 +66,7 @@ Current shipped result ledgers:
 - `verification/results/T-04-rational-born-gluing-RESULTS.md`
 - `verification/results/FCT-16-chsh-pell-boundary-RESULTS.md`
 - `verification/results/FCT-17-FCT-18-native-lift-binary-bell-RESULTS.md`
+- `verification/results/FCT-22-exact-gap-certificate-RESULTS.md`
 - `verification/results/run-all-RESULTS.md`
 - `verification/results/release-audit-RESULTS.md`
 
