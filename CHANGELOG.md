@@ -5,8 +5,8 @@ All notable public-release changes will be recorded here.
 ## 0.2.0
 
 Second public release: **Chapter 2 — Behavior-Conditioned Contextual Capacity
-and an Exact Strict Preparation Gap**. Version DOI recorded here and in
-`CITATION.cff` after the Zenodo mint.
+and an Exact Strict Preparation Gap**. Archived on Zenodo; version DOI
+`10.5281/zenodo.21324301`, concept DOI `10.5281/zenodo.21253591`.
 
 Added — chapter 2 content:
 

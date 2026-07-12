@@ -189,14 +189,15 @@ and the citer's contract — is [EVOLUTION.md](EVOLUTION.md).
 
 ## Citation
 
-Archived and citable via Zenodo. Please cite as:
+Archived and citable via Zenodo. Please cite the current release as:
 
-> Douglas, S. (2026). *Finite Contact Theory v0.1: Growing the Bell/CHSH
-> Quantum Boundary from a Finite One-Use Floor* (v0.1.0). Zenodo.
-> https://doi.org/10.5281/zenodo.21253592
+> Douglas, S. (2026). *Finite Contact Theory v0.2: Behavior-Conditioned
+> Contextual Capacity and an Exact Strict Preparation Gap* (v0.2.0). Zenodo.
+> https://doi.org/10.5281/zenodo.21324301
 
 - **Concept DOI** (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591)
-- **Version DOI** (v0.1.0 specifically): [10.5281/zenodo.21253592](https://doi.org/10.5281/zenodo.21253592)
+- **Version DOI** (v0.2.0): [10.5281/zenodo.21324301](https://doi.org/10.5281/zenodo.21324301)
+- **Version DOI** (v0.1.0): [10.5281/zenodo.21253592](https://doi.org/10.5281/zenodo.21253592)
 
 Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 

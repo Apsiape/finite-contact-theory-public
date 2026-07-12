@@ -66,14 +66,11 @@ program); metadata updated; links audited (`scripts/release_audit.py`).
 
 - Concept DOI (always latest):
   [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591)
-- Version DOI (v0.2.0): minted by Zenodo at the GitHub release and recorded
-  here, in `CITATION.cff`, and in the chapter's `RELEASE.md` in the
-  post-mint commit.
+- Version DOI (v0.2.0):
+  [10.5281/zenodo.21324301](https://doi.org/10.5281/zenodo.21324301)
 
 ## Citation
 
-Until the version DOI is minted, cite the concept DOI with the version tag:
-
 > Douglas, S. (2026). *Finite Contact Theory v0.2: Behavior-Conditioned
 > Contextual Capacity and an Exact Strict Preparation Gap* (v0.2.0). Zenodo.
-> https://doi.org/10.5281/zenodo.21253591
+> https://doi.org/10.5281/zenodo.21324301
