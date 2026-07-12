@@ -1,6 +1,9 @@
 # DOI Release Roadmap
 
-Status: working roadmap for the first public DOI release.
+Status: completed by the v0.1.0 release; kept as the historical record of the
+first-release gate. Later releases use the reusable gate in
+[`release-checklist.md`](release-checklist.md); repository-level governance is
+[`../EVOLUTION.md`](../EVOLUTION.md).
 
 This roadmap defines what must be finished before this repository is worthy of
 a public tag and DOI snapshot. The target is not to publish every private

@@ -18,8 +18,14 @@ Documents in this directory:
 - `status-labels.md` - public claim labels and hold semantics.
 - `publication-policy.md` - intake, wording, no-hype, and DOI rules.
 - `hold-register.md` - reconciliation register for held quantum/carrier material.
-- `release-roadmap.md` - DOI-readiness roadmap and release blockers.
+- `release-checklist.md` - the reusable release gate every version passes
+  before tagging.
+- `release-roadmap.md` - the v0.1 DOI-readiness roadmap (historical; the
+  reusable gate is `release-checklist.md`).
 - `roadmap.md` - remaining hinges and planned releases.
+
+Repository-level governance (versioning, chapters, append-only rules, the
+citer's contract) lives in [`../EVOLUTION.md`](../EVOLUTION.md).
 
 Verification evidence posture lives in
 `../verification/evidence-manifest.md`.

@@ -146,6 +146,27 @@ cross-site interlocking, `q >= 3`, and nature-facing claims are deliberately
 held or open, and named as such — this is a first chapter, not a finished
 program.
 
+## How this repository evolves
+
+The theory is alive and this repository is built to grow without rewriting
+its past. The rules are short and binding:
+
+- **one canonical repository, released in chapters** — each release is a new
+  scoped chapter under [papers/](papers/README.md), tagged and archived with
+  its own version DOI; the concept DOI always resolves to the latest state;
+- **history is append-only** — claim rows and identifiers are never deleted
+  or reused; status changes are logged in place; published chapters are
+  frozen at their tag;
+- **corrections are public and loud** — demotions and withdrawals go to the
+  [correction ledger](docs/correction-ledger.md), and a growing ledger is the
+  discipline working, not the theory failing;
+- **every release passes the same gate** —
+  [docs/release-checklist.md](docs/release-checklist.md), covering scope
+  freeze, claim hygiene, clean-clone verification, rights, and metadata.
+
+The full charter — versioning semantics, the private-to-public export rules,
+and the citer's contract — is [EVOLUTION.md](EVOLUTION.md).
+
 ## Author
 
 - Seth Douglas
