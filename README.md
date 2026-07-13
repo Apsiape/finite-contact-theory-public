@@ -217,11 +217,17 @@ Archived and citable via Zenodo. Please cite the current release as:
 
 > Douglas, S. (2026). *Finite Contact Theory v0.7: The Taxonomy of
 > Inevitability — A Program Map* (v0.7.0). Zenodo.
-> https://doi.org/10.5281/zenodo.21253591
+> https://doi.org/10.5281/zenodo.21333922
 
 - **Concept DOI** (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591)
-- **Version DOI** (v0.2.0): [10.5281/zenodo.21324301](https://doi.org/10.5281/zenodo.21324301)
-- **Version DOI** (v0.1.0): [10.5281/zenodo.21253592](https://doi.org/10.5281/zenodo.21253592)
+- **Version DOI** (v0.7.0): [10.5281/zenodo.21333922](https://doi.org/10.5281/zenodo.21333922)
+- **Version DOIs** (earlier):
+  [v0.6.0](https://doi.org/10.5281/zenodo.21333868) ·
+  [v0.5.0](https://doi.org/10.5281/zenodo.21333710) ·
+  [v0.4.0](https://doi.org/10.5281/zenodo.21333642) ·
+  [v0.3.0](https://doi.org/10.5281/zenodo.21333556) ·
+  [v0.2.0](https://doi.org/10.5281/zenodo.21324301) ·
+  [v0.1.0](https://doi.org/10.5281/zenodo.21253592)
 
 Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 

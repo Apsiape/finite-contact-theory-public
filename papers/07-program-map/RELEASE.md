@@ -5,7 +5,7 @@
 | Chapter | 07 — The Taxonomy of Inevitability: A Program Map |
 | Release tag | `v0.7.0` |
 | Concept DOI | [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591) |
-| Version DOI (v0.7.0) | pending mint (filled after the Zenodo webhook fires on the tag) |
+| Version DOI (v0.7.0) | [10.5281/zenodo.21333922](https://doi.org/10.5281/zenodo.21333922) |
 | Chapter deposit DOI | none yet (optional; see `../README.md`) |
 | Freeze date | 2026-07-13 |
 | Claim rows | FCT-42, FCT-43, FCT-44 (all `PROGRAM / SCHEMA` level) |

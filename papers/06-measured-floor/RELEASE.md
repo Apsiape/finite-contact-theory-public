@@ -5,7 +5,7 @@
 | Chapter | 06 — A Measured Generative Floor: Delayed Individuation, Short-Tailed Separation, and Ballistic Counterfactual Defects |
 | Release tag | `v0.6.0` |
 | Concept DOI | [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591) |
-| Version DOI (v0.6.0) | pending mint (filled after the Zenodo webhook fires on the tag) |
+| Version DOI (v0.6.0) | [10.5281/zenodo.21333868](https://doi.org/10.5281/zenodo.21333868) |
 | Chapter deposit DOI | none yet (optional; see `../README.md`) |
 | Freeze date | 2026-07-13 |
 | Claim rows | FCT-38, FCT-39, FCT-40, FCT-41 |

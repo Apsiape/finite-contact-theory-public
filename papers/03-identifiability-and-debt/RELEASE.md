@@ -5,7 +5,7 @@
 | Chapter | 03 — The Identifiability and Debt Calculus |
 | Release tag | `v0.3.0` |
 | Concept DOI | [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591) |
-| Version DOI (v0.3.0) | pending mint (filled after the Zenodo webhook fires on the tag) |
+| Version DOI (v0.3.0) | [10.5281/zenodo.21333556](https://doi.org/10.5281/zenodo.21333556) |
 | Chapter deposit DOI | none yet (optional; see `../README.md`) |
 | Freeze date | 2026-07-13 |
 | Claim rows | FCT-26, FCT-27, FCT-28, FCT-29 |

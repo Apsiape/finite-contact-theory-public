@@ -83,3 +83,12 @@ Governance context: [`../EVOLUTION.md`](../EVOLUTION.md).
 - [ ] README citation section updated with the new version DOI.
 - [ ] If the chapter gets its own Zenodo deposit, its DOI is recorded in the
       chapter's `RELEASE.md` and in the claim rows it carries.
+
+## Zenodo Metadata (added after the v0.3.0–v0.7.0 round)
+
+`.zenodo.json` controls the metadata Zenodo attaches to the deposit minted
+from a tag. Without it, Zenodo copies the PREVIOUS version's metadata
+(title/version drift — this happened to the v0.3.0–v0.7.0 deposits, whose
+Zenodo-displayed titles need a one-time manual edit in the Zenodo UI).
+Before tagging: bump `title` and `version` in `.zenodo.json` in the same
+commit that bumps CITATION.cff.

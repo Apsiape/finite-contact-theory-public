@@ -6,6 +6,21 @@ identifiers:
     value: "10.5281/zenodo.21253591"
     description: "The concept DOI for all versions of this work."
   - type: doi
+    value: "10.5281/zenodo.21333922"
+    description: "The versioned DOI for v0.7.0."
+  - type: doi
+    value: "10.5281/zenodo.21333868"
+    description: "The versioned DOI for v0.6.0."
+  - type: doi
+    value: "10.5281/zenodo.21333710"
+    description: "The versioned DOI for v0.5.0."
+  - type: doi
+    value: "10.5281/zenodo.21333642"
+    description: "The versioned DOI for v0.4.0."
+  - type: doi
+    value: "10.5281/zenodo.21333556"
+    description: "The versioned DOI for v0.3.0."
+  - type: doi
     value: "10.5281/zenodo.21324301"
     description: "The versioned DOI for v0.2.0."
   - type: doi

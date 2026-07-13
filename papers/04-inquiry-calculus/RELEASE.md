@@ -5,7 +5,7 @@
 | Chapter | 04 — Questions as Operators: the Inquiry Calculus and a Second Law of Asking |
 | Release tag | `v0.4.0` |
 | Concept DOI | [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591) |
-| Version DOI (v0.4.0) | pending mint (filled after the Zenodo webhook fires on the tag) |
+| Version DOI (v0.4.0) | [10.5281/zenodo.21333642](https://doi.org/10.5281/zenodo.21333642) |
 | Chapter deposit DOI | none yet (optional; see `../README.md`) |
 | Freeze date | 2026-07-13 |
 | Claim rows | FCT-30, FCT-31, FCT-32, FCT-33 |

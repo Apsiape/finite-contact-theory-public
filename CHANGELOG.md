@@ -6,8 +6,8 @@ All notable public-release changes will be recorded here.
 
 Seventh public release: **Chapter 7 — The Taxonomy of Inevitability: A
 Program Map**, the capstone of the v0.3.0–v0.7.0 consolidation round.
-Archived on Zenodo; version DOI recorded in the chapter freeze record and
-CITATION.cff once minted; concept DOI `10.5281/zenodo.21253591`.
+Archived on Zenodo; version DOI
+`10.5281/zenodo.21333922`, concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
@@ -32,8 +32,8 @@ Changed:
 ## 0.6.0
 
 Sixth public release: **Chapter 6 — A Measured Generative Floor**. Archived
-on Zenodo; version DOI recorded in the chapter freeze record and
-CITATION.cff once minted; concept DOI `10.5281/zenodo.21253591`.
+on Zenodo; version DOI
+`10.5281/zenodo.21333868`, concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
@@ -58,8 +58,8 @@ The live release ceiling is unchanged.
 ## 0.5.0
 
 Fifth public release: **Chapter 5 — Becoming Webs: Lawful Time Without
-Foundation**. Archived on Zenodo; version DOI recorded in the chapter freeze
-record and CITATION.cff once minted; concept DOI `10.5281/zenodo.21253591`.
+Foundation**. Archived on Zenodo; version DOI
+`10.5281/zenodo.21333710`, concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
@@ -83,8 +83,7 @@ finite-epistemics axis: chapters 3–5 now run identification cost -> asking
 
 Fourth public release: **Chapter 4 — Questions as Operators: the Inquiry
 Calculus and a Second Law of Asking**. Archived on Zenodo; version DOI
-recorded in the chapter freeze record and CITATION.cff once minted; concept
-DOI `10.5281/zenodo.21253591`.
+`10.5281/zenodo.21333642`, concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
@@ -107,8 +106,8 @@ finite-epistemics axis opened by chapter 3).
 ## 0.3.0
 
 Third public release: **Chapter 3 — The Identifiability and Debt Calculus**.
-Archived on Zenodo; version DOI recorded in the chapter freeze record and
-CITATION.cff once minted; concept DOI `10.5281/zenodo.21253591`.
+Archived on Zenodo; version DOI
+`10.5281/zenodo.21333556`, concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
