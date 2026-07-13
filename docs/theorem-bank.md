@@ -37,6 +37,10 @@ from its name.
 | T-19 | Selector debt + no equivariant selector | `THEOREM` | Finite alternative sets; binary receipt schemes; fixed-point-free symmetry actions. | Identifying one of `m` future-inequivalent alternatives needs exactly `ceil(log2 m)` receipt bits; no equivariant selector exists on a symmetric fiber. | Shipped `identifiability_debt_calculus.py`; eight private arrivals `cited`. | Forbids derived symmetry-respecting selection only; occurrence itself is not denied, its rule is not derived. |
 | T-20 | Continuation sufficiency | `THEOREM` | Finite completion models. | A present boundary is future-complete iff its lawful completions are all future-equivalent (the waist at the present/future interface). | Shipped `identifiability_debt_calculus.py`. | Conditional on the completion model; physical lawfulness not claimed. |
 | T-21 | No universal tomography depth | `THEOREM` (construction) | Explicit certificates d = 1..8; elementary at all finite depths. | For every depth `d` there are completion pairs agreeing below depth `d` and separating at `d`; no finite protocol family certifies completeness. | Shipped `identifiability_debt_calculus.py`. | None at this scope. |
+| T-22 | Questions as residual operators; Boolean shadow | `THEOREM` | Finitely supported series; count-only biconditional exhaustive at the length-2 family. | Residuals compose contravariantly; the asking algebra is noncommutative in general and commutes exactly on count-only (order-blind) series. | Shipped `inquiry_calculus.py` / chapter-4 results ledger. | General-horizon biconditional elementary but not exhaustively shipped; no quantum-measurement identification claimed. |
+| T-23 | Second law of asking | `THEOREM` (exact identity) | Binary decision-tree protocols over finite sources. | `EC = H(p) + KL(p||q) + O` exactly, with `O = -log2 Z >= 0`; hence `EC >= H` always; chapter-3 debt is the uniform worst case. | Shipped `inquiry_calculus.py`. | Binary answers only; identification trees only. |
+| T-24 | Adaptivity interest | `THEOREM` + witness | Finite spaces with admitted-question families; exhaustive at |X| = 4. | `J = EC_fixed* - EC_adaptive* >= 0` by strategy inclusion; strict on the uniform-source threshold witness (2.0 vs 2.25). | Shipped `inquiry_calculus.py`. | Small-scope exhaustion; no asymptotic rates. |
+| T-25 | Paradox is type collapse | `THEOREM` (witnesses) | Two-element answer space; graded recursion. | Ungraded `x = 1 - x` has no solution; the graded recursion has two lawful orbits; self-reference is lawful under grading. | Shipped `inquiry_calculus.py`. | General guarded-recursion framing cited, not shipped. |
 
 ## Dependency Graph
 
@@ -84,6 +88,12 @@ Chapter-3 stack (the identifiability and debt calculus; finite-model scope):
     +-- T-20 continuation sufficiency (the waist at the present/future interface)
     |     +-- T-21 no universal tomography depth
     +-- T-19 selector debt + no equivariant selector
+
+Chapter-4 stack (the inquiry calculus; finite-model scope):
+  T-22 questions as residual operators (noncommutative; Boolean shadow)
+    +-- T-23 second law of asking (EC = H + KL + O; refines T-19's debt)
+          +-- T-24 adaptivity interest (J >= 0, strict under thresholds)
+  T-25 paradox is type collapse (parallel typing row)
 ```
 
 Evidence state summary:
@@ -136,6 +146,10 @@ theorems have no dedicated register entry. This table is the map.
 | FCT-27 selector debt and no equivariant selector | T-19 |
 | FCT-28 continuation sufficiency | T-20 |
 | FCT-29 no universal tomography depth | T-21 |
+| FCT-30 questions as residual operators; Boolean shadow | T-22 |
+| FCT-31 the second law of asking | T-23 |
+| FCT-32 adaptivity interest | T-24 |
+| FCT-33 self-question typing; paradox is type collapse | T-25 |
 | — (tracked by theorem ID) | T-02 integrality blocks native colimits |
 | — (tracked by theorem ID) | T-04, T-04b Born as counting through gluing |
 | — (tracked by theorem ID) | T-11 mathematics as stream erasure |
@@ -358,3 +372,32 @@ For each `d`, two completions agreeing on their first `d - 1` entries and
 differing at entry `d` agree under every protocol of depth `< d` and
 separate at depth `d`. Certificates shipped for `d = 1..8`; the
 construction is uniform in `d`.
+
+### T-22 Questions As Residual Operators
+
+`(a^-1 S)(w) = S(aw)` gives `u^-1(v^-1 S) = (vu)^-1 S` by unwinding
+prefixes. `S = {ab: 1}` separates the two asking orders. On count-only
+series residuals commute because `S(abw) = S(baw)` always; an
+order-sensitive coefficient pair breaks commutation at its shortest
+witness.
+
+### T-23 Second Law Of Asking
+
+With `q_x = 2^(-d_x)/Z`, write `d_x = -log2 q_x - log2 Z` and take
+`sum p_x d_x`; the three terms are `H(p)`, `KL(p||q)`, and `-log2 Z`, and
+Kraft gives `Z <= 1` so the slack is nonnegative. Equality iff dyadic
+match on a full tree.
+
+### T-24 Adaptivity Interest
+
+Fixed sequences are a subset of adaptive strategies, so the adaptive
+optimum is never worse. Under the threshold family on four uniform
+outcomes, bisection needs adaptivity; the best fixed order pays 2.25
+against the adaptive 2.0.
+
+### T-25 Paradox Is Type Collapse
+
+Over `{0, 1}`: `x = x` has two solutions, `x = 1 - x` none; the graded
+recursion `x_(n+1) = 1 - x_n` runs two clean orbits. Collapsing the grade
+identifies a live asking with its recorded answer and manufactures the
+contradiction.

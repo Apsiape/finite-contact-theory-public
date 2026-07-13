@@ -2,6 +2,31 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.4.0
+
+Fourth public release: **Chapter 4 — Questions as Operators: the Inquiry
+Calculus and a Second Law of Asking**. Archived on Zenodo; version DOI
+recorded in the chapter freeze record and CITATION.cff once minted; concept
+DOI `10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/04-inquiry-calculus/` — the chapter paper, claim snapshot, frozen
+  verification copy with expected output, and freeze record;
+- claim rows FCT-30 through FCT-33 (residual asking algebra + Boolean
+  shadow; the exact `EC = H + KL + O` second law of asking; adaptivity
+  interest with a strict threshold-family witness; paradox as type
+  collapse);
+- theorem rows T-22 through T-25 with proof sketches, dependency-graph and
+  crosswalk updates;
+- shipped verification: `verification/scripts/inquiry_calculus.py`
+  (stdlib-only, deterministic), wired into `run_all.py`, with
+  `verification/results/FCT-30-FCT-33-inquiry-calculus-RESULTS.md`;
+- evidence-manifest row for the chapter.
+
+The live release ceiling is unchanged (chapter 4 continues the
+finite-epistemics axis opened by chapter 3).
+
 ## 0.3.0
 
 Third public release: **Chapter 3 — The Identifiability and Debt Calculus**.

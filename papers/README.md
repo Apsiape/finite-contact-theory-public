@@ -25,6 +25,10 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   — **Chapter 3** (v0.3.0): _The Identifiability and Debt Calculus_. DOIs
   recorded in its [`RELEASE.md`](03-identifiability-and-debt/RELEASE.md) at
   tagging.
+- [`04-inquiry-calculus/`](04-inquiry-calculus/paper.md)
+  — **Chapter 4** (v0.4.0): _Questions as Operators: the Inquiry Calculus
+  and a Second Law of Asking_. DOIs recorded in its
+  [`RELEASE.md`](04-inquiry-calculus/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 
