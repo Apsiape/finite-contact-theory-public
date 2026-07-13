@@ -33,6 +33,11 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   — **Chapter 5** (v0.5.0): _Becoming Webs: Lawful Time Without
   Foundation_. DOIs recorded in its
   [`RELEASE.md`](05-becoming-webs/RELEASE.md) at tagging.
+- [`06-measured-floor/`](06-measured-floor/paper.md)
+  — **Chapter 6** (v0.6.0): _A Measured Generative Floor: Delayed
+  Individuation, Short-Tailed Separation, and Ballistic Counterfactual
+  Defects_. DOIs recorded in its
+  [`RELEASE.md`](06-measured-floor/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 

@@ -19,6 +19,7 @@ SCRIPTS = [
     "identifiability_debt_calculus.py",
     "inquiry_calculus.py",
     "becoming_webs.py",
+    "floor_engine_measurements.py",
 ]
 
 

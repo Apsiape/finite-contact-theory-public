@@ -45,6 +45,9 @@ from its name.
 | T-27 | The helix covers the visible cycle | `THEOREM` | Period-4 visible cycle, finite grade truncation. | Unique path lifting; monodromy = deck step per visible cycle; deck translations commute, free + transitive on fibers; visible time is the quotient of law-time. | Shipped `becoming_webs.py`. | One covering model; law-hysteresis identification cited. |
 | T-28 | Arrow without thermodynamics | `THEOREM` (exhaustive) | Reversible `Z_4` rotation + step ledger; all words to length 8. | Visible returns abound; the joint (visible, ledger) state never returns; ledger gap = steps asked — an arrow from bookkeeping alone. | Shipped `becoming_webs.py`. | Possibility theorem; nature's arrow not claimed. |
 | T-29 | Lawfulness without foundation | `THEOREM` (witnesses) | Guarded streams to depth 4; Mobius 3-patch cover exhaustive. | Guarded self-reference has unique base-case-free solutions; the twisted cover has perfect local sections and no global one (control: two). | Shipped `becoming_webs.py`. | Guarded-corecursion and gerbe framings cited. |
+| T-30 | Delayed individuation on the public floor | `MEASURED / MODEL-SCOPE` | 18 worlds (n = 32/40), fixed seeds; raw twins. | The drive manufactures twins; 92.7% separate before world end (censoring 7.3%); independent-implementation agreement with the private 0.927/0.911. | Shipped `floor_engine_measurements.py` / chapter-6 results ledger. | Shipped sizes only; no n-scaling claimed. |
+| T-31 | Short-tailed separation waits | `MEASURED / MODEL-SCOPE` | 243 uncensored waits; MLE both laws. | Geometric beats the best discrete power law by Delta-LL = 67.8 (fence > 10): separation is short-tailed, not scale-free. | Shipped `floor_engine_measurements.py`. | Separation waits only; novelty-birth waits are a different quantity. |
+| T-32 | Ballistic counterfactual defects | `MEASURED / MODEL-SCOPE` | 6 maximally coupled pairs (n = 32), k = 0..60. | One redirected fork choice under an identical random stream yields linear defect growth: slope 1.25 edges/add, R^2 = 0.998. | Shipped `floor_engine_measurements.py`. | Defect mass, not radius; shipped weights only. |
 
 ## Dependency Graph
 
@@ -104,6 +107,12 @@ Chapter-5 stack (becoming webs; finite-model scope):
   T-27 the helix (law-time covers visible-time)
     +-- T-28 arrow without thermodynamics (the ledger never returns)
   T-29 lawfulness without foundation (guarded streams; Mobius twist)
+
+Chapter-6 stack (the measured floor; all MEASURED / MODEL-SCOPE):
+  FCT-38 public floor engine (the instrument)
+    +-- T-30 delayed individuation (s-hat = 0.927, cross-engine agreement)
+    |     +-- T-31 short-tailed separation waits (Delta-LL = 67.8)
+    +-- T-32 ballistic counterfactual defects (slope 1.25, R^2 = 0.998)
 ```
 
 Evidence state summary:
@@ -164,6 +173,10 @@ theorems have no dedicated register entry. This table is the map.
 | FCT-35 the helix: law-time covers visible-time | T-27 |
 | FCT-36 arrow without thermodynamics | T-28 |
 | FCT-37 lawfulness without foundation | T-29 |
+| FCT-38 the public floor engine and dynamics spec | — (model/instrument row) |
+| FCT-39 delayed individuation is measured | T-30 |
+| FCT-40 separation waits are short-tailed | T-31 |
+| FCT-41 counterfactual defects are ballistic | T-32 |
 | — (tracked by theorem ID) | T-02 integrality blocks native colimits |
 | — (tracked by theorem ID) | T-04, T-04b Born as counting through gluing |
 | — (tracked by theorem ID) | T-11 mathematics as stream erasure |
@@ -444,3 +457,24 @@ from any depth-`d` guess reaches the unique fixed point `(a, a, ..., a)`.
 Unguarded `x = tail(x)` is solved by both constants. The Mobius cover's
 constraint loop forces `s0 = -s0`; the untwisted control admits exactly
 the two constant sections.
+
+### T-30 Delayed Individuation (Measured)
+
+Raw twins (`N(u) = N(v)`, nonempty) are tracked incrementally along each
+world's op log; births, separations, waits, and censoring are counted.
+Pooled over 18 worlds: 262 births, separation fraction 0.927, censoring
+7.3%. The private engine measured 0.927/0.911 at n = 60/90 — an
+independent-implementation agreement.
+
+### T-31 Short-Tailed Separation Waits (Measured)
+
+Geometric MLE (`p = 1/mean`) against the best discrete power law
+(exponent grid, exact normalization over a 10x-range cap): ΔLL = 67.8
+over 243 uncensored waits, decisively short-tailed.
+
+### T-32 Ballistic Counterfactual Defects (Measured)
+
+Maximal coupling: identical random stream, one fork choice redirected to
+the closest-weight alternative at a recorded add index. Symmetric-
+difference mass at matched add counts fits linear (slope 1.25 edges/add,
+R² = 0.998, monotone) — constant-rate propagation of one changed contact.

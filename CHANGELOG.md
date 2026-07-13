@@ -2,6 +2,32 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.6.0
+
+Sixth public release: **Chapter 6 — A Measured Generative Floor**. Archived
+on Zenodo; version DOI recorded in the chapter freeze record and
+CITATION.cff once minted; concept DOI `10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/06-measured-floor/` — the chapter paper, claim snapshot, frozen
+  engine + suite copy with expected output, and freeze record;
+- the repository's first shipped INSTRUMENT: a complete, dependency-free
+  public floor engine (exactly specified driven one-use dynamics) with
+  replay and maximally-coupled counterfactual modes;
+- claim rows FCT-38 through FCT-41 (the engine/instrument; measured
+  delayed individuation with cross-engine agreement at 0.927; the
+  short-tailed wait law; the ballistic counterfactual defect);
+- theorem rows T-30 through T-32 (`MEASURED / MODEL-SCOPE`) with
+  dependency-graph and crosswalk updates;
+- shipped verification: `verification/scripts/floor_engine_measurements.py`
+  wired into `run_all.py`, with
+  `verification/results/FCT-38-FCT-41-measured-floor-RESULTS.md`;
+- evidence-manifest row; the redundancy-engine inversion carried as a
+  cited negative-at-public-scale with its scale fence stated.
+
+The live release ceiling is unchanged.
+
 ## 0.5.0
 
 Fifth public release: **Chapter 5 — Becoming Webs: Lawful Time Without

@@ -11,7 +11,7 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.21253592"
     description: "The versioned DOI for v0.1.0."
-title: "Finite Contact Theory v0.5: Becoming Webs — Lawful Time Without Foundation"
+title: "Finite Contact Theory v0.6: A Measured Generative Floor"
 type: software
 authors:
   - family-names: "Douglas"
@@ -19,7 +19,7 @@ authors:
     email: "apsiape@gmail.com"
     orcid: "https://orcid.org/0009-0007-4708-3252"
 repository-code: "https://github.com/Apsiape/finite-contact-theory-public"
-abstract: "A public release of Finite Contact Theory, a long-range finite reconstruction program. This v0.5 chapter disassembles time into four independent finite theorems: the time fiber is a torsor (fully lawful, no derivable origin — the origin is a received selection priced by the v0.3 selector debt); law-time covers visible-time (a cyclic visible dynamics lifts uniquely to an ascending helix with conserved monodromy); an arrow of time needs no thermodynamics (a reversible dynamics coupled to a question ledger never returns jointly — exhaustively verified); and lawfulness needs no foundation (guarded self-reference has unique base-case-free solutions, and a Mobius-twisted cover has perfect local time with no global now). All results are machine-checked by a shipped dependency-free script; earlier chapters are unchanged and every unearned generalization is held open by name."
-version: "0.5.0"
+abstract: "A public release of Finite Contact Theory, a long-range finite reconstruction program. This v0.6 chapter ships the program's experimental face: a complete, dependency-free public implementation of the driven one-use generative floor dynamics (exactly specified, with replay and maximally-coupled counterfactual modes) and three measured phenomena with pre-stated fences: the drive manufactures indistinguishable twins and 92.7% separate before world end (independent-implementation agreement with the private laboratory engine); separation waits are exponential-form, decisively beating a power law; and redirecting a single fork choice under an identical random stream produces an edge-set defect growing linearly at 1.25 edges per contact (R^2 = 0.998). All measurements are counting observables; one private result (the redundancy-engine inversion) is cited and explicitly not claimed at public scale."
+version: "0.6.0"
 date-released: "2026-07-13"
 license: "CC-BY-NC-ND-4.0"
