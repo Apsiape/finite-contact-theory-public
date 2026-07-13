@@ -41,6 +41,10 @@ from its name.
 | T-23 | Second law of asking | `THEOREM` (exact identity) | Binary decision-tree protocols over finite sources. | `EC = H(p) + KL(p||q) + O` exactly, with `O = -log2 Z >= 0`; hence `EC >= H` always; chapter-3 debt is the uniform worst case. | Shipped `inquiry_calculus.py`. | Binary answers only; identification trees only. |
 | T-24 | Adaptivity interest | `THEOREM` + witness | Finite spaces with admitted-question families; exhaustive at |X| = 4. | `J = EC_fixed* - EC_adaptive* >= 0` by strategy inclusion; strict on the uniform-source threshold witness (2.0 vs 2.25). | Shipped `inquiry_calculus.py`. | Small-scope exhaustion; no asymptotic rates. |
 | T-25 | Paradox is type collapse | `THEOREM` (witnesses) | Two-element answer space; graded recursion. | Ungraded `x = 1 - x` has no solution; the graded recursion has two lawful orbits; self-reference is lawful under grading. | Shipped `inquiry_calculus.py`. | General guarded-recursion framing cited, not shipped. |
+| T-26 | Torsor time | `THEOREM` | `Z_n` heaps exhaustive (n = 5, 6, 7). | Heap axioms hold; any origin recovers a group; translations are free and transitive — no derivable "now"; the origin is a received selection priced by T-19. | Shipped `becoming_webs.py` / chapter-5 results ledger. | Finite cyclic models; floor reading cited. |
+| T-27 | The helix covers the visible cycle | `THEOREM` | Period-4 visible cycle, finite grade truncation. | Unique path lifting; monodromy = deck step per visible cycle; deck translations commute, free + transitive on fibers; visible time is the quotient of law-time. | Shipped `becoming_webs.py`. | One covering model; law-hysteresis identification cited. |
+| T-28 | Arrow without thermodynamics | `THEOREM` (exhaustive) | Reversible `Z_4` rotation + step ledger; all words to length 8. | Visible returns abound; the joint (visible, ledger) state never returns; ledger gap = steps asked — an arrow from bookkeeping alone. | Shipped `becoming_webs.py`. | Possibility theorem; nature's arrow not claimed. |
+| T-29 | Lawfulness without foundation | `THEOREM` (witnesses) | Guarded streams to depth 4; Mobius 3-patch cover exhaustive. | Guarded self-reference has unique base-case-free solutions; the twisted cover has perfect local sections and no global one (control: two). | Shipped `becoming_webs.py`. | Guarded-corecursion and gerbe framings cited. |
 
 ## Dependency Graph
 
@@ -94,6 +98,12 @@ Chapter-4 stack (the inquiry calculus; finite-model scope):
     +-- T-23 second law of asking (EC = H + KL + O; refines T-19's debt)
           +-- T-24 adaptivity interest (J >= 0, strict under thresholds)
   T-25 paradox is type collapse (parallel typing row)
+
+Chapter-5 stack (becoming webs; finite-model scope):
+  T-26 torsor time (origin = received selection; priced by T-19)
+  T-27 the helix (law-time covers visible-time)
+    +-- T-28 arrow without thermodynamics (the ledger never returns)
+  T-29 lawfulness without foundation (guarded streams; Mobius twist)
 ```
 
 Evidence state summary:
@@ -150,6 +160,10 @@ theorems have no dedicated register entry. This table is the map.
 | FCT-31 the second law of asking | T-23 |
 | FCT-32 adaptivity interest | T-24 |
 | FCT-33 self-question typing; paradox is type collapse | T-25 |
+| FCT-34 torsor time | T-26 |
+| FCT-35 the helix: law-time covers visible-time | T-27 |
+| FCT-36 arrow without thermodynamics | T-28 |
+| FCT-37 lawfulness without foundation | T-29 |
 | — (tracked by theorem ID) | T-02 integrality blocks native colimits |
 | — (tracked by theorem ID) | T-04, T-04b Born as counting through gluing |
 | — (tracked by theorem ID) | T-11 mathematics as stream erasure |
@@ -401,3 +415,32 @@ Over `{0, 1}`: `x = x` has two solutions, `x = 1 - x` none; the graded
 recursion `x_(n+1) = 1 - x_n` runs two clean orbits. Collapsing the grade
 identifies a live asking with its recorded answer and manufactures the
 contradiction.
+
+### T-26 Torsor Time
+
+`[x, y, z] = x - y + z` on `Z_n` satisfies the heap identities and
+para-associativity by direct computation (shipped exhaustively). Fixing an
+origin `e` gives the group `x + y := [x, e, y]`; nontrivial translations
+are fixed-point-free, so no element is canonical — selecting one is a
+T-19 selection.
+
+### T-27 The Helix
+
+The projection `(theta, n) -> theta` intertwines helix and cycle dynamics;
+determinism gives unique lifting; one visible cycle raises the grade by
+the deck step `q`; deck translations `n -> n + q` commute and act freely
+and transitively on fibers.
+
+### T-28 Arrow Without Thermodynamics
+
+The ledger adds one per step regardless of direction, so any nonempty word
+changes it; joint returns are impossible while visible returns (net
+displacement `0 mod p`) abound. Exhaustive over all 510 words to length 8.
+
+### T-29 Lawfulness Without Foundation
+
+Guarded: `F(x) = cons(a, x)` contracts truncation distance, so iteration
+from any depth-`d` guess reaches the unique fixed point `(a, a, ..., a)`.
+Unguarded `x = tail(x)` is solved by both constants. The Mobius cover's
+constraint loop forces `s0 = -s0`; the untwisted control admits exactly
+the two constant sections.

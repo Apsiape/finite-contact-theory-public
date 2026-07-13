@@ -29,6 +29,10 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   — **Chapter 4** (v0.4.0): _Questions as Operators: the Inquiry Calculus
   and a Second Law of Asking_. DOIs recorded in its
   [`RELEASE.md`](04-inquiry-calculus/RELEASE.md) at tagging.
+- [`05-becoming-webs/`](05-becoming-webs/paper.md)
+  — **Chapter 5** (v0.5.0): _Becoming Webs: Lawful Time Without
+  Foundation_. DOIs recorded in its
+  [`RELEASE.md`](05-becoming-webs/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 

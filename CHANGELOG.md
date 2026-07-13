@@ -2,6 +2,30 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.5.0
+
+Fifth public release: **Chapter 5 — Becoming Webs: Lawful Time Without
+Foundation**. Archived on Zenodo; version DOI recorded in the chapter freeze
+record and CITATION.cff once minted; concept DOI `10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/05-becoming-webs/` — the chapter paper, claim snapshot, frozen
+  verification copy with expected output, and freeze record;
+- claim rows FCT-34 through FCT-37 (torsor time; the helix covering; the
+  ledger arrow without thermodynamics; lawfulness without foundation with
+  the Mobius-twist witness);
+- theorem rows T-26 through T-29 with proof sketches, dependency-graph and
+  crosswalk updates;
+- shipped verification: `verification/scripts/becoming_webs.py`
+  (stdlib-only, fully deterministic/exhaustive), wired into `run_all.py`,
+  with `verification/results/FCT-34-FCT-37-becoming-webs-RESULTS.md`;
+- evidence-manifest row for the chapter.
+
+The live release ceiling is unchanged (chapter 5 continues the
+finite-epistemics axis: chapters 3–5 now run identification cost -> asking
+-> time-like structure).
+
 ## 0.4.0
 
 Fourth public release: **Chapter 4 — Questions as Operators: the Inquiry

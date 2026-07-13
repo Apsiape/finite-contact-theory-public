@@ -11,7 +11,7 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.21253592"
     description: "The versioned DOI for v0.1.0."
-title: "Finite Contact Theory v0.4: Questions as Operators — the Inquiry Calculus and a Second Law of Asking"
+title: "Finite Contact Theory v0.5: Becoming Webs — Lawful Time Without Foundation"
 type: software
 authors:
   - family-names: "Douglas"
@@ -19,7 +19,7 @@ authors:
     email: "apsiape@gmail.com"
     orcid: "https://orcid.org/0009-0007-4708-3252"
 repository-code: "https://github.com/Apsiape/finite-contact-theory-public"
-abstract: "A public release of Finite Contact Theory, a long-range finite reconstruction program. This v0.4 chapter publishes the inquiry calculus at finite-model scope: questions act as residual operators whose algebra is noncommutative in general and commutes exactly on order-blind (count-only) epistemic objects; the expected cost of any binary question protocol decomposes exactly as entropy plus belief mismatch plus slack (EC = H + KL + O, a second law of asking, refining the v0.3 selector debt); adaptive questioning strictly beats fixed questioning under a constrained question repertoire; and self-reference is lawful under grading while paradox is exactly type collapse. All results are machine-checked by a shipped dependency-free script; earlier chapters are unchanged and every unearned generalization is held open by name."
-version: "0.4.0"
+abstract: "A public release of Finite Contact Theory, a long-range finite reconstruction program. This v0.5 chapter disassembles time into four independent finite theorems: the time fiber is a torsor (fully lawful, no derivable origin — the origin is a received selection priced by the v0.3 selector debt); law-time covers visible-time (a cyclic visible dynamics lifts uniquely to an ascending helix with conserved monodromy); an arrow of time needs no thermodynamics (a reversible dynamics coupled to a question ledger never returns jointly — exhaustively verified); and lawfulness needs no foundation (guarded self-reference has unique base-case-free solutions, and a Mobius-twisted cover has perfect local time with no global now). All results are machine-checked by a shipped dependency-free script; earlier chapters are unchanged and every unearned generalization is held open by name."
+version: "0.5.0"
 date-released: "2026-07-13"
 license: "CC-BY-NC-ND-4.0"
