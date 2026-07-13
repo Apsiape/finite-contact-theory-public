@@ -7,7 +7,9 @@ Status: reader guide for the first public release.
 Read in this order:
 
 1. `README.md` for the public framing.
-2. `papers/finite-contact-theory-v0.1.md` for the release narrative.
+2. `papers/07-program-map/paper.md` for the whole-program map and the live
+   ceiling (then any chapter that pulls you).
+3. `papers/finite-contact-theory-v0.1.md` for the v0.1 release narrative.
 3. `docs/mathematical-core.md` for the formal vocabulary.
 4. `docs/theorem-bank.md` for theorem rows and proof sketches.
 5. `docs/public-claim-register.md` for public claim labels and scopes.

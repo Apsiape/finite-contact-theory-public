@@ -47,6 +47,7 @@ REQUIRED_FILES = [
     "RELEASE-NOTES-v0.4.0.md",
     "RELEASE-NOTES-v0.5.0.md",
     "RELEASE-NOTES-v0.6.0.md",
+    "RELEASE-NOTES-v0.7.0.md",
     "docs/mathematical-core.md",
     "docs/public-claim-register.md",
     "docs/theorem-bank.md",
@@ -69,6 +70,9 @@ REQUIRED_FILES = [
     "papers/06-measured-floor/paper.md",
     "papers/06-measured-floor/claims.md",
     "papers/06-measured-floor/RELEASE.md",
+    "papers/07-program-map/paper.md",
+    "papers/07-program-map/claims.md",
+    "papers/07-program-map/RELEASE.md",
     "verification/evidence-manifest.md",
     "verification/scripts/run_all.py",
     "verification/scripts/exact_gap_certificate.py",
@@ -243,9 +247,9 @@ def scan_for_terms(
 
 
 # Each released ceiling is checked verbatim in its advertised locations. The
-# v0.1 ceiling lives on unchanged in the frozen v0.1 paper and notes; the live
-# (v0.2) ceiling controls the README, the claim register, the chapter-2 paper,
-# and the v0.2.0 release notes.
+# v0.1 and v0.2 ceilings live on unchanged in their frozen chapters and notes;
+# the live (v0.7) ceiling controls the README, the claim register, the
+# chapter-7 paper, and the v0.7.0 release notes.
 CANONICAL_CEILINGS = [
     (
         "v0.1",
@@ -275,10 +279,32 @@ CANONICAL_CEILINGS = [
             "generalization is left open by name."
         ),
         [
-            "README.md",
-            "docs/public-claim-register.md",
             "papers/02-behavior-conditioned-capacity/paper.md",
             "RELEASE-NOTES-v0.2.0.md",
+        ],
+    ),
+    (
+        "v0.7",
+        (
+            "Finite Contact Theory is a finite reconstruction program with a scoped "
+            "theorem stack on two published axes — a quantum-facing axis, from one-use "
+            "contact to counting, one-receiver gluing, rational Born weights, the "
+            "CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a "
+            "behavior-conditioned contextual capacity with an exact strict preparation "
+            "gap; and a finite-epistemics axis, from the identifiability and debt "
+            "calculus to the inquiry calculus and its second law of asking, four "
+            "theorems separating the structure of time, and a measured generative "
+            "floor — under which the quantum boundary is a floor theorem at "
+            "binary-Bell finite-carrier scope, the preparation gap is an exact "
+            "theorem at KCBS-pentagon scope, every epistemics and time result is a "
+            "finite machine-checked theorem or a fenced measurement at its stated "
+            "model scope, and every unearned generalization is left open by name."
+        ),
+        [
+            "README.md",
+            "docs/public-claim-register.md",
+            "papers/07-program-map/paper.md",
+            "RELEASE-NOTES-v0.7.0.md",
         ],
     ),
 ]

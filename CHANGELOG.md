@@ -2,6 +2,33 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.7.0
+
+Seventh public release: **Chapter 7 — The Taxonomy of Inevitability: A
+Program Map**, the capstone of the v0.3.0–v0.7.0 consolidation round.
+Archived on Zenodo; version DOI recorded in the chapter freeze record and
+CITATION.cff once minted; concept DOI `10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/07-program-map/` — the survey chapter (no new theorems), claim
+  snapshot, and freeze record;
+- claim rows FCT-42 through FCT-44 (`PROGRAM / SCHEMA`: the two-axis index
+  claim; the forced/received schema; the no-selector recurrence — each
+  naming its shipped instances and carrying cited parts as cited);
+- **the new live release ceiling** (two published axes), quoted in the
+  README, the claim register, the chapter-7 paper, and the v0.7.0 notes.
+
+Changed:
+
+- README rewritten to program scale (seven chapters, ten shipped scripts,
+  updated reading order and status);
+- claim-register Release Ceiling section carries the v0.7 ceiling; the
+  v0.1/v0.2 ceilings remain verbatim in their frozen chapters and notes;
+- release audit: v0.7 ceiling checked in its four advertised locations;
+  the v0.2 ceiling's checked locations re-scoped to its frozen files;
+- reader guide (`docs/how-to-read.md`) points at the program map first.
+
 ## 0.6.0
 
 Sixth public release: **Chapter 6 — A Measured Generative Floor**. Archived

@@ -18,20 +18,25 @@ For label meanings, see `status-labels.md`. For verification posture, see
 
 ## Release Ceiling
 
-The v0.2 public ceiling is (quoted identically in the README, the chapter-2
-paper, and the v0.2.0 release notes):
+The v0.7 public ceiling is (quoted identically in the README, the chapter-7
+paper, and the v0.7.0 release notes):
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
-> theorem stack — from one-use contact to counting, to one-receiver gluing, to
-> rational Born weights, to the CHSH/Pell boundary, to a carrier grammar grown
-> from one-use contact, to a behavior-conditioned contextual capacity with an
-> exact strict preparation gap — under which the quantum boundary is a floor
-> theorem at **binary-Bell finite-carrier scope**, the preparation gap is an
-> exact theorem at **KCBS-pentagon scope**, and every unearned generalization
-> is left open by name.
+> theorem stack on two published axes — a quantum-facing axis, from one-use
+> contact to counting, one-receiver gluing, rational Born weights, the
+> CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a
+> behavior-conditioned contextual capacity with an exact strict preparation
+> gap; and a finite-epistemics axis, from the identifiability and debt
+> calculus to the inquiry calculus and its second law of asking, four
+> theorems separating the structure of time, and a measured generative
+> floor — under which the quantum boundary is a floor theorem at
+> **binary-Bell finite-carrier scope**, the preparation gap is an exact
+> theorem at **KCBS-pentagon scope**, every epistemics and time result is a
+> finite machine-checked theorem or a fenced measurement at its stated
+> model scope, and every unearned generalization is left open by name.
 
-The v0.1 ceiling remains quoted, unchanged, in the frozen v0.1 paper and
-release notes; this row supersedes it as the live ceiling.
+The v0.1 and v0.2 ceilings remain quoted, unchanged, in their frozen
+chapters and release notes; this row supersedes them as the live ceiling.
 
 The release does not claim all quantum mechanics, quantum gravity, or
 nature-facing prediction is solved.
@@ -1286,6 +1291,101 @@ Residuals:
 
 - defect RADIUS (cone speed proper, as opposed to mass) is not measured
   here; the private radius instrument history is cited.
+
+## FCT-42 - The Two-Axis Public Stack
+
+Status: `PROGRAM / INDEX`
+Scope: the public repository at the v0.7.0 tag — claim rows FCT-01..FCT-41,
+theorem rows T-01..T-32, organized as a quantum-facing axis (chapters 1–2)
+and a finite-epistemics axis (chapters 3–6).
+Evidence state: `shipped` by reference — the full `run_all.py` suite
+(ten scripts) passes on a clean clone.
+
+Public statement:
+
+The published program is exactly its rows: each is runnable or cited as
+labeled, each carries its own scope and residuals, and the chapter-7 map
+adds no claim beyond the organization itself. Falsified by any row failing
+its shipped check or misstating its scope.
+
+Evidence:
+
+- shipped: the entire verification suite; the release audit.
+
+Checks / controls:
+
+- `run_all.py` (chapters 1–6 scripts) and `release_audit.py` both pass at
+  the tag.
+
+Residuals:
+
+- the map's architecture commentary (how the axes meet) is exposition, not
+  a claim row.
+
+## FCT-43 - The Forced/Received Schema
+
+Status: `PROGRAM / SCHEMA`
+Scope: shipped instances named below; the program-level generalization is
+cited research posture.
+Evidence state: `shipped` instances + `cited` schema.
+
+Public statement:
+
+Across every published chapter, what the finite structure forces is
+grammar, signs, order, exact biconditionals, and exact constants of form
+(the `ceil(log2 m)` debt, `EC = H + KL + O`, the heap identities, the
+helix monodromy); what it never forces is a selection — which alternative,
+which origin, which magnitude. Shipped instances: T-18/T-19, T-23, T-26.
+The generalization — that this forced/received split is the deep structure
+of physical law — is a schema, not a shipped theorem, and carries this
+label precisely so it cannot be read above its evidence.
+
+Evidence:
+
+- shipped: the named theorem rows;
+- cited: the private program's forced/received boundary corpus.
+
+Checks / controls:
+
+- each named instance has its own shipped check.
+
+Residuals:
+
+- no criterion is shipped for classifying an arbitrary new structure as
+  forced or received; the schema earns rows only through new scoped
+  theorems.
+
+## FCT-44 - The No-Selector Recurrence
+
+Status: `PROGRAM / SCHEMA`
+Scope: T-19 shipped; its recurrence across shipped rows checkable; the
+program-level reading cited.
+Evidence state: `shipped` instances + `cited` schema.
+
+Public statement:
+
+One obstruction arrives at every level examined: a symmetry-respecting
+rule cannot select a point of a symmetric fiber (T-19). Any actual
+selection — an origin of time (T-26), an actual alternative, a unit or
+scale (cited) — must be received, and its record costs at least
+`ceil(log2 m)` bits, refined by the second law of asking (T-23) and run
+forward as the ledger arrow (T-28). The reading of selection as the single
+received residue of physics is cited posture, labeled as such.
+
+Evidence:
+
+- shipped: T-19, T-23, T-26, T-28;
+- cited: the private no-selector corpus (multiple independent arrivals).
+
+Checks / controls:
+
+- the shipped instances are machine-checked; the recurrence is checkable
+  by reading the rows together.
+
+Residuals:
+
+- "every level examined" is bounded by the published chapters; new levels
+  must earn their own rows.
 
 ## Held Claim Families
 

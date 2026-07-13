@@ -38,6 +38,10 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   Individuation, Short-Tailed Separation, and Ballistic Counterfactual
   Defects_. DOIs recorded in its
   [`RELEASE.md`](06-measured-floor/RELEASE.md) at tagging.
+- [`07-program-map/`](07-program-map/paper.md)
+  — **Chapter 7** (v0.7.0): _The Taxonomy of Inevitability: A Program
+  Map_ (survey; carries the live release ceiling). DOIs recorded in its
+  [`RELEASE.md`](07-program-map/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 
