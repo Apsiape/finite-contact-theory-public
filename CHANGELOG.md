@@ -2,6 +2,41 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.3.0
+
+Third public release: **Chapter 3 — The Identifiability and Debt Calculus**.
+Archived on Zenodo; version DOI recorded in the chapter freeze record and
+CITATION.cff once minted; concept DOI `10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/03-identifiability-and-debt/` — the chapter paper, claim snapshot,
+  frozen verification copy with expected output, and freeze record;
+- claim rows FCT-26 through FCT-29 (the waist biconditional + biextensional
+  core; selector debt + the no-equivariant-selector theorem; continuation
+  sufficiency; no universal tomography depth);
+- theorem rows T-18 through T-21 with proof sketches, dependency-graph and
+  crosswalk updates;
+- shipped verification:
+  `verification/scripts/identifiability_debt_calculus.py` (stdlib-only,
+  deterministic, exhaustive where the scope is exhaustive), wired into
+  `run_all.py`, with
+  `verification/results/FCT-26-FCT-29-identifiability-debt-calculus-RESULTS.md`;
+- evidence-manifest row for the chapter (shipped calculus + cited private
+  arrival ledgers).
+
+Changed:
+
+- release-audit metadata gate generalized: the CITATION version check now
+  accepts any `0.X.Y` / `0.X.Y-pre`, and the title check pins the stable
+  prefix rather than one release's full title (required-file and ceiling
+  checks unchanged; the live v0.2 ceiling still controls the README and
+  register).
+
+The live release ceiling is unchanged (see the v0.3.0 release notes for why:
+chapter 3 opens the finite-epistemics axis rather than extending the
+quantum-boundary stack).
+
 ## 0.2.0
 
 Second public release: **Chapter 2 — Behavior-Conditioned Contextual Capacity

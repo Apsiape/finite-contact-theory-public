@@ -43,6 +43,7 @@ REQUIRED_FILES = [
     "EVOLUTION.md",
     "RELEASE-NOTES-v0.1.0.md",
     "RELEASE-NOTES-v0.2.0.md",
+    "RELEASE-NOTES-v0.3.0.md",
     "docs/mathematical-core.md",
     "docs/public-claim-register.md",
     "docs/theorem-bank.md",
@@ -53,6 +54,9 @@ REQUIRED_FILES = [
     "papers/02-behavior-conditioned-capacity/paper.md",
     "papers/02-behavior-conditioned-capacity/claims.md",
     "papers/02-behavior-conditioned-capacity/RELEASE.md",
+    "papers/03-identifiability-and-debt/paper.md",
+    "papers/03-identifiability-and-debt/claims.md",
+    "papers/03-identifiability-and-debt/RELEASE.md",
     "verification/evidence-manifest.md",
     "verification/scripts/run_all.py",
     "verification/scripts/exact_gap_certificate.py",
@@ -173,16 +177,16 @@ def check_metadata() -> None:
     license_text = read_text(ROOT / "LICENSE.md")
 
     required_citation_bits = [
-        'title: "Finite Contact Theory v0.2: Behavior-Conditioned Contextual Capacity and an Exact Strict Preparation Gap"',
+        'title: "Finite Contact Theory v0.',
         'family-names: "Douglas"',
         'given-names: "Seth"',
         'orcid: "https://orcid.org/0009-0007-4708-3252"',
         'repository-code: "https://github.com/Apsiape/finite-contact-theory-public"',
     ]
-    # Version may be the pre-release (0.2.0-pre) or the DOI-stamped tag (0.2.0).
+    # Version may be a pre-release ("0.X.0-pre") or a DOI-stamped tag ("0.X.0").
     # This tolerates the planned bump so the mint step does not fail the gate.
-    if not re.search(r'^version: "0\.2\.0(-pre)?"$', citation, flags=re.MULTILINE):
-        raise AuditFailure('CITATION.cff version must be "0.2.0-pre" or "0.2.0"')
+    if not re.search(r'^version: "0\.\d+\.\d+(-pre)?"$', citation, flags=re.MULTILINE):
+        raise AuditFailure('CITATION.cff version must be a "0.X.Y" or "0.X.Y-pre" string')
     missing = [bit for bit in required_citation_bits if bit not in citation]
     if missing:
         raise AuditFailure("CITATION.cff missing expected fields: " + "; ".join(missing))

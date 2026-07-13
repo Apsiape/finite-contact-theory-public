@@ -33,6 +33,10 @@ from its name.
 | T-15 | Exact strict preparation gap certificate | `THEOREM` (exact) | Pentagon/KCBS, unit weights; the named rational behavior; all sharp realizations, any finite dimension. | An explicit rational behavior is realizable and every sharp realization has capacity strictly above `beta` — `Delta_prep > 0` with every load-bearing step exact. | Shipped `exact_gap_certificate.py` / `FCT-22-exact-gap-certificate-RESULTS.md`. | Magnitude (`~0.0096`) is numerical context; one behavior, no genericity claim. |
 | T-16 | Tightness criterion, pentagon phase geometry, headroom law | `THEOREM` + `MEASURED` | Criterion and headroom inequality general; geometry and closed forms `C_5`-fenced. | `Delta_prep = 0` iff top-eigenvector Gram feasibility; tight set has interior beyond the symmetric orbit; headroom `h >= Delta_prep` with exact re-preparation payoff; canonical form `g(1-F)`. | Cited private suite (behavior-receipt, global-gap, rigidity-bridge). | Two-margin boundary machinery pentagon-only; robust asymmetry bridge is `OPEN` (C1). |
 | T-17 | Anchored dual for the capacity | `THEOREM` (derived) + `MEASURED` (duality) | General derivation; strong duality verified numerically at pentagon reference points. | `kappa(p) = 1 + max{v^T B v - tr B}` over the anchored dual cone; refutes collapse to weighted Lovász theta at `p` and `sqrt(p)`. | Cited dual-check derivation and numerics. | Duality verified to 1e-6 at three points, not proved in full generality here. |
+| T-18 | The waist: identifiability biconditional | `THEOREM` | Finite descriptions and purpose equivalences; biextensional core exhaustive through 3x3 binary pairings. | A purpose-respecting reconstruction exists iff `ker pi` is contained in `~_T`; mutual-indistinguishability reduction yields an order-independent canonical core. | Shipped `identifiability_debt_calculus.py` / chapter-3 results ledger. | Infinite-model and structured-category versions not claimed; which purposes nature runs not claimed. |
+| T-19 | Selector debt + no equivariant selector | `THEOREM` | Finite alternative sets; binary receipt schemes; fixed-point-free symmetry actions. | Identifying one of `m` future-inequivalent alternatives needs exactly `ceil(log2 m)` receipt bits; no equivariant selector exists on a symmetric fiber. | Shipped `identifiability_debt_calculus.py`; eight private arrivals `cited`. | Forbids derived symmetry-respecting selection only; occurrence itself is not denied, its rule is not derived. |
+| T-20 | Continuation sufficiency | `THEOREM` | Finite completion models. | A present boundary is future-complete iff its lawful completions are all future-equivalent (the waist at the present/future interface). | Shipped `identifiability_debt_calculus.py`. | Conditional on the completion model; physical lawfulness not claimed. |
+| T-21 | No universal tomography depth | `THEOREM` (construction) | Explicit certificates d = 1..8; elementary at all finite depths. | For every depth `d` there are completion pairs agreeing below depth `d` and separating at `d`; no finite protocol family certifies completeness. | Shipped `identifiability_debt_calculus.py`. | None at this scope. |
 
 ## Dependency Graph
 
@@ -74,6 +78,12 @@ Chapter-2 stack (behavior-conditioned capacity; standard-QM scope):
     +-- T-15 exact strict preparation gap certificate
     +-- T-16 tightness criterion, phase geometry, headroom law
     +-- T-17 anchored dual
+
+Chapter-3 stack (the identifiability and debt calculus; finite-model scope):
+  T-18 the waist (identifiability biconditional; biextensional core)
+    +-- T-20 continuation sufficiency (the waist at the present/future interface)
+    |     +-- T-21 no universal tomography depth
+    +-- T-19 selector debt + no equivariant selector
 ```
 
 Evidence state summary:
@@ -122,6 +132,10 @@ theorems have no dedicated register entry. This table is the map.
 | FCT-23 headroom law | T-16 |
 | FCT-24 pentagon tightness phase geometry | T-16 |
 | FCT-25 sharpness boundary and novelty posture | T-14 (boundary construction), T-17 (dual) |
+| FCT-26 the waist: identifiability biconditional | T-18 |
+| FCT-27 selector debt and no equivariant selector | T-19 |
+| FCT-28 continuation sufficiency | T-20 |
+| FCT-29 no universal tomography depth | T-21 |
 | — (tracked by theorem ID) | T-02 integrality blocks native colimits |
 | — (tracked by theorem ID) | T-04, T-04b Born as counting through gluing |
 | — (tracked by theorem ID) | T-11 mathematics as stream erasure |
@@ -313,3 +327,34 @@ non-edges}` — the behavior enters through an indefinite quadratic, not as
 vertex weights. Strong duality verified numerically at three reference points;
 collapse to the weighted Lovász theta at `p` or `sqrt(p)` is refuted at points
 where the values differ decisively.
+
+### T-18 The Waist
+
+A purpose-respecting reconstruction `f` with `f(pi(x)) = [x]` exists iff
+`ker pi` is within `~_T`: containment makes the obvious `f` well defined;
+a kernel violation forces one description value onto two purpose classes.
+The two-sided core (quotient each side of a pairing by the other's
+indistinguishability) is canonical: reduction order does not matter,
+verified exhaustively for all binary pairings through 3x3.
+
+### T-19 Selector Debt And No Equivariant Selector
+
+Injectivity on `m` future-inequivalent alternatives needs `2^b >= m`, so
+`b >= ceil(log2 m)`, and binary coding attains it. Separately, an
+equivariant selection of one alternative is a fixed point of the symmetry
+action; a fixed-point-free action therefore admits none, even though the
+alternative set and all symmetric functionals over it are invariant.
+
+### T-20 Continuation Sufficiency
+
+Apply T-18 with the description "restrict a lawful completion to its
+present boundary" and the purpose "all-future protocol equivalence": a
+boundary is future-complete iff its fiber of lawful completions lies in a
+single future-equivalence class.
+
+### T-21 No Universal Tomography Depth
+
+For each `d`, two completions agreeing on their first `d - 1` entries and
+differing at entry `d` agree under every protocol of depth `< d` and
+separate at depth `d`. Certificates shipped for `d = 1..8`; the
+construction is uniform in `d`.

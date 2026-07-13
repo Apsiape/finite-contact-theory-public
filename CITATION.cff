@@ -11,7 +11,7 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.21253592"
     description: "The versioned DOI for v0.1.0."
-title: "Finite Contact Theory v0.2: Behavior-Conditioned Contextual Capacity and an Exact Strict Preparation Gap"
+title: "Finite Contact Theory v0.3: The Identifiability and Debt Calculus"
 type: software
 authors:
   - family-names: "Douglas"
@@ -19,7 +19,7 @@ authors:
     email: "apsiape@gmail.com"
     orcid: "https://orcid.org/0009-0007-4708-3252"
 repository-code: "https://github.com/Apsiape/finite-contact-theory-public"
-abstract: "A public release of Finite Contact Theory, a long-range finite reconstruction program. This v0.2 chapter defines a behavior-conditioned contextual capacity (the least operator-norm capacity any sharp quantum model must carry to reproduce a fixed exclusivity-graph behavior) and proves an exact strict preparation gap at KCBS-pentagon scope, hand-checkable in rational arithmetic by a shipped dependency-free script; the v0.1 binary-Bell quantum-boundary chapter is unchanged, and every unearned generalization is held open by name."
-version: "0.2.0"
-date-released: "2026-07-12"
+abstract: "A public release of Finite Contact Theory, a long-range finite reconstruction program. This v0.3 chapter publishes the identifiability and debt calculus at finite-model scope: a description suffices for a purpose exactly when its kernel is contained in the purpose's indifference relation (the waist); identifying one of m future-inequivalent alternatives costs exactly ceil(log2 m) receipt bits and no symmetry-respecting rule can perform the selection on a symmetric fiber (selector debt); and a present boundary is future-complete exactly when its lawful completions are future-equivalent, with explicit certificates that no finite tomography depth is universal. All theorems are machine-checked by a shipped dependency-free script; earlier chapters are unchanged and every unearned generalization is held open by name."
+version: "0.3.0"
+date-released: "2026-07-13"
 license: "CC-BY-NC-ND-4.0"

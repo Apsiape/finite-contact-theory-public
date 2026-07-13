@@ -21,6 +21,10 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   Exact Strict Preparation Gap_. The first chapter under the directory
   convention; DOIs recorded in its
   [`RELEASE.md`](02-behavior-conditioned-capacity/RELEASE.md) at tagging.
+- [`03-identifiability-and-debt/`](03-identifiability-and-debt/paper.md)
+  — **Chapter 3** (v0.3.0): _The Identifiability and Debt Calculus_. DOIs
+  recorded in its [`RELEASE.md`](03-identifiability-and-debt/RELEASE.md) at
+  tagging.
 
 ## Chapter directory convention (v0.2 onward)
 

@@ -16,6 +16,7 @@ SCRIPTS = [
     "chsh_pell_boundary.py",
     "native_lift_binary_bell.py",
     "exact_gap_certificate.py",
+    "identifiability_debt_calculus.py",
 ]
 
 
