@@ -2,7 +2,9 @@
 """Chapter 9 — the forcing audit.
 
 Dependency-free (Python standard library only), exact arithmetic
-throughout. This script maps precisely what the finite-contact multi-floor
+throughout -- the single exception is the irrational magnitude
+lambda* = 2 - log2(3), checked to high precision. This script maps
+precisely what the finite-contact multi-floor
 closure problem does and does not FORCE. Its verdict upgrades the chapter's
 central claim from a conditional ("under named closure axioms the E_8 -
 hexacode spine follows") to a positive theorem: the floor forces the ATLAS
@@ -187,27 +189,54 @@ check(f"an independent construction confirms the class is nonempty: the "
 # A2 -- positivity, integrality, and magnitude are not forced
 # ======================================================================
 print("## A2: the bridge family selects neither positivity, integrality, nor a magnitude")
-def det_Gt(t):
-    return (1 - t*t)**4
-# eigenvalues of [[I,tI],[tI,I]] are 1+t and 1-t, each multiplicity 4
-checks = {
-    "t=1/2 (rational, positive)": (F(1,2), det_Gt(F(1,2)), True),
-    "t=2   (integer, indefinite)": (F(2), det_Gt(F(2)), False),
-}
-det_ok = all(det_Gt(t) == (1 - t*t)**4 for t in (F(1,3), F(3,7), F(5)))
-pos_half = (1 + F(1,2) > 0 and 1 - F(1,2) > 0)   # t=1/2 positive definite
-irr_pos = True   # t = sqrt(2)/2 ~ 0.707 < 1 => 1 +/- t both > 0 (positive, irrational)
-indef_2 = (1 - F(2) < 0)                          # t=2 indefinite
-degen_1 = (det_Gt(F(1)) == 0)                     # t=1 degenerate
-check(f"det G_t = (1 - t^2)^4 exactly (checked at several rationals: "
-      f"{det_ok}); the form is positive-definite for |t| < 1 (t = 1/2 gives "
-      f"eigenvalues 3/2, 1/2 > 0: {pos_half}; the positive value "
-      f"t = sqrt(2)/2 < 1 is equally admissible and irrational: {irr_pos}), "
-      f"indefinite for |t| > 1 (t = 2 gives 1 - t = -1 < 0: {indef_2}), and "
-      f"degenerate only at t = 1 ({degen_1}). No-silent-loss singles out none "
-      f"of positivity, integrality, or a preferred magnitude -- the "
-      f"scale-free ceiling, from the multi-floor side.",
-      det_ok and pos_half and indef_2 and degen_1)
+def build_Gt(t):
+    M=[[F(0)]*8 for _ in range(8)]
+    for i in range(4):
+        M[i][i]=F(1); M[i+4][i+4]=F(1); M[i][i+4]=t; M[i+4][i]=t
+    return M
+def det_exact(M):
+    M=[row[:] for row in M]; n=len(M); det=F(1)
+    for c in range(n):
+        piv=next((r for r in range(c,n) if M[r][c]!=0),None)
+        if piv is None: return F(0)
+        if piv!=c: M[c],M[piv]=M[piv],M[c]; det=-det
+        det*=M[c][c]; inv=M[c][c]
+        for r in range(c+1,n):
+            f=M[r][c]/inv; M[r]=[M[r][k]-f*M[c][k] for k in range(n)]
+    return det
+def ldl_pivots(M):
+    M=[row[:] for row in M]; n=len(M); piv=[]
+    for c in range(n):
+        p=M[c][c]; piv.append(p)
+        if p==0: piv+= [None]*(n-c-1); break
+        for r in range(c+1,n):
+            f=M[r][c]/p
+            for k in range(c,n): M[r][k]-=f*M[c][k]
+    return piv
+def singular_at(t, lam):
+    M=build_Gt(t)
+    return det_exact([[M[i][j]-(lam if i==j else F(0)) for j in range(8)]
+                      for i in range(8)])==0
+# determinant computed from the built matrix (not asserted): matches (1-t^2)^4
+det_ok = all(det_exact(build_Gt(t)) == (1 - t*t)**4 for t in (F(1,3), F(3,7), F(5)))
+# eigenvalues are exactly 1 +/- t (each multiplicity 4): verify structurally
+eig_ok = all(singular_at(t, 1+t) and singular_at(t, 1-t) for t in (F(1,3), F(2)))
+pos_half = all(p>0 for p in ldl_pivots(build_Gt(F(1,2))))          # t=1/2 PD (exact LDL)
+indef_2 = any(p<0 for p in ldl_pivots(build_Gt(F(2))))            # t=2 indefinite
+degen_1 = det_exact(build_Gt(F(1)))==0                            # t=1 degenerate
+# the positive irrational t = sqrt(2)/2 has t^2 = 1/2 < 1, so |t| < 1 exactly,
+# hence both eigenvalues 1 +/- t > 0 (positive-definite) by the eigenvalue law.
+irr_pos = (F(1,2) < 1)
+check(f"det G_t = (1 - t^2)^4 computed from the built 8x8 matrix ({det_ok}); "
+      f"its eigenvalues are exactly 1 +/- t (each multiplicity four), verified "
+      f"structurally ({eig_ok}); so it is positive-definite for |t| < 1 "
+      f"(exact LDL at t = 1/2 has all pivots > 0: {pos_half}; the positive "
+      f"IRRATIONAL t = sqrt(2)/2 satisfies t^2 = 1/2 < 1 exactly, hence both "
+      f"1 +/- t > 0: {irr_pos}), indefinite for |t| > 1 (t = 2 has a negative "
+      f"LDL pivot: {indef_2}), and degenerate only at t = 1 ({degen_1}). "
+      f"No-silent-loss singles out none of positivity, integrality, or a "
+      f"preferred magnitude -- the scale-free ceiling, from the multi-floor "
+      f"side.", det_ok and eig_ok and pos_half and indef_2 and degen_1 and irr_pos)
 
 # ======================================================================
 # A3 -- the inter-floor triality alphabet is not unique
@@ -367,7 +396,15 @@ check(f"a reversible chain built from a potential V satisfies detailed "
       f"balance pi_i P_ij = pi_j P_ji exactly with pi proportional to e^{{-V}} "
       f"({db}), and pi is its stationary law ({stat}). Reversible dynamics "
       f"does not create a selector; it encodes the conserved one as V = "
-      f"-log pi.", db and stat)
+      f"-log pi. SCOPE (stated honestly): this equivalence covers "
+      f"deterministic-settling (B1) and reversible-stochastic (B2) dynamics -- "
+      f"the class that includes the floor's gradient-on-a-potential dynamics. "
+      f"Genuinely IRREVERSIBLE, non-detailed-balance DRIVEN dynamics is out of "
+      f"scope here and held open; the program treats the floor as "
+      f"driven-dissipative, so this is a real edge -- though driven dynamics "
+      f"still carries an entropy-production / burden functional, itself a "
+      f"ranking, which is why the conserved-selector reading is expected but "
+      f"NOT proven to extend.", db and stat)
 
 # ======================================================================
 # B3 -- passive potentials select different attractors; the V4/C3 crossover
@@ -459,16 +496,19 @@ check(f"the response kernel K = (1/3)|<p,q>|^2 on the 12 rays takes only the "
 # C2 -- correlation-arity: first global binding arity = dual distance
 # ======================================================================
 print("## C2: the correlation-arity theorem (uniform marginals below the dual distance)")
+def marg_uniform_all(hw, k, n):
+    # uniform on EVERY k-subset of coordinates (orthogonal-array strength >= k)
+    from collections import Counter
+    for sub in combinations(range(n), k):
+        cnt=Counter(tuple(c[i] for i in sub) for c in hw)
+        if not (len(cnt)==4**k and len(set(cnt.values()))==1): return False
+    return True
 def dual_distance_gf4_selfdual():
     # hexacode is Hermitian self-dual, so dual distance = distance = 4
-    hw=[w for w in hexwords()]
+    hw=list(hexwords())
     d=min(sum(1 for x in c if x!=0) for c in hw if any(c))
-    # marginals on k coordinates uniform iff strength >= k; check k=3 uniform, k=4 not
-    def marg_uniform(k):
-        from collections import Counter
-        cnt=Counter(tuple(c[i] for i in range(k)) for c in hw)
-        return len(cnt)==4**k and len(set(cnt.values()))==1
-    return d, marg_uniform(3), not marg_uniform(4)
+    # marginals uniform on all k-subsets iff strength >= k = dual distance - 1
+    return d, marg_uniform_all(hw,3,6), not marg_uniform_all(hw,4,6)
 d_hex, u3, b4 = dual_distance_gf4_selfdual()
 # binary self-dual codes: dual distance = distance. Golay d=8, alt d=4.
 def bin_dual_distance(gens):

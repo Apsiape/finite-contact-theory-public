@@ -48,9 +48,9 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   (opens the contact-interface line). DOIs recorded in its
   [`RELEASE.md`](08-nonexact-return/RELEASE.md) at tagging.
 - [`09-multifloor-worldweave/`](09-multifloor-worldweave/paper.md)
-  — **Chapter 9** (v0.9.0): _The Multi-Floor Worldweave: Bridge Codes, the
-  E_8 Closure, and Octonionic Fusion_ (extends the contact-interface line
-  across cells; carries the live release ceiling). DOIs recorded in its
+  — **Chapter 9** (v0.9.0): _The Multi-Floor Worldweave: A Forcing Audit of
+  the E_8-Hexacode Spine_ (extends the contact-interface line across cells
+  and maps what the closure forces; carries the live release ceiling). DOIs recorded in its
   [`RELEASE.md`](09-multifloor-worldweave/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)

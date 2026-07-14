@@ -4,9 +4,9 @@ All notable public-release changes will be recorded here.
 
 ## 0.9.0
 
-Ninth public release: **Chapter 9 — The Multi-Floor Worldweave: Bridge
-Codes, the E_8 Closure, and Octonionic Fusion**. Extends the
-contact-interface line from one cell to a population. Version DOI recorded
+Ninth public release: **Chapter 9 — The Multi-Floor Worldweave: A Forcing
+Audit of the E_8-Hexacode Spine**. Extends the contact-interface line from
+one cell to a population, and maps exactly what the closure forces. Version DOI recorded
 at mint; concept DOI `10.5281/zenodo.21253591`.
 
 Added:

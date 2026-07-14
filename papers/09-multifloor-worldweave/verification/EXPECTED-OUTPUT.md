@@ -20,15 +20,14 @@ Runtime is a few seconds (exhaustive exact arithmetic, including the full
 ## 4: normed monolithic fusion stops at the octonions
   [PASS] the sedenions (dimension 16) have a zero divisor (e_1+e_10)(e_4-e_15) = 0 with both factors nonzero, while the octonions have none (True). So positive normed monolithic fusion stops at the octonions; a larger population cannot be one division algebra and must remain a code worldweave of octonionic cells.
 ## 5: the self-dual bridge-code census is |GU(k,2)| = 3 / 18 / 648
-  [PASS] triality-covariant Hermitian self-dual standard-form codes number 3 (N=2), 18 (N=4), 648 (N=6) -- exactly |GU(k,2)| for k = N/2 (3, 18, 648). Receiver-complete worlds are the unitary orbit over GF(4), so the exhaustive standard-form search is confirmed by closed form.
+  [PASS] triality-covariant Hermitian self-dual standard-form codes number 3 (N=2), 18 (N=4), 648 (N=6) -- exactly |GU(k,2)| for k = N/2 (3, 18, 648). The self-dual codes are the unitary orbit over GF(4), so the exhaustive standard-form search is confirmed by closed form (self-duality is the terminal class, not a definition of receiver-completeness -- see forcing_audit.py).
 ## 6: six cells are the first hidden collective world
   [PASS] the hexacode [6,3,4] over GF(4) has weight enumerator 1 + 45 y^4 + 18 y^6 (True), is Hermitian self-dual (True), and has minimum distance 4 = 4 (no one-, two-, or three-cell bridge words); and of the 648 self-dual six-cell codes, exactly 162 have minimum distance 2 and 486 have minimum distance 4 (162 / 486). Six cells are the first population that can form a complete world whose binding is invisible to every pairwise and triple glue probe.
 
 # RESULT: 6 passed, 0 failed
 ```
 
-The script exits `0` on all-pass. Every load-bearing quantity is exact
-(`fractions.Fraction` and exact `GF(4)` arithmetic); the E_8 decomposition
-and reflection closure, the octonion associator census, the sedenion
-zero-divisor search, the hexacode, and the self-dual code census (all
-`4^9` candidate matrices) are exhaustive.
+The script exits `0` on all-pass; every load-bearing quantity is exact
+(`fractions.Fraction` and exact `GF(4)` arithmetic); the E_8 decomposition,
+octonion associator census, sedenion zero-divisor search, hexacode, and the
+self-dual code census (all `4^9` candidate matrices) are exhaustive.

@@ -8,8 +8,11 @@ generated non-exact-return cells (Chapter 8) combine into one world.
 
 The claim is that cells do NOT combine by tensor product. Each cell has
 a D_4 triality boundary K = {0, v, s, c} = C_2 x C_2; a bridge ecology
-is an additive glue code H over K^N; a receiver-complete world is a
-self-dual code (H = H-perp). The consequences, all checked here:
+is an additive glue code H over K^N. Operational receiver-completeness is
+a separating dual pole H < H-perp (see forcing_audit.py); self-duality
+H = H-perp is the terminal class an equivariant dynamics can force, not a
+definition of completeness. The self-dual codes have these consequences,
+all checked here:
 
   1. the triality boundary K is Klein-four, with S_3 triality permuting
      {v, s, c};
@@ -222,9 +225,11 @@ c1 = selfdual_count(1); c2 = selfdual_count(2)
 c3, d3 = selfdual_count(3, mindist=True)
 check(f"triality-covariant Hermitian self-dual standard-form codes number "
       f"{c1} (N=2), {c2} (N=4), {c3} (N=6) -- exactly |GU(k,2)| for k = N/2 "
-      f"(3, 18, 648). Receiver-complete worlds are the unitary orbit over "
-      f"GF(4), so the exhaustive standard-form search is confirmed by closed "
-      f"form.", c1 == 3 and c2 == 18 and c3 == 648)
+      f"(3, 18, 648). The self-dual codes are the unitary orbit over GF(4), "
+      f"so the exhaustive standard-form search is confirmed by closed form "
+      f"(self-duality is the terminal class, not a definition of receiver-"
+      f"completeness -- see forcing_audit.py).",
+      c1 == 3 and c2 == 18 and c3 == 648)
 
 print("## 6: six cells are the first hidden collective world")
 w = 2

@@ -166,8 +166,13 @@ potentials `V₀(t) = t²` and `V_irr(t) = (t² − ½)²`, settles onto an
 integral versus an irrational attractor; the `V₄`-vs-`C₃` scalarization
 crossover sits at `λ* = 2 − log₂ 3 = 0.4150375…`. (Scope of the theorem,
 stated honestly: it covers deterministic-settling and reversible-stochastic
-dynamics; the floor's own gradient-descent-on-a-potential dynamics is inside
-that class.)
+dynamics — the class that includes the floor's own
+gradient-descent-on-a-potential dynamics. Genuinely **irreversible,
+non-detailed-balance driven dynamics is out of scope and held open**: since
+the program treats the floor as driven-dissipative, this is a real edge.
+Driven dynamics still carries an entropy-production / burden functional —
+itself a ranking — so the conserved-selector reading is *expected* to
+extend, but that extension is not proved here.)
 
 **The one positive.** Self-duality *can* be forced — but only as a terminal
 **class** (`H = H^⊥` is a well-defined attractor set), never as a specific
@@ -190,7 +195,7 @@ forces the phase's internal law by counting terminal witnesses
   `d_⊥`, every marginal on `≤ d_⊥ − 1` coordinates is exactly uniform, so
   the first visible global binding arity is `d_⊥` (verified: hexacode
   `d_⊥ = 4`, uniform through three floors and breaking at four; the matched
-  `[24,12,4]` counterworld `d_⊥ = 4`; Golay `d_⊥ = 8`). A population can
+  `[24,12,4]` counterworld `d_⊥ = 4`; Golay `d_⊥ = 8`, cited). A population can
   possess exact global binding while every lower-arity observer sees maximum
   local randomness. (Recovery: Delsarte — dual distance = orthogonal-array
   strength `+ 1`.)
