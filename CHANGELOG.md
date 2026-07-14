@@ -2,6 +2,33 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.9.0
+
+Ninth public release: **Chapter 9 — The Multi-Floor Worldweave: Bridge
+Codes, the E_8 Closure, and Octonionic Fusion**. Extends the
+contact-interface line from one cell to a population. Version DOI recorded
+at mint; concept DOI `10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/09-multifloor-worldweave/` — chapter, claim snapshot, freeze
+  record, and a frozen copy of the shipped script with expected output;
+- claim rows FCT-51 through FCT-56 and theorem rows T-37 through T-40 (the
+  triality boundary + bridge-code model; `E_8` as the debt-free two-cell
+  closure; octonionic fusion; fusion stops at the octonions; the self-dual
+  census `|GU(k,2)|`; the hexacode hidden six-cell world — all `shipped`);
+- `verification/scripts/multifloor_worldweave.py`, wired into `run_all.py`
+  (now twelve scripts);
+- **the new live release ceiling** (three lines, with the multi-floor
+  extension), quoted in the README, the claim register, the chapter-9
+  paper, and the v0.9.0 notes.
+
+Changed:
+
+- README, theorem bank, and `scripts/release_audit.py` updated to the v0.9
+  state (required files, migrated canonical ceilings, additional overclaim
+  bans); `.zenodo.json` refreshed to the v0.9 deposit metadata.
+
 ## 0.8.0
 
 Eighth public release: **Chapter 8 — The Non-Exact-Return Reconstruction:

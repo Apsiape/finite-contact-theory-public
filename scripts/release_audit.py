@@ -49,6 +49,7 @@ REQUIRED_FILES = [
     "RELEASE-NOTES-v0.6.0.md",
     "RELEASE-NOTES-v0.7.0.md",
     "RELEASE-NOTES-v0.8.0.md",
+    "RELEASE-NOTES-v0.9.0.md",
     "docs/mathematical-core.md",
     "docs/public-claim-register.md",
     "docs/theorem-bank.md",
@@ -77,10 +78,14 @@ REQUIRED_FILES = [
     "papers/08-nonexact-return/paper.md",
     "papers/08-nonexact-return/claims.md",
     "papers/08-nonexact-return/RELEASE.md",
+    "papers/09-multifloor-worldweave/paper.md",
+    "papers/09-multifloor-worldweave/claims.md",
+    "papers/09-multifloor-worldweave/RELEASE.md",
     "verification/evidence-manifest.md",
     "verification/scripts/run_all.py",
     "verification/scripts/exact_gap_certificate.py",
     "verification/scripts/nonexact_return_reconstruction.py",
+    "verification/scripts/multifloor_worldweave.py",
 ]
 
 STALE_HOLD_STATUS = [
@@ -135,6 +140,8 @@ OVERCLAIM_PATTERNS = [
     ("proves the universal born rule", set()),
     ("derives all of physics", set()),
     ("derives einstein gravity", set()),
+    ("unifies all forces", set()),
+    ("gauge group of nature", set()),
 ]
 
 ALLOWLIST = {
@@ -339,10 +346,18 @@ CANONICAL_CEILINGS = [
             "every nature-facing prediction — is left open by name."
         ),
         [
-            "README.md",
-            "docs/public-claim-register.md",
             "papers/08-nonexact-return/paper.md",
             "RELEASE-NOTES-v0.8.0.md",
+        ],
+    ),
+    (
+        "v0.9",
+        'Finite Contact Theory is a finite reconstruction program with a scoped theorem stack on three published lines — a quantum-facing axis, from one-use contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a behavior-conditioned contextual capacity with an exact strict preparation gap; a finite-epistemics axis, from the identifiability and debt calculus to the inquiry calculus and its second law of asking, four theorems separating the structure of time, and a measured generative floor; and a contact-interface reconstruction, in which a retained interface forces a quaternionic state/receiver cell whose self-dual closure is the 24-cell and the F_4 root system and whose finite measurement calculus forces the quadratic Born frame rule (a finite Gleason theorem) exactly where a triality Kochen-Specker obstruction forbids a global noncontextual assignment, and in which independently generated cells combine not by tensor product but as a self-dual triality bridge code whose unique debt-free two-cell closure is the E_8 root system, whose local fusion is octonionic, and whose first hidden six-cell world is the hexacode — under which the quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the preparation gap is an exact theorem at KCBS-pentagon scope, the interface reconstruction is a finite model-scope recovery on a real-quantum cell, the multi-floor worldweave is a structural model-scope result under named closure axioms, and every unearned generalization — complex quantum mechanics, the actuality of one outcome, the universal Born rule, whether nature realizes any of these structures, and every nature-facing prediction — is left open by name.',
+        [
+            "README.md",
+            "docs/public-claim-register.md",
+            "papers/09-multifloor-worldweave/paper.md",
+            "RELEASE-NOTES-v0.9.0.md",
         ],
     ),
 ]

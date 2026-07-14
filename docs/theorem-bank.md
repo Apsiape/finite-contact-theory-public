@@ -517,3 +517,37 @@ from every `D_4` triality sector; any one or two sectors admit a global
 section, all three do not. Neither pole is contextual alone; the
 obstruction is irreducibly three-way and coincides with the support of
 the forced Born valuation (T-35).
+
+### T-37 E_8 As The Two-Cell Bridge Closure (Chapter 9)
+
+Two `D_4`-boundaried cells close into 240 roots = 48 (`D_4 + D_4`) + three
+triality-matched 64-root bridges (`8v,8v`)/(`8s,8s`)/(`8c,8c`); the set is
+reflection-closed (the `E_8` root system), and the glue-lattice determinant
+ladder `D_4^2 / D_8 / E_8 = 16 / 4 / 1` gives bridge debt `4 -> 2 -> 0`
+bits. Decomposition and closure exhaustive; determinants by exact Gram
+elimination.
+
+### T-38 Octonionic Fusion And The Cayley-Dickson Endpoint (Chapter 9)
+
+Of the 35 imaginary-unit triples of the octonions, exactly 7 associate and
+28 do not (the Fano lines), so nonassociativity is a pure three-contact
+receipt. The sedenions have a zero divisor with both factors nonzero
+(exhibited explicitly) while the octonions have none, so normed monolithic
+fusion stops at the octonions. Exact Cayley-Dickson arithmetic.
+
+### T-39 The Self-Dual Code Census Is |GU(k,2)| (Chapter 9)
+
+The triality-covariant Hermitian self-dual standard-form codes on `N`
+cells number exactly `|GU(N/2, 2)|`: 3 (`N=2`), 18 (`N=4`), 648 (`N=6`),
+by exhaustive enumeration of all `4^{k*k}` candidate matrices over `GF(4)`,
+confirmed against the finite-unitary-group order.
+
+### T-40 The First Hidden World At Six Cells (Chapter 9)
+
+Of the 648 self-dual six-cell codes, 162 have minimum distance 2 and 486
+have minimum distance 4; the hexacode `[6,3,4]` over `GF(4)` (weight
+enumerator `1 + 45 y^4 + 18 y^6`, Hermitian self-dual) is a canonical
+distance-four phase with no one-, two-, or three-cell bridge words. Six
+cells are the first population able to constitute a world invisible to
+every pairwise and triple probe. Weight enumerator and distance split
+exact/exhaustive.

@@ -18,7 +18,7 @@ known mathematics from the deeper floor, a scoped model result, or a clean,
 logged failure. The bold frame and the exact scope are both true at once, and
 the difference between them is labeled on every claim.
 
-![The finite-contact reconstruction: three published lines growing from one one-use floor, ending in the Chapter 8 state/receiver closure where the Born rule and contextuality meet.](assets/reconstruction-map.svg)
+![The finite-contact reconstruction: three published lines growing from one one-use floor, ending in the state/receiver closure where the Born rule and contextuality meet, then extended across cells.](assets/reconstruction-map.svg)
 
 ## What is proven now — three published lines
 
@@ -60,12 +60,25 @@ valuation is uniquely lawful exactly where a global pointing is impossible.**
 Born valuation and contextuality are not two separate quantum ingredients
 here — they are the two faces of one finite closure.
 
+**Chapter 9 (new in v0.9)** extends that line across cells. Independently
+generated cells do *not* combine by tensor product: each carries a `D₄`
+triality boundary, and cells become one world by settling those boundary
+debts into a self-dual code. The unique debt-free two-cell closure is the
+**E₈ root system**; local fusion is **octonionic** (its nonassociativity a
+pure three-contact receipt); normed fusion stops at the octonions (so the
+universe is code-like, not one algebra); the self-dual worlds are the
+unitary orbit `|GU(N/2,2)|` (3, 18, 648 through six cells); and six cells
+are the first **hidden** world — a hexacode phase whose binding is invisible
+to every pairwise and triple probe. The native global object is an evolving
+bridge code. (Structural, under named closure axioms; nature is not claimed
+to realize any of these.)
+
 ## The live ceiling
 
 The whole release is bounded by one sentence, quoted identically in this
 README, the [claim register](docs/public-claim-register.md), the
-[chapter-8 paper](papers/08-nonexact-return/paper.md), and the
-[v0.8.0 release notes](RELEASE-NOTES-v0.8.0.md):
+[chapter-9 paper](papers/09-multifloor-worldweave/paper.md), and the
+[v0.9.0 release notes](RELEASE-NOTES-v0.9.0.md):
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
 > theorem stack on three published lines — a quantum-facing axis, from
@@ -79,14 +92,20 @@ README, the [claim register](docs/public-claim-register.md), the
 > interface forces a quaternionic state/receiver cell whose self-dual
 > closure is the 24-cell and the F_4 root system and whose finite
 > measurement calculus forces the quadratic Born frame rule (a finite
-> Gleason theorem) exactly where a global noncontextual assignment is
-> impossible (a triality Kochen-Specker obstruction) — under which the
-> quantum boundary is a floor theorem at binary-Bell finite-carrier scope,
-> the preparation gap is an exact theorem at KCBS-pentagon scope, the
-> interface reconstruction is a finite model-scope recovery on a
-> real-quantum cell, and every unearned generalization — complex quantum
-> mechanics, the actuality of one outcome, the universal Born rule, and
-> every nature-facing prediction — is left open by name.
+> Gleason theorem) exactly where a triality Kochen-Specker obstruction
+> forbids a global noncontextual assignment, and in which independently
+> generated cells combine not by tensor product but as a self-dual triality
+> bridge code whose unique debt-free two-cell closure is the E_8 root
+> system, whose local fusion is octonionic, and whose first hidden six-cell
+> world is the hexacode — under which the quantum boundary is a floor
+> theorem at binary-Bell finite-carrier scope, the preparation gap is an
+> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
+> finite model-scope recovery on a real-quantum cell, the multi-floor
+> worldweave is a structural model-scope result under named closure axioms,
+> and every unearned generalization — complex quantum mechanics, the
+> actuality of one outcome, the universal Born rule, whether nature realizes
+> any of these structures, and every nature-facing prediction — is left open
+> by name.
 
 The scope fence is the result, not an apology. In particular this does **not**
 claim all quantum mechanics is derived: Chapter 8 is a *real-quantum* cell
@@ -102,15 +121,17 @@ No dependencies beyond Python's standard library.
 python verification\scripts\run_all.py
 ```
 
-Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Eleven dependency-free
+Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Twelve dependency-free
 scripts run — the no-jam core, the rational Born weights, the CHSH ladder
 climbing to `2*sqrt(2)` on the Pell fence `p^2 - 2q^2 = -1`, the exact
 preparation gap, the debt/asking/time theorems, the floor engine, and — new
 in v0.8 — `nonexact_return_reconstruction.py`, which verifies the quaternionic
 receiver, the 24-cell self-duality, the F₄ closure, the forced `1/2`, the
-finite Gleason theorem, and the triality Kochen–Specker obstruction, all in
-exact arithmetic in a few seconds. This is the shipped public subset — not the
-full private corpus.
+finite Gleason theorem, and the triality Kochen–Specker obstruction; and — new
+in v0.9 — `multifloor_worldweave.py`, which verifies the E₈ two-cell closure,
+the octonionic fusion census, the self-dual code count `|GU(k,2)|`, and the
+hexacode. All in exact arithmetic in a few seconds. This is the shipped public
+subset — not the full private corpus.
 
 ## Recoveries, honestly named
 
@@ -155,7 +176,8 @@ theorem, a recovery, a model result, or a clean failure:
 
 ## Read it
 
-1. [papers/08-nonexact-return/paper.md](papers/08-nonexact-return/paper.md) — **Chapter 8** (v0.8): the non-exact-return reconstruction (start here for the newest result).
+1. [papers/09-multifloor-worldweave/paper.md](papers/09-multifloor-worldweave/paper.md) — **Chapter 9** (v0.9): the multi-floor worldweave (E₈, octonions, self-dual codes; the newest result).
+2. [papers/08-nonexact-return/paper.md](papers/08-nonexact-return/paper.md) — **Chapter 8** (v0.8): the non-exact-return reconstruction (finite Born + contextuality).
 2. [papers/07-program-map/paper.md](papers/07-program-map/paper.md) — **Chapter 7**: the program map (start here for the whole picture).
 3. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — **Chapter 2**: the exact preparation gap, in standard contextuality language.
 4. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — **Chapter 1**: the v0.1 release narrative.
@@ -183,8 +205,8 @@ much — and the bold frame at the top of this page is held to that same audit.
 
 ## Status
 
-This is v0.8.0: eight chapters on three lines — 50 claim rows (FCT-01..50), 36
-theorem rows (T-01..36), eleven shipped dependency-free scripts, a public
+This is v0.9.0: nine chapters on three lines — 56 claim rows (FCT-01..56), 40
+theorem rows (T-01..40), twelve shipped dependency-free scripts, a public
 correction ledger, and one live ceiling sentence. Complex quantum mechanics,
 the actuality of one outcome, the universal Born rule, the multi-floor
 structure, spacetime/gravity/continuum, and every nature-facing claim are
@@ -198,9 +220,9 @@ deliberately held or open, and named as such.
 
 Archived and citable via Zenodo. Cite the program by its **concept DOI**
 (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591).
-The v0.8.0 version DOI is recorded in
-[papers/08-nonexact-return/RELEASE.md](papers/08-nonexact-return/RELEASE.md)
-and [CITATION.cff](CITATION.cff) at mint. Earlier version DOIs (v0.1.0–v0.7.0)
+The v0.9.0 version DOI is recorded in
+[papers/09-multifloor-worldweave/RELEASE.md](papers/09-multifloor-worldweave/RELEASE.md)
+and [CITATION.cff](CITATION.cff) at mint. Earlier version DOIs (v0.1.0–v0.8.0)
 are listed in [CITATION.cff](CITATION.cff).
 
 ## Rights

@@ -45,9 +45,13 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
 - [`08-nonexact-return/`](08-nonexact-return/paper.md)
   — **Chapter 8** (v0.8.0): _The Non-Exact-Return Reconstruction: Finite
   Born Valuation and Contextuality from a Retained Contact Interface_
-  (opens the contact-interface line; carries the live release ceiling).
-  DOIs recorded in its [`RELEASE.md`](08-nonexact-return/RELEASE.md) at
-  tagging.
+  (opens the contact-interface line). DOIs recorded in its
+  [`RELEASE.md`](08-nonexact-return/RELEASE.md) at tagging.
+- [`09-multifloor-worldweave/`](09-multifloor-worldweave/paper.md)
+  — **Chapter 9** (v0.9.0): _The Multi-Floor Worldweave: Bridge Codes, the
+  E_8 Closure, and Octonionic Fusion_ (extends the contact-interface line
+  across cells; carries the live release ceiling). DOIs recorded in its
+  [`RELEASE.md`](09-multifloor-worldweave/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 

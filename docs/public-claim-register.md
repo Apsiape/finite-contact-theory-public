@@ -18,8 +18,8 @@ For label meanings, see `status-labels.md`. For verification posture, see
 
 ## Release Ceiling
 
-The v0.8 public ceiling is (quoted identically in the README, the chapter-8
-paper, and the v0.8.0 release notes):
+The v0.9 public ceiling is (quoted identically in the README, the chapter-9
+paper, and the v0.9.0 release notes):
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
 > theorem stack on three published lines — a quantum-facing axis, from
@@ -33,17 +33,23 @@ paper, and the v0.8.0 release notes):
 > interface forces a quaternionic state/receiver cell whose self-dual
 > closure is the 24-cell and the F_4 root system and whose finite
 > measurement calculus forces the quadratic Born frame rule (a finite
-> Gleason theorem) exactly where a global noncontextual assignment is
-> impossible (a triality Kochen-Specker obstruction) — under which the
-> quantum boundary is a floor theorem at binary-Bell finite-carrier scope,
-> the preparation gap is an exact theorem at KCBS-pentagon scope, the
-> interface reconstruction is a finite model-scope recovery on a
-> real-quantum cell, and every unearned generalization — complex quantum
-> mechanics, the actuality of one outcome, the universal Born rule, and
-> every nature-facing prediction — is left open by name.
+> Gleason theorem) exactly where a triality Kochen-Specker obstruction
+> forbids a global noncontextual assignment, and in which independently
+> generated cells combine not by tensor product but as a self-dual triality
+> bridge code whose unique debt-free two-cell closure is the E_8 root
+> system, whose local fusion is octonionic, and whose first hidden six-cell
+> world is the hexacode — under which the quantum boundary is a floor
+> theorem at binary-Bell finite-carrier scope, the preparation gap is an
+> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
+> finite model-scope recovery on a real-quantum cell, the multi-floor
+> worldweave is a structural model-scope result under named closure axioms,
+> and every unearned generalization — complex quantum mechanics, the
+> actuality of one outcome, the universal Born rule, whether nature realizes
+> any of these structures, and every nature-facing prediction — is left open
+> by name.
 
-The v0.1, v0.2, and v0.7 ceilings remain quoted, unchanged, in their frozen
-chapters and release notes; this row supersedes them as the live ceiling.
+The v0.1, v0.2, v0.7, and v0.8 ceilings remain quoted, unchanged, in their
+frozen chapters and release notes; this row supersedes them as the live ceiling.
 
 The release does not claim all quantum mechanics, quantum gravity, or
 nature-facing prediction is solved.
@@ -1577,6 +1583,167 @@ Residuals:
 - the actual outcome must be contextual, history-bearing, explicitly
   received, or totalized — the standing open hinge; complex quantum
   mechanics and every nature-facing prediction remain held open.
+
+## FCT-51 - The Triality Boundary And The Bridge-Code Model
+
+Status: `MODEL-SCOPE / SCHEMA`
+Scope: the boundary of a single non-exact-return cell and the additive
+glue-code model of multi-cell binding.
+Evidence state: `shipped`.
+
+Public statement:
+
+Each cell carries a `D_4` triality boundary `K = C_2 x C_2` (with `S_3`
+triality on `{v,s,c}`); a bridge ecology is an additive glue code
+`H <= K^N`, with bridge debt `2N - 2 dim H`, and a receiver-complete world
+is a self-dual code `H = H-perp`.
+
+Evidence:
+
+- shipped: Section 1 of `verification/scripts/multifloor_worldweave.py`.
+
+Checks / controls:
+
+- the Klein-four structure and `S_3` triality are computed exactly.
+
+Residuals:
+
+- a structural model under named closure assumptions; not a claim that
+  nature runs this code.
+
+## FCT-52 - E_8 As The Unique Debt-Free Two-Cell Closure
+
+Status: `MODEL-SCOPE / RECOVERY`
+Scope: the bridge geometry of two cells.
+Evidence state: `shipped`.
+
+Public statement:
+
+Two cells' triality boundaries close into the `E_8` root system:
+`240 = 48 (D_4 + D_4) + 3 x 64` triality-matched bridges, reflection-closed,
+with the glue-lattice determinant ladder `16 -> 4 -> 1` (debt `4 -> 2 -> 0`
+bits). `E_8` is the unique debt-free two-cell world.
+
+Evidence:
+
+- shipped: Section 2 (decomposition, reflection closure, and determinant
+  ladder all exact/exhaustive).
+
+Checks / controls:
+
+- 240 roots classified into the internal `D_4 + D_4` and the three `64`-root
+  triality bridges with no leftovers; determinants by exact Gram elimination.
+
+Residuals:
+
+- `E_8` is the complete bridge geometry of two cells, NOT an installed
+  physical gauge group; nature is not claimed to realize it.
+
+## FCT-53 - Octonionic Fusion; A Three-Contact Receipt
+
+Status: `RECOVERY`
+Scope: the local fusion algebra of two quaternionic cells.
+Evidence state: `shipped`.
+
+Public statement:
+
+Fusing two quaternionic receivers gives the octonions; of the 35
+imaginary-unit triples exactly 7 associate and 28 do not, so
+nonassociativity is a pure three-contact order receipt.
+
+Evidence:
+
+- shipped: Section 3 (associator census over all `C(7,3)` triples, exact).
+
+Checks / controls:
+
+- Cayley-Dickson product in exact arithmetic; the 7/28 split is the Fano
+  line structure.
+
+Residuals:
+
+- recovers the octonions and the Fano-line structure.
+
+## FCT-54 - Normed Fusion Stops At The Octonions
+
+Status: `RECOVERY`
+Scope: the Cayley-Dickson tower above the octonions.
+Evidence state: `shipped`.
+
+Public statement:
+
+The sedenions have zero divisors while the octonions have none, so positive
+normed monolithic fusion terminates at the octonions; larger populations
+cannot be one division algebra and must remain a code worldweave.
+
+Evidence:
+
+- shipped: Section 4 (explicit sedenion zero divisor; octonion search
+  returns none).
+
+Checks / controls:
+
+- both factors verified nonzero and the product exactly zero.
+
+Residuals:
+
+- the specific zero-divisor indices are Cayley-Dickson-convention-dependent;
+  existence is the structural claim.
+
+## FCT-55 - Self-Dual Worlds Are The Unitary Orbit GU(k,2)
+
+Status: `MODEL-SCOPE / RECOVERY`
+Scope: triality-covariant Hermitian self-dual standard-form codes on `N`
+cells.
+Evidence state: `shipped`.
+
+Public statement:
+
+The self-dual code census is `|GU(N/2, 2)|`: 3 for `N=2`, 18 for `N=4`, 648
+for `N=6` -- the exhaustive standard-form search confirmed by the
+finite-unitary-group closed form.
+
+Evidence:
+
+- shipped: Section 5 (all `4^{k*k}` candidate matrices enumerated exactly).
+
+Checks / controls:
+
+- the counts match `|GU(k,2)|` independently.
+
+Residuals:
+
+- recovers `GU(k,2)`; a structural model, not a nature claim.
+
+## FCT-56 - Six Cells: The First Hidden World (The Hexacode)
+
+Status: `MODEL-SCOPE / RECOVERY`
+Scope: the minimum-distance structure of six-cell self-dual codes.
+Evidence state: `shipped`.
+
+Public statement:
+
+Of the 648 self-dual six-cell codes, 162 have minimum distance 2 and 486
+have minimum distance 4; the distance-four phases (canonically the hexacode
+`[6,3,4]`, weight enumerator `1 + 45 y^4 + 18 y^6`, Hermitian self-dual) have
+no one-, two-, or three-cell bridge words, so a complete six-cell world can
+be invisible to every pairwise and triple probe. `N=6` is the first such
+hidden collective world.
+
+Evidence:
+
+- shipped: Section 6 (hexacode weight enumerator + self-duality; the
+  162/486 minimum-distance split over all 648 codes).
+
+Checks / controls:
+
+- the hexacode weight enumerator and Hermitian self-orthogonality computed
+  exactly; the distance split is exhaustive.
+
+Residuals:
+
+- whether nature realizes any code, and any metric/spectrum/constant, are
+  held open; recovers the hexacode.
 
 ## Held Claim Families
 
