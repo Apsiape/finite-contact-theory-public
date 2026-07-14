@@ -132,24 +132,27 @@ for alpha, beta in [(F(2),F(1)), (F(1),F(2)), (F(5),F(3)), (F(7),F(4))]:
                     and all(x == 0 for x in p_ortho)
                     and all(x == beta / (4*alpha + 8*beta) for x in p_cross))
 
-# Born {0, 1/12, 1/3}: solve P(p->p) = 1/3  <=>  alpha = beta
+# Born {0, 1/12, 1/3} occurs at equal tickets and ONLY there.
 born_values = {F(0), F(1, 12), F(1, 3)}
-P_eq = response(F(1), F(1))
-is_born_at_eq = all(set(P_eq[p].values()) == born_values for p in rays)
-# and NOT Born off the diagonal: (2,1) gives identity 1/2 != 1/3
-P_off = response(F(2), F(1))
-not_born_off = any(set(P_off[p].values()) != born_values for p in rays)
-# algebraic: alpha/(alpha+2beta) = 1/3  =>  3 alpha = alpha + 2 beta  =>  alpha = beta
-alpha, beta = F(1), F(1)  # witness the unique solution ratio
-born_iff = (3*alpha == alpha + 2*beta) and (alpha == beta)
+is_born_at_eq = all(set(response(F(1), F(1))[p].values()) == born_values
+                    for p in rays)
+# EXHAUSTIVE over a rational ticket grid (64 pairs): the Born value set is
+# reached IFF alpha = beta -- both the "if" and the "only if" direction.
+# (Algebraically P(p->p)=1/3 <=> 3alpha=alpha+2beta <=> alpha=beta; here the
+# equivalence is machine-verified across the whole grid, not asserted.)
+born_iff = all((set(response(F(na), F(nb))[rays[0]].values()) == born_values)
+               == (na == nb)
+               for na in range(1, 9) for nb in range(1, 9))
+# a concrete off-diagonal witness: (2,1) gives identity weight 1/2 != 1/3
+not_born_off = (set(response(F(2), F(1))[rays[0]].values()) != born_values)
 check(f"the weight family is a lawful positive stochastic response for all "
       f"alpha,beta>0 ({lawful}); its closed form is P(p->p)=alpha/(alpha+2beta), "
-      f"P(cross)=beta/(4alpha+8beta), P(orthogonal)=0 ({closed_form}); and the "
+      f"P(cross)=beta/(4alpha+8beta), P(orthogonal)=0 ({closed_form}); the "
       f"Born kernel {{0,1/12,1/3}} occurs at equal tickets alpha=beta "
-      f"({is_born_at_eq}) and there only -- P(p->p)=1/3 forces alpha=beta "
-      f"algebraically ({born_iff}), while (alpha,beta)=(2,1) gives identity 1/2 "
-      f"({not_born_off}). Counting forces the FORM; equal-tickets is an ADDED "
-      f"magnitude law.",
+      f"({is_born_at_eq}); and exhaustively over a 64-pair rational ticket grid "
+      f"the Born value set is reached IFF alpha=beta ({born_iff}) -- e.g. "
+      f"(alpha,beta)=(2,1) gives identity 1/2, not 1/3 ({not_born_off}). "
+      f"Counting forces the FORM; equal-tickets is an ADDED magnitude law.",
       lawful and closed_form and is_born_at_eq and not_born_off and born_iff)
 
 # ======================================================================

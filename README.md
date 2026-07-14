@@ -76,9 +76,11 @@ floor-selected over matched lawful alternatives** — so the floor forces the
 specific *member* (not statically, via counterworlds like a matched
 doubly-even self-dual `[24,12,4]` code, and not dynamically, via a
 selection-equivalence theorem). Selection of a world-phase is a conserved,
-received input; but *given* an actual phase, its Born statistics and its
-binding arity are forced by counting. (Structural, under named closure
-axioms; nature is not claimed to realize any of these.)
+received input; but *given* an actual phase, counting forces the *form* of
+its statistics (a one-parameter equivariant weight family) and its binding
+arity — while its Born *magnitude* (equal tickets) and its complex *phase*
+remain received, not forced. (Structural, under named closure axioms; nature
+is not claimed to realize any of these.)
 
 ## The live ceiling
 

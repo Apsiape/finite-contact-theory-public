@@ -48,26 +48,48 @@ release notes.
 
 - **Chapter 9**:
   [papers/09-multifloor-worldweave/](papers/09-multifloor-worldweave/paper.md)
-  — the multi-floor worldweave. Six shipped claim rows (**FCT-51 through
-  FCT-56**) and four theorem rows (**T-37 through T-40**), all `shipped` and
-  verified by one dependency-free script:
-  - **FCT-51** — each cell's `D_4` triality boundary `K = C_2 x C_2` and the
-    self-dual bridge-code model of multi-cell binding;
-  - **FCT-52** — `E_8` as the unique debt-free two-cell closure
-    (`240 = 48 + 3x64`, determinant ladder `16 -> 4 -> 1`);
-  - **FCT-53** — octonionic local fusion (the `7/28` associator census: a
-    pure three-contact receipt);
-  - **FCT-54** — normed monolithic fusion stops at the octonions (sedenion
-    zero divisors; none in `O`);
-  - **FCT-55** — the self-dual code census is `|GU(N/2, 2)|` (3, 18, 648);
-  - **FCT-56** — six cells are the first hidden world (the hexacode
-    `[6,3,4]`, weight enumerator `1 + 45 y^4 + 18 y^6`; distance split
-    `162 / 486` over all 648 codes).
-- **New shipped verification**:
-  `verification/scripts/multifloor_worldweave.py` (also frozen under the
-  chapter). Dependency-free, exact, exhaustive (including the full `4^9`
-  self-dual census); runs in a few seconds and is wired into `run_all.py`
-  (now twelve scripts).
+  — the multi-floor worldweave, published as a **forcing audit**. Nine shipped
+  claim rows (**FCT-51 through FCT-59**) and seven theorem rows (**T-37
+  through T-43**), all `shipped`.
+  - **The recovered spine** (FCT-51..56): each cell's `D_4` triality boundary
+    `K = C_2 x C_2` and the bridge-code model; `E_8` as the unique debt-free
+    two-cell closure (`240 = 48 + 3x64`, determinant ladder `16 -> 4 -> 1`);
+    octonionic local fusion (the `7/28` associator census); normed monolithic
+    fusion stops at the octonions; the self-dual code census `|GU(N/2, 2)|`
+    (3, 18, 648); and the six-cell hidden world (the hexacode `[6,3,4]`).
+  - **The static forcing audit** (FCT-57): each of the five closure laws has a
+    matched lawful counterworld (a doubly-even self-dual `[24,12,4]` code
+    against Golay; the scale-free bridge determinant; two triality alphabets;
+    a dual pole `H < H-perp` rather than self-duality; `E_8+E_8+E_8`'s 720
+    roots) — so the laws are not floor-forced.
+  - **The dynamic selection-equivalence theorem** (FCT-58): making the floor
+    dynamic does not create a selector; unique strict selection is equivalent
+    to a preferred scalar ranking, so dynamics only relocates a conserved
+    selector. Self-duality is forceable as a terminal class, never as a
+    member.
+  - **Actualization by counting** (FCT-59): given an actual phase, counting
+    forces the FORM of its response — a one-parameter positive equivariant
+    weight family (`alpha` on the 48 return histories, `beta` on the 96
+    transfer histories) — but NOT the Born rule. The Born kernel `{0,1/12,1/3}`
+    is the equal-ticket (`alpha = beta`) point only; equal-tickets is an added
+    magnitude law (the relocated selector). Positive counting is decohered;
+    the retained `Z_2` sign scar gives a real amplitude calculus (three real
+    mutually-unbiased bases, a `+-1/2` cocycle, the 768 order-4 Hadamard
+    matrices). Two gaps stay open: the magnitude law `alpha = beta`, and the
+    enlargement to a complex phase.
+  - **Net**: the floor forces the atlas of lawful closures and the terminal
+    self-dual class but never the specific member; world-phase selection is a
+    conserved received input; and, given an actual phase, only the form of its
+    statistics is forced.
+- **New shipped verification** (all frozen under the chapter, dependency-free,
+  exact, exhaustive): `verification/scripts/multifloor_worldweave.py` (the
+  closure atlas, including the full `4^9` self-dual census),
+  `verification/scripts/forcing_audit.py` (the static counterworlds, the
+  dynamic selection-equivalence theorem, and the equal-ticket actualization
+  kernel), and `verification/scripts/wcd_actualization.py` (the
+  actualization-by-counting family, the decoherence of positive counting, the
+  sign-scar amplitude calculus, and the two open gaps). All wired into
+  `run_all.py` (now fourteen scripts).
 - **README, claim register, theorem bank, and audit** updated to the v0.9
   state (nine chapters; the migrated live ceiling; new required files and
   overclaim bans).
