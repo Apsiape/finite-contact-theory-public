@@ -2,6 +2,34 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.8.0
+
+Eighth public release: **Chapter 8 — The Non-Exact-Return Reconstruction:
+Finite Born Valuation and Contextuality from a Retained Contact
+Interface**. Opens the program's third line (a contact-interface
+reconstruction). Version DOI recorded at mint; concept DOI
+`10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/08-nonexact-return/` — chapter, claim snapshot, freeze record,
+  and a frozen copy of the shipped script with expected output;
+- claim rows FCT-45 through FCT-50 and theorem rows T-33 through T-36 (the
+  quaternionic receiver; the 24-cell self-hosting fixed point; the `F_4`
+  closure; the forced `1/2` interface magnitude; a finite Gleason theorem;
+  and a triality Kochen-Specker obstruction — all `shipped`);
+- `verification/scripts/nonexact_return_reconstruction.py`, wired into
+  `run_all.py` (now eleven scripts);
+- **the new live release ceiling** (three published lines), quoted in the
+  README, the claim register, the chapter-8 paper, and the v0.8.0 notes.
+
+Changed:
+
+- README overhauled to the three-line stack; theorem bank extended;
+  `scripts/release_audit.py` updated (required files, migrated canonical
+  ceilings, additional overclaim bans);
+- `.zenodo.json` refreshed to the v0.8 deposit metadata.
+
 ## 0.7.0
 
 Seventh public release: **Chapter 7 — The Taxonomy of Inevitability: A

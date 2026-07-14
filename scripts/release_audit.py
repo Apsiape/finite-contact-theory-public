@@ -48,6 +48,7 @@ REQUIRED_FILES = [
     "RELEASE-NOTES-v0.5.0.md",
     "RELEASE-NOTES-v0.6.0.md",
     "RELEASE-NOTES-v0.7.0.md",
+    "RELEASE-NOTES-v0.8.0.md",
     "docs/mathematical-core.md",
     "docs/public-claim-register.md",
     "docs/theorem-bank.md",
@@ -73,9 +74,13 @@ REQUIRED_FILES = [
     "papers/07-program-map/paper.md",
     "papers/07-program-map/claims.md",
     "papers/07-program-map/RELEASE.md",
+    "papers/08-nonexact-return/paper.md",
+    "papers/08-nonexact-return/claims.md",
+    "papers/08-nonexact-return/RELEASE.md",
     "verification/evidence-manifest.md",
     "verification/scripts/run_all.py",
     "verification/scripts/exact_gap_certificate.py",
+    "verification/scripts/nonexact_return_reconstruction.py",
 ]
 
 STALE_HOLD_STATUS = [
@@ -126,6 +131,10 @@ OVERCLAIM_PATTERNS = [
     ("solves gravity", {Path("docs/release-roadmap.md")}),
     ("complete theory", {Path("docs/release-roadmap.md")}),
     ("selects the boundary", {Path("docs/release-roadmap.md")}),
+    ("theory of everything", set()),
+    ("proves the universal born rule", set()),
+    ("derives all of physics", set()),
+    ("derives einstein gravity", set()),
 ]
 
 ALLOWLIST = {
@@ -301,10 +310,39 @@ CANONICAL_CEILINGS = [
             "model scope, and every unearned generalization is left open by name."
         ),
         [
-            "README.md",
-            "docs/public-claim-register.md",
             "papers/07-program-map/paper.md",
             "RELEASE-NOTES-v0.7.0.md",
+        ],
+    ),
+    (
+        "v0.8",
+        (
+            "Finite Contact Theory is a finite reconstruction program with a scoped "
+            "theorem stack on three published lines — a quantum-facing axis, from "
+            "one-use contact to counting, one-receiver gluing, rational Born weights, "
+            "the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and "
+            "a behavior-conditioned contextual capacity with an exact strict "
+            "preparation gap; a finite-epistemics axis, from the identifiability and "
+            "debt calculus to the inquiry calculus and its second law of asking, four "
+            "theorems separating the structure of time, and a measured generative "
+            "floor; and a contact-interface reconstruction, in which a retained "
+            "interface forces a quaternionic state/receiver cell whose self-dual "
+            "closure is the 24-cell and the F_4 root system and whose finite "
+            "measurement calculus forces the quadratic Born frame rule (a finite "
+            "Gleason theorem) exactly where a global noncontextual assignment is "
+            "impossible (a triality Kochen-Specker obstruction) — under which the "
+            "quantum boundary is a floor theorem at binary-Bell finite-carrier scope, "
+            "the preparation gap is an exact theorem at KCBS-pentagon scope, the "
+            "interface reconstruction is a finite model-scope recovery on a "
+            "real-quantum cell, and every unearned generalization — complex quantum "
+            "mechanics, the actuality of one outcome, the universal Born rule, and "
+            "every nature-facing prediction — is left open by name."
+        ),
+        [
+            "README.md",
+            "docs/public-claim-register.md",
+            "papers/08-nonexact-return/paper.md",
+            "RELEASE-NOTES-v0.8.0.md",
         ],
     ),
 ]

@@ -20,6 +20,7 @@ SCRIPTS = [
     "inquiry_calculus.py",
     "becoming_webs.py",
     "floor_engine_measurements.py",
+    "nonexact_return_reconstruction.py",
 ]
 
 

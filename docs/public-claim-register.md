@@ -18,24 +18,31 @@ For label meanings, see `status-labels.md`. For verification posture, see
 
 ## Release Ceiling
 
-The v0.7 public ceiling is (quoted identically in the README, the chapter-7
-paper, and the v0.7.0 release notes):
+The v0.8 public ceiling is (quoted identically in the README, the chapter-8
+paper, and the v0.8.0 release notes):
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
-> theorem stack on two published axes — a quantum-facing axis, from one-use
-> contact to counting, one-receiver gluing, rational Born weights, the
-> CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a
-> behavior-conditioned contextual capacity with an exact strict preparation
-> gap; and a finite-epistemics axis, from the identifiability and debt
-> calculus to the inquiry calculus and its second law of asking, four
+> theorem stack on three published lines — a quantum-facing axis, from
+> one-use contact to counting, one-receiver gluing, rational Born weights,
+> the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and
+> a behavior-conditioned contextual capacity with an exact strict
+> preparation gap; a finite-epistemics axis, from the identifiability and
+> debt calculus to the inquiry calculus and its second law of asking, four
 > theorems separating the structure of time, and a measured generative
-> floor — under which the quantum boundary is a floor theorem at
-> **binary-Bell finite-carrier scope**, the preparation gap is an exact
-> theorem at **KCBS-pentagon scope**, every epistemics and time result is a
-> finite machine-checked theorem or a fenced measurement at its stated
-> model scope, and every unearned generalization is left open by name.
+> floor; and a contact-interface reconstruction, in which a retained
+> interface forces a quaternionic state/receiver cell whose self-dual
+> closure is the 24-cell and the F_4 root system and whose finite
+> measurement calculus forces the quadratic Born frame rule (a finite
+> Gleason theorem) exactly where a global noncontextual assignment is
+> impossible (a triality Kochen-Specker obstruction) — under which the
+> quantum boundary is a floor theorem at binary-Bell finite-carrier scope,
+> the preparation gap is an exact theorem at KCBS-pentagon scope, the
+> interface reconstruction is a finite model-scope recovery on a
+> real-quantum cell, and every unearned generalization — complex quantum
+> mechanics, the actuality of one outcome, the universal Born rule, and
+> every nature-facing prediction — is left open by name.
 
-The v0.1 and v0.2 ceilings remain quoted, unchanged, in their frozen
+The v0.1, v0.2, and v0.7 ceilings remain quoted, unchanged, in their frozen
 chapters and release notes; this row supersedes them as the live ceiling.
 
 The release does not claim all quantum mechanics, quantum gravity, or
@@ -1386,6 +1393,186 @@ Residuals:
 
 - "every level examined" is bounded by the published chapters; new levels
   must earn their own rows.
+
+## FCT-45 - Non-Exact Return And The Quaternionic Receiver
+
+Status: `MODEL-SCOPE / RECOVERY`
+Scope: the minimal real receiver faithful on the retained central return
+of a single contact cell.
+Evidence state: `shipped`.
+
+Public statement:
+
+The three retained quarter-turns of a non-exact-return contact satisfy the
+quaternion relations; the minimal real carrier faithful on the retained
+return `z -> -1` is four-dimensional and irreducible (its real commutant is
+the division algebra `H`), and the invariant positive form is unique up to
+scale, forcing the isotropic quadratic evaluation and a `1+3` split.
+
+Evidence:
+
+- shipped: Section 1 of
+  `verification/scripts/nonexact_return_reconstruction.py`.
+
+Checks / controls:
+
+- quaternion relations, commutant dimension, and invariant-form dimension
+  all computed in exact arithmetic; dims 1, 2, 3 excluded by explicit
+  arithmetic / Frobenius-Schur / determinant arguments.
+
+Residuals:
+
+- the `1+3` split is an algebra grading, not a spacetime metric;
+- the projective phase that would complexify the cell is held open.
+
+## FCT-46 - The Self-Hosting State/Receiver Fixed Point (24-cell)
+
+Status: `MODEL-SCOPE / RECOVERY`
+Scope: the unit-state polytope of the quaternionic cell and its polar dual.
+Evidence state: `shipped`.
+
+Public statement:
+
+The unit states are the 24 Hurwitz units (the 24-cell); exhaustive polar
+enumeration gives `conv(states)` polar = the 24 receiver vectors and
+`conv(receivers)` polar = the 24 states. States generate receivers and
+receivers regenerate the states: an exact self-hosting state/receiver
+fixed point.
+
+Evidence:
+
+- shipped: Section 2 (all `C(24,4)=10626` supporting quadruples enumerated
+  exactly).
+
+Checks / controls:
+
+- polar computed both directions; the fixed-point identity is the exact
+  set equality of the enumerated vertices.
+
+Residuals:
+
+- recovers the known 24-cell self-duality; novelty is the derivational
+  role (states and receivers co-generate on one finite object).
+
+## FCT-47 - The F_4 Closure Of The State/Receiver Polarity
+
+Status: `RECOVERY`
+Scope: the 48 combined state and receiver vectors.
+Evidence state: `shipped`.
+
+Public statement:
+
+The 48 vectors are reflection-closed with integer Cartan numbers — the
+`F_4` root system — and its Weyl group has order 1152. The exceptional
+root system arises as the reflection closure of the state/receiver
+polarity, not as an installed gauge symmetry.
+
+Evidence:
+
+- shipped: Section 3 (closure and integrality checked over all pairs;
+  `|W(F_4)|=1152` by direct generation).
+
+Checks / controls:
+
+- reflection closure and Cartan integrality are exhaustive over the 48
+  roots; the Weyl order is generated, not asserted.
+
+Residuals:
+
+- the two-floor `E_8` extension is a later chapter, not claimed here.
+
+## FCT-48 - The Forced 1/2 Interface Magnitude
+
+Status: `MODEL-SCOPE`
+Scope: state/receiver overlaps on the 24-cell closure.
+Evidence state: `shipped`.
+
+Public statement:
+
+Every nonzero state/receiver overlap has `|<p,r>| = 1`, so the
+dimensionless ratio `|<p,r>|^2/(|p|^2|r|^2) = 1/2` for every contact (a
+`pi/4` angle): a forced, scale-free, gauge-free interface invariant, the
+first nontrivial magnitude the closure generates.
+
+Evidence:
+
+- shipped: Section 4 (all `24 x 24` overlaps computed exactly).
+
+Checks / controls:
+
+- exhaustive over all state/receiver pairs; the magnitude is a ratio.
+
+Residuals:
+
+- scope is this 24-cell closure, not nature; a ratio, not a dimensionful
+  constant.
+
+## FCT-49 - Finite Gleason: The Born Frame Rule
+
+Status: `THEOREM / MODEL-SCOPE / RECOVERY`
+Scope: normalized frame valuations on the 24-ray Peres configuration.
+Evidence state: `shipped`.
+
+Public statement:
+
+The 24 rays carry exactly 24 orthonormal tetrad contexts; the
+context-incidence rank is 15, so frame valuations form a nine-dimensional
+affine family equal to real-symmetric trace-one `Sym(4,R)` (the projectors
+span, every context resolves the identity). Therefore every normalized
+frame valuation is uniquely `f(x)=tr(rho P_x)` — the quadratic Born frame
+rule, forced by the finite context family with no continuum and no
+continuity.
+
+Evidence:
+
+- shipped: Section 5 (exact rank and span computations; resolution of
+  identity per context).
+
+Checks / controls:
+
+- the two nine-dimensional families are matched by exact dimension count;
+  the projector span (rank 10 in `Sym(4)`) gives uniqueness.
+
+Residuals:
+
+- recovers a finite, exact Gleason theorem; does not derive the universal
+  Born rule for general measurements;
+- real-quantum scope (`Sym(4,R)`), not complex.
+
+## FCT-50 - Triality Contextuality; Born And Pointing Are Two Faces
+
+Status: `THEOREM / MODEL-SCOPE / RECOVERY`
+Scope: deterministic noncontextual assignments on the same 24 rays.
+Evidence state: `shipped`.
+
+Public statement:
+
+No global deterministic noncontextual assignment exists; there are exactly
+16 minimal nine-context parity proofs (Kernaghan-type), all in the
+state/receiver interface, each using three contexts from every `D_4`
+triality sector; any one or two sectors are consistent, all three are not.
+Neither pole is contextual alone — contextuality is an irreducibly
+three-way (triality) obstruction generated at the interface. Placed beside
+FCT-49: the valuation is uniquely lawful exactly where a global pointing is
+impossible; Born valuation and Kochen-Specker contextuality are the two
+faces of one finite closure.
+
+Evidence:
+
+- shipped: Section 6 (global-section search exhaustive; the 16 parity
+  proofs enumerated and sector-classified).
+
+Checks / controls:
+
+- both the impossibility and the sector-restricted possibilities are
+  exhaustive; every proof's `3+3+3` sector split is verified.
+
+Residuals:
+
+- recovers the Peres 24-ray Kochen-Specker set (Kernaghan proofs);
+- the actual outcome must be contextual, history-bearing, explicitly
+  received, or totalized — the standing open hinge; complex quantum
+  mechanics and every nature-facing prediction remain held open.
 
 ## Held Claim Families
 

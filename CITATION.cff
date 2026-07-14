@@ -26,7 +26,7 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.21253592"
     description: "The versioned DOI for v0.1.0."
-title: "Finite Contact Theory v0.7: The Taxonomy of Inevitability — A Program Map"
+title: "Finite Contact Theory v0.8: The Non-Exact-Return Reconstruction — Finite Born Valuation and Contextuality from a Retained Contact Interface"
 type: software
 authors:
   - family-names: "Douglas"
@@ -34,7 +34,7 @@ authors:
     email: "apsiape@gmail.com"
     orcid: "https://orcid.org/0009-0007-4708-3252"
 repository-code: "https://github.com/Apsiape/finite-contact-theory-public"
-abstract: "A public release of Finite Contact Theory, a long-range finite reconstruction program, now spanning seven chapters on two axes. The quantum-facing axis grows the Bell/CHSH boundary, rational Born weights, a native carrier grammar, and an exact strict preparation gap from a finite one-use floor. The finite-epistemics axis publishes the identifiability and debt calculus (identification costs exactly ceil(log2 m) receipt bits and no symmetry-respecting rule can select), the inquiry calculus with its second law of asking (EC = H + KL + O), four theorems disassembling time (torsor origin-freedom, the helix covering, an arrow without thermodynamics, lawfulness without foundation), and a measured generative floor with an independent-implementation agreement. This v0.7 capstone chapter is the program map: three schema-level claim rows and a new live ceiling; ten dependency-free scripts verify the stack from a clean clone, and every unearned generalization is held open by name."
-version: "0.7.0"
-date-released: "2026-07-13"
+abstract: "A public release of Finite Contact Theory, a long-range finite reconstruction program, now spanning eight chapters on three lines. The quantum-facing axis grows the Bell/CHSH boundary, rational Born weights, a native carrier grammar, and an exact strict preparation gap from a finite one-use floor. The finite-epistemics axis publishes the identifiability and debt calculus, the inquiry calculus with its second law of asking, four theorems disassembling time, and a measured generative floor. This v0.8 chapter opens a contact-interface reconstruction: from a retained (non-exact-return) contact interface it derives, entirely by exact finite checks, that the primitive receiver is the quaternions, that its unit-state orbit is the 24-cell whose polar dual is again a 24-cell (a self-hosting state/receiver fixed point), that the combined 48 vectors are the F_4 root system, that every state/receiver contact has the dimensionless overlap one half, and - as the centerpiece - a finite Gleason theorem forcing the quadratic Born frame rule exactly where a triality Kochen-Specker obstruction forbids any global noncontextual outcome assignment. Scope is a real-quantum cell; complex quantum mechanics, the actuality of one outcome, the universal Born rule, and every nature-facing prediction are held open by name. One dependency-free script verifies the chapter from a clean clone in exact arithmetic; ten more verify the earlier stack."
+version: "0.8.0-pre"
+date-released: "2026-07-14"
 license: "CC-BY-NC-ND-4.0"

@@ -40,8 +40,14 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   [`RELEASE.md`](06-measured-floor/RELEASE.md) at tagging.
 - [`07-program-map/`](07-program-map/paper.md)
   — **Chapter 7** (v0.7.0): _The Taxonomy of Inevitability: A Program
-  Map_ (survey; carries the live release ceiling). DOIs recorded in its
+  Map_ (survey). DOIs recorded in its
   [`RELEASE.md`](07-program-map/RELEASE.md) at tagging.
+- [`08-nonexact-return/`](08-nonexact-return/paper.md)
+  — **Chapter 8** (v0.8.0): _The Non-Exact-Return Reconstruction: Finite
+  Born Valuation and Contextuality from a Retained Contact Interface_
+  (opens the contact-interface line; carries the live release ceiling).
+  DOIs recorded in its [`RELEASE.md`](08-nonexact-return/RELEASE.md) at
+  tagging.
 
 ## Chapter directory convention (v0.2 onward)
 

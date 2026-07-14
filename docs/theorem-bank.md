@@ -478,3 +478,42 @@ Maximal coupling: identical random stream, one fork choice redirected to
 the closest-weight alternative at a recorded add index. Symmetric-
 difference mass at matched add counts fits linear (slope 1.25 edges/add,
 R² = 0.998, monotone) — constant-rate propagation of one changed contact.
+
+### T-33 The Quaternionic Receiver (Chapter 8)
+
+The three retained quarter-turns of a non-exact-return contact satisfy
+`I^2 = J^2 = K^2 = -1` and `IJ = K = -JI`. Faithfulness on the retained
+return `z -> -1` excludes real dimensions 1 and 2 (positive squares;
+Frobenius-Schur indicator `-1`); the 4-dimensional carrier has real
+commutant `H` (a division algebra), hence is irreducible and minimal; the
+invariant symmetric form is unique up to scale (`c*I_4`), forcing the
+isotropic quadratic evaluation and a `1+3` split. All dimensions computed
+by exact rank.
+
+### T-34 The 24-Cell Self-Duality And The F_4 Closure (Chapter 8)
+
+The 24 unit states are the Hurwitz units; exhaustive polar enumeration
+over all `C(24,4) = 10626` supporting quadruples gives `conv(states)`
+polar = the 24 receiver vectors and back — a self-hosting state/receiver
+fixed point. The 48 combined vectors are reflection-closed with integer
+Cartan numbers (the `F_4` root system); the four simple reflections
+generate `W(F_4)` of order 1152 by direct closure.
+
+### T-35 Finite Gleason: The Born Frame Rule (Chapter 8)
+
+The 24 rays (the Peres configuration) carry exactly 24 orthonormal tetrad
+contexts; the context-incidence rank is 15, so frame valuations form a
+9-dimensional affine family; the 24 ray projectors span `Sym(4,R)` (rank
+10) and each context resolves the identity. The two 9-dimensional families
+coincide, so every normalized frame valuation is uniquely `f(x)=tr(rho
+P_x)` — a finite, exact Gleason theorem, no continuum, no continuity.
+
+### T-36 Triality Contextuality (Chapter 8)
+
+No global deterministic noncontextual assignment on the 24 rays exists
+(exhaustive). Exactly 16 minimal nine-context parity proofs (Kernaghan-
+type), all inside the state/receiver interface, each using three contexts
+from every `D_4` triality sector; any one or two sectors admit a global
+section, all three do not. Neither pole is contextual alone; the
+obstruction is irreducibly three-way and coincides with the support of
+the forced Born valuation (T-35).

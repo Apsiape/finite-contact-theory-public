@@ -2,44 +2,99 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21253591.svg)](https://doi.org/10.5281/zenodo.21253591)
 
-> **Quantum mechanics, not assumed — grown.**
-> From a finite floor of one-use marks, with no Hilbert space, no probability,
-> and no continuum granted at the start, this program reconstructs the
-> CHSH/Bell arena, the Born rule as counting, and the Tsirelson boundary — and
-> generates the quantum carrier grammar itself — machine-verified at
-> binary-Bell scope.
+> **Reality, rebuilt from a single finite event — and you can run the proofs.**
+> Start with the least that can happen when something finite touches what it
+> cannot fully take in: a mark, made once, that leaves a difference it cannot
+> erase. With no Hilbert space, no probability, no spacetime, and no continuum
+> granted at the start, this program grows the machinery of physics back — the
+> quantum boundary, the Born rule, contextuality, the structure of time — and
+> it ships a dependency-free script for every piece it calls finished.
 
-Most attempts to rebuild physics from something deeper ask you to take a lot on
-faith. This one hands you a script. Run it and watch a fragment of quantum
-mechanics fall out of pure finite counting, with the exact edge of the result
-printed on the screen — then read the list of everything we killed to get here.
+This is a program with a large ambition and a strict rule. The ambition is to
+sort every feature of physical law into what a generative floor *forces* and
+what it merely *receives* — a taxonomy of inevitability. The rule is that
+nothing enters as a *result* until it is a runnable theorem, a recovery of
+known mathematics from the deeper floor, a scoped model result, or a clean,
+logged failure. The bold frame and the exact scope are both true at once, and
+the difference between them is labeled on every claim.
 
-**This is v0.7 — seven published chapters on two axes.** The
-*quantum-facing axis*: Chapter 1 (v0.1) grew the Bell/CHSH quantum boundary
-from a finite one-use floor; Chapter 2 (v0.2) added the
-**behavior-conditioned capacity** and an exact **strict preparation gap**,
-proved in rational arithmetic
-([papers/02-behavior-conditioned-capacity/](papers/02-behavior-conditioned-capacity/paper.md)).
-The *finite-epistemics axis*, new in this consolidation round: Chapter 3
-(v0.3) — the **identifiability and debt calculus** (a description suffices
-exactly when its kernel respects the purpose; identifying one of `m`
-alternatives costs exactly `ceil(log2 m)` receipt bits, and no
-symmetry-respecting rule can make the selection); Chapter 4 (v0.4) —
-**questions as operators** and a second law of asking
-(`EC = H + KL + O`: nothing identifies below entropy); Chapter 5 (v0.5) —
-**time disassembled** into four independent theorems (no derivable "now";
-law-time covers visible-time; an arrow with no thermodynamics; lawfulness
-without foundation); Chapter 6 (v0.6) — a **measured generative floor**: a
-complete public engine with three fenced measurements, including an
-independent-implementation agreement with the private laboratory at 0.927.
-Chapter 7 (v0.7) is the map. Everything past these chapters (spacetime,
-gravity, the continuum, the general quantum case, and every nature-facing
-prediction) is held open by name. The point of a chapter is that you can
-check it now.
+![The finite-contact reconstruction: three published lines growing from one one-use floor, ending in the Chapter 8 state/receiver closure where the Born rule and contextuality meet.](assets/reconstruction-map.svg)
 
-![The reconstruction ladder: quantum structure grown from a finite one-use floor, each rung labeled by status and scope.](assets/reconstruction-ladder.svg)
+## What is proven now — three published lines
 
-## Run it yourself (about 30 seconds)
+**The quantum-facing axis** grows a fragment of quantum mechanics from pure
+finite counting: one-use contact → coherent counting → one-receiver gluing →
+rational Born weights → the CHSH/Pell boundary at `2√2` → a native carrier
+grammar → a behavior-conditioned contextual capacity with an exact strict
+preparation gap (Chapters 1–2).
+
+**The finite-epistemics axis** builds the calculus of description and asking:
+the identifiability and debt law (identifying one of `m` alternatives costs
+exactly `⌈log₂ m⌉` receipt bits, and no symmetry-respecting rule can select),
+the inquiry calculus and its second law of asking (`EC = H + KL + O`), four
+theorems disassembling time (no derivable "now"; an arrow without
+thermodynamics; lawfulness without foundation), and a measured generative
+floor with an independent-implementation agreement (Chapters 3–6, mapped in 7).
+
+**The contact-interface reconstruction** (Chapter 8, new in v0.8) is the
+newest and, for a quantum-foundations reader, the sharpest. From a *retained*
+contact interface — one whose second use cannot silently become a non-use —
+it derives, entirely by exact finite checks, a single object on which
+measurement lives:
+
+- the primitive receiver is the **quaternions** `H` (minimal, irreducible,
+  with a unique invariant positive form and a forced 1+3 split);
+- its unit states are the **24-cell**, whose polar dual is again a 24-cell —
+  an exact self-hosting state/receiver fixed point;
+- the combined 48 vectors are the **F₄ root system** (Weyl order 1152);
+- every state/receiver contact has the same forced overlap ratio **1/2**;
+- a **finite Gleason theorem**: the finite family of measurement contexts
+  forces the quadratic Born frame rule `f(x) = tr(ρ Pₓ)`, with *no continuum
+  and no continuity assumption*;
+- a **triality Kochen–Specker obstruction**: the same finite family admits
+  no global noncontextual outcome assignment (exactly sixteen minimal
+  nine-context parity proofs, all at the state/receiver interface).
+
+Put the last two side by side and you get the chapter's one sentence: **the
+valuation is uniquely lawful exactly where a global pointing is impossible.**
+Born valuation and contextuality are not two separate quantum ingredients
+here — they are the two faces of one finite closure.
+
+## The live ceiling
+
+The whole release is bounded by one sentence, quoted identically in this
+README, the [claim register](docs/public-claim-register.md), the
+[chapter-8 paper](papers/08-nonexact-return/paper.md), and the
+[v0.8.0 release notes](RELEASE-NOTES-v0.8.0.md):
+
+> Finite Contact Theory is a finite reconstruction program with a scoped
+> theorem stack on three published lines — a quantum-facing axis, from
+> one-use contact to counting, one-receiver gluing, rational Born weights,
+> the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and
+> a behavior-conditioned contextual capacity with an exact strict
+> preparation gap; a finite-epistemics axis, from the identifiability and
+> debt calculus to the inquiry calculus and its second law of asking, four
+> theorems separating the structure of time, and a measured generative
+> floor; and a contact-interface reconstruction, in which a retained
+> interface forces a quaternionic state/receiver cell whose self-dual
+> closure is the 24-cell and the F_4 root system and whose finite
+> measurement calculus forces the quadratic Born frame rule (a finite
+> Gleason theorem) exactly where a global noncontextual assignment is
+> impossible (a triality Kochen-Specker obstruction) — under which the
+> quantum boundary is a floor theorem at binary-Bell finite-carrier scope,
+> the preparation gap is an exact theorem at KCBS-pentagon scope, the
+> interface reconstruction is a finite model-scope recovery on a
+> real-quantum cell, and every unearned generalization — complex quantum
+> mechanics, the actuality of one outcome, the universal Born rule, and
+> every nature-facing prediction — is left open by name.
+
+The scope fence is the result, not an apology. In particular this does **not**
+claim all quantum mechanics is derived: Chapter 8 is a *real-quantum* cell
+(`Sym(4,ℝ)`); complex quantum mechanics, the actuality of one outcome, the
+universal Born rule, and every nature-facing prediction are held open and
+named below.
+
+## Run it yourself (about a minute)
 
 No dependencies beyond Python's standard library.
 
@@ -47,120 +102,72 @@ No dependencies beyond Python's standard library.
 python verification\scripts\run_all.py
 ```
 
-Expected final line:
+Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Eleven dependency-free
+scripts run — the no-jam core, the rational Born weights, the CHSH ladder
+climbing to `2*sqrt(2)` on the Pell fence `p^2 - 2q^2 = -1`, the exact
+preparation gap, the debt/asking/time theorems, the floor engine, and — new
+in v0.8 — `nonexact_return_reconstruction.py`, which verifies the quaternionic
+receiver, the 24-cell self-duality, the F₄ closure, the forced `1/2`, the
+finite Gleason theorem, and the triality Kochen–Specker obstruction, all in
+exact arithmetic in a few seconds. This is the shipped public subset — not the
+full private corpus.
 
-```text
-ALL SHIPPED VERIFICATION: PASS
-```
+## Recoveries, honestly named
 
-Along the way it runs ten dependency-free scripts: the no-jam core clearing
-depth 7; the rational Born weights matching their counting shares; the CHSH
-ladder climbing to `2*sqrt(2)` on the exact Pell fence `p^2 - 2q^2 = -1`;
-the complementarity angle `t(k,n) = k/n`, exactly; the chapter-2 strict
-preparation gap certified in exact rational arithmetic; the chapter-3
-waist/debt/continuation theorems; the chapter-4 asking algebra and its
-second law; the chapter-5 time theorems (torsor, helix, ledger arrow,
-Möbius twist); and the chapter-6 floor engine growing 18 worlds and passing
-its three measurement fences. This reproduces the shipped public subset —
-not the full private corpus. (Runtime: about a minute.)
-
-## The one claim
-
-The whole release ceiling is a single sentence, and it is quoted identically
-in the chapter-7 paper, the claim register, and the release notes:
-
-> Finite Contact Theory is a finite reconstruction program with a scoped
-> theorem stack on two published axes — a quantum-facing axis, from one-use
-> contact to counting, one-receiver gluing, rational Born weights, the
-> CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a
-> behavior-conditioned contextual capacity with an exact strict preparation
-> gap; and a finite-epistemics axis, from the identifiability and debt
-> calculus to the inquiry calculus and its second law of asking, four
-> theorems separating the structure of time, and a measured generative
-> floor — under which the quantum boundary is a floor theorem at
-> **binary-Bell finite-carrier scope**, the preparation gap is an exact
-> theorem at **KCBS-pentagon scope**, every epistemics and time result is a
-> finite machine-checked theorem or a fenced measurement at its stated
-> model scope, and every unearned generalization is left open by name.
-
-The scope fence is not an apology. It is the result. We tell you precisely how
-far the proof reaches; that edge is the theorem. In particular this does **not**
-claim that all quantum mechanics is derived — the general selector, `q >= 3`
-carriers, cross-site interlocking, and every nature-facing prediction are held
-open and named below.
+Chapter 8 lands on objects that mathematicians already know: the Hurwitz
+units and the 24-cell, the F₄ root system, Gleason's theorem, and the Peres
+24-ray Kochen–Specker set with its Kernaghan-type parity proofs. They are
+**recovered here in a derivational role** — forced closures of a retained
+contact interface rather than posited apparatus — and named as such. The
+novelty claim is only the *composition*: that a contact interface forces this
+exact object, and that Born and contextuality are its two faces. Per the
+program's discipline, that is graded in the [claim register](docs/public-claim-register.md),
+never asserted above its evidence.
 
 ## What we killed — and why that is the point
 
-A theory of everything that never discards anything is not a theory; it is a
-mood. This one keeps a public [correction ledger](docs/correction-ledger.md),
-and the kill count is a feature, not an embarrassment. Claims that looked
-beautiful and died on the evidence include:
-
-- binary arity as uniquely forced by a matter–memory coincidence;
-- matter fixed at dimension 2 across arities;
-- closure dynamics reaching the Tsirelson value on its own;
-- a simple time-arrow statistic as a nature-facing bet;
-- graph-floor gravity as a generic divergence from general relativity;
-- raw record capacity read as memory;
-- the completed continuum as a native object.
-
+A theory that never discards anything is a mood, not a theory. This one keeps
+a public [correction ledger](docs/correction-ledger.md), and the kill count is
+a feature. Claims that looked beautiful and died on the evidence include:
+binary arity as uniquely forced; matter fixed at dimension 2; closure dynamics
+reaching Tsirelson on its own; a simple time-arrow statistic as a nature-facing
+bet; graph-floor gravity as a generic divergence from general relativity; raw
+record capacity read as memory; the completed continuum as a native object.
 Each was pursued hard, then retired under adversarial review. The positive
-results in this repository are the ones that survived that discipline.
-
-## The ladder — each rung earns its own label
-
-```text
-finite one-use contact                                      [ primitive ]
-  -> witness fibers and trace classes                       [ definition ]
-  -> coherent counting measure                              THEOREM
-  -> one-receiver gluing                                    THEOREM
-  -> rational Born weights = counting through gluing        THEOREM  (rational scope)
-  -> CHSH / Pell boundary -> 2*sqrt(2)                      THEOREM + RECOVERY (rational scope)
-  -> carrier grammar grown from one-use contact, t = k/n    THEOREM  (binary-Bell scope)
-  -> the quantum boundary is a floor theorem                (binary-Bell finite-carrier scope)
-```
-
-**The counting, Born, CHSH/Pell, and native-carrier rungs each ship an exact
-check** — five scripts in all, counting no-totality — so the chain above is not
-a promise, it is runnable. Every label and scope is defended in the
-[theorem bank](docs/theorem-bank.md) and controlled by the
-[public claim register](docs/public-claim-register.md). Nothing is banked on a
-single implementation: the no-jam core, for one, was reproduced by an
-independent repo-barred replicator before it earned its label.
+results here are the ones that survived it.
 
 ## The horizon — bold, and not yet proven
 
-These are the possibilities the program is built to attack. They are the
-*horizon*, explicitly not results, and each will only enter the theory if it
-becomes a scoped theorem, a recovery, a model result, or a clean failure:
+Named targets, explicitly *not* results, each entering only as a scoped
+theorem, a recovery, a model result, or a clean failure:
 
-- **Quantum structure as a reception theorem** — begun at binary-Bell scope; the general case open.
-- **Spacetime as contact bookkeeping** — geometry as what stable coarse reception looks like.
-- **Gravity as aperture thermodynamics** — energy and temperature appearing at visible-sector boundaries, not at the floor.
-- **The continuum as an admitted completion** — real numbers and Hilbert hosts as overlays whose finite content is reconstructed horizon by horizon.
-- **Observers as reception classes** — a bounded pattern of what can be jointly received, not a primitive subject.
-- **Constants as biography** — dimensionful constants belonging to a branch's received history, not the forced grammar.
+- **Complex quantum mechanics** — the projective phase that would complexify
+  the Chapter-8 cell (held open).
+- **The actuality/update law** — whether a matched non-Born occurrence kernel
+  survives on the Chapter-8 object, or one law is forced (a registered next
+  question).
+- **The multi-floor structure** — how independently generated cells glue
+  (the two-floor and many-floor extensions of the F₄ closure).
+- **Spacetime, gravity, the continuum, observers, and constants** — the older
+  reconstruction horizon, each held open by name.
+- **The first nature-facing prediction** — reserved for a future major release
+  with a registered discriminator.
 
 ## Read it
 
-0. [papers/07-program-map/paper.md](papers/07-program-map/paper.md) — Chapter 7: the program map (start here for the whole picture).
-1. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — Chapter 2: the exact preparation gap (standard contextuality language).
-2. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — Chapter 1: the v0.1 release narrative.
-2a. Chapters 3–6, the finite-epistemics axis:
+1. [papers/08-nonexact-return/paper.md](papers/08-nonexact-return/paper.md) — **Chapter 8** (v0.8): the non-exact-return reconstruction (start here for the newest result).
+2. [papers/07-program-map/paper.md](papers/07-program-map/paper.md) — **Chapter 7**: the program map (start here for the whole picture).
+3. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — **Chapter 2**: the exact preparation gap, in standard contextuality language.
+4. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — **Chapter 1**: the v0.1 release narrative.
+5. Chapters 3–6 (the finite-epistemics axis):
    [the debt calculus](papers/03-identifiability-and-debt/paper.md) ·
    [the inquiry calculus](papers/04-inquiry-calculus/paper.md) ·
    [becoming webs](papers/05-becoming-webs/paper.md) ·
    [the measured floor](papers/06-measured-floor/paper.md).
-3. [docs/mathematical-core.md](docs/mathematical-core.md) — the formal vocabulary.
-4. [docs/theorem-bank.md](docs/theorem-bank.md) — theorem rows and proof sketches.
-5. [docs/public-claim-register.md](docs/public-claim-register.md) — every public claim, labeled and scoped.
-6. [verification/evidence-manifest.md](verification/evidence-manifest.md) — what evidence is shipped, cited, historical, or held.
-7. [docs/finite-contact-theory.md](docs/finite-contact-theory.md) — the extraction plan for the full theory spine: where these chapters sit in the larger program.
+6. [docs/theorem-bank.md](docs/theorem-bank.md) · [docs/public-claim-register.md](docs/public-claim-register.md) — theorem rows and the controlling claim list.
+7. [docs/mathematical-core.md](docs/mathematical-core.md) · [docs/glossary.md](docs/glossary.md) · [docs/how-to-read.md](docs/how-to-read.md).
 
-Short on time? Start with [docs/how-to-read.md](docs/how-to-read.md), and keep
-[docs/glossary.md](docs/glossary.md) open for terms. How the repository grows
-without rewriting its past is [EVOLUTION.md](EVOLUTION.md); what remains open
-is in [docs/roadmap.md](docs/roadmap.md).
+How the repository grows without rewriting its past is [EVOLUTION.md](EVOLUTION.md); what remains open is in [docs/roadmap.md](docs/roadmap.md).
 
 ## Verify and audit
 
@@ -170,103 +177,54 @@ python scripts\release_audit.py          # release hygiene: scope, links, no ove
 ```
 
 The audit refuses stale scope language, private paths, and un-scoped overclaim
-phrases. The release is designed to feel powerful because it is exact, not
-because it says too much.
+phrases, and checks the live ceiling verbatim in its advertised locations. The
+release is built to feel powerful because it is exact, not because it says too
+much — and the bold frame at the top of this page is held to that same audit.
 
 ## Status
 
-This is v0.7.0: seven complete, scoped chapters on two axes — 44 claim rows
-(FCT-01..44), 32 theorem rows (T-01..32), ten shipped dependency-free
-scripts, a public correction ledger, and one live ceiling sentence. The
-general quantum selector, cross-site interlocking, `q >= 3`, n-scaling of
-the measured floor, continuum/relativistic structure, and every
-nature-facing claim are deliberately held or open, and named as such —
-these are chapters, not a finished program.
-
-## How this repository evolves
-
-The theory is alive and this repository is built to grow without rewriting
-its past. The rules are short and binding:
-
-- **one canonical repository, released in chapters** — each release is a new
-  scoped chapter under [papers/](papers/README.md), tagged and archived with
-  its own version DOI; the concept DOI always resolves to the latest state;
-- **history is append-only** — claim rows and identifiers are never deleted
-  or reused; status changes are logged in place; published chapters are
-  frozen at their tag;
-- **corrections are public and loud** — demotions and withdrawals go to the
-  [correction ledger](docs/correction-ledger.md), and a growing ledger is the
-  discipline working, not the theory failing;
-- **every release passes the same gate** —
-  [docs/release-checklist.md](docs/release-checklist.md), covering scope
-  freeze, claim hygiene, clean-clone verification, rights, and metadata.
-
-The full charter — versioning semantics, the private-to-public export rules,
-and the citer's contract — is [EVOLUTION.md](EVOLUTION.md).
+This is v0.8.0: eight chapters on three lines — 50 claim rows (FCT-01..50), 36
+theorem rows (T-01..36), eleven shipped dependency-free scripts, a public
+correction ledger, and one live ceiling sentence. Complex quantum mechanics,
+the actuality of one outcome, the universal Born rule, the multi-floor
+structure, spacetime/gravity/continuum, and every nature-facing claim are
+deliberately held or open, and named as such.
 
 ## Author
 
-- Seth Douglas
-- Email: apsiape@gmail.com
-- ORCID: https://orcid.org/0009-0007-4708-3252
-- GitHub: https://github.com/Apsiape
+- Seth Douglas · ORCID: [0009-0007-4708-3252](https://orcid.org/0009-0007-4708-3252) · [github.com/Apsiape](https://github.com/Apsiape) · apsiape@gmail.com
 
 ## Citation
 
-Archived and citable via Zenodo. Please cite the current release as:
-
-> Douglas, S. (2026). *Finite Contact Theory v0.7: The Taxonomy of
-> Inevitability — A Program Map* (v0.7.0). Zenodo.
-> https://doi.org/10.5281/zenodo.21333922
-
-- **Concept DOI** (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591)
-- **Version DOI** (v0.7.0): [10.5281/zenodo.21333922](https://doi.org/10.5281/zenodo.21333922)
-- **Version DOIs** (earlier):
-  [v0.6.0](https://doi.org/10.5281/zenodo.21333868) ·
-  [v0.5.0](https://doi.org/10.5281/zenodo.21333710) ·
-  [v0.4.0](https://doi.org/10.5281/zenodo.21333642) ·
-  [v0.3.0](https://doi.org/10.5281/zenodo.21333556) ·
-  [v0.2.0](https://doi.org/10.5281/zenodo.21324301) ·
-  [v0.1.0](https://doi.org/10.5281/zenodo.21253592)
-
-Machine-readable metadata is in [CITATION.cff](CITATION.cff).
+Archived and citable via Zenodo. Cite the program by its **concept DOI**
+(always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591).
+The v0.8.0 version DOI is recorded in
+[papers/08-nonexact-return/RELEASE.md](papers/08-nonexact-return/RELEASE.md)
+and [CITATION.cff](CITATION.cff) at mint. Earlier version DOIs (v0.1.0–v0.7.0)
+are listed in [CITATION.cff](CITATION.cff).
 
 ## Rights
 
 This work is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 You may share it with attribution; you may not use it commercially or
-distribute modified versions. For anything beyond that — commercial use or
-derivative works — contact the author. See [LICENSE.md](LICENSE.md).
+distribute modified versions. For anything beyond that, contact the author.
+See [LICENSE.md](LICENSE.md).
 
 ## A note from the author
 
-A bit of honesty about where this comes from. I'm not a physicist. I work in AI
-and software, and I follow physics as an outsider. I read and watch a lot, so I
-have a decent feel for the open questions, but I don't have the formal training.
-
-It didn't start as a theory of physics anyway. It started with one question I
-couldn't put down: what is the least that has to exist when something finite
+I'm not a physicist. I work in AI and software and follow physics as an
+outsider. It didn't start as a theory of physics: it started with one question
+I couldn't put down — what is the least that has to exist when something finite
 touches something it can't fully take in? A finite thing makes contact with
-something larger than itself. The contact is real but partial, so it leaves a
-difference. And once that difference is there, it can't just be wiped away. The
-finite thing becomes, in a sense, answerable for it.
+something larger than itself; the contact is real but partial, so it leaves a
+difference, and that difference can't just be wiped away.
 
-I kept pulling on that thread. Not starting from physics, or consciousness, or
-big systems, but from that one small event: finite contact with what exceeds
-it. For a while I thought of it as finite answerability, the idea that a finite
-thing is only being honest if it never pretends it isn't finite. It slowly
-turned into what's here: finite contact theory.
-
-I'm not a mathematician either, so the way I chased it is unusual. Over the last
-seven months or so I built a setup where several AI models work together as a
-research team, and pointed it at that question. It took around 15 private repos
-and a lot of dead ends. The hardest part was never the physics. It was getting
-the models to reach for something new instead of repeating what they were
-trained on.
-
-This is the first small piece of what came out of it, with more built out
-privately that I'll share as it's ready. I know an AI-assisted theory from
-someone outside the field is easy to doubt. That's fair, and it's exactly why
-everything here is scoped, labeled, and runnable. If I've gotten something
-wrong, I want to know. And if you'd like to talk or work on this together, I'm
-at apsiape@gmail.com.
+The way I chased it is unusual: over about seven months I built a setup where
+several AI models work together as a research team and pointed it at that
+question. The hardest part was never the physics; it was getting the models to
+reach for something new instead of repeating what they were trained on. This is
+the piece that has been made public so far, with more built out privately that
+I'll share as it's ready. An AI-assisted theory from someone outside the field
+is easy to doubt — that's fair, and it's exactly why everything here is scoped,
+labeled, and runnable. If I've gotten something wrong, I want to know:
+apsiape@gmail.com.
