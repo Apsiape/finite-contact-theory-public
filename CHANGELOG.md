@@ -7,7 +7,7 @@ All notable public-release changes will be recorded here.
 Eighth public release: **Chapter 8 — The Non-Exact-Return Reconstruction:
 Finite Born Valuation and Contextuality from a Retained Contact
 Interface**. Opens the program's third line (a contact-interface
-reconstruction). Version DOI recorded at mint; concept DOI
+reconstruction). Version DOI `10.5281/zenodo.21360609`; concept DOI
 `10.5281/zenodo.21253591`.
 
 Added:

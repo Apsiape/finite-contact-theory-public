@@ -93,6 +93,5 @@ python scripts\release_audit.py           # expects: PUBLIC RELEASE AUDIT: PASS
 
 Cite the program by its concept DOI
 [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591); the
-v0.8.0 version DOI is recorded in
-[papers/08-nonexact-return/RELEASE.md](papers/08-nonexact-return/RELEASE.md)
-and [CITATION.cff](CITATION.cff) at mint.
+v0.8.0 version DOI is
+[10.5281/zenodo.21360609](https://doi.org/10.5281/zenodo.21360609).
