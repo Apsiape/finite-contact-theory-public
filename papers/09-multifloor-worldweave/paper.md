@@ -64,20 +64,30 @@ theorem, not a hedge:
 > **conserved, received input**: making the dynamics richer only relocates
 > the selector into a potential or rate law; it never creates one.
 
-There is a clean complement (§4): the floor cannot select *which* phase
-exists, but *given* an actual phase it forces the phase's internal law —
-the Born response and the interaction arity — by counting terminal
-witnesses, with no primitive state vector and no added Born postulate. So
-the division is sharp: **which world-phase is received historical
-actuality; how an actual phase distributes its futures is forced.**
+There is a clean complement (§4), and it is careful about exactly how much
+counting buys. The floor cannot select *which* phase exists; *given* an
+actual phase, counting forces the **form** of that phase's internal law — a
+one-parameter positive equivariant weight family and its sequential
+composition, plus the interaction arity — but it does **not** force the Born
+rule. Born is one point of that family (equal tickets), and equal-tickets is
+an *added magnitude law*: precisely the relocated selector §3 guarantees. The
+retained `Z₂` sign scar then upgrades counting to a genuine real amplitude
+calculus (interference is restored), and two independent ingredients remain
+received: the equal-ticket magnitude law and the enlargement to a complex
+phase. So the division is sharp, with the actualization layer itself split:
+**which world-phase exists is received; the *form* of an actual phase's
+statistics is forced by counting; its Born *magnitude* and complex *phase*
+are received.**
 
 Everything below is exact and machine-checked
 (`verification/multifloor_worldweave.py` for §1;
-`verification/forcing_audit.py` for §§2–4). The named objects — the `E_8`
-root system, the octonions, the hexacode, the classification of doubly-even
-self-dual `[24,12]` codes, the MacWilliams identity, Lyapunov / detailed
-balance, and Delsarte's dual-distance bound — are known mathematics,
-recovered here in a derivational role.
+`verification/forcing_audit.py` for §§2–4; `verification/wcd_actualization.py`
+for the §4 counting family, decoherence, and sign-scar amplitude calculus).
+The named objects — the `E_8` root system, the octonions, the hexacode, the
+classification of doubly-even self-dual `[24,12]` codes, the MacWilliams
+identity, Lyapunov / detailed balance, Delsarte's dual-distance bound,
+mutually-unbiased bases, and the count of order-4 Hadamard matrices — are
+known mathematics, recovered here in a derivational role.
 
 ## 1. The closure atlas (the recovered spine)
 
@@ -180,28 +190,63 @@ extend, but that extension is not proved here.)
 target-blind equivariant dynamics can only assign the uniform `1/3` to each.
 The class is forced; the member is received.
 
-## 4. Actualization by counting: the internal law of an actual phase is forced
+## 4. Actualization by counting: the *form* is forced, the Born rule is not
 
-The floor cannot select which phase exists. But *given* an actual phase, it
-forces the phase's internal law by counting terminal witnesses
-(`verification/forcing_audit.py`, Section C) — the positive complement:
+The floor cannot select which phase exists. *Given* an actual phase, counting
+terminal witnesses forces the **form** of its internal law — but an earlier
+version of this chapter overreached here, and the correction makes the result
+sharper. Counting does **not** force the Born rule; it forces a
+one-parameter family of which Born is one point
+(`verification/wcd_actualization.py`; the equal-ticket point also appears as
+Section C of `verification/forcing_audit.py`).
 
-- **Born by counting.** On the 24-cell, the response kernel counted from
-  terminal witnesses is `K = (1/3)|⟨p,q⟩|²`, with values `{0, 1/12, 1/3}`,
-  row-stochastic, trace 4, and rank `10 = dim Sym(4,ℝ)`. The quadratic Born
-  response is *counted*, with no primitive state vector and no added Born
-  postulate — the multi-floor echo of Chapter 8's finite Gleason theorem.
-- **Correlation arity.** For an actual linear-code phase with dual distance
-  `d_⊥`, every marginal on `≤ d_⊥ − 1` coordinates is exactly uniform, so
-  the first visible global binding arity is `d_⊥` (verified: hexacode
-  `d_⊥ = 4`, uniform through three floors and breaking at four; the matched
-  `[24,12,4]` counterworld `d_⊥ = 4`; Golay `d_⊥ = 8`, cited). A population can
-  possess exact global binding while every lower-arity observer sees maximum
-  local randomness. (Recovery: Delsarte — dual distance = orthogonal-array
-  strength `+ 1`.)
+- **Counting forces the form, not Born.** The 24-cell response geometry is
+  12 rays in three orthonormal frames, so the `144 = 12 × 12` ordered
+  (source, target) histories split into `48` *return* (same-frame) and `96`
+  *transfer* (cross-frame). The most general positive equivariant weight is a
+  single ticket `α` on return and `β` on transfer, times the incidence
+  `|⟨p,q⟩|²`. This is a lawful stochastic response for **every** `α, β > 0`,
+  with closed form `P(p→p) = α/(α+2β)`, `P(cross) = β/(4α+8β)`, and
+  `P(orthogonal) = 0`. The Born kernel `K = (1/3)|⟨p,q⟩|²` with values
+  `{0, 1/12, 1/3}` occurs **only** at equal tickets `α = β` (algebraically,
+  `P(p→p) = 1/3 ⟺ α = β`; e.g. `(α,β) = (2,1)` gives identity weight `1/2`).
+  So counting forces the equivariant **form** and sequential composition;
+  **equal-tickets is an added magnitude law** — exactly the conserved,
+  relocated selector §3 predicts, now appearing at the actualization layer.
+  There is no primitive state vector, but there *is* an added Born postulate,
+  and naming it is the honest result.
+- **Positive counting is decohered; the sign scar restores interference.**
+  Positive additive counting sums *probabilities*, so it can never produce
+  interference: the minimal two-path witness has coherent
+  `|½ + (−½)|² = 0` against decohered `¼ + ¼ = ½`, and across all `576`
+  two-path configurations on the three frames the positive value differs from
+  the coherent `|Σ amplitude|²` in every case — the destructive `0` is
+  unreachable by counting. The retained `Z₂` sign scar (`z → −z`) supplies a
+  sign alphabet `{+1,−1}`, under which the three frames are **three real
+  mutually-unbiased bases**: their transition matrices have entries `±½` and
+  compose exactly as a cocycle `U_ut · U_ts = U_us`, with the `768` real
+  order-4 Hadamard matrices as the sign supply. Amplitudes now *add* and
+  `P = |A|²` is applied after — genuine real coherent interference. (Recovery:
+  real MUBs; the Hadamard count.)
+- **Correlation arity, at the uniform-ticket measure.** Under the equal-ticket
+  (`α = β`) measure, for an actual linear-code phase with dual distance
+  `d_⊥`, every marginal on `≤ d_⊥ − 1` coordinates is exactly uniform, so the
+  first visible global binding arity is `d_⊥` (verified: hexacode `d_⊥ = 4`,
+  uniform through three floors and breaking at four; the matched `[24,12,4]`
+  counterworld `d_⊥ = 4`; Golay `d_⊥ = 8`, cited). A population can possess
+  exact global binding while every lower-arity observer sees maximum local
+  randomness. (Recovery: Delsarte — dual distance = orthogonal-array strength
+  `+ 1`.)
 
-So: **which world-phase exists is received historical actuality; how an
-actual phase distributes its futures is forced by witness counting.**
+**Two gaps remain, held open and independent** (`wcd_actualization.py`,
+Section 5): (a) the **magnitude law** `α = β` is not forced — asymmetric
+tickets `(2,1)` and `(1,2)` are equally lawful phases; and (b) the
+**complex phase** — the binary sign scar reaches only `|1 ± 1|² ∈ {0, 4}`,
+so the quantum value `|1 + i|² = 2` is a separate added ingredient.
+
+So the actualization division is itself layered: **which world-phase exists
+is received; the *form* of an actual phase's statistics is forced by counting;
+its Born *magnitude* (`α = β`) and its complex *phase* are received.**
 
 ## 5. The reframed statement, scope, and what is held open
 
@@ -210,9 +255,12 @@ triality-covariant, self-dual, and delocalizing receiver laws, the
 finite-contact closure problems recover the `E_8`–hexacode(–Golay–Leech)
 spine. The floor has not selected those laws over matched lawful
 alternatives.* What the floor forces is the **atlas** of lawful closures,
-the terminal self-dual **class**, and — given an actual phase — its internal
-**statistics**. What it does not force, statically or dynamically, is the
-**member**; that is a conserved, received input.
+the terminal self-dual **class**, and — given an actual phase — the **form**
+of its internal statistics (a one-parameter equivariant counting family, with
+a real amplitude calculus from the sign scar). What it does not force,
+statically or dynamically, is the **member**; nor, at the actualization
+layer, the Born **magnitude** (`α = β`) or the complex **phase**. Those are
+conserved, received inputs.
 
 **On "receiver-complete."** Do not read any statement as "completeness
 forces self-duality." Operational receiver-completeness is a separating dual
@@ -222,15 +270,18 @@ dynamics can force (§3), never a specific self-dual code.
 **Recoveries, named.** The `E_8` root system, the octonions, the hexacode,
 the doubly-even self-dual `[24,12]` classification (Pless–Sloane), the
 MacWilliams identity, the rooted-tree count and Lyapunov / detailed-balance
-theory, and Delsarte's bound are known mathematics, recovered in a
-derivational role; the novelty is the *composition* and the *forcing
-boundary*, graded in the claim register.
+theory, Delsarte's bound, real mutually-unbiased bases, and the count of
+order-4 Hadamard matrices are known mathematics, recovered in a derivational
+role; the novelty is the *composition* and the *forcing boundary*, graded in
+the claim register. The Born-measure underdetermination (form fixed, measure
+free) is the same phenomenon Gleason's theorem exhibits.
 
 **Held open by name.** Which world-phase is selected (received actuality);
 whether nature realizes `E_8`, the hexacode, or any code; a metric,
-spectrum, or dimensionful constant (none is derived); and the hinges
-inherited from Chapter 8 (complex quantum mechanics, the actuality of one
-outcome, the universal Born rule).
+spectrum, or dimensionful constant (none is derived); the Born **magnitude**
+law (`α = β`) and the **complex phase**, both received at the actualization
+layer; and the hinges inherited from Chapter 8 (complex quantum mechanics,
+the actuality of one outcome, the universal Born rule).
 
 The claim-register rows this chapter rests on are frozen in
 [`claims.md`](claims.md); the freeze record is in [`RELEASE.md`](RELEASE.md).

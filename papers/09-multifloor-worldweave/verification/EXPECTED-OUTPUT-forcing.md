@@ -6,11 +6,6 @@ fraction of a second. Run from this directory (or from
 
 ```powershell
 python forcing_audit.py
-```
-
-Expected output, verbatim:
-
-```text
 ## A1: Golay is not the unique doubly-even self-dual [24,12] code
   [PASS] the Golay enumerator (1 + 759y^8 + 2576y^12 + ..., d=8) and the matched alternative (1 + 6y^4 + 735y^8 + ..., d=4) are BOTH exactly MacWilliams-self-dual and doubly-even, each summing to 2^12 = 4096, and they are distinct (A_4 = 0 vs 6). Golay's d=8 is thus one point in the Pless-Sloane classification of doubly-even self-dual [24,12] codes, not a forced closure.
   [PASS] a concrete matched code is constructible: six local port receipts (the block all-ones words) plus a trace-lifted hexacode form a [24,12] binary code that is self-dual and doubly-even with exactly the alternative weight enumerator (A_4 = 6, the six receipts), for a port map found by exhaustive search (FOUND). This is a lawful alternative to Golay on the same six cells and four ports.
@@ -32,7 +27,7 @@ Expected output, verbatim:
 ## B4: the terminal class is forceable; its members are S_3-transitive (uniform 1/3)
   [PASS] self-duality is forceable as a terminal CLASS (H = H-perp is a well-defined attractor set), but its 3 members form one S_3 orbit, so a target-blind equivariant dynamics can only assign the uniform measure 1/3 = 1/3 to each. The class is forced; the member never is.
 ## C1: Born-by-counting -- the response kernel and its spectrum
-  [PASS] the response kernel K = (1/3)|<p,q>|^2 on the 12 rays takes only the values {0, 1/12, 1/3} (True), is row-stochastic (True) with every row profile (one 1/3, eight 1/12, three 0) (True), trace 4, and rank 10 = dim Sym(4,R) = 10. The quadratic Born response is counted from terminal witnesses -- no primitive state vector, no added Born postulate.
+  [PASS] the response kernel K = (1/3)|<p,q>|^2 on the 12 rays takes only the values {0, 1/12, 1/3} (True), is row-stochastic (True) with every row profile (one 1/3, eight 1/12, three 0) (True), trace 4, and rank 10 = dim Sym(4,R) = 10. This K is the EQUAL-TICKET (alpha = beta) member of the one-parameter equivariant counting family (wcd_actualization.py): counting forces the FORM of an actual phase's response, but the Born magnitude law (equal tickets) is an added, received input -- the relocated selector Section B predicts.
 ## C2: the correlation-arity theorem (uniform marginals below the dual distance)
   [PASS] for a self-dual linear code phase the first visible global binding arity equals the dual distance: the hexacode has dual distance 4 with all marginals through 3 floors exactly uniform (True) and the first nonuniform marginal at 4 floors (True); the matched binary [24,12,4] phase has dual distance 4. So a population can carry exact global binding while every lower-arity observer sees maximum local randomness (Delsarte: dual distance = orthogonal-array strength + 1).
 

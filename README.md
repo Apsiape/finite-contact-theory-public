@@ -217,7 +217,7 @@ much — and the bold frame at the top of this page is held to that same audit.
 ## Status
 
 This is v0.9.0: nine chapters on three lines — 59 claim rows (FCT-01..59), 43
-theorem rows (T-01..43), thirteen shipped dependency-free scripts, a public
+theorem rows (T-01..43), fourteen shipped dependency-free scripts, a public
 correction ledger, and one live ceiling sentence. Complex quantum mechanics,
 the actuality of one outcome, the universal Born rule, the multi-floor
 structure, spacetime/gravity/continuum, and every nature-facing claim are

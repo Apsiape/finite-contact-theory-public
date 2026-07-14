@@ -23,6 +23,7 @@ SCRIPTS = [
     "nonexact_return_reconstruction.py",
     "multifloor_worldweave.py",
     "forcing_audit.py",
+    "wcd_actualization.py",
 ]
 
 

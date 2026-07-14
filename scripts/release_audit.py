@@ -87,6 +87,7 @@ REQUIRED_FILES = [
     "verification/scripts/nonexact_return_reconstruction.py",
     "verification/scripts/multifloor_worldweave.py",
     "verification/scripts/forcing_audit.py",
+    "verification/scripts/wcd_actualization.py",
 ]
 
 STALE_HOLD_STATUS = [

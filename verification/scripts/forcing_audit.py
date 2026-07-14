@@ -35,11 +35,15 @@ Sections:
          but the members are S_3-transitive, so target-blind equivariant
          dynamics yields uniform 1/3.
   C. ACTUALIZATION by counting (the positive complement -- given an actual
-     phase, the internal law is forced, no added Born postulate):
-     C1  Born-by-counting on the 24-cell (the response kernel K and its
-         spectrum);
+     phase, counting forces the FORM of its response, not the Born rule):
+     C1  the 24-cell response kernel at the EQUAL-TICKET point and its
+         spectrum (this K is one member -- alpha = beta -- of the
+         one-parameter equivariant family; see wcd_actualization.py for the
+         family, the decoherence of positive counting, and the sign-scar
+         amplitude calculus that this section does NOT establish);
      C2  the correlation-arity theorem: first global binding arity = dual
-         distance (uniform marginals below it).
+         distance (uniform marginals below it), under the uniform-ticket
+         measure.
 
 Named recoveries (not novel here): the classification of doubly-even
 self-dual [24,12] codes (Pless-Sloane; Golay the unique d=8); the
@@ -487,9 +491,11 @@ check(f"the response kernel K = (1/3)|<p,q>|^2 on the 12 rays takes only the "
       f"values {{0, 1/12, 1/3}} ({vals=={F(0),F(1,12),F(1,3)}}), is "
       f"row-stochastic ({rowstoch}) with every row profile (one 1/3, eight "
       f"1/12, three 0) ({prof}), trace {trace}, and rank {rank} = "
-      f"dim Sym(4,R) = 10. The quadratic Born response is counted from "
-      f"terminal witnesses -- no primitive state vector, no added Born "
-      f"postulate.",
+      f"dim Sym(4,R) = 10. This K is the EQUAL-TICKET (alpha = beta) member of "
+      f"the one-parameter equivariant counting family (wcd_actualization.py): "
+      f"counting forces the FORM of an actual phase's response, but the Born "
+      f"magnitude law (equal tickets) is an added, received input -- the "
+      f"relocated selector Section B predicts.",
       vals=={F(0),F(1,12),F(1,3)} and rowstoch and prof and rank==10 and trace==4)
 
 # ======================================================================

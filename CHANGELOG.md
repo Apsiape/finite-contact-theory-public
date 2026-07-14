@@ -17,15 +17,22 @@ Added:
   triality boundary + bridge-code model; `E_8` as the debt-free two-cell
   closure; octonionic fusion; fusion stops at the octonions; the self-dual
   census `|GU(k,2)|`; the hexacode hidden six-cell world — all `shipped`);
-- `verification/scripts/multifloor_worldweave.py` (the closure atlas) and
+- `verification/scripts/multifloor_worldweave.py` (the closure atlas),
   `verification/scripts/forcing_audit.py` (the forcing audit: static
-  counterworlds, the dynamic selection-equivalence theorem, and
-  actualization-by-counting), both wired into `run_all.py` (now thirteen
-  scripts);
+  counterworlds, the dynamic selection-equivalence theorem, and the
+  equal-ticket actualization kernel), and
+  `verification/scripts/wcd_actualization.py` (the actualization-by-counting
+  family: the 48/96 history split, the one-parameter `(alpha,beta)` weight
+  family with the Born kernel only at `alpha = beta`, the decoherence of
+  positive counting, the three real mutually-unbiased bases / `+-1/2`
+  cocycle / 768 order-4 Hadamard matrices, and the two open gaps), all wired
+  into `run_all.py` (now fourteen scripts);
 - claim rows FCT-57 through FCT-59 and theorem rows T-41 through T-43 (the
   forcing audit: the closure laws are not floor-forced; selection is a
-  conserved input; a given actual phase's internal law is forced by
-  counting);
+  conserved input; and, at the actualization layer, counting forces the FORM
+  of a given actual phase's response — a one-parameter equivariant family —
+  but NOT the Born rule: equal-tickets is an added magnitude law, and the
+  complex phase is a further added ingredient, both held open);
 - **the new live release ceiling** (three lines, with the multi-floor
   extension), quoted in the README, the claim register, the chapter-9
   paper, and the v0.9.0 notes.

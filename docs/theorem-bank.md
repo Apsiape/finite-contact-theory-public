@@ -576,10 +576,20 @@ class, but its S_3-transitive members get uniform 1/3.
 
 ### T-43 Actualization By Counting (Chapter 9)
 
-Given an actual phase, the internal law is forced by witness counting: the
-24-cell response kernel K=(1/3)|<p,q>|^2 has values {0,1/12,1/3}, is
-row-stochastic, trace 4, rank 10 = dim Sym(4,R); and for a linear-code
-phase the first visible global binding arity equals the dual distance
-(uniform marginals below it; hexacode 4, [24,12,4] 4, Golay 8). Which phase
-exists is received; how it distributes futures is forced. Recovers
-Delsarte's dual-distance bound.
+Given an actual phase, counting forces the FORM of its internal law, not the
+Born rule. On the 24-cell (12 rays, 3 orthonormal frames) the 144 histories
+split 48 return + 96 transfer; the general positive equivariant weight is a
+one-parameter family (ticket alpha return, beta transfer, times |<p,q>|^2),
+lawful for all alpha,beta>0, with P(p->p)=alpha/(alpha+2beta). The Born
+kernel K=(1/3)|<p,q>|^2 (values {0,1/12,1/3}, row-stochastic, trace 4, rank
+10 = dim Sym(4,R)) occurs ONLY at equal tickets alpha=beta -- an added
+magnitude law (the FCT-58 selector at the actualization layer). Positive
+counting is decohered (destructive 0 unreachable, all 576 two-path configs);
+the Z_2 sign scar gives three real MUBs (transition entries +-1/2, cocycle
+U_ut.U_ts=U_us, 768 order-4 Hadamards), restoring real coherent
+interference. Under the equal-ticket measure the first global binding arity
+equals the dual distance (hexacode 4, [24,12,4] 4, Golay 8). TWO gaps held
+open: (a) alpha=beta; (b) binary-to-complex phase (|1+i|^2=2 unreachable with
+real signs). Which phase exists / its Born magnitude / its complex phase are
+received; the form is forced. Recovers Delsarte's bound, real MUBs, the
+Hadamard count, and the Gleason-style measure underdetermination.

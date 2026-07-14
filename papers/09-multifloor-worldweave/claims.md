@@ -2,10 +2,12 @@
 
 The exact claim-register rows this chapter rests on. The live view is
 [`../../docs/public-claim-register.md`](../../docs/public-claim-register.md).
-All rows are `shipped`. Two dependency-free scripts verify them from a clean
+All rows are `shipped`. Three dependency-free scripts verify them from a clean
 clone, exactly and exhaustively, in a fraction of a second:
-`verification/multifloor_worldweave.py` (the closure atlas, FCT-51..56) and
-`verification/forcing_audit.py` (the forcing audit, FCT-57..59).
+`verification/multifloor_worldweave.py` (the closure atlas, FCT-51..56),
+`verification/forcing_audit.py` (the forcing audit, FCT-57..59), and
+`verification/wcd_actualization.py` (the actualization-by-counting family and
+its two open gaps, FCT-59).
 
 ---
 
@@ -115,15 +117,25 @@ conserved selector, never creates one (two potentials → integral vs
 irrational attractor; λ* = 2 − log₂3). Positive: self-duality forceable as a
 terminal class, but its S₃-transitive members get uniform 1/3.
 
-## FCT-59 — Actualization By Counting: The Internal Law Of An Actual Phase
+## FCT-59 — Actualization By Counting: The FORM Is Forced, Born Is Not
 
 Status: `THEOREM / MODEL-SCOPE / RECOVERY`
 Scope: the internal statistics of a given (actual) code phase.
-Evidence: `shipped` (forcing_audit.py, Section C).
+Evidence: `shipped` (wcd_actualization.py; forcing_audit.py Section C).
 
-Given an actual phase, the internal law is forced by witness counting: the
-24-cell response kernel K=(1/3)|⟨p,q⟩|² (values {0,1/12,1/3}, row-stochastic,
-trace 4, rank 10 = dim Sym(4,ℝ)) — the Born response with no primitive state
-vector; and the first visible global binding arity equals the dual distance
-(uniform marginals below it; hexacode 4, [24,12,4] 4, Golay 8). Which phase
-exists is received; how it distributes futures is forced. Recovers Delsarte.
+Given an actual phase, counting forces the FORM of its internal law, not the
+Born rule. The 24-cell's 144 histories split 48 return + 96 transfer; the
+general positive equivariant weight is a one-parameter family (ticket α
+return, β transfer, × |⟨p,q⟩|²), lawful for all α,β>0, and the Born kernel
+K=(1/3)|⟨p,q⟩|² (values {0,1/12,1/3}, row-stochastic, trace 4, rank 10 = dim
+Sym(4,ℝ)) occurs ONLY at equal tickets α=β — an added magnitude law (the
+FCT-58 selector at the actualization layer). Positive counting is decohered
+(destructive 0 unreachable, all 576 two-path configs); the Z₂ sign scar gives
+three real MUBs (transition ±½, cocycle U_ut·U_ts=U_us, 768 order-4
+Hadamards), restoring real coherent interference. Under the equal-ticket
+measure the first global binding arity equals the dual distance (hexacode 4,
+[24,12,4] 4, Golay 8). Two gaps held open: (a) the magnitude α=β; (b)
+binary→complex phase (|1+i|²=2 unreachable with real signs). Which phase /
+Born magnitude / complex phase are received; the form is forced. Recovers
+Delsarte, real MUBs, the Hadamard count, and the Gleason-style measure
+underdetermination.

@@ -1839,7 +1839,7 @@ Residuals:
   too carries a burden functional).
 - recovers: the rooted-tree count; Lyapunov / detailed-balance theory.
 
-## FCT-59 - Actualization By Counting: The Internal Law Of An Actual Phase
+## FCT-59 - Actualization By Counting: The FORM Is Forced, Born Is Not
 
 Status: `THEOREM / MODEL-SCOPE / RECOVERY`
 Scope: the internal statistics of a GIVEN (actual) code phase.
@@ -1847,34 +1847,57 @@ Evidence state: `shipped`.
 
 Public statement:
 
-The floor cannot select which phase exists, but given an actual phase it
-forces the phase's internal law by counting terminal witnesses. On the
-24-cell, the counted response kernel is `K = (1/3)|<p,q>|^2` (values
-`{0, 1/12, 1/3}`, row-stochastic, trace 4, rank `10 = dim Sym(4,R)`) -- the
-quadratic Born response with no primitive state vector and no added Born
-postulate. And for an actual linear-code phase with dual distance `d_perp`,
-every marginal on `<= d_perp - 1` coordinates is exactly uniform, so the
-first visible global binding arity is `d_perp` (hexacode `d_perp = 4`; the
-`[24,12,4]` counterworld `d_perp = 4`; Golay `d_perp = 8`): a population can
-carry exact global binding while every lower-arity observer sees maximum
-local randomness. Which phase exists is received; how it distributes futures
-is forced.
+The floor cannot select which phase exists; given an actual phase, counting
+terminal witnesses forces the FORM of its internal law, but NOT the Born
+rule. On the 24-cell (12 rays in 3 orthonormal frames), the 144 ordered
+histories split 48 return + 96 transfer, and the most general positive
+equivariant weight is a single ticket `alpha` (return) and `beta` (transfer)
+times the incidence `|<p,q>|^2` -- a lawful stochastic response for every
+`alpha,beta>0`, with `P(p->p)=alpha/(alpha+2beta)`,
+`P(cross)=beta/(4alpha+8beta)`, `P(orthogonal)=0`. The Born kernel
+`K=(1/3)|<p,q>|^2` (values `{0,1/12,1/3}`, row-stochastic, trace 4, rank
+`10 = dim Sym(4,R)`) occurs ONLY at equal tickets `alpha=beta`; equal-tickets
+is an ADDED magnitude law -- the conserved selector FCT-58 relocates, now at
+the actualization layer. Positive additive counting sums probabilities and is
+decohered (the destructive value 0 is unreachable; verified across all 576
+two-path configurations); the retained `Z_2` sign scar (`z -> -z`) supplies
+the `{+1,-1}` alphabet under which the three frames are three real
+mutually-unbiased bases (transition entries `+-1/2`, cocycle
+`U_ut.U_ts=U_us`, 768 real order-4 Hadamard matrices), restoring genuine real
+coherent interference. Under the equal-ticket measure, for a linear-code phase
+with dual distance `d_perp` every marginal on `<= d_perp-1` coordinates is
+exactly uniform, so the first global binding arity is `d_perp` (hexacode 4;
+`[24,12,4]` counterworld 4; Golay 8). Which phase exists is received; the FORM
+of its statistics is forced; its Born MAGNITUDE (`alpha=beta`) and complex
+PHASE are received.
 
 Evidence:
 
-- shipped: Section C of `verification/scripts/forcing_audit.py` (the kernel
-  spectrum; the dual-distance marginal-uniformity computations).
+- shipped: `verification/scripts/wcd_actualization.py` (the 48/96 split; the
+  `(alpha,beta)` family and Born-only-at-`alpha=beta`; the 576-config
+  decoherence; the three real MUBs, `+-1/2` cocycle, and 768 Hadamards; the
+  two open gaps). Section C of `verification/scripts/forcing_audit.py` carries
+  the equal-ticket kernel spectrum and the dual-distance marginals.
 
 Checks / controls:
 
-- the kernel values, row-stochasticity, and rank are exact; the marginal
-  uniformity is exhaustive through and past the dual distance.
+- the split, closed forms, kernel spectrum, cocycle, and Hadamard count are
+  exact; Born-only-at-`alpha=beta` is proven algebraically and by
+  counterexample; the marginal uniformity is exhaustive through and past the
+  dual distance; the decoherence is exhaustive over all two-path configs.
 
 Residuals:
 
 - real-quantum scope (`Sym(4,R)`); does not derive the universal Born rule
   or the actuality of one outcome.
-- recovers: Delsarte's dual-distance = orthogonal-array-strength + 1.
+- TWO INDEPENDENT gaps held open: (a) the magnitude law `alpha=beta`
+  (asymmetric tickets are equally lawful); (b) the enlargement from the binary
+  `{+1,-1}` sign phase to a complex U(1) phase (`|1+i|^2=2` is unreachable
+  with real signs).
+- recovers: Delsarte's dual-distance = orthogonal-array-strength + 1; real
+  MUBs; the count of order-4 Hadamard matrices; the Born-measure
+  underdetermination Gleason's theorem also exhibits (form fixed, measure
+  free).
 
 ## Held Claim Families
 
