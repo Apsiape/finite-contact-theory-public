@@ -82,71 +82,42 @@ arity — while its Born *magnitude* (equal tickets) and its complex *phase*
 remain received, not forced. (Structural, under named closure axioms; nature
 is not claimed to realize any of these.)
 
-**Chapter 10 (new in v0.10)** is the program's **first extension** — the first
-chapter that does not recover known structure but *predicts a divergence* from
-it. Two things, held rigidly apart. **(A) A theorem, unconditional:** a
-three-contact class function with a negative sign-sector eigenvalue still keeps
-*every* passive-linear-optical probability nonnegative
-(`152‖z‖² + 9|per A|² − 36|det A|² ≥ (7/2)‖z‖²`), so it is a lawful
-probabilistic sector that lies **outside** the positive-semidefinite Hilbert
-Gram cone — global Hilbert PSD fails while operational block positivity
-survives. **(B) A prediction, conditional and experiment-open:** on a received
-apparatus anchor `r = 3/5`, the odd `Z₂` identity-holonomy sector gives a
-negative three-state Gram discriminant `Δ₃ = −64/125 < 0` where ordinary
-quantum mechanics forces `Δ₃ ≥ 0`, registered as a joint count vector
-`(Δ₃, W, Q₃)` with a frozen protocol, nulls, and kill conditions. This is a
-**preregistered bet, not a discovery**: the physical bridge premises (that a
-particle class carries `Z₂` identity holonomy, that photons receive it — the
-natural home is anyonic/topological matter — that passive linear optics is the
-complete grammar) are held open, and the decisive mixed-state PSD-exclusion is
-an **open crux awaiting an external quantum-optics expert**. The DOI is an
-archival/priority record.
-
 ## The live ceiling
 
 The whole release is bounded by one sentence, quoted identically in this
 README, the [claim register](docs/public-claim-register.md), the
-[chapter-10 paper](papers/10-negative-gram-holonomy/paper.md), and the
-[v0.10.0 release notes](RELEASE-NOTES-v0.10.0.md):
+[chapter-9 paper](papers/09-multifloor-worldweave/paper.md), and the
+[v0.9.0 release notes](RELEASE-NOTES-v0.9.0.md):
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
-> theorem stack on three published recovery lines — a quantum-facing axis,
-> from one-use contact to counting, one-receiver gluing, rational Born
-> weights, the CHSH/Pell boundary, a carrier grammar grown from one-use
-> contact, and a behavior-conditioned contextual capacity with an exact strict
-> preparation gap; a finite-epistemics axis, from the identifiability and debt
-> calculus to the inquiry calculus and its second law of asking, four theorems
-> separating the structure of time, and a measured generative floor; and a
-> contact-interface reconstruction, in which a retained interface forces a
-> quaternionic state/receiver cell whose self-dual closure is the 24-cell and
-> the F_4 root system and whose finite measurement calculus forces the
-> quadratic Born frame rule (a finite Gleason theorem) exactly where a triality
-> Kochen-Specker obstruction forbids a global noncontextual assignment, and in
-> which independently generated cells recover the E_8–hexacode closure spine
-> under named receiver laws that a forcing audit shows the floor does not
-> select over matched lawful alternatives, so the floor forces the atlas of
-> lawful closures and the terminal self-dual class but never the specific
-> member, and the selection of a world-phase is a conserved, received input —
-> and a fourth, first-extension line that is conditional and experiment-open:
-> an unconditional accessible-positivity theorem exhibits a three-contact
-> sector whose every passive-linear-optical probability is nonnegative yet
-> which lies outside the positive-semidefinite Hilbert Gram cone, and on one
-> received apparatus anchor this predicts a possible violation of Hilbert-space
-> positivity — a negative three-state Gram discriminant Delta_3 < 0 where
-> ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its
-> protocol, nulls, and kill conditions — under which the quantum boundary is a
-> floor theorem at binary-Bell finite-carrier scope, the preparation gap is an
-> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
-> finite model-scope recovery on a real-quantum cell, the multi-floor closures
-> are model-scope recoveries whose forcing boundary is exactly mapped, the
-> accessible-positivity theorem is unconditional while its physical realization
-> is a conditional, bridge-premise-gated prediction awaiting a dedicated
-> experiment and external expert review, and every unearned generalization —
-> complex quantum mechanics, the actuality of one outcome, the universal Born
-> rule, whether nature realizes any of these structures, which world-phase is
-> selected, and whether nature contains the odd identity-holonomy sector — is
-> left open by name; this chapter is an archival priority record of a
-> mathematically closed conditional prediction, not an empirical discovery.
+> theorem stack on three published lines — a quantum-facing axis, from
+> one-use contact to counting, one-receiver gluing, rational Born weights,
+> the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and
+> a behavior-conditioned contextual capacity with an exact strict
+> preparation gap; a finite-epistemics axis, from the identifiability and
+> debt calculus to the inquiry calculus and its second law of asking, four
+> theorems separating the structure of time, and a measured generative
+> floor; and a contact-interface reconstruction, in which a retained
+> interface forces a quaternionic state/receiver cell whose self-dual
+> closure is the 24-cell and the F_4 root system and whose finite
+> measurement calculus forces the quadratic Born frame rule (a finite
+> Gleason theorem) exactly where a triality Kochen-Specker obstruction
+> forbids a global noncontextual assignment, and in which independently
+> generated cells recover the E_8–hexacode closure spine under named
+> positive, integral, triality-covariant, self-dual, and delocalizing
+> receiver laws while a forcing audit proves those laws are not selected by
+> the floor over matched lawful alternatives — so the floor forces the atlas
+> of lawful closures and the terminal self-dual class but never the specific
+> member, and the selection of a world-phase is a conserved, received input
+> — under which the quantum boundary is a floor theorem at binary-Bell
+> finite-carrier scope, the preparation gap is an exact theorem at
+> KCBS-pentagon scope, the interface reconstruction is a finite model-scope
+> recovery on a real-quantum cell, the multi-floor closures are model-scope
+> recoveries whose forcing boundary is exactly mapped, and every unearned
+> generalization — complex quantum mechanics, the actuality of one outcome,
+> the universal Born rule, whether nature realizes any of these structures,
+> which world-phase is selected, and every nature-facing prediction — is
+> left open by name.
 
 The scope fence is the result, not an apology. In particular this does **not**
 claim all quantum mechanics is derived: Chapter 8 is a *real-quantum* cell
@@ -213,17 +184,13 @@ theorem, a recovery, a model result, or a clean failure:
   (the two-floor and many-floor extensions of the F₄ closure).
 - **Spacetime, gravity, the continuum, observers, and constants** — the older
   reconstruction horizon, each held open by name.
-- **The first nature-facing prediction** — now landed *conditionally* in
-  Chapter 10 (v0.10): a preregistered, experiment-open negative-Gram divergence
-  from Hilbert positivity, gated by bridge premises and external expert review.
-  An empirical *discovery* remains reserved for a future confirmatory
-  experiment.
+- **The first nature-facing prediction** — reserved for a future major release
+  with a registered discriminator.
 
 ## Read it
 
-1. [papers/10-negative-gram-holonomy/paper.md](papers/10-negative-gram-holonomy/paper.md) — **Chapter 10** (v0.10): negative-Gram identity holonomy — the program's first divergence (an unconditional accessible-positivity theorem + a conditional, experiment-open prediction; the newest result).
-2. [papers/09-multifloor-worldweave/paper.md](papers/09-multifloor-worldweave/paper.md) — **Chapter 9** (v0.9): the multi-floor worldweave (E₈, octonions, self-dual codes).
-3. [papers/08-nonexact-return/paper.md](papers/08-nonexact-return/paper.md) — **Chapter 8** (v0.8): the non-exact-return reconstruction (finite Born + contextuality).
+1. [papers/09-multifloor-worldweave/paper.md](papers/09-multifloor-worldweave/paper.md) — **Chapter 9** (v0.9): the multi-floor worldweave (E₈, octonions, self-dual codes; the newest result).
+2. [papers/08-nonexact-return/paper.md](papers/08-nonexact-return/paper.md) — **Chapter 8** (v0.8): the non-exact-return reconstruction (finite Born + contextuality).
 2. [papers/07-program-map/paper.md](papers/07-program-map/paper.md) — **Chapter 7**: the program map (start here for the whole picture).
 3. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — **Chapter 2**: the exact preparation gap, in standard contextuality language.
 4. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — **Chapter 1**: the v0.1 release narrative.
@@ -251,15 +218,12 @@ much — and the bold frame at the top of this page is held to that same audit.
 
 ## Status
 
-This is v0.10.0: ten chapters on three recovery lines plus a first extension
-line — 61 claim rows (FCT-01..61), 45 theorem rows (T-01..45), fifteen shipped
-dependency-free scripts, a public correction ledger, and one live ceiling
-sentence. The one nature-facing item — Chapter 10's negative-Gram divergence —
-is explicitly conditional, preregistered, and experiment-open (an
-archival/priority record, not a discovery). Complex quantum mechanics, the
-actuality of one outcome, the universal Born rule, whether nature realizes any
-of these structures, spacetime/gravity/continuum, and every *confirmed*
-nature-facing claim are deliberately held or open, and named as such.
+This is v0.9.0: nine chapters on three lines — 59 claim rows (FCT-01..59), 43
+theorem rows (T-01..43), fourteen shipped dependency-free scripts, a public
+correction ledger, and one live ceiling sentence. Complex quantum mechanics,
+the actuality of one outcome, the universal Born rule, the multi-floor
+structure, spacetime/gravity/continuum, and every nature-facing claim are
+deliberately held or open, and named as such.
 
 ## Author
 

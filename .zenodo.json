@@ -1,6 +1,6 @@
 {
-  "title": "Finite Contact Theory v0.10: Negative-Gram Identity Holonomy — The Program's First Divergence",
-  "version": "0.10.0",
+  "title": "Finite Contact Theory v0.9: The Multi-Floor Worldweave — A Forcing Audit of the E_8-Hexacode Spine",
+  "version": "0.9.0",
   "upload_type": "publication",
   "publication_type": "preprint",
   "access_right": "open",
@@ -11,18 +11,17 @@
       "orcid": "0009-0007-4708-3252"
     }
   ],
-  "description": "A finite reconstruction program for admissible reality. Chapters 1-9 recovered known structure from a finite-contact floor. This v0.10 chapter is the program's FIRST EXTENSION: it predicts a possible violation of Hilbert-space positivity, and it recovers nothing. Two things are published and held rigidly apart. (A) THE THEOREM, unconditional: a three-contact class function with a negative sign-sector eigenvalue (1 - 3r^2 - 2r^3 < 0 for r > 1/2) nonetheless keeps every physically accessible passive-linear-optical probability nonnegative. The accessible amplitudes are the monomials z_sigma = prod_i A[i][sigma(i)] of one complex 3x3 interferometer matrix; they obey the toric identity prod_even z = prod_odd z; and at the registered point r = 3/5 the exact inequality 152||z||^2 + 9|per A|^2 - 36|det A|^2 >= (7/2)||z||^2 >= 0 holds for every A (per A = sum z, det A = sum sgn(sigma) z). So the sector is a lawful probabilistic model on the admitted grammar that lies OUTSIDE the positive-semidefinite Hilbert Gram cone: global Hilbert PSD fails while operational block positivity survives. (B) THE PREDICTION, conditional and experiment-open: on a received apparatus anchor r = 3/5 and the odd Z_2 identity-holonomy sector (Phi = pi), the three-state Gram discriminant is Delta_3 = 1 - 3r^2 - 2r^3 = (1-2r)(1+r)^2 = -64/125 < 0, where ordinary complex-Hilbert quantum mechanics forces Delta_3 = det G >= 0 (at r = 3/5 the PSD cone caps the cyclic phase at Phi <= arccos(5/27) ~ 79.3 deg while the extension reaches Phi = pi). The registered joint count vector (Delta_3, W, Q_3) = (-64/125, -128/1125, -12/125) both excludes the PSD Gram class and rejects the matched pairwise-only null (Q_3 = 0). This is a PREREGISTERED BET with a frozen protocol and kill conditions, NOT a discovery: the bridge premises (that a particle class carries Z_2 identity holonomy; that photons receive it -- the natural home is anyonic/topological matter, photons the clean-grammar long shot; that passive linear optics is the complete measurement grammar) are held open, and the decisive mixed-state / full-nuisance PSD-exclusion is an OPEN crux that has not been vetted by a quantum-optics expert. r = 3/5 is a received apparatus anchor, not a fundamental constant. This DOI is an archival / priority record of a mathematically closed conditional prediction, not an empirical discovery. One dependency-free script verifies the chapter from a clean clone: the core numbers and the analytic proof-lemmas exactly, and the accessible-positivity margin exactly over rational and Gaussian-rational matrices and by a large float sweep.",
+  "description": "A finite reconstruction program for admissible reality. This v0.9 chapter extends the contact-interface line (v0.8) from one cell to a population. Independently generated non-exact-return cells do not combine by tensor product; each carries a D_4 triality boundary, and cells become one world by settling those boundary debts into a bridge code (operational receiver-completeness is a separating dual pole, not self-duality; self-duality is the terminal class a dynamics can force). Verified by exact finite checks: two cells close uniquely into the E_8 root system (240 = 48 + three triality-matched 64-root bridges; glue-lattice determinant ladder 16 to 4 to 1); local fusion is octonionic, with nonassociativity a pure three-contact order receipt (7 of 35 imaginary triples associate); normed monolithic fusion stops at the octonions (the sedenions have zero divisors); the triality-covariant Hermitian self-dual standard-form code census is |GU(N/2,2)| = 3, 18, 648 through six cells; and six cells are the first population able to form a complete world invisible to every pairwise and triple probe, canonically the hexacode [6,3,4] with weight enumerator 1 + 45 y^4 + 18 y^6 (162 of the 648 six-cell codes have minimum distance 2, 486 have distance 4). The native global object is an evolving bridge code. A forcing audit then proves those closure laws are not floor-selected over matched lawful alternatives (a doubly-even self-dual [24,12,4] counterworld to Golay, verified by the MacWilliams identity; the scale-free bridge determinant; both V4 and C3 as triality alphabets; a dual pole H strictly inside its dual rather than self-duality; and E_8+E_8+E_8's 720 roots), and a dynamic selection-equivalence theorem (of 256 maps on four phases exactly 64 strictly settle, each Lyapunov; reversible dynamics has stationary law proportional to e^{-V}) shows dynamics only relocates a conserved selector. So the floor forces the atlas of lawful closures and the terminal self-dual class but never the specific member; world-phase selection is a conserved received input. Given an actual phase, counting forces the FORM of its response -- a one-parameter positive equivariant weight family whose equal-ticket point is the 24-cell Born kernel, plus a real amplitude calculus from the retained Z_2 sign scar (three real mutually-unbiased bases, a plus/minus-one-half cocycle, the 768 order-4 Hadamard matrices) and the binding arity (the dual distance) -- but the Born magnitude law (equal tickets) and the complex phase are received, not forced. Named objects are recovered in a derivational role; the result is structural under named closure axioms, and does not show that nature realizes E_8, the hexacode, or any code, nor derive any metric, spectrum, or dimensionful constant. Three dependency-free scripts verify the chapter from a clean clone in exact arithmetic.",
   "keywords": [
     "quantum foundations",
     "reconstruction of quantum theory",
-    "Gram matrix positivity",
-    "Hilbert space positivity",
-    "identity holonomy",
-    "linear optics",
-    "Hong-Ou-Mandel",
-    "tritter",
-    "anyons",
-    "preregistered prediction",
+    "Gleason's theorem",
+    "Kochen-Specker contextuality",
+    "Peres set",
+    "24-cell",
+    "F4 root system",
+    "quaternions",
+    "Born rule",
     "finite mathematics"
   ]
 }

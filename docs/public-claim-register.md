@@ -18,56 +18,44 @@ For label meanings, see `status-labels.md`. For verification posture, see
 
 ## Release Ceiling
 
-The v0.10 public ceiling is (quoted identically in the README, the chapter-10
-paper, and the v0.10.0 release notes):
+The v0.9 public ceiling is (quoted identically in the README, the chapter-9
+paper, and the v0.9.0 release notes):
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
-> theorem stack on three published recovery lines — a quantum-facing axis,
-> from one-use contact to counting, one-receiver gluing, rational Born
-> weights, the CHSH/Pell boundary, a carrier grammar grown from one-use
-> contact, and a behavior-conditioned contextual capacity with an exact strict
-> preparation gap; a finite-epistemics axis, from the identifiability and debt
-> calculus to the inquiry calculus and its second law of asking, four theorems
-> separating the structure of time, and a measured generative floor; and a
-> contact-interface reconstruction, in which a retained interface forces a
-> quaternionic state/receiver cell whose self-dual closure is the 24-cell and
-> the F_4 root system and whose finite measurement calculus forces the
-> quadratic Born frame rule (a finite Gleason theorem) exactly where a triality
-> Kochen-Specker obstruction forbids a global noncontextual assignment, and in
-> which independently generated cells recover the E_8–hexacode closure spine
-> under named receiver laws that a forcing audit shows the floor does not
-> select over matched lawful alternatives, so the floor forces the atlas of
-> lawful closures and the terminal self-dual class but never the specific
-> member, and the selection of a world-phase is a conserved, received input —
-> and a fourth, first-extension line that is conditional and experiment-open:
-> an unconditional accessible-positivity theorem exhibits a three-contact
-> sector whose every passive-linear-optical probability is nonnegative yet
-> which lies outside the positive-semidefinite Hilbert Gram cone, and on one
-> received apparatus anchor this predicts a possible violation of Hilbert-space
-> positivity — a negative three-state Gram discriminant Delta_3 < 0 where
-> ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its
-> protocol, nulls, and kill conditions — under which the quantum boundary is a
-> floor theorem at binary-Bell finite-carrier scope, the preparation gap is an
-> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
-> finite model-scope recovery on a real-quantum cell, the multi-floor closures
-> are model-scope recoveries whose forcing boundary is exactly mapped, the
-> accessible-positivity theorem is unconditional while its physical realization
-> is a conditional, bridge-premise-gated prediction awaiting a dedicated
-> experiment and external expert review, and every unearned generalization —
-> complex quantum mechanics, the actuality of one outcome, the universal Born
-> rule, whether nature realizes any of these structures, which world-phase is
-> selected, and whether nature contains the odd identity-holonomy sector — is
-> left open by name; this chapter is an archival priority record of a
-> mathematically closed conditional prediction, not an empirical discovery.
+> theorem stack on three published lines — a quantum-facing axis, from
+> one-use contact to counting, one-receiver gluing, rational Born weights,
+> the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and
+> a behavior-conditioned contextual capacity with an exact strict
+> preparation gap; a finite-epistemics axis, from the identifiability and
+> debt calculus to the inquiry calculus and its second law of asking, four
+> theorems separating the structure of time, and a measured generative
+> floor; and a contact-interface reconstruction, in which a retained
+> interface forces a quaternionic state/receiver cell whose self-dual
+> closure is the 24-cell and the F_4 root system and whose finite
+> measurement calculus forces the quadratic Born frame rule (a finite
+> Gleason theorem) exactly where a triality Kochen-Specker obstruction
+> forbids a global noncontextual assignment, and in which independently
+> generated cells recover the E_8–hexacode closure spine under named
+> positive, integral, triality-covariant, self-dual, and delocalizing
+> receiver laws while a forcing audit proves those laws are not selected by
+> the floor over matched lawful alternatives — so the floor forces the atlas
+> of lawful closures and the terminal self-dual class but never the specific
+> member, and the selection of a world-phase is a conserved, received input
+> — under which the quantum boundary is a floor theorem at binary-Bell
+> finite-carrier scope, the preparation gap is an exact theorem at
+> KCBS-pentagon scope, the interface reconstruction is a finite model-scope
+> recovery on a real-quantum cell, the multi-floor closures are model-scope
+> recoveries whose forcing boundary is exactly mapped, and every unearned
+> generalization — complex quantum mechanics, the actuality of one outcome,
+> the universal Born rule, whether nature realizes any of these structures,
+> which world-phase is selected, and every nature-facing prediction — is
+> left open by name.
 
-The v0.1, v0.2, v0.7, v0.8, and v0.9 ceilings remain quoted, unchanged, in
-their frozen chapters and release notes; this row supersedes them as the live
-ceiling.
+The v0.1, v0.2, v0.7, and v0.8 ceilings remain quoted, unchanged, in their
+frozen chapters and release notes; this row supersedes them as the live ceiling.
 
 The release does not claim all quantum mechanics, quantum gravity, or
-nature-facing prediction is solved; the one nature-facing item — the
-negative-Gram prediction — is explicitly conditional, preregistered, and
-experiment-open, an archival record and not a discovery.
+nature-facing prediction is solved.
 
 ---
 
@@ -1910,93 +1898,6 @@ Residuals:
   MUBs; the count of order-4 Hadamard matrices; the Born-measure
   underdetermination Gleason's theorem also exhibits (form fixed, measure
   free).
-
-## FCT-60 - Universal Accessible Positivity (The Theorem)
-
-Status: `THEOREM / UNCONDITIONAL / EXTENSION-MATH`
-Scope: the passive-linear-optical measurement grammar on one complex `3x3`
-interferometer submatrix `A`, at the registered point `r = 3/5`.
-Evidence state: `shipped`.
-
-Public statement:
-
-A three-contact class function whose sign-sector eigenvalue is negative
-(`1 - 3r^2 - 2r^3 < 0` for `r > 1/2`) nonetheless keeps every physically
-accessible probability nonnegative. The accessible amplitudes are the monomials
-`z_sigma = prod_i A[i][sigma(i)]`, which obey the toric identity
-`prod_{even} z = prod_{odd} z`; and for every complex `A`,
-`152||z||^2 + 9|per A|^2 - 36|det A|^2 >= (7/2)||z||^2 >= 0` (with
-`per A = sum z`, `det A = sum sgn(sigma) z`). So the sector is a lawful
-probabilistic model on the admitted grammar that lies OUTSIDE the
-positive-semidefinite Hilbert Gram cone: global Hilbert PSD fails while
-operational block positivity survives. This is unconditional mathematics.
-
-Evidence:
-
-- shipped: `verification/scripts/negative_gram_holonomy.py` (the exact reduced
-  proof-lemmas -- collinear negative discriminant and noncollinear endpoint
-  signs on `0 <= p <= 1/6`; the toric identity; and the strict-margin
-  inequality verified exactly over small-rational and Gaussian-rational
-  matrices plus a large well-conditioned float sweep).
-
-Checks / controls:
-
-- the core identities and proof-lemmas are exact; the margin is `>= 0` exactly
-  on rational matrices (smallest observed `~0.05`, near the analytic tightness)
-  and clear on the float sweep.
-
-Residuals:
-
-- proves positivity for the DECLARED passive-linear-optical grammar only; it
-  does NOT prove positivity for arbitrary measurements outside that grammar.
-- this is the mathematical half; the physical realization is FCT-61 (open).
-
-## FCT-61 - Negative-Gram Identity Holonomy (The Prediction)
-
-Status: `CONDITIONAL EXTENSION / EXPERIMENT-OPEN / BRIDGE-PREMISE-GATED`
-Scope: a preregistered three-particle experiment on the received fiber
-`(r, chi, receiver) = (3/5, -1, Fourier tritter)`. NOT a settled result.
-Evidence state: `shipped` (the exact prediction numbers) + `held` (the
-experiment).
-
-Public statement:
-
-The program's FIRST extension/divergence. On the odd `Z_2` identity-holonomy
-sector (`Phi = pi`), the three-state Gram discriminant is
-`Delta_3 = 1 - 3r^2 - 2r^3 = (1-2r)(1+r)^2 = -64/125 < 0`, where ordinary
-complex-Hilbert quantum mechanics forces `Delta_3 = det G >= 0` (at `r = 3/5`
-the PSD cone caps the cyclic phase at `Phi <= arccos(5/27) ~ 79.3 deg`, while
-the extension reaches `Phi = pi`). The registered joint count vector
-`(Delta_3, W, Q_3) = (-64/125, -128/1125, -12/125)` both excludes the PSD Gram
-class and rejects the matched pairwise-only null (which predicts `Q_3 = 0`).
-This is a PREREGISTERED BET with a frozen protocol (interleaved
-pairwise-HOM/tritter/control acquisition, late randomization, blinded
-PSD-constrained fit) and kill conditions, NOT a discovery. `r = 3/5` is a
-received apparatus anchor, not a fundamental constant.
-
-Evidence:
-
-- shipped: `verification/scripts/negative_gram_holonomy.py` (all core numbers
-  exact -- `Delta_3` and its factorization, the tritter probabilities and
-  normalization, `D_2`, `W = (2/9)Delta_3`, `Q_3 = (4/9)b`, the null
-  `Q_3 = 0`, and the PSD cap `cos Phi >= 5/27`).
-- held: the nature-confrontation experiment (no suitable public dataset
-  exists).
-
-Bridge premises (NOT floor theorems; held open):
-
-- that a physical particle class carries `Z_2` identity holonomy;
-- that photons receive it (the natural home is anyonic/topological matter;
-  photons are the clean-grammar long shot);
-- that passive linear optics is the complete measurement grammar.
-
-Residuals / the open crux:
-
-- the decisive MIXED-STATE + mode-mismatch + multiphoton PSD-exclusion is OPEN
-  and has NOT been vetted by a quantum-optics expert; external expert review is
-  the gate before any outreach.
-- this DOI is an archival/priority record of a mathematically closed
-  conditional prediction, NOT an empirical discovery.
 
 ## Held Claim Families
 

@@ -50,14 +50,8 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
 - [`09-multifloor-worldweave/`](09-multifloor-worldweave/paper.md)
   — **Chapter 9** (v0.9.0): _The Multi-Floor Worldweave: A Forcing Audit of
   the E_8-Hexacode Spine_ (extends the contact-interface line across cells
-  and maps what the closure forces). DOIs recorded in its
+  and maps what the closure forces; carries the live release ceiling). DOIs recorded in its
   [`RELEASE.md`](09-multifloor-worldweave/RELEASE.md) at tagging.
-- [`10-negative-gram-holonomy/`](10-negative-gram-holonomy/paper.md)
-  — **Chapter 10** (v0.10.0): _Negative-Gram Identity Holonomy: The Program's
-  First Divergence_ (the first extension: an unconditional accessible-positivity
-  theorem plus a conditional, preregistered, experiment-open prediction of a
-  Hilbert-positivity violation; carries the live release ceiling). DOIs recorded
-  in its [`RELEASE.md`](10-negative-gram-holonomy/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 
