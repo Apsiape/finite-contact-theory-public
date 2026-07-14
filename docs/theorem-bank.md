@@ -593,3 +593,39 @@ open: (a) alpha=beta; (b) binary-to-complex phase (|1+i|^2=2 unreachable with
 real signs). Which phase exists / its Born magnitude / its complex phase are
 received; the form is forced. Recovers Delsarte's bound, real MUBs, the
 Hadamard count, and the Gleason-style measure underdetermination.
+
+### T-44 Universal Accessible Positivity (Chapter 10) -- UNCONDITIONAL
+
+The theorem half of the program's first extension. The passive-linear-optical
+amplitudes accessible from one complex 3x3 interferometer matrix A are the
+monomials z_sigma = prod_i A[i][sigma(i)], obeying the toric identity
+prod_{even} z = prod_{odd} z (both equal the product of all nine entries). At
+the registered point r = 3/5, for every complex A,
+152||z||^2 + 9|per A|^2 - 36|det A|^2 >= (7/2)||z||^2 >= 0 (per A = sum z,
+det A = sum sgn(sigma) z). Hence a class function with a NEGATIVE sign-sector
+eigenvalue (1 - 3r^2 - 2r^3 < 0 for r > 1/2) still yields only nonnegative
+accessible probabilities: global Hilbert PSD fails while operational block
+positivity survives. Proof: collinear branch closed by a negative discriminant
+(30h^2 - 16h + 8, disc -704) plus 11h^3 >= 0; noncollinear branch closed by
+convexity in u and two endpoint inequalities on 0 <= p <= 1/6 (inner factors
+18p^2+203p-123 and 72p^3+380p^2-3p-23 both negative). Verified exactly
+(reduced lemmas + exact rational/Gaussian margin sweep) and numerically. This
+is unconditional mathematics; the physical realization is a separate,
+conditional, experiment-open prediction (register FCT-61), not a theorem.
+
+### T-45 Odd-Holonomy Gram Discriminant and PSD Exclusion (Chapter 10)
+
+Given the odd Z_2 identity-holonomy sector (chi = -1, Phi = pi) and equal
+pairwise overlap r, the normalized three-state Gram discriminant is
+Delta_3 = 1 - 3r^2 - 2r^3 = (1-2r)(1+r)^2, negative exactly for r > 1/2, and
+= -64/125 at r = 3/5. Since Delta_3 = det G and the positive-Hilbert cone
+requires det G >= 0 (i.e. cos Phi >= (3r^2-1)/(2r^3) = 5/27 at r = 3/5, capping
+the incumbent at Phi <= ~79.3 deg), the sector lies outside the PSD Hilbert
+Gram cone. The registered gauge-free count witnesses W = (2/9)Delta_3 =
+-128/1125 and Q_3 = (4/9)b = -12/125 are exact, and the matched pairwise-only
+null predicts Q_3 = 0, so the joint vector (Delta_3, W, Q_3) both excludes the
+PSD class and rejects the structureless null. This is an exact consequence of
+the sector plus the received anchor r = 3/5 -- the CONDITIONAL prediction
+(FCT-61), whose bridge premises to nature (that a particle class carries this
+holonomy; that photons receive it; that passive linear optics is the complete
+grammar) are held open and whose mixed-state PSD-exclusion is the open crux.
