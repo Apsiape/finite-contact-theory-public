@@ -551,3 +551,35 @@ distance-four phase with no one-, two-, or three-cell bridge words. Six
 cells are the first population able to constitute a world invisible to
 every pairwise and triple probe. Weight enumerator and distance split
 exact/exhaustive.
+
+### T-41 Static Forcing Audit (Chapter 9)
+
+Each of the five closure laws behind the E_8-hexacode spine has a matched
+lawful counterworld: a doubly-even self-dual [24,12,4] code (both weight
+enumerators MacWilliams-self-dual by exact Krawtchouk; the A_4=6 code
+constructed by port-map search, plus an independent witness); the bridge
+family determinant (1-t^2)^4 (positive at irrational sqrt(2)/2, indefinite
+at 2); the two valid export quotients V4 and C3; the dual pole H < H-perp
+with the self-dual codes an S_3 orbit; and E_8^3 with 720 roots. So
+positivity, integrality, the triality alphabet, self-dual completion, and
+delocalization are not floor-forced.
+
+### T-42 Dynamic Selection Equivalence (Chapter 9)
+
+Unique strict dynamic selection <=> a preferred scalar ranking. Exactly 64
+of the 256 maps on four phases strictly settle (the rooted-tree count
+n^{n-1}), each with a Lyapunov V(F(x))=V(x)-1; reversible dynamics has
+pi ~ e^{-V}. Dynamics relocates a conserved selector rather than creating
+one (verified: two potentials select an integral vs an irrational
+attractor; lambda* = 2 - log2(3)). Self-duality is forceable as a terminal
+class, but its S_3-transitive members get uniform 1/3.
+
+### T-43 Actualization By Counting (Chapter 9)
+
+Given an actual phase, the internal law is forced by witness counting: the
+24-cell response kernel K=(1/3)|<p,q>|^2 has values {0,1/12,1/3}, is
+row-stochastic, trace 4, rank 10 = dim Sym(4,R); and for a linear-code
+phase the first visible global binding arity equals the dual distance
+(uniform marginals below it; hexacode 4, [24,12,4] 4, Golay 8). Which phase
+exists is received; how it distributes futures is forced. Recovers
+Delsarte's dual-distance bound.

@@ -22,6 +22,7 @@ SCRIPTS = [
     "floor_engine_measurements.py",
     "nonexact_return_reconstruction.py",
     "multifloor_worldweave.py",
+    "forcing_audit.py",
 ]
 
 

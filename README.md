@@ -70,8 +70,15 @@ universe is code-like, not one algebra); the self-dual worlds are the
 unitary orbit `|GU(N/2,2)|` (3, 18, 648 through six cells); and six cells
 are the first **hidden** world — a hexacode phase whose binding is invisible
 to every pairwise and triple probe. The native global object is an evolving
-bridge code. (Structural, under named closure axioms; nature is not claimed
-to realize any of these.)
+bridge code. **And a forcing audit proves those closure laws are not
+floor-selected over matched lawful alternatives** — so the floor forces the
+*atlas* of lawful closures and the terminal self-dual *class*, but never the
+specific *member* (not statically, via counterworlds like a matched
+doubly-even self-dual `[24,12,4]` code, and not dynamically, via a
+selection-equivalence theorem). Selection of a world-phase is a conserved,
+received input; but *given* an actual phase, its Born statistics and its
+binding arity are forced by counting. (Structural, under named closure
+axioms; nature is not claimed to realize any of these.)
 
 ## The live ceiling
 
@@ -94,18 +101,21 @@ README, the [claim register](docs/public-claim-register.md), the
 > measurement calculus forces the quadratic Born frame rule (a finite
 > Gleason theorem) exactly where a triality Kochen-Specker obstruction
 > forbids a global noncontextual assignment, and in which independently
-> generated cells combine not by tensor product but as a self-dual triality
-> bridge code whose unique debt-free two-cell closure is the E_8 root
-> system, whose local fusion is octonionic, and whose first hidden six-cell
-> world is the hexacode — under which the quantum boundary is a floor
-> theorem at binary-Bell finite-carrier scope, the preparation gap is an
-> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
-> finite model-scope recovery on a real-quantum cell, the multi-floor
-> worldweave is a structural model-scope result under named closure axioms,
-> and every unearned generalization — complex quantum mechanics, the
-> actuality of one outcome, the universal Born rule, whether nature realizes
-> any of these structures, and every nature-facing prediction — is left open
-> by name.
+> generated cells recover the E_8–hexacode closure spine under named
+> positive, integral, triality-covariant, self-dual, and delocalizing
+> receiver laws while a forcing audit proves those laws are not selected by
+> the floor over matched lawful alternatives — so the floor forces the atlas
+> of lawful closures and the terminal self-dual class but never the specific
+> member, and the selection of a world-phase is a conserved, received input
+> — under which the quantum boundary is a floor theorem at binary-Bell
+> finite-carrier scope, the preparation gap is an exact theorem at
+> KCBS-pentagon scope, the interface reconstruction is a finite model-scope
+> recovery on a real-quantum cell, the multi-floor closures are model-scope
+> recoveries whose forcing boundary is exactly mapped, and every unearned
+> generalization — complex quantum mechanics, the actuality of one outcome,
+> the universal Born rule, whether nature realizes any of these structures,
+> which world-phase is selected, and every nature-facing prediction — is
+> left open by name.
 
 The scope fence is the result, not an apology. In particular this does **not**
 claim all quantum mechanics is derived: Chapter 8 is a *real-quantum* cell
@@ -128,10 +138,11 @@ preparation gap, the debt/asking/time theorems, the floor engine, and — new
 in v0.8 — `nonexact_return_reconstruction.py`, which verifies the quaternionic
 receiver, the 24-cell self-duality, the F₄ closure, the forced `1/2`, the
 finite Gleason theorem, and the triality Kochen–Specker obstruction; and — new
-in v0.9 — `multifloor_worldweave.py`, which verifies the E₈ two-cell closure,
-the octonionic fusion census, the self-dual code count `|GU(k,2)|`, and the
-hexacode. All in exact arithmetic in a few seconds. This is the shipped public
-subset — not the full private corpus.
+in v0.9 — `multifloor_worldweave.py` (the E₈ two-cell closure, octonionic
+fusion, the `|GU(k,2)|` code census, the hexacode) and `forcing_audit.py`
+(the counterworlds and the selection-equivalence theorem that map exactly what
+the closure does and does not force). All in exact arithmetic in a fraction of
+a second. This is the shipped public subset — not the full private corpus.
 
 ## Recoveries, honestly named
 
@@ -205,8 +216,8 @@ much — and the bold frame at the top of this page is held to that same audit.
 
 ## Status
 
-This is v0.9.0: nine chapters on three lines — 56 claim rows (FCT-01..56), 40
-theorem rows (T-01..40), twelve shipped dependency-free scripts, a public
+This is v0.9.0: nine chapters on three lines — 59 claim rows (FCT-01..59), 43
+theorem rows (T-01..43), thirteen shipped dependency-free scripts, a public
 correction ledger, and one live ceiling sentence. Complex quantum mechanics,
 the actuality of one outcome, the universal Born rule, the multi-floor
 structure, spacetime/gravity/continuum, and every nature-facing claim are

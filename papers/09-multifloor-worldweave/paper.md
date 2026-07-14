@@ -1,9 +1,9 @@
-# Chapter 9 — The Multi-Floor Worldweave: Bridge Codes, the E_8 Closure, and Octonionic Fusion
+# Chapter 9 — The Multi-Floor Worldweave: A Forcing Audit of the E_8-Hexacode Spine
 
-**Release:** v0.9.0 · **Status of the chapter:** a structural model-scope
-result under named closure axioms. Every finite statement is exact and
-machine-checked from a clean clone; every generalization beyond the stated
-scope is held open by name.
+**Release:** v0.9.0 · **Status of the chapter:** a positive forcing theorem
+with named recoveries. Every finite statement is exact and machine-checked
+from a clean clone; every generalization beyond the stated scope is held
+open by name.
 
 ---
 
@@ -26,166 +26,206 @@ README, the claim register, and the v0.9.0 release notes:
 > measurement calculus forces the quadratic Born frame rule (a finite
 > Gleason theorem) exactly where a triality Kochen-Specker obstruction
 > forbids a global noncontextual assignment, and in which independently
-> generated cells combine not by tensor product but as a self-dual triality
-> bridge code whose unique debt-free two-cell closure is the E_8 root
-> system, whose local fusion is octonionic, and whose first hidden six-cell
-> world is the hexacode — under which the quantum boundary is a floor
-> theorem at binary-Bell finite-carrier scope, the preparation gap is an
-> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
-> finite model-scope recovery on a real-quantum cell, the multi-floor
-> worldweave is a structural model-scope result under named closure axioms,
-> and every unearned generalization — complex quantum mechanics, the
-> actuality of one outcome, the universal Born rule, whether nature realizes
-> any of these structures, and every nature-facing prediction — is left open
-> by name.
+> generated cells recover the E_8–hexacode closure spine under named
+> positive, integral, triality-covariant, self-dual, and delocalizing
+> receiver laws while a forcing audit proves those laws are not selected by
+> the floor over matched lawful alternatives — so the floor forces the atlas
+> of lawful closures and the terminal self-dual class but never the specific
+> member, and the selection of a world-phase is a conserved, received input
+> — under which the quantum boundary is a floor theorem at binary-Bell
+> finite-carrier scope, the preparation gap is an exact theorem at
+> KCBS-pentagon scope, the interface reconstruction is a finite model-scope
+> recovery on a real-quantum cell, the multi-floor closures are model-scope
+> recoveries whose forcing boundary is exactly mapped, and every unearned
+> generalization — complex quantum mechanics, the actuality of one outcome,
+> the universal Born rule, whether nature realizes any of these structures,
+> which world-phase is selected, and every nature-facing prediction — is
+> left open by name.
 
 ---
 
-## 0. The question, and the scope
+## 0. What this chapter proves
 
-Chapter 8 closed a single non-exact-return cell: its receiver is the
-quaternions, its states are the 24-cell, its measurement calculus is the
-Born frame rule sitting exactly on a triality Kochen–Specker obstruction.
-That chapter deliberately left one thing open by name: **how independently
-generated cells become one world.** This chapter answers the structural
-version of that question, and the answer is not the expected one.
+Chapter 8 closed a single non-exact-return cell. This chapter asks how
+independently generated cells become one world — and answers it as a
+**forcing audit**, the program's signature move: it maps exactly what the
+finite-contact closure does and does not force.
 
-> **Independently generated cells do not combine by tensor product. Each
-> cell carries a D_4 triality boundary; cells become one world by settling
-> those boundary debts into a self-dual code.**
+The answer has a positive and a negative half, and the negative half is a
+theorem, not a hedge:
 
-The native global object is therefore an **evolving bridge code**, not a
-tensor product and not one monolithic state space. Everything below is
-exact and machine-checked, but the reading rests on named closure
-assumptions (positivity, integral receipt-preserving closure, triality
-covariance, self-dual completion); it is a **structural** result at model
-scope. It does **not** show that nature realizes `E_8`, the hexacode, or
-any particular code, and it derives no metric, spectrum, or dimensionful
-constant. What is closed is the structural question.
+> **The floor forces the atlas of lawful closures and the terminal
+> self-dual class, but never the specific member.** Under named positive,
+> integral, triality-covariant, self-dual, and delocalizing receiver laws,
+> the multi-cell closure problem recovers the `E_8`–hexacode spine (§1). But
+> those five laws are **not** selected by the floor over matched lawful
+> alternatives — not statically (§2, counterworlds) and not dynamically
+> (§3, a selection-equivalence theorem). Selection of a world-phase is a
+> **conserved, received input**: making the dynamics richer only relocates
+> the selector into a potential or rate law; it never creates one.
 
-## 1. The triality boundary (Section 1 of the script)
+There is a clean complement (§4): the floor cannot select *which* phase
+exists, but *given* an actual phase it forces the phase's internal law —
+the Born response and the interaction arity — by counting terminal
+witnesses, with no primitive state vector and no added Born postulate. So
+the division is sharp: **which world-phase is received historical
+actuality; how an actual phase distributes its futures is forced.**
 
-**Claim (MODEL-SCOPE / RECOVERY).** Each cell's `D_4` triality boundary is
-the Klein four-group `K = {0, v, s, c} ≅ C_2 × C_2`, with `S_3` triality
-permuting `{v, s, c}`.
+Everything below is exact and machine-checked
+(`verification/multifloor_worldweave.py` for §1;
+`verification/forcing_audit.py` for §§2–4). The named objects — the `E_8`
+root system, the octonions, the hexacode, the classification of doubly-even
+self-dual `[24,12]` codes, the MacWilliams identity, Lyapunov / detailed
+balance, and Delsarte's dual-distance bound — are known mathematics,
+recovered here in a derivational role.
 
-The three eight-dimensional representations of `D_4` (vector, spinor,
-cospinor) label three boundary sectors; their fusion group is Klein-four,
-and the outer `S_3` symmetry permutes the three sectors. For `N` cells the
-native boundary space is `K^N`; a bridge ecology is an additive glue code
-`H ≤ K^N`; its unresolved bridge debt is `2N − 2·dim_{F_2} H` bits; and a
-**receiver-complete world is a self-dual code**, `H = H^⊥`.
+## 1. The closure atlas (the recovered spine)
 
-## 2. Two cells close uniquely into E_8 (Section 2)
+Each non-exact-return cell carries a `D_4` triality boundary
+`K = C_2 × C_2` (with `S_3` triality on `{v,s,c}`); for `N` cells the
+boundary space is `K^N`, a bridge ecology is an additive glue code
+`H ≤ K^N`, and — **under the named receiver laws** — the debt-free and
+receiver-complete closures recover a specific spine
+(`verification/multifloor_worldweave.py`):
 
-**Claim (MODEL-SCOPE / RECOVERY).** The unique debt-free closure of two
-cells is the `E_8` root system.
+- **Two cells → `E_8`.** The triality boundaries close into the `E_8` root
+  system: `240 = 48 (D_4 ⊕ D_4) + 3 × 64` triality-matched bridges,
+  reflection-closed, with the glue-lattice determinant ladder
+  `16 → 4 → 1` (debt `4 → 2 → 0` bits). `E_8` is the unique debt-free
+  two-cell closure — the complete bridge geometry, **not** an installed
+  physical gauge group.
+- **Local fusion is octonionic.** Fusing two quaternionic receivers gives
+  `O = H ⊕ Hℓ`; of the 35 imaginary-unit triples exactly 7 associate and
+  28 do not, so nonassociativity is a pure three-contact order receipt.
+- **Fusion stops at `O`.** The sedenions have zero divisors; normed
+  monolithic fusion cannot continue, so a population is code-like, not one
+  algebra.
+- **Self-dual worlds and the hexacode.** The triality-covariant Hermitian
+  self-dual standard-form census is `|GU(N/2, 2)| = 3, 18, 648` through six
+  cells; at six cells `486` of the `648` codes reach minimum distance four,
+  canonically the hexacode `[6,3,4]` — the first population that can be one
+  world invisible to every pairwise and triple probe.
 
-Two cells contribute `48` internal roots (`D_4 ⊕ D_4`). Their three
-triality-matched bridge sectors — `(8v,8v)`, `(8s,8s)`, `(8c,8c)` —
-contribute `64` roots each. The verification script confirms exactly:
+This is the atlas. It is a genuine recovery of a rigid mathematical spine
+from the contact closure problem. The rest of the chapter asks the question
+the program always asks next: **is that spine forced, or received?**
 
-```
-240 roots  =  48 (D_4 + D_4)  +  64 (8v,8v)  +  64 (8s,8s)  +  64 (8c,8c),
-```
+## 2. Forcing audit, static: the closure laws are not forced
 
-reflection-closed, and the glue-lattice determinant ladder
-`D_4² → D_8 → E_8 = 16 → 4 → 1` (bridge debt `4 → 2 → 0` bits): a single
-spinor bridge added to the vector-bridged `D_8` phase catalyzes the rest of
-`E_8` under closure. So **`E_8` is the unique debt-free two-cell world** —
-the complete bridge geometry of two contact cells, recovered here in a
-derivational role. It is emphatically **not** installed as a physical gauge
-group, and no such claim is made.
+Each of the five receiver laws that produce §1 has a **matched lawful
+counterworld** — a floor-legal alternative the closure problem does not
+rank below the spine (`verification/forcing_audit.py`, Section A):
 
-## 3. Local fusion is octonionic (Section 3)
+- **Golay is not forced.** A matched "local-kernel" binary refinement of the
+  *same* hexacode, six cells, and four ports yields a doubly-even self-dual
+  `[24,12,4]` code with weight enumerator `1 + 6y⁴ + 735y⁸ + 2612y¹² +
+  735y¹⁶ + 6y²⁰ + y²⁴` — its six weight-four words are exactly the six local
+  port receipts. The script exhibits this code explicitly (found by an
+  exhaustive port-map search), verifies it is MacWilliams-self-dual and
+  doubly-even, and confirms an independent `[24,12,4]` witness. Golay's
+  parity condition is an **extra, delocalizing** law, not a forced one.
+  (Recovery: the Pless–Sloane classification — exactly nine doubly-even
+  self-dual `[24,12]` codes, Golay the unique `d = 8`.)
+- **Positivity, integrality, and magnitude are not forced.** The bridge
+  family `G_t = [[I₄, tI₄],[tI₄, I₄]]` has determinant `(1 − t²)⁴`: it is
+  positive-definite for `|t| < 1` (including the *irrational* `t = √2/2`),
+  indefinite for `|t| > 1` (e.g. `t = 2`), and degenerate only at `t = 1`.
+  No-silent-loss singles out none of positivity, integrality, or a magnitude
+  — the scale-free ceiling, from the multi-floor side.
+- **The triality alphabet is not unique.** Both `Q₈/{±1} ≅ V₄` and
+  `2T/Q₈ ≅ C₃` are valid export quotients; the floor does not rank `V₄` as
+  the unique inter-floor alphabet.
+- **Self-duality is not implied by completeness.** An *operationally*
+  complete receiver is a **separating dual pole** `H ⊊ H^⊥` (verified: the
+  isotropic seed over `GF(4)` has `|H| = 4` strictly inside `|H^⊥| = 64`),
+  not a self-dual code. Self-duality `H = H^⊥` is an extra condition, and it
+  still does not pick a member: the two-cell self-dual codes are three, in a
+  single `S_3` orbit.
+- **Rootlessness is separate.** `E_8 ⊕ E_8 ⊕ E_8` is positive, integral,
+  even, and unimodular in 24 dimensions, yet has 720 roots. The Leech
+  lattice's rootlessness is an additional minimum-norm law, not implied by
+  even-unimodular completion.
 
-**Claim (RECOVERY).** The local dynamics of a fused cell is octonionic,
-and its nonassociativity is a pure three-contact order receipt.
+## 3. Forcing audit, dynamic: making the floor dynamic does not rescue forcing
 
-Fusing two quaternionic receivers under a positive multiplicative norm
-gives the octonions `O = H ⊕ Hℓ`. The decisive feature is not that
-octonions appear but *where* the new receipt lives: any two octonionic
-directions generate an associative subalgebra, so the new information is
-carried only by **triples**. Of the `C(7,3) = 35` triples of imaginary
-units, exactly `7` associate (the Fano lines) and `28` do not. Every pair
-looks quaternionic while the triple retains information belonging to no
-pair — an exact dynamical realization of collective binding that is
-invisible pairwise.
+A natural rescue is to let a dynamics *settle* onto the spine. It cannot
+create a selector — it can only **relocate a conserved one**
+(`verification/forcing_audit.py`, Section B):
 
-## 4. Fusion stops at the octonions (Section 4)
+> **Selection equivalence.** Unique strict dynamic selection is equivalent
+> to a preferred scalar ranking.
 
-**Claim (RECOVERY).** Positive normed monolithic fusion terminates at the
-octonions; larger populations cannot be one division algebra.
+The certificate: of the `256` deterministic maps on four phases, exactly
+`64` strictly settle to a single terminal phase — the rooted-tree count
+`4³ = n^{n−1}` — and *every one* carries a Lyapunov ranking
+`V(F(x)) = V(x) − 1`. For reversible stochastic dynamics, detailed balance
+gives the stationary law `π ∝ e^{−V}`, i.e. `V = −log π`. So the dynamics
+does not create the selector; it encodes the conserved one in a potential
+/ transition kernel / rate law. The same bridge family, under two passive
+potentials `V₀(t) = t²` and `V_irr(t) = (t² − ½)²`, settles onto an
+integral versus an irrational attractor; the `V₄`-vs-`C₃` scalarization
+crossover sits at `λ* = 2 − log₂ 3 = 0.4150375…`. (Scope of the theorem,
+stated honestly: it covers deterministic-settling and reversible-stochastic
+dynamics; the floor's own gradient-descent-on-a-potential dynamics is inside
+that class.)
 
-The next Cayley–Dickson doubling is the 16-dimensional sedenions, which
-contain zero divisors: the script exhibits `(e₁+e₁₀)(e₄−e₁₅) = 0` with both
-factors nonzero, while confirming the octonions have none of this form.
-Silent annihilation of consequential distinctions is disallowed without an
-external settlement receipt, so a population **cannot** collapse into one
-ever-larger normed algebra. It must remain a **worldweave of octonionic
-cells**, globally bound by bridge codes — which is exactly why the larger
-object is code-like rather than one giant algebra.
+**The one positive.** Self-duality *can* be forced — but only as a terminal
+**class** (`H = H^⊥` is a well-defined attractor set), never as a specific
+**member**: the three two-cell self-dual codes form one `S_3` orbit, so a
+target-blind equivariant dynamics can only assign the uniform `1/3` to each.
+The class is forced; the member is received.
 
-## 5. Receiver-complete worlds are a unitary orbit (Section 5)
+## 4. Actualization by counting: the internal law of an actual phase is forced
 
-**Claim (MODEL-SCOPE / RECOVERY).** The triality-covariant Hermitian
-self-dual standard-form codes on `N` cells number `|GU(N/2, 2)|`.
+The floor cannot select which phase exists. But *given* an actual phase, it
+forces the phase's internal law by counting terminal witnesses
+(`verification/forcing_audit.py`, Section C) — the positive complement:
 
-An exhaustive search over all standard-form generator matrices gives `3`
-self-dual codes for `N = 2`, `18` for `N = 4`, and `648` for `N = 6` —
-exactly the orders of the finite unitary groups `GU(k, 2)` for `k = N/2`
-(`3, 18, 648`). Receiver-complete worlds are the unitary orbit over
-`GF(4)`, and the exhaustive combinatorial search is confirmed by this
-closed form.
+- **Born by counting.** On the 24-cell, the response kernel counted from
+  terminal witnesses is `K = (1/3)|⟨p,q⟩|²`, with values `{0, 1/12, 1/3}`,
+  row-stochastic, trace 4, and rank `10 = dim Sym(4,ℝ)`. The quadratic Born
+  response is *counted*, with no primitive state vector and no added Born
+  postulate — the multi-floor echo of Chapter 8's finite Gleason theorem.
+- **Correlation arity.** For an actual linear-code phase with dual distance
+  `d_⊥`, every marginal on `≤ d_⊥ − 1` coordinates is exactly uniform, so
+  the first visible global binding arity is `d_⊥` (verified: hexacode
+  `d_⊥ = 4`, uniform through three floors and breaking at four; the matched
+  `[24,12,4]` counterworld `d_⊥ = 4`; Golay `d_⊥ = 8`). A population can
+  possess exact global binding while every lower-arity observer sees maximum
+  local randomness. (Recovery: Delsarte — dual distance = orthogonal-array
+  strength `+ 1`.)
 
-## 6. Six cells: the first hidden collective world (Section 6)
+So: **which world-phase exists is received historical actuality; how an
+actual phase distributes its futures is forced by witness counting.**
 
-**Claim (MODEL-SCOPE / RECOVERY).** Six cells are the first population that
-can form a complete world invisible to every pairwise and triple probe;
-the hexacode is a canonical phase.
+## 5. The reframed statement, scope, and what is held open
 
-The minimum weight of a bridge code is the first visible interaction arity.
-Through four cells every self-dual code has minimum distance two (pair
-bridges are always exposed). At six cells, of the `648` self-dual codes
-exactly `162` have minimum distance two and `486` have minimum distance
-four. The distance-four phases have **no one-, two-, or three-cell bridge
-words**: their global worldhood is invisible to every pairwise and triple
-glue probe. A canonical phase is the **hexacode** `[6, 3, 4]` over `GF(4)`,
-with weight enumerator `1 + 45 y⁴ + 18 y⁶`, Hermitian self-dual, whose
-`D_4^6` glue lattice is globally self-dual — yet which creates no new
-cross-cell roots (its visible root system stays `D_4^6`). So six locally
-separate-looking cells can already constitute one complete global world
-whose unity lives only in the higher code.
+**The honest-replacement statement.** *Under positive, integral,
+triality-covariant, self-dual, and delocalizing receiver laws, the
+finite-contact closure problems recover the `E_8`–hexacode(–Golay–Leech)
+spine. The floor has not selected those laws over matched lawful
+alternatives.* What the floor forces is the **atlas** of lawful closures,
+the terminal self-dual **class**, and — given an actual phase — its internal
+**statistics**. What it does not force, statically or dynamically, is the
+**member**; that is a conserved, received input.
 
-## 7. The dynamic law, and what is held open
+**On "receiver-complete."** Do not read any statement as "completeness
+forces self-duality." Operational receiver-completeness is a separating dual
+pole `H ⊊ H^⊥` (§2). Self-duality is the terminal class an equivariant
+dynamics can force (§3), never a specific self-dual code.
 
-At stage `t` reality carries a bridge code `H_t`; hereditary bridge genesis
-gives `H_t ⊆ H_{t+1}`. Adding an independent generator lowers determinant
-debt; reaching `H = H^⊥` creates a receiver-complete world; exporting a
-generator can split a world; codeword support fixes interaction arity; the
-weight enumerator is the binding spectrum. That is a **structural** dynamics
-of the global object — the code, not a state vector.
+**Recoveries, named.** The `E_8` root system, the octonions, the hexacode,
+the doubly-even self-dual `[24,12]` classification (Pless–Sloane), the
+MacWilliams identity, the rooted-tree count and Lyapunov / detailed-balance
+theory, and Delsarte's bound are known mathematics, recovered in a
+derivational role; the novelty is the *composition* and the *forcing
+boundary*, graded in the claim register.
 
-**The pattern across the arc.** Within a cell (Chapter 8): non-exact return
-generates quantum-like valuation. Between two cells: triality debt closes as
-`E_8`. Inside a fusion cell: ordered contact is octonionic. Across a
-population: worldhood is a self-dual glue code. The unifying reading is that
-the native global object of the theory is an evolving bridge code.
+**Held open by name.** Which world-phase is selected (received actuality);
+whether nature realizes `E_8`, the hexacode, or any code; a metric,
+spectrum, or dimensionful constant (none is derived); and the hinges
+inherited from Chapter 8 (complex quantum mechanics, the actuality of one
+outcome, the universal Born rule).
 
-**Held open by name.** Whether nature realizes `E_8`, the hexacode, or any
-code; a metric, particle spectrum, or dimensionful constant (none is
-derived); the nonlinear/continuum behavior of the code dynamics; and the
-open hinges inherited from Chapter 8 (complex quantum mechanics, the
-actuality of one outcome, the universal Born rule) and the rest of the
-program's horizon.
-
-**Recoveries, named.** The `D_4` triality group, the `E_8` root system, the
-octonions and Cayley–Dickson tower, the hexacode, and the unitary groups
-`GU(k, 2)` are known mathematics, recovered here in a derivational role; the
-novelty claim is the *composition* (cells as triality-boundaried code
-generators, worldhood as a self-dual code), graded in the claim register.
-
-Everything above is verified by
-`verification/multifloor_worldweave.py` from a clean clone, in a few
-seconds, in exact arithmetic. The rows this chapter rests on are frozen in
+The claim-register rows this chapter rests on are frozen in
 [`claims.md`](claims.md); the freeze record is in [`RELEASE.md`](RELEASE.md).

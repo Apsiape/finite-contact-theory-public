@@ -1,7 +1,6 @@
 # Release Notes — v0.9.0
 
-**Finite Contact Theory v0.9: The Multi-Floor Worldweave — Bridge Codes,
-the E_8 Closure, and Octonionic Fusion.**
+**Finite Contact Theory v0.9: The Multi-Floor Worldweave — A Forcing Audit of the E_8-Hexacode Spine.**
 
 Ninth public release. It extends the contact-interface line (opened in v0.8)
 from a single cell to a population, and answers the structural question left
@@ -25,18 +24,21 @@ their triality boundary debts into a self-dual code.
 > measurement calculus forces the quadratic Born frame rule (a finite
 > Gleason theorem) exactly where a triality Kochen-Specker obstruction
 > forbids a global noncontextual assignment, and in which independently
-> generated cells combine not by tensor product but as a self-dual triality
-> bridge code whose unique debt-free two-cell closure is the E_8 root
-> system, whose local fusion is octonionic, and whose first hidden six-cell
-> world is the hexacode — under which the quantum boundary is a floor
-> theorem at binary-Bell finite-carrier scope, the preparation gap is an
-> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
-> finite model-scope recovery on a real-quantum cell, the multi-floor
-> worldweave is a structural model-scope result under named closure axioms,
-> and every unearned generalization — complex quantum mechanics, the
-> actuality of one outcome, the universal Born rule, whether nature realizes
-> any of these structures, and every nature-facing prediction — is left open
-> by name.
+> generated cells recover the E_8–hexacode closure spine under named
+> positive, integral, triality-covariant, self-dual, and delocalizing
+> receiver laws while a forcing audit proves those laws are not selected by
+> the floor over matched lawful alternatives — so the floor forces the atlas
+> of lawful closures and the terminal self-dual class but never the specific
+> member, and the selection of a world-phase is a conserved, received input
+> — under which the quantum boundary is a floor theorem at binary-Bell
+> finite-carrier scope, the preparation gap is an exact theorem at
+> KCBS-pentagon scope, the interface reconstruction is a finite model-scope
+> recovery on a real-quantum cell, the multi-floor closures are model-scope
+> recoveries whose forcing boundary is exactly mapped, and every unearned
+> generalization — complex quantum mechanics, the actuality of one outcome,
+> the universal Born rule, whether nature realizes any of these structures,
+> which world-phase is selected, and every nature-facing prediction — is
+> left open by name.
 
 This supersedes the v0.8 ceiling as the live ceiling; the v0.1, v0.2, v0.7,
 and v0.8 ceilings remain quoted, unchanged, in their frozen chapters and
@@ -86,8 +88,10 @@ monolithic state space.
 ## Verify
 
 ```powershell
-python verification\scriptsun_all.py    # expects: ALL SHIPPED VERIFICATION: PASS
-python scriptselease_audit.py           # expects: PUBLIC RELEASE AUDIT: PASS
+python verification\scripts
+un_all.py    # expects: ALL SHIPPED VERIFICATION: PASS
+python scripts
+elease_audit.py           # expects: PUBLIC RELEASE AUDIT: PASS
 ```
 
 ## Citation

@@ -35,18 +35,21 @@ paper, and the v0.9.0 release notes):
 > measurement calculus forces the quadratic Born frame rule (a finite
 > Gleason theorem) exactly where a triality Kochen-Specker obstruction
 > forbids a global noncontextual assignment, and in which independently
-> generated cells combine not by tensor product but as a self-dual triality
-> bridge code whose unique debt-free two-cell closure is the E_8 root
-> system, whose local fusion is octonionic, and whose first hidden six-cell
-> world is the hexacode — under which the quantum boundary is a floor
-> theorem at binary-Bell finite-carrier scope, the preparation gap is an
-> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
-> finite model-scope recovery on a real-quantum cell, the multi-floor
-> worldweave is a structural model-scope result under named closure axioms,
-> and every unearned generalization — complex quantum mechanics, the
-> actuality of one outcome, the universal Born rule, whether nature realizes
-> any of these structures, and every nature-facing prediction — is left open
-> by name.
+> generated cells recover the E_8–hexacode closure spine under named
+> positive, integral, triality-covariant, self-dual, and delocalizing
+> receiver laws while a forcing audit proves those laws are not selected by
+> the floor over matched lawful alternatives — so the floor forces the atlas
+> of lawful closures and the terminal self-dual class but never the specific
+> member, and the selection of a world-phase is a conserved, received input
+> — under which the quantum boundary is a floor theorem at binary-Bell
+> finite-carrier scope, the preparation gap is an exact theorem at
+> KCBS-pentagon scope, the interface reconstruction is a finite model-scope
+> recovery on a real-quantum cell, the multi-floor closures are model-scope
+> recoveries whose forcing boundary is exactly mapped, and every unearned
+> generalization — complex quantum mechanics, the actuality of one outcome,
+> the universal Born rule, whether nature realizes any of these structures,
+> which world-phase is selected, and every nature-facing prediction — is
+> left open by name.
 
 The v0.1, v0.2, v0.7, and v0.8 ceilings remain quoted, unchanged, in their
 frozen chapters and release notes; this row supersedes them as the live ceiling.
@@ -1595,21 +1598,28 @@ Public statement:
 
 Each cell carries a `D_4` triality boundary `K = C_2 x C_2` (with `S_3`
 triality on `{v,s,c}`); a bridge ecology is an additive glue code
-`H <= K^N`, with bridge debt `2N - 2 dim H`, and a receiver-complete world
-is a self-dual code `H = H-perp`.
+`H <= K^N`, with bridge debt `2N - 2 dim H`. Operational receiver-
+completeness is a separating dual pole `H < H-perp` (verified: an isotropic
+seed over `GF(4)` has `|H| = 4` strictly inside `|H-perp| = 64`); self-
+duality `H = H-perp` is the terminal CLASS an equivariant dynamics can
+force (FCT-58), not a definition of completeness, and it still does not pick
+a member (FCT-57).
 
 Evidence:
 
-- shipped: Section 1 of `verification/scripts/multifloor_worldweave.py`.
+- shipped: Section 1 of `verification/scripts/multifloor_worldweave.py`;
+  the dual-pole and self-dual-orbit facts in Section A of
+  `verification/scripts/forcing_audit.py`.
 
 Checks / controls:
 
-- the Klein-four structure and `S_3` triality are computed exactly.
+- the Klein-four structure and `S_3` triality are computed exactly; the
+  dual pole `H < H-perp` and the three-member `S_3` orbit are exact.
 
 Residuals:
 
 - a structural model under named closure assumptions; not a claim that
-  nature runs this code.
+  nature runs this code; do NOT read "completeness" as "self-duality".
 
 ## FCT-52 - E_8 As The Unique Debt-Free Two-Cell Closure
 
@@ -1637,7 +1647,10 @@ Checks / controls:
 Residuals:
 
 - `E_8` is the complete bridge geometry of two cells, NOT an installed
-  physical gauge group; nature is not claimed to realize it.
+  physical gauge group; nature is not claimed to realize it;
+- this is a recovery UNDER the named receiver laws; those laws are not
+  floor-selected over matched lawful alternatives (FCT-57), so `E_8` is a
+  forced *point of the atlas*, not a forced *choice*.
 
 ## FCT-53 - Octonionic Fusion; A Three-Contact Receipt
 
@@ -1744,6 +1757,124 @@ Residuals:
 
 - whether nature realizes any code, and any metric/spectrum/constant, are
   held open; recovers the hexacode.
+
+## FCT-57 - Static Forcing Audit: The Closure Laws Are Not Forced
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: the five receiver laws (positivity, integrality, triality alphabet,
+self-dual completion, delocalization) that produce the E_8-hexacode spine.
+Evidence state: `shipped`.
+
+Public statement:
+
+Each closure law has a matched lawful counterworld the floor does not rank
+below the spine: (a) a doubly-even self-dual `[24,12,4]` code (six
+weight-four words = the six local port receipts; explicitly constructed and
+MacWilliams-verified) shows Golay's parity is an extra delocalizing law,
+not forced; (b) the bridge family `G_t = [[I,tI],[tI,I]]` has determinant
+`(1-t^2)^4` and is positive at the irrational `t = sqrt(2)/2`, indefinite at
+`t = 2`, so positivity/integrality/magnitude are not singled out; (c) both
+`Q8/{+-1} = V4` and `2T/Q8 = C3` are valid export quotients; (d) operational
+completeness gives a dual pole `H < H-perp`, and the self-dual codes are an
+`S_3` orbit; (e) `E_8 + E_8 + E_8` is even-unimodular with 720 roots, so
+rootlessness (Leech) is an extra law.
+
+Evidence:
+
+- shipped: Section A of `verification/scripts/forcing_audit.py` (exact
+  Krawtchouk / MacWilliams; the matched `[24,12,4]` code by exhaustive
+  port-map search; the determinant, group-quotient, dual-pole, and
+  lattice-root computations).
+
+Checks / controls:
+
+- both weight enumerators are MacWilliams-self-dual and doubly-even; the
+  counterworld code is fully constructed and verified, with an independent
+  `[24,12,4]` witness.
+
+Residuals:
+
+- the specific zero-divisor / port-map representatives are convention-
+  dependent; the counterworld *existence* is the claim.
+- recovers: Pless-Sloane doubly-even self-dual `[24,12]` classification;
+  the MacWilliams identity; Leech rootlessness.
+
+## FCT-58 - Dynamic Selection Equivalence: Selection Is A Conserved Input
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: deterministic-settling and reversible-stochastic dynamics on a finite
+phase set (the floor's own gradient-on-a-potential dynamics is inside this
+class).
+Evidence state: `shipped`.
+
+Public statement:
+
+Unique strict dynamic selection is equivalent to a preferred scalar ranking:
+of the 256 maps on four phases, exactly 64 (the rooted-tree count
+`4^3 = n^{n-1}`) strictly settle to one terminal phase, and every one
+carries a Lyapunov ranking `V(F(x)) = V(x) - 1`; reversible dynamics has
+stationary law `pi ~ e^{-V}` (`V = -log pi`). So dynamics never CREATES a
+selector; it RELOCATES a conserved one into a potential / kernel / rate law
+(two passive potentials on the same bridge family select an integral vs an
+irrational attractor; the `V4/C3` crossover is `lambda* = 2 - log2(3)`). The
+one positive: self-duality can be forced as a terminal CLASS, but its
+members are `S_3`-transitive, so target-blind equivariant dynamics yields
+uniform `1/3`.
+
+Evidence:
+
+- shipped: Section B of `verification/scripts/forcing_audit.py` (the 64
+  settlers + Lyapunov; exact detailed balance; the potentials and
+  `lambda*`; the `S_3`-orbit `1/3`).
+
+Checks / controls:
+
+- the settler count and Lyapunov property are exhaustive over all 256 maps;
+  detailed balance is exact.
+
+Residuals:
+
+- the theorem covers deterministic-settling and reversible-stochastic
+  dynamics; non-reversible driven dynamics is not claimed here (though it
+  too carries a burden functional).
+- recovers: the rooted-tree count; Lyapunov / detailed-balance theory.
+
+## FCT-59 - Actualization By Counting: The Internal Law Of An Actual Phase
+
+Status: `THEOREM / MODEL-SCOPE / RECOVERY`
+Scope: the internal statistics of a GIVEN (actual) code phase.
+Evidence state: `shipped`.
+
+Public statement:
+
+The floor cannot select which phase exists, but given an actual phase it
+forces the phase's internal law by counting terminal witnesses. On the
+24-cell, the counted response kernel is `K = (1/3)|<p,q>|^2` (values
+`{0, 1/12, 1/3}`, row-stochastic, trace 4, rank `10 = dim Sym(4,R)`) -- the
+quadratic Born response with no primitive state vector and no added Born
+postulate. And for an actual linear-code phase with dual distance `d_perp`,
+every marginal on `<= d_perp - 1` coordinates is exactly uniform, so the
+first visible global binding arity is `d_perp` (hexacode `d_perp = 4`; the
+`[24,12,4]` counterworld `d_perp = 4`; Golay `d_perp = 8`): a population can
+carry exact global binding while every lower-arity observer sees maximum
+local randomness. Which phase exists is received; how it distributes futures
+is forced.
+
+Evidence:
+
+- shipped: Section C of `verification/scripts/forcing_audit.py` (the kernel
+  spectrum; the dual-distance marginal-uniformity computations).
+
+Checks / controls:
+
+- the kernel values, row-stochasticity, and rank are exact; the marginal
+  uniformity is exhaustive through and past the dual distance.
+
+Residuals:
+
+- real-quantum scope (`Sym(4,R)`); does not derive the universal Born rule
+  or the actuality of one outcome.
+- recovers: Delsarte's dual-distance = orthogonal-array-strength + 1.
 
 ## Held Claim Families
 

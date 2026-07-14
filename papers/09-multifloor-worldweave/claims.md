@@ -2,9 +2,10 @@
 
 The exact claim-register rows this chapter rests on. The live view is
 [`../../docs/public-claim-register.md`](../../docs/public-claim-register.md).
-All rows are `shipped`: the single dependency-free script
-`verification/multifloor_worldweave.py` verifies each from a clean clone,
-exactly and exhaustively, in a few seconds.
+All rows are `shipped`. Two dependency-free scripts verify them from a clean
+clone, exactly and exhaustively, in a fraction of a second:
+`verification/multifloor_worldweave.py` (the closure atlas, FCT-51..56) and
+`verification/forcing_audit.py` (the forcing audit, FCT-57..59).
 
 ---
 
@@ -17,9 +18,12 @@ Evidence: `shipped` (Section 1).
 
 Each cell carries a `D_4` triality boundary `K = C_2 × C_2` (with `S_3`
 triality on `{v,s,c}`); a bridge ecology is an additive glue code
-`H ≤ K^N`, with bridge debt `2N − 2·dim H` and a receiver-complete world
-defined by self-duality `H = H^⊥`. Fence: a structural model under named
-closure assumptions; not a claim that nature runs this code.
+`H ≤ K^N`, with bridge debt `2N − 2·dim H`. Operational receiver-
+completeness is a separating dual pole `H ⊊ H^⊥` (not self-duality);
+self-duality `H = H^⊥` is the terminal class an equivariant dynamics can
+force (FCT-58), and it does not pick a member (FCT-57). Fence: a structural
+model under named closure assumptions; not a claim that nature runs this
+code; do not read "completeness" as "self-duality".
 
 ## FCT-52 — E_8 as the Unique Debt-Free Two-Cell Closure
 
@@ -83,3 +87,43 @@ six-cell world can be invisible to every pairwise and triple probe. `N=6`
 is the first such hidden collective world. Recovery: the hexacode.
 Residual: whether nature realizes any code, and any metric/spectrum/constant,
 are held open.
+
+## FCT-57 — Static Forcing Audit: The Closure Laws Are Not Forced
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: the five receiver laws behind the E_8–hexacode spine.
+Evidence: `shipped` (forcing_audit.py, Section A).
+
+Each closure law has a matched lawful counterworld: a doubly-even self-dual
+[24,12,4] code (Golay's parity is extra, not forced; A_4=6 code constructed
++ MacWilliams-verified); the bridge family det (1−t²)⁴ (positive at
+irrational √2/2, indefinite at 2); both V₄ and C₃ as export quotients; a
+dual pole H ⊊ H^⊥ with the self-dual codes an S₃ orbit; and E_8³ with 720
+roots. Recoveries: Pless–Sloane, MacWilliams, Leech rootlessness.
+
+## FCT-58 — Dynamic Selection Equivalence: Selection Is A Conserved Input
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: deterministic-settling and reversible-stochastic dynamics on a finite
+phase set (the floor's gradient-on-a-potential dynamics is inside it).
+Evidence: `shipped` (forcing_audit.py, Section B).
+
+Unique strict dynamic selection ⟺ a preferred scalar ranking: exactly 64 of
+256 maps on four phases strictly settle (the rooted-tree count n^{n−1}),
+each Lyapunov; reversible dynamics has π ∝ e^{−V}. Dynamics relocates a
+conserved selector, never creates one (two potentials → integral vs
+irrational attractor; λ* = 2 − log₂3). Positive: self-duality forceable as a
+terminal class, but its S₃-transitive members get uniform 1/3.
+
+## FCT-59 — Actualization By Counting: The Internal Law Of An Actual Phase
+
+Status: `THEOREM / MODEL-SCOPE / RECOVERY`
+Scope: the internal statistics of a given (actual) code phase.
+Evidence: `shipped` (forcing_audit.py, Section C).
+
+Given an actual phase, the internal law is forced by witness counting: the
+24-cell response kernel K=(1/3)|⟨p,q⟩|² (values {0,1/12,1/3}, row-stochastic,
+trace 4, rank 10 = dim Sym(4,ℝ)) — the Born response with no primitive state
+vector; and the first visible global binding arity equals the dual distance
+(uniform marginals below it; hexacode 4, [24,12,4] 4, Golay 8). Which phase
+exists is received; how it distributes futures is forced. Recovers Delsarte.

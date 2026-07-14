@@ -17,8 +17,15 @@ Added:
   triality boundary + bridge-code model; `E_8` as the debt-free two-cell
   closure; octonionic fusion; fusion stops at the octonions; the self-dual
   census `|GU(k,2)|`; the hexacode hidden six-cell world — all `shipped`);
-- `verification/scripts/multifloor_worldweave.py`, wired into `run_all.py`
-  (now twelve scripts);
+- `verification/scripts/multifloor_worldweave.py` (the closure atlas) and
+  `verification/scripts/forcing_audit.py` (the forcing audit: static
+  counterworlds, the dynamic selection-equivalence theorem, and
+  actualization-by-counting), both wired into `run_all.py` (now thirteen
+  scripts);
+- claim rows FCT-57 through FCT-59 and theorem rows T-41 through T-43 (the
+  forcing audit: the closure laws are not floor-forced; selection is a
+  conserved input; a given actual phase's internal law is forced by
+  counting);
 - **the new live release ceiling** (three lines, with the multi-floor
   extension), quoted in the README, the claim register, the chapter-9
   paper, and the v0.9.0 notes.
