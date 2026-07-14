@@ -256,9 +256,9 @@ def scan_for_terms(
 
 
 # Each released ceiling is checked verbatim in its advertised locations. The
-# v0.1 and v0.2 ceilings live on unchanged in their frozen chapters and notes;
-# the live (v0.7) ceiling controls the README, the claim register, the
-# chapter-7 paper, and the v0.7.0 release notes.
+# v0.1, v0.2, and v0.7 ceilings live on unchanged in their frozen chapters and
+# notes; the live (v0.8) ceiling controls the README, the claim register, the
+# chapter-8 paper, and the v0.8.0 release notes.
 CANONICAL_CEILINGS = [
     (
         "v0.1",
