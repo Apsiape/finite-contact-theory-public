@@ -6,8 +6,8 @@ All notable public-release changes will be recorded here.
 
 Ninth public release: **Chapter 9 — The Multi-Floor Worldweave: A Forcing
 Audit of the E_8-Hexacode Spine**. Extends the contact-interface line from
-one cell to a population, and maps exactly what the closure forces. Version DOI recorded
-at mint; concept DOI `10.5281/zenodo.21253591`.
+one cell to a population, and maps exactly what the closure forces. Version DOI
+`10.5281/zenodo.21364789`; concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
