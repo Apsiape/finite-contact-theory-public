@@ -63,14 +63,19 @@ chapter-10 paper, and here:
   - **The theorem (A), unconditional** — FCT-60 / T-44, `THEOREM /
     UNCONDITIONAL / EXTENSION-MATH`. A three-contact class function with a
     negative sign-sector eigenvalue (`1 − 3r² − 2r³ < 0` for `r > 1/2`)
-    nonetheless keeps every passive-linear-optical probability nonnegative: the
-    accessible amplitudes are the monomials `z_σ = ∏_i A[i][σ(i)]` of one
-    complex `3×3` interferometer matrix, they obey the toric identity
-    `∏_even z = ∏_odd z`, and at `r = 3/5` the exact inequality
-    `152‖z‖² + 9|per A|² − 36|det A|² ≥ (7/2)‖z‖² ≥ 0` holds for every `A`. So
-    the sector is a lawful probabilistic model that lies **outside** the
-    positive-semidefinite Hilbert Gram cone — global Hilbert PSD fails while
-    operational block positivity survives.
+    nonetheless keeps every passive-linear-optical probability nonnegative for
+    **every** interferometer: the accessible amplitudes are the monomials
+    `z_σ = ∏_i A[i][σ(i)]` of one complex `3×3` interferometer matrix, they obey
+    the toric identity `∏_even z = ∏_odd z`, and at `r = 3/5` the exact
+    inequality `152‖z‖² + 9|per A|² − 36|det A|² ≥ 0` holds for every complex
+    `3×3` `A`, proven from the toric relation alone (equality only at `A = 0`).
+    Being degree-6 homogeneous, positivity extends to every passive-linear-optical
+    transfer matrix, lossless or lossy; the lossless `U(3)` core carries a
+    sharper `(7/2)‖z‖²` margin (the Fourier tritter saturating), and the `(7/2)`
+    margin for arbitrary matrices is **false** (an explicit `−495` witness) and
+    stays killed. So the sector is a lawful probabilistic model that lies
+    **outside** the positive-semidefinite Hilbert Gram cone — global Hilbert PSD
+    fails while operational block positivity survives.
   - **The prediction (B), conditional and experiment-open** — FCT-61 / T-45,
     `CONDITIONAL EXTENSION / EXPERIMENT-OPEN / BRIDGE-PREMISE-GATED`. On the
     received anchor `r = 3/5` and the odd `Z₂` identity-holonomy sector
@@ -81,11 +86,12 @@ chapter-10 paper, and here:
     (`Q₃ = 0`). A preregistered bet with a frozen protocol and kill conditions,
     **not** a discovery.
 - **New shipped verification** (frozen under the chapter, dependency-free):
-  `verification/scripts/negative_gram_holonomy.py` — the core numbers and the
-  analytic proof-lemmas exact, the toric identity, and the
-  accessible-positivity margin verified exactly over small-rational and
-  Gaussian-rational matrices plus a large well-conditioned float sweep. Wired
-  into `run_all.py` (now fifteen scripts).
+  `verification/scripts/negative_gram_holonomy.py` — the core numbers exact,
+  the foundational Fourier identity, positivity exact on rational toric
+  witnesses, the unitary-core reduction and strict margin, the `−495` kill of
+  the `(7/2)`-universal, and exact separable-loss covariance, plus an
+  independent adversarial descent over the full toric set. Wired into
+  `run_all.py` (now fifteen scripts).
 - **README, claim register, theorem bank, and audit** updated to the v0.10
   state (ten chapters; the migrated live ceiling; new required files;
   divergence-tuned overclaim bans forbidding any settled-discovery phrasing).

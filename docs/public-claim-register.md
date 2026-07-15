@@ -1922,34 +1922,49 @@ Public statement:
 
 A three-contact class function whose sign-sector eigenvalue is negative
 (`1 - 3r^2 - 2r^3 < 0` for `r > 1/2`) nonetheless keeps every physically
-accessible probability nonnegative. The accessible amplitudes are the monomials
-`z_sigma = prod_i A[i][sigma(i)]`, which obey the toric identity
-`prod_{even} z = prod_{odd} z`; and for every complex `A`,
-`152||z||^2 + 9|per A|^2 - 36|det A|^2 >= (7/2)||z||^2 >= 0` (with
-`per A = sum z`, `det A = sum sgn(sigma) z`). So the sector is a lawful
-probabilistic model on the admitted grammar that lies OUTSIDE the
+accessible probability nonnegative -- for EVERY interferometer. The accessible
+amplitudes are the monomials `z_sigma = prod_i A[i][sigma(i)]`, which obey the
+toric identity `prod_{even} z = prod_{odd} z`; and for every complex `3x3` `A`,
+`152||z||^2 + 9|per A|^2 - 36|det A|^2 >= 0` (with `per A = sum z`,
+`det A = sum sgn(sigma) z`), equality only at `A = 0`. The proof uses ONLY the
+toric relation (no unitarity): a C_3-Fourier change of coordinates gives
+`Q = 456R + 213M + 810 Re(alpha conj delta)`, closed by a cubic-deviation
+bound. Because the form is degree-6 homogeneous, positivity on all matrices is
+equivalent to positivity on all contractions -- i.e. on every passive
+linear-optical transfer matrix, LOSSLESS OR LOSSY. So the sector is a lawful
+probabilistic model on the complete admitted grammar that lies OUTSIDE the
 positive-semidefinite Hilbert Gram cone: global Hilbert PSD fails while
-operational block positivity survives. This is unconditional mathematics.
+operational block positivity survives. On the lossless unitary core `U(3)` the
+sharper strict margin `152||z||^2 + 9|per A|^2 - 36|det A|^2 >= (7/2)||z||^2`
+holds (saturated by the Fourier tritter); the `(7/2)` margin for ARBITRARY
+matrices is FALSE (`A=[[-4,-1,1],[-7,1,-3],[6,-3,-5]]` gives `-495`) and stays
+killed. This is unconditional mathematics.
 
 Evidence:
 
-- shipped: `verification/scripts/negative_gram_holonomy.py` (the exact reduced
-  proof-lemmas -- collinear negative discriminant and noncollinear endpoint
-  signs on `0 <= p <= 1/6`; the toric identity; and the strict-margin
-  inequality verified exactly over small-rational and Gaussian-rational
-  matrices plus a large well-conditioned float sweep).
+- shipped: `verification/scripts/negative_gram_holonomy.py` (the foundational
+  Fourier identity `Q = 152N - 243M + 810 Re(alpha conj delta)` exact; the
+  toric identity; POSITIVITY exact on thousands of rational toric witnesses;
+  an INDEPENDENT adversarial descent over the full toric set finding no
+  violation; the exact `U(3)` reduction identity and strict margin on rational
+  Cayley unitaries, permutation matrices, and the Fourier tritter; the `-495`
+  kill of the `(7/2)`-universal; exact separable-loss covariance).
 
 Checks / controls:
 
-- the core identities and proof-lemmas are exact; the margin is `>= 0` exactly
-  on rational matrices (smallest observed `~0.05`, near the analytic tightness)
-  and clear on the float sweep.
+- the foundational identity, the positivity on rational toric witnesses, the
+  `U(3)` reduction/margin, the `-495` counterexample, and separable-loss
+  covariance are all exact; the adversarial descent over the toric set bottoms
+  out at `min Q/N ~ 3.26 > 0`.
 
 Residuals:
 
-- proves positivity for the DECLARED passive-linear-optical grammar only; it
-  does NOT prove positivity for arbitrary measurements outside that grammar.
-- this is the mathematical half; the physical realization is FCT-61 (open).
+- proves positivity for the DECLARED passive-linear-optical grammar (any
+  transfer matrix / contraction); it does NOT prove positivity for arbitrary
+  measurements outside that grammar.
+- this is the model's internal consistency; the empirical mixed-state
+  PSD-exclusion (whether a positive-Hilbert model fits the data) is a DIFFERENT
+  and OPEN question -- see FCT-61.
 
 ## FCT-61 - Negative-Gram Identity Holonomy (The Prediction)
 

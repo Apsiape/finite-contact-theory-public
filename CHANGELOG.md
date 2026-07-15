@@ -21,10 +21,12 @@ Added:
   positivity, unconditional) and T-45 (odd-holonomy Gram discriminant and PSD
   exclusion);
 - `verification/scripts/negative_gram_holonomy.py`, wired into `run_all.py`
-  (now fifteen scripts): the core numbers and analytic proof-lemmas exact, the
-  toric identity, and the accessible-positivity margin verified exactly over
-  small-rational and Gaussian-rational matrices plus a large well-conditioned
-  float sweep;
+  (now fifteen scripts): the core numbers exact, the foundational Fourier
+  identity, universal accessible positivity `152N + 9|per|² − 36|det|² ≥ 0`
+  proven from the toric relation and verified exactly on rational toric
+  witnesses plus an independent adversarial descent over the full toric set,
+  the sharper `U(3)` strict `(7/2)`-margin corollary, the `−495` kill of the
+  `(7/2)`-universal, and exact separable-loss covariance;
 - **the new live release ceiling** (three recovery lines plus a first
   extension line, with the conditional/experiment-open scope of the
   negative-Gram prediction), quoted in the README, the claim register, the

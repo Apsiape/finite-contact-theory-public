@@ -118,30 +118,46 @@ z_σ = ∏_i A_{i, σ(i)},   σ ∈ S_3,
 ```
 
 which obey the **toric identity** `∏_{σ even} z_σ = ∏_{σ odd} z_σ` (both equal
-the product of all nine entries; `verification`, Section C). The real question
-is block positivity on this toric variety, and it holds:
+the product of all nine entries; `verification`, Section B). The real question
+is block positivity on this toric variety, and it holds — **universally, using
+only the toric relation:**
 
 > **Universal accessible positivity theorem.** For every complex `3×3` matrix
 > `A`, at the registered point `r = 3/5`,
 > ```
-> 152 ‖z‖² + 9 |per A|² − 36 |det A|² ≥ (7/2) ‖z‖² ≥ 0.
+> 152 ‖z‖² + 9 |per A|² − 36 |det A|² ≥ 0,
 > ```
+> with equality only at `A = 0`.
 
-Since `Σ z_σ = per A` and `Σ sgn(σ) z_σ = det A`, this says every admitted raw
-probability is nonnegative, with a **strict** margin. The analytic proof
-(collinear and noncollinear stationary branches, closed by a negative
-discriminant and two endpoint inequalities on the compact strip
-`0 ≤ p ≤ 1/6`) is reduced to polynomial facts the shipped script verifies
-**exactly** (`verification`, Section D.1); the end-to-end margin is then
-confirmed exactly over small-rational and Gaussian-rational matrices and over
-hundreds of thousands of random matrices (Section D.2). This is the campaign's
-principal mathematical novelty:
+Since `Σ z_σ = per A` and `Σ sgn(σ) z_σ = det A`, this says **every admitted raw
+probability is nonnegative for every interferometer**. The proof needs *no
+unitarity*: writing `x = (z_σ)_{σ even}`, `y = (z_σ)_{σ odd}`, the toric
+constraint is `x₀x₁x₂ = y₀y₁y₂`; a `C₃`-Fourier change of coordinates turns the
+form into `Q = 456R + 213M + 810 Re(αδ̄)` (with `α, δ` the sector means and `M`,
+`R` the mean/standard-mode energies), and a cubic-deviation bound closes
+`Q ≥ 0` on the toric variety. The shipped script verifies the foundational
+identity and positivity **exactly** on rational toric witnesses, and an
+independent adversarial descent over the full toric set finds no violation
+(`verification`, Section C). This is the campaign's principal mathematical
+novelty:
 
 > **Global Hilbert PSD fails, while operational block positivity survives.**
 
-The theorem is careful about its own reach: it proves consistency for the
-declared passive-linear-optical grammar. It does **not** prove positivity for
-arbitrary hypothetical measurements outside that grammar.
+**Two consequences fix the scope precisely.** First, because the form is
+degree-6 homogeneous, `Q(cA) = |c|⁶ Q(A)`, so positivity on *all* matrices is
+equivalent to positivity on all *contractions* — i.e. on **every passive
+linear-optical transfer matrix, lossless or lossy** (a lossy multiport is a
+submatrix of a larger unitary, hence a contraction). The model is internally
+consistent for *any* such apparatus; there is no lossless-only restriction.
+Second, on the lossless unitary core `U(3)` a **sharper** strict margin holds,
+`152 ‖z‖² + 9 |per A|² − 36 |det A|² ≥ (7/2) ‖z‖²`, saturated exactly by the
+Fourier tritter (`verification`, Section D). The stronger `(7/2)`-margin is
+**false for arbitrary matrices** — the explicit witness
+`A = [[−4,−1,1],[−7,1,−3],[6,−3,−5]]` gives `−495` — and that boundary stays on
+the record (`verification`, Section C4); it is exactly why the *universal*
+theorem is the zero-margin one. The theorem is careful about its reach: it
+proves consistency for the declared passive-linear-optical grammar, not for
+arbitrary hypothetical measurements outside it.
 
 ## 2. The prediction (B): a preregistered, experiment-open bet
 
@@ -213,10 +229,14 @@ proposed experiment tests.
 **mixed-state, mode-mismatch, multiphoton PSD-exclusion**: one must show that
 *no* positive-Hilbert model — including mixed internal states, spectral /
 temporal / polarization distinguishability, multiphoton contamination, loss,
-and tritter imperfection — can fit the data. Only the pure-state and
-passive-linear-optical consistency is closed here. **This full exclusion has
-not been vetted by a quantum-optics expert, and external expert review is the
-gate before any outreach or nature-facing claim.**
+and tritter imperfection — can *fit the data*. This is a **different** claim
+from the theorem of §1, and only the theorem is closed. §1 proves the
+extension model's *own internal consistency* — every accessible probability is
+nonnegative for **every** passive-linear-optical apparatus, lossless or lossy.
+It does **not** show that a positive-Hilbert model cannot reproduce the
+measured counts; that exclusion is exactly what remains open. **It has not been
+vetted by a quantum-optics expert, and external expert review is the gate
+before any outreach or nature-facing claim.**
 
 **The natural home is not photons.** The clean physical home for path-relative
 exchange with nontrivial identity holonomy is **anyonic / topological matter**,
@@ -235,13 +255,18 @@ topological-matter) measurement, gated by expert review.
 
 ## 5. What is proven, what is not
 
-**Proven exactly** (`verification/negative_gram_holonomy.py`, 8/8):
+**Proven exactly** (`verification/negative_gram_holonomy.py`, 11/11):
 `Delta_3 = (1−2r)(1+r)²`, negative for `r > 1/2`, `= −64/125` at `r = 3/5`; the
 full tritter/pairwise count vector and its exact normalization; the count
 witnesses `W = (2/9)Delta_3`, `Q3 = (4/9)b`; the pairwise-only null `Q3 = 0`;
 the PSD cap `cos Φ ≥ 5/27` (`Φ ≤ ~79.3°`) that the extension exceeds; the toric
-identity; and the universal accessible-positivity theorem with its strict
-`7/2` margin (exact reduced proof-lemmas plus exact and float margin sweeps).
+identity; the **universal** accessible-positivity theorem
+`152‖z‖² + 9|per A|² − 36|det A|² ≥ 0` for every complex `3×3` matrix (the
+foundational Fourier identity and positivity on exact rational toric witnesses,
+plus an independent adversarial descent over the full toric set); the sharper
+`U(3)` strict `7/2`-margin corollary saturated by the Fourier tritter; the
+`−495` witness that kills the `(7/2)`-margin for arbitrary matrices; and exact
+separable-loss covariance.
 
 **Not claimed:** that `r = 3/5` is fundamental; that all quantum systems
 violate global Hilbert positivity; that standard QM is numerically wrong in

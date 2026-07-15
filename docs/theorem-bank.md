@@ -600,18 +600,27 @@ The theorem half of the program's first extension. The passive-linear-optical
 amplitudes accessible from one complex 3x3 interferometer matrix A are the
 monomials z_sigma = prod_i A[i][sigma(i)], obeying the toric identity
 prod_{even} z = prod_{odd} z (both equal the product of all nine entries). At
-the registered point r = 3/5, for every complex A,
-152||z||^2 + 9|per A|^2 - 36|det A|^2 >= (7/2)||z||^2 >= 0 (per A = sum z,
-det A = sum sgn(sigma) z). Hence a class function with a NEGATIVE sign-sector
-eigenvalue (1 - 3r^2 - 2r^3 < 0 for r > 1/2) still yields only nonnegative
-accessible probabilities: global Hilbert PSD fails while operational block
-positivity survives. Proof: collinear branch closed by a negative discriminant
-(30h^2 - 16h + 8, disc -704) plus 11h^3 >= 0; noncollinear branch closed by
-convexity in u and two endpoint inequalities on 0 <= p <= 1/6 (inner factors
-18p^2+203p-123 and 72p^3+380p^2-3p-23 both negative). Verified exactly
-(reduced lemmas + exact rational/Gaussian margin sweep) and numerically. This
-is unconditional mathematics; the physical realization is a separate,
-conditional, experiment-open prediction (register FCT-61), not a theorem.
+the registered point r = 3/5, for EVERY complex 3x3 A,
+152||z||^2 + 9|per A|^2 - 36|det A|^2 >= 0 (per A = sum z, det A = sum
+sgn(sigma) z), equality only at A = 0. Hence a class function with a NEGATIVE
+sign-sector eigenvalue (1 - 3r^2 - 2r^3 < 0 for r > 1/2) still yields only
+nonnegative accessible probabilities: global Hilbert PSD fails while
+operational block positivity survives. Proof uses ONLY the toric relation (no
+unitarity): with x = even monomials, y = odd monomials and x0x1x2 = y0y1y2, a
+C_3-Fourier change of coordinates gives Q = 456R + 213M + 810 Re(alpha conj
+delta), closed by the zero-sum-triple / cubic-deviation bound. Because Q is
+degree-6 homogeneous, positivity on all matrices = positivity on all
+contractions = every passive linear-optical transfer matrix, LOSSLESS OR LOSSY
+(no lossless-only restriction). On the lossless unitary core U(3) the sharper
+strict margin >= (7/2)||z||^2 holds, saturated by the Fourier tritter; the
+(7/2) margin for ARBITRARY matrices is FALSE (A=[[-4,-1,1],[-7,1,-3],[6,-3,-5]]
+gives -495) and stays killed. Verified exactly (foundational identity;
+positivity on rational toric witnesses; U(3) reduction/margin on rational
+Cayley + Fourier; separable-loss covariance) and by an independent adversarial
+descent over the full toric set (min Q/N ~ 3.26 > 0). This is unconditional
+mathematics; the physical realization is a separate, conditional,
+experiment-open prediction (register FCT-61), not a theorem, and the empirical
+mixed-state PSD-exclusion remains open.
 
 ### T-45 Odd-Holonomy Gram Discriminant and PSD Exclusion (Chapter 10)
 

@@ -86,11 +86,13 @@ is not claimed to realize any of these.)
 chapter that does not recover known structure but *predicts a divergence* from
 it. Two things, held rigidly apart. **(A) A theorem, unconditional:** a
 three-contact class function with a negative sign-sector eigenvalue still keeps
-*every* passive-linear-optical probability nonnegative
-(`152‖z‖² + 9|per A|² − 36|det A|² ≥ (7/2)‖z‖²`), so it is a lawful
-probabilistic sector that lies **outside** the positive-semidefinite Hilbert
-Gram cone — global Hilbert PSD fails while operational block positivity
-survives. **(B) A prediction, conditional and experiment-open:** on a received
+*every* passive-linear-optical probability nonnegative — for **every**
+interferometer, lossless or lossy: `152‖z‖² + 9|per A|² − 36|det A|² ≥ 0` for
+every complex `3×3` `A`, proven from the toric relation alone (the lossless
+`U(3)` core carries a sharper `(7/2)‖z‖²` margin; the `(7/2)` margin for
+arbitrary matrices is false and stays killed). So it is a lawful probabilistic
+sector that lies **outside** the positive-semidefinite Hilbert Gram cone —
+global Hilbert PSD fails while operational block positivity survives. **(B) A prediction, conditional and experiment-open:** on a received
 apparatus anchor `r = 3/5`, the odd `Z₂` identity-holonomy sector gives a
 negative three-state Gram discriminant `Δ₃ = −64/125 < 0` where ordinary
 quantum mechanics forces `Δ₃ ≥ 0`, registered as a joint count vector
