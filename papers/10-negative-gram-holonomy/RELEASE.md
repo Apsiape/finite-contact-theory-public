@@ -5,7 +5,7 @@
 | Chapter | 10 — Negative-Gram Identity Holonomy: The Program's First Divergence |
 | Release tag | `v0.10.0` |
 | Concept DOI | [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591) |
-| Version DOI (v0.10.0) | pending mint (recorded here in the tagging commit) |
+| Version DOI (v0.10.0) | [10.5281/zenodo.21367922](https://doi.org/10.5281/zenodo.21367922) |
 | Chapter deposit DOI | none yet (optional; see `../README.md`) |
 | Freeze date | 2026-07-14 |
 | Claim rows | FCT-60 (the theorem: universal accessible positivity, unconditional); FCT-61 (the prediction: negative-Gram identity holonomy, conditional / experiment-open / bridge-premise-gated) |

@@ -7,7 +7,7 @@ All notable public-release changes will be recorded here.
 Tenth public release: **Chapter 10 — Negative-Gram Identity Holonomy: The
 Program's First Divergence**. The program's first EXTENSION chapter — it
 recovers nothing and instead predicts a possible violation of Hilbert-space
-positivity. Version DOI recorded at mint; concept DOI
+positivity. Version DOI `10.5281/zenodo.21367922`; concept DOI
 `10.5281/zenodo.21253591`.
 
 Added:
