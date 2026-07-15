@@ -3,7 +3,7 @@
 Status: release-draft public ledger.
 
 This register is the controlling public list of what Finite Contact Theory
-(v0.11) is allowed to say. Every claim is scoped. A label stronger than the
+(v0.12) is allowed to say. Every claim is scoped. A label stronger than the
 written scope is not implied.
 
 Evidence states:

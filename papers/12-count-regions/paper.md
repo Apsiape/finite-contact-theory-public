@@ -100,8 +100,14 @@ transition** — an emergent logical qubit — with a **rebit-blindness** theore
 (4) a single-source **ℝ/ℂ/ℍ counting no-go**; (5) the sequential-closure
 resolution and a **registered conjugation-witness experiment**.
 
-All exact numbers are machine-checked from a clean clone
-(`verification/count_regions.py`, 10/10).
+The shipped verifier (`verification/count_regions.py`, 10/10) derives the `n = 3`
+region identity from first principles (bosonic occupation, exact on a rational
+witness) and checks in exact arithmetic the load-bearing consequences of the
+theorems — the `n = 4` counterexample, the rebit-blindness commutator, the `K_5`
+identities, and the `G1` / conjugation-gap facts. The full structural
+derivations (the `σ_y`-blindness of the actual cyclic-Fourier effects, and the
+`G1` compression from its gates) are established in the proofs and independently
+reproduced by a second implementation.
 
 ## 1. n = 3: the complete region, and the negative-Gram boundary (upgrades Ch10–11)
 
@@ -231,8 +237,10 @@ B^i_14` (with `B^R = [[1,1],[-1,1]]/√2`, `B^i = [[1,i],[i,1]]/√2`), detectin
 G1 = (21/1024) I - (1/256) σ_x - (5√2/512) σ_y - (15/1024) σ_z,
 ```
 
-with trace `21/512`, rank 1, and a nonzero `σ_y` coefficient `|y| = 5√2/512`
-(machine-verified exactly).
+with trace `21/512`, rank 1, and a nonzero `σ_y` coefficient `|y| = 5√2/512`.
+(The `G1` invariants — trace, rank, and `|y|` — are checked exactly by the
+shipped verifier; the compression from the gates to `G1` is established in the
+proof and independently reproduced by a second implementation.)
 
 **The experiment.** There is a conjugation law: for *any* real-symmetric
 internal state, `p_𝒫 = p_𝒫̄` exactly (conjugate every unitary in the network,
