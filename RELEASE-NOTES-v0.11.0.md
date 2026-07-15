@@ -108,8 +108,8 @@ empirical discovery.
 ## Verify
 
 ```powershell
-python verification\scriptsun_all.py    # expects: ALL SHIPPED VERIFICATION: PASS
-python scriptselease_audit.py            # expects: PUBLIC RELEASE AUDIT: PASS
+python verification/scripts/run_all.py    # expects: ALL SHIPPED VERIFICATION: PASS
+python scripts/release_audit.py           # expects: PUBLIC RELEASE AUDIT: PASS
 ```
 
 ## Citation

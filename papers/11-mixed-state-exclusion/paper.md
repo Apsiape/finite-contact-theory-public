@@ -97,14 +97,17 @@ Represent each particle's internal (spectral / temporal / polarization) state
 by a vector `|φ_i⟩`; the pairwise overlaps are `g_ij = ⟨φ_i|φ_j⟩` and the Gram
 matrix `G` has unit diagonal. Writing `S = Σ|g_ij|²` (the three pairwise
 squared overlaps) and `τ = Re(g₁₂ g₂₃ g₃₁)` (the genuine three-particle cyclic
-term), the standard partial-distinguishability formula for the balanced Fourier
-tritter — *derived from first principles in the shipped verifier* (creation
-operators through the tritter with the internal degrees of freedom traced, not
-asserted) — is
+term), the standard partial-distinguishability formulas for the balanced
+Fourier tritter are
 
 ```
 P111 = (2 − S + 4τ)/9,    D2 = 2/3 − S/9.
 ```
+
+The coincidence probability `P111` is **derived from first principles** in the
+shipped verifier (creation operators through the tritter with the internal
+degrees of freedom traced, not asserted); `D2 = 2/3 − S/9` is the standard
+pooled pairwise (HOM-type) distinct-output statistic, taken as given.
 
 (These reproduce the Chapter-10 registered values exactly: at `S = 27/25`,
 `τ = −27/125` they give `P111 = 7/1125`, `D2 = 41/75`.) Therefore
