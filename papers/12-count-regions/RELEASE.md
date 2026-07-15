@@ -5,7 +5,7 @@
 | Chapter | 12 — The Exact Quantum Count Regions and the Limits of Counting |
 | Release tag | `v0.12.0` |
 | Concept DOI | [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591) |
-| Version DOI (v0.12.0) | pending mint (recorded here in the tagging commit) |
+| Version DOI (v0.12.0) | [10.5281/zenodo.21382334](https://doi.org/10.5281/zenodo.21382334) |
 | Chapter deposit DOI | none yet (optional; see `../README.md`) |
 | Freeze date | 2026-07-15 |
 | Claim rows | FCT-63 (n=3 complete region + negative-Gram boundary); FCT-64 (n=4 9-simplex + central insufficiency + six laws); FCT-65 (n=5 emergent qubit + rebit-blindness + K₅); FCT-66 (single-source ℝ/ℂ/ℍ no-go); FCT-67 (sequential closure + registered conjugation witness). FCT-61/FCT-62 residuals cross-referenced (Ch11 inequality = the n=3 boundary; FCT-61 protocol reduces to tritter counts). |

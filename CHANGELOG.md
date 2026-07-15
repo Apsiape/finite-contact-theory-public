@@ -6,8 +6,8 @@ All notable public-release changes will be recorded here.
 
 Twelfth public release: **Chapter 12 — The Exact Quantum Count Regions and the
 Limits of Counting**. Standalone quantum-information mathematics (no theory
-buy-in) that also upgrades Chapters 10–11. Version DOI recorded at mint; concept
-DOI `10.5281/zenodo.21253591`.
+buy-in) that also upgrades Chapters 10–11. Version DOI
+`10.5281/zenodo.21382334`; concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
