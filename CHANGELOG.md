@@ -7,8 +7,8 @@ All notable public-release changes will be recorded here.
 Eleventh public release: **Chapter 11 — The Clean Mixed-State Exclusion**. An
 unconditional theorem that closes the *clean core* of the open crux Chapter 10
 left for an external expert: no partially-distinguishable Hilbert model, pure or
-mixed, can reproduce the registered negative-Gram counts. Version DOI recorded
-at mint; concept DOI `10.5281/zenodo.21253591`.
+mixed, can reproduce the registered negative-Gram counts. Version DOI
+`10.5281/zenodo.21368902`; concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 

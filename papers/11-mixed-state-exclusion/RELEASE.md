@@ -5,7 +5,7 @@
 | Chapter | 11 — The Clean Mixed-State Exclusion |
 | Release tag | `v0.11.0` |
 | Concept DOI | [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591) |
-| Version DOI (v0.11.0) | pending mint (recorded here in the tagging commit) |
+| Version DOI (v0.11.0) | [10.5281/zenodo.21368902](https://doi.org/10.5281/zenodo.21368902) |
 | Chapter deposit DOI | none yet (optional; see `../README.md`) |
 | Freeze date | 2026-07-15 |
 | Claim rows | FCT-62 (the clean mixed-state exclusion, unconditional); FCT-61 residual updated (clean-core exclusion closed, apparatus-nuisance layer open) |
