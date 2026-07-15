@@ -18,60 +18,76 @@ For label meanings, see `status-labels.md`. For verification posture, see
 
 ## Release Ceiling
 
-The v0.11 public ceiling is (quoted identically in the README, the chapter-11
-paper, and the v0.11.0 release notes):
+The v0.12 public ceiling is (quoted identically in the README, the chapter-12
+paper, and the v0.12.0 release notes):
 
-> Finite Contact Theory is a finite reconstruction program with a scoped
-> theorem stack on three published recovery lines — a quantum-facing axis,
-> from one-use contact to counting, one-receiver gluing, rational Born
-> weights, the CHSH/Pell boundary, a carrier grammar grown from one-use
-> contact, and a behavior-conditioned contextual capacity with an exact strict
-> preparation gap; a finite-epistemics axis, from the identifiability and debt
-> calculus to the inquiry calculus and its second law of asking, four theorems
-> separating the structure of time, and a measured generative floor; and a
-> contact-interface reconstruction, in which a retained interface forces a
-> quaternionic state/receiver cell whose self-dual closure is the 24-cell and
-> the F_4 root system and whose finite measurement calculus forces the
-> quadratic Born frame rule (a finite Gleason theorem) exactly where a triality
-> Kochen-Specker obstruction forbids a global noncontextual assignment, and in
-> which independently generated cells recover the E_8–hexacode closure spine
-> under named receiver laws that a forcing audit shows the floor does not
-> select over matched lawful alternatives, so the floor forces the atlas of
-> lawful closures and the terminal self-dual class but never the specific
-> member, and the selection of a world-phase is a conserved, received input —
-> and a fourth, first-extension line that is conditional and experiment-open:
-> an unconditional accessible-positivity theorem exhibits a three-contact
-> sector whose every passive-linear-optical probability is nonnegative yet
-> which lies outside the positive-semidefinite Hilbert Gram cone, and on one
-> received apparatus anchor this predicts a possible violation of Hilbert-space
-> positivity — a negative three-state Gram discriminant Delta_3 < 0 where
-> ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its
-> protocol, nulls, and kill conditions, and a clean mixed-state exclusion
-> theorem then proves the gauge-free count witness W = P111 + D2 - 2/3 equals
-> (2/9) det G, nonnegative for every partially-distinguishable Hilbert model
-> whether pure or mixed, so the registered negative-Gram vector lies outside
-> the entire clean partial-distinguishability class by the raw-count test
-> P111 + D2 >= 2/3, closing the clean core of the exclusion while multiphoton,
-> detector, transfer-matrix, and source-drift nuisances remain the experimental
-> layer for an external expert — under which the quantum boundary is a floor
-> theorem at binary-Bell finite-carrier scope, the preparation gap is an exact
-> theorem at KCBS-pentagon scope, the interface reconstruction is a finite
-> model-scope recovery on a real-quantum cell, the multi-floor closures are
-> model-scope recoveries whose forcing boundary is exactly mapped, the
-> accessible-positivity and mixed-state exclusion theorems are unconditional
-> while the physical realization is a conditional, bridge-premise-gated
-> prediction awaiting a dedicated experiment and external expert review, and
-> every unearned generalization — complex quantum mechanics, the actuality of
-> one outcome, the universal Born rule, whether nature realizes any of these
-> structures, which world-phase is selected, whether nature contains the odd
-> identity-holonomy sector, and whether the apparatus nuisances close the full
-> exclusion — is left open by name; this chapter is an archival priority record
-> of mathematically closed theorems and a conditional prediction, not an
-> empirical discovery.
+> Finite Contact Theory is a finite reconstruction program with a scoped theorem
+> stack on three published recovery lines — a quantum-facing axis, from one-use
+> contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell
+> boundary, a carrier grammar grown from one-use contact, and a
+> behavior-conditioned contextual capacity with an exact strict preparation gap;
+> a finite-epistemics axis, from the identifiability and debt calculus to the
+> inquiry calculus and its second law of asking, four theorems separating the
+> structure of time, and a measured generative floor; and a contact-interface
+> reconstruction, in which a retained interface forces a quaternionic
+> state/receiver cell whose self-dual closure is the 24-cell and the F_4 root
+> system and whose finite measurement calculus forces the quadratic Born frame
+> rule (a finite Gleason theorem) exactly where a triality Kochen-Specker
+> obstruction forbids a global noncontextual assignment, and in which
+> independently generated cells recover the E_8–hexacode closure spine under
+> named receiver laws that a forcing audit shows the floor does not select over
+> matched lawful alternatives, so the floor forces the atlas of lawful closures
+> and the terminal self-dual class but never the specific member, and the
+> selection of a world-phase is a conserved, received input — a fourth,
+> first-extension line that is conditional and experiment-open: an unconditional
+> accessible-positivity theorem exhibits a three-contact sector whose every
+> passive-linear-optical probability is nonnegative yet which lies outside the
+> positive-semidefinite Hilbert Gram cone, and on one received apparatus anchor
+> this predicts a possible violation of Hilbert-space positivity — a negative
+> three-state Gram discriminant Delta_3 < 0 where ordinary quantum mechanics
+> forces Delta_3 >= 0 — preregistered with its protocol, nulls, and kill
+> conditions, and a clean mixed-state exclusion theorem then proves the
+> gauge-free count witness W = P111 + D2 - 2/3 equals (2/9) det G, nonnegative
+> for every partially-distinguishable Hilbert model whether pure or mixed, so
+> the registered negative-Gram vector lies outside the entire clean
+> partial-distinguishability class by the raw-count test P111 + D2 >= 2/3,
+> closing the clean core of the exclusion while multiphoton, detector,
+> transfer-matrix, and source-drift nuisances remain the experimental layer for
+> an external expert — and a fifth line mapping the exact quantum count regions:
+> for n indistinguishable bosons in the n-mode Fourier interferometer the
+> achievable region of count statistics is an exact simplex for n <= 4 (at n = 3
+> the negative-Gram inequality P111 + D2 >= 2/3 is the complete boundary and the
+> registered protocol reduces to tritter counts alone), central-projector
+> positivity is insufficient at n = 4 with six new raw-count laws, and a
+> structural phase transition at n = 5 produces an emergent logical qubit from
+> permutation symmetry and counting alone, where a rebit-blindness theorem shows
+> single-shot cyclic counts cannot expose sigma_y and a single-source
+> real/complex/quaternionic counting no-go holds, both overcome by general
+> passive networks, culminating in a registered, experiment-open single-source
+> conjugation-witness protocol (gap 5 sqrt2 / 256, about 1304 trials per
+> setting) that excludes a named real-internal-states plus mode-only-optics
+> model class but does not falsify all real quantum mechanics — under which the
+> quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the
+> preparation gap is an exact theorem at KCBS-pentagon scope, the interface
+> reconstruction is a finite model-scope recovery on a real-quantum cell, the
+> multi-floor closures are model-scope recoveries whose forcing boundary is
+> exactly mapped, the accessible-positivity and mixed-state exclusion theorems
+> and the count-region theorems are unconditional and independently reproduced,
+> while the physical realizations — the negative-Gram prediction and the
+> conjugation witness — are conditional, bridge-premise-gated, experiment-open
+> registered protocols awaiting a dedicated experiment and external expert
+> review, and every unearned generalization — complex quantum mechanics, the
+> actuality of one outcome, the universal Born rule, whether nature realizes any
+> of these structures, which world-phase is selected, whether nature contains
+> the odd identity-holonomy sector, whether the apparatus nuisances close the
+> full exclusion, and whether any experiment realizes the conjugation witness —
+> is left open by name; these chapters are an archival priority record of
+> mathematically closed theorems and registered conditional protocols, not
+> empirical discoveries.
 
-The v0.1, v0.2, v0.7, v0.8, v0.9, and v0.10 ceilings remain quoted, unchanged,
-in their frozen chapters and release notes; this row supersedes them as the
-live ceiling.
+The v0.1, v0.2, v0.7, v0.8, v0.9, v0.10, and v0.11 ceilings remain quoted,
+unchanged, in their frozen chapters and release notes; this row supersedes them
+as the live ceiling.
 
 The release does not claim all quantum mechanics, quantum gravity, or
 nature-facing prediction is solved; the one nature-facing item — the
@@ -2026,6 +2042,9 @@ Residuals / the open crux:
   any outreach.
 - this DOI is an archival/priority record of a mathematically closed
   conditional prediction, NOT an empirical discovery.
+- Chapter 12 (FCT-63) upgrades this: the negative-Gram inequality is THE
+  complete boundary of quantum three-photon tritter statistics, and this
+  protocol simplifies to tritter counts alone.
 
 ## FCT-62 - The Clean Mixed-State Exclusion (The Theorem)
 
@@ -2072,6 +2091,128 @@ Residuals:
   contamination, detector response, transfer-matrix uncertainty, and source
   drift remain the external experimental layer (FCT-61); the Chapter-10 bridge
   premises are unchanged.
+
+## FCT-63 - n=3 Count Region: The Negative-Gram Boundary Is Complete
+
+Status: `THEOREM / UNCONDITIONAL / QUANTUM-INFO`
+Scope: three indistinguishable bosons in the 3-mode Fourier interferometer.
+Evidence state: `shipped`.
+
+Public statement:
+
+The exact achievable region of count statistics is the tetrahedron
+`{B, R, L >= 0, C - B/2 >= 0}` in cyclic-orbit coordinates (`B` = full bunching
+`P300+P030+P003`, `C = P111`). The sign inequality `C >= B/2` is the ONLY facet
+not inherited from raw probability nonnegativity, and it is the negative-Gram
+boundary: `P111 + D2 - 2/3 = (4/3)(C - B/2) = (2/9) det G`, with
+`D2 = 2/3 + C/3 - 2B/3` redundant with the tritter counts. So Chapter 11's
+`P111 + D2 >= 2/3` (FCT-62) is THE complete boundary of quantum three-photon
+tritter statistics, and the FCT-61 protocol simplifies to tritter counts alone.
+Four vertices; `W_min = -2/3`; the registered Ch10 point sits at 17% (= 64/375)
+of maximal depth. Verified from first principles (bosonic occupation
+probabilities) exactly on a rational witness.
+
+Evidence: shipped, `verification/scripts/count_regions.py` (Section A).
+
+Residuals: standalone quantum-information mathematics; upgrades FCT-61/FCT-62.
+
+## FCT-64 - n=4 Count Region: Central Positivity Is Insufficient
+
+Status: `THEOREM / UNCONDITIONAL / QUANTUM-INFO`
+Scope: four indistinguishable bosons in the 4-mode Fourier interferometer.
+Evidence state: `shipped`.
+
+Public statement:
+
+The region is a 9-simplex whose complete facet description is ten
+primitive-projector positivities; only the trivial and sign central irreps give
+facets. Central-projector positivity is INSUFFICIENT: the exact counterexample
+`x = (3/80,1/20,1/10,1/20,1/20,3/10,1/5,1/16,0,3/20)` has all five central
+weights `(1/10,3/10,1/5,3/10,1/10) >= 0` yet `alpha_211A = x9 - x2 = -1/20 < 0`.
+Six new nontrivial raw-count inequalities every quantum model obeys: `x9 >= x2`,
+`x6 >= x4`, `x7 >= x8 + x1`, `3 x10 >= x3 + x5`, `2 x3 >= x5`, `3 x8 >= x1`.
+
+Evidence: shipped, `verification/scripts/count_regions.py` (Section B).
+
+Residuals: standalone quantum-information mathematics.
+
+## FCT-65 - n=5: The Emergent Qubit and Rebit-Blindness
+
+Status: `THEOREM / UNCONDITIONAL / QUANTUM-INFO`
+Scope: five indistinguishable bosons in the 5-mode Fourier interferometer.
+Evidence state: `shipped`.
+
+Public statement:
+
+The cyclic-shift commutant has dimension 4, 10, 28 for n = 3, 4, 5; at n = 5 the
+irrep `(3,1,1)` gains multiplicity two, so the commutant becomes
+`C^24 (+) M_2(C)` -- an emergent logical qubit from permutation symmetry and
+counting alone. REBIT-BLINDNESS THEOREM: no linear functional of single-shot
+cyclic counts exposes `sigma_y` (the single-shot fiber operator system is
+exactly `{I, sigma_x, sigma_z}`, dim 3); multiplication recovers it
+(`[F00131,F00212]|M2 = -(2i/25) sigma_y`, `P_M2 = (625/4)[A,B]^dag[A,B] = I`).
+The exact body `K_5` has affine dimension 25; the coherence cross-section is a
+DISK (not a ball); hidden-center identity
+`w0 = (5/6) v_(3,2),0 + (1/6) v_(1^5),0`.
+
+Evidence: shipped, `verification/scripts/count_regions.py` (Section C).
+
+Residuals: standalone quantum-information mathematics.
+
+## FCT-66 - The Single-Source R/C/H Counting No-Go
+
+Status: `THEOREM / UNCONDITIONAL / QUANTUM-INFO`
+Scope: single-source Fourier counting; real / complex / quaternionic internal
+cones.
+Evidence state: `shipped`.
+
+Public statement:
+
+`K_R = K_C = K_H` exactly: every count effect is real-symmetric on the fiber
+(no `sigma_y` component), so complex/quaternionic off-diagonals contribute only
+their real part (affine dimension 25 in all three; Hausdorff distance zero;
+`sigma_min ~ 0.128764`). Single-source Fourier counting provably CANNOT
+discriminate real, complex, and quaternionic quantum mechanics -- retroactively
+explaining why the Renou-et-al. real-QM test required networks.
+
+Evidence: shipped, `verification/scripts/count_regions.py` (Section D).
+
+Residuals: standalone quantum-information mathematics.
+
+## FCT-67 - Sequential Closure and the Conjugation-Witness Experiment
+
+Status: `THEOREM (closure) / UNCONDITIONAL` + `REGISTERED / EXPERIMENT-OPEN`
+Scope: general passive networks on five modes; a registered single-source
+protocol.
+Evidence state: `shipped` (the exact G1 invariants and gap) + `held` (the
+experiment).
+
+Public statement:
+
+Rebit-blindness is a property of the cyclic-Fourier POVM, not of bosonic
+counting: general passive networks span all of `C[S_5]` (exact rank 120). One
+network (`B^R_03, B^R_13, B^i_01, B^i_14`, detect `s=(0,3,1,1,0)`) exposes
+`sigma_y`:
+`G1 = (21/1024)I - (1/256) sigma_x - (5 sqrt2/512) sigma_y - (15/1024) sigma_z`,
+trace `21/512`, rank 1, `|y| = 5 sqrt2/512`. REGISTERED EXPERIMENT: a complex
+preparation `rho+ = (I + sigma_y)/2` breaks the conjugation law with exact gap
+`|p - p_bar| = 5 sqrt2/256 ~ 0.0276`; one source, two conjugate settings,
+~1304 trials/setting at 5 sigma.
+
+SCOPE FENCE (mandatory): this excludes the real-internal-states +
+mode-only-passive-optics model class. It does NOT falsify every real
+reformulation of QM: the McKague-Mosca-Gisin realification restores simulation
+IF optical transformations may act on a universal rebit -- which is NOT
+implementable in the fixed grammar (mode unitaries generate only the permutation
+actions `P_pi`, never `J . P_pi`). Cite arXiv:0810.1923 (McKague et al.);
+arXiv:2101.10873 (Renou et al.); broader operational real formulations exist
+that reproduce arbitrary sequential protocols.
+
+Evidence: shipped, `verification/scripts/count_regions.py` (Section E) + held
+(the experiment).
+
+Residuals: the witness is a REGISTERED, EXPERIMENT-OPEN protocol with a named
+target model class -- NOT a performed experiment and NOT a claim about nature.
 
 ## Held Claim Families
 

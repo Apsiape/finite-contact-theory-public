@@ -26,6 +26,7 @@ SCRIPTS = [
     "wcd_actualization.py",
     "negative_gram_holonomy.py",
     "mixed_state_exclusion.py",
+    "count_regions.py",
 ]
 
 

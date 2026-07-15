@@ -662,3 +662,55 @@ this closes the CLEAN mixed-state + mode-mismatch exclusion; multiphoton,
 detector, transfer-matrix, and drift nuisances remain the external experimental
 layer, and the Chapter-10 bridge premises are unchanged. Not an empirical
 discovery.
+
+### T-47 Exact n=3 and n=4 Count Regions (Chapter 12)
+
+For n indistinguishable bosons in the n-mode Fourier interferometer the exact
+achievable region of count statistics is a simplex for n <= 4. n=3: the
+tetrahedron {B,R,L>=0, C-B/2>=0}; the sign inequality C>=B/2 is the ONLY
+non-raw facet and equals the negative-Gram boundary
+P111+D2-2/3 = (4/3)(C-B/2) = (2/9) det G (so Chapter 11's inequality is THE
+complete n=3 boundary; the FCT-61 protocol reduces to tritter counts). n=4: a
+9-simplex with ten primitive-projector facets; central-projector positivity is
+INSUFFICIENT (exact counterexample: all five central weights >= 0 yet
+alpha_211A = x9-x2 = -1/20 < 0), giving six new raw-count inequalities. Verified
+from first principles (bosonic occupation) exactly on a rational witness plus
+the exact projector algebra. Unconditional quantum-information mathematics.
+
+### T-48 The Emergent Qubit and Rebit-Blindness at n=5 (Chapter 12)
+
+The cyclic-shift commutant has dimension 4, 10, 28 for n=3,4,5; at n=5 the irrep
+(3,1,1) gains multiplicity two and the commutant becomes C^24 (+) M_2(C) -- an
+emergent logical qubit from permutation symmetry and counting alone. Rebit-
+blindness: no linear functional of single-shot cyclic counts exposes sigma_y
+(the single-shot fiber operator system is exactly {I, sigma_x, sigma_z}, dim 3);
+multiplication recovers it ([F00131,F00212]|M2 = -(2i/25) sigma_y,
+P_M2 = (625/4)[A,B]^dag[A,B] = I). Exact body K_5 has affine dimension 25, a
+disk coherence cross-section, and hidden-center identity
+w0 = (5/6) v_(3,2),0 + (1/6) v_(1^5),0. Exposure sparsity (N_n,C_n)=(26,28),(80,136);
+A4/Fibonacci growth rate phi^2. Unconditional quantum-information mathematics.
+
+### T-49 The Single-Source R/C/H Counting No-Go (Chapter 12)
+
+With a single source and the fixed Fourier interferometer, K_R = K_C = K_H
+exactly: every count effect is real-symmetric on the fiber (no sigma_y
+component), so complex/quaternionic off-diagonals contribute only their real
+part (affine dimension 25 in all three; Hausdorff distance zero;
+sigma_min ~ 0.128764). Single-source Fourier counting provably cannot
+discriminate real, complex, and quaternionic quantum mechanics -- explaining
+why the Renou-et-al. real-QM test required networks. Unconditional.
+
+### T-50 Sequential Closure Exposes Sigma_y; the Conjugation Gap (Chapter 12)
+
+Rebit-blindness is a property of the cyclic-Fourier POVM, not of bosonic
+counting: general passive networks span all of C[S_5] (exact rank 120). One
+network (B^R_03,B^R_13,B^i_01,B^i_14; detect s=(0,3,1,1,0)) compresses to
+G1 = (21/1024)I - (1/256)sigma_x - (5 sqrt2/512)sigma_y - (15/1024)sigma_z
+(trace 21/512, rank 1, |y|=5 sqrt2/512). The conjugation-witness: a complex
+preparation rho+=(I+sigma_y)/2 breaks p = p_conjugate with exact gap
+|p - p_bar| = 5 sqrt2/256; ~1304 trials/setting at 5 sigma. The closure theorem
+is unconditional; the witness is a REGISTERED, EXPERIMENT-OPEN protocol
+excluding the real-internal-states + mode-only-optics model class (it does NOT
+falsify all real QM: the McKague realification uses a universal rebit not
+implementable in the fixed grammar), not a performed experiment and not a claim
+about nature.

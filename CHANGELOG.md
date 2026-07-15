@@ -2,6 +2,44 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.12.0
+
+Twelfth public release: **Chapter 12 — The Exact Quantum Count Regions and the
+Limits of Counting**. Standalone quantum-information mathematics (no theory
+buy-in) that also upgrades Chapters 10–11. Version DOI recorded at mint; concept
+DOI `10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/12-count-regions/` — chapter, claim snapshot, freeze record, and a
+  frozen copy of the shipped script with expected output;
+- claim rows FCT-63 through FCT-67 (n=3 complete region + negative-Gram boundary;
+  n=4 9-simplex + central insufficiency + six raw-count laws; n=5 emergent qubit
+  + rebit-blindness + K₅; single-source ℝ/ℂ/ℍ counting no-go; sequential closure
+  + the registered conjugation-witness protocol) and theorem rows T-47 through
+  T-50; FCT-61/FCT-62 residuals cross-referenced (the negative-Gram inequality is
+  the complete n=3 boundary; the FCT-61 protocol reduces to tritter counts);
+- `verification/scripts/count_regions.py`, wired into `run_all.py` (now seventeen
+  scripts): the n=3 bosonic occupation cross-check from first principles (exact on
+  a rational witness), the n=4 counterexample and six inequalities, the n=5
+  rebit-blindness commutator recovering σ_y, the K₅ identities, the ℝ/ℂ/ℍ no-go,
+  and the G1 / conjugation-gap facts (all exact);
+- **the new live release ceiling** (adds the count-regions line), quoted in the
+  README, the claim register, the chapter-12 paper, and the v0.12.0 notes.
+
+Changed:
+
+- README, theorem bank, and `scripts/release_audit.py` updated to the v0.12
+  state (required files, migrated canonical ceilings — the v0.11 ceiling moves to
+  its frozen chapter-11 and notes locations); `.zenodo.json` and `CITATION.cff`
+  refreshed to the v0.12 deposit metadata.
+
+The region theorems are proof-backed and independently reproduced; the
+conjugation-witness is a **registered, experiment-open** protocol excluding a
+named real-internal-states + mode-only-optics model class — it does not falsify
+all real quantum mechanics, is not a performed experiment, and is not a claim
+about nature.
+
 ## 0.11.0
 
 Eleventh public release: **Chapter 11 — The Clean Mixed-State Exclusion**. An

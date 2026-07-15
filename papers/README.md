@@ -63,8 +63,15 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   unconditional theorem closing the clean core of the Chapter-10 crux: the
   count witness `W = (2/9) det G ≥ 0` excludes every partial-distinguishability
   Hilbert model, pure or mixed, via the raw-count test `P111 + D2 ≥ 2/3`;
-  carries the live release ceiling). DOIs recorded in its
+  closes the clean core of the Chapter-10 crux). DOIs recorded in its
   [`RELEASE.md`](11-mixed-state-exclusion/RELEASE.md) at tagging.
+- [`12-count-regions/`](12-count-regions/paper.md)
+  — **Chapter 12** (v0.12.0): _The Exact Quantum Count Regions and the Limits of
+  Counting_ (standalone quantum-information mathematics that also upgrades
+  Chapters 10–11: the exact n=3/4/5 count regions, the emergent qubit and
+  rebit-blindness, the single-source ℝ/ℂ/ℍ no-go, and a registered
+  conjugation-witness protocol; carries the live release ceiling). DOIs recorded
+  in its [`RELEASE.md`](12-count-regions/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 
