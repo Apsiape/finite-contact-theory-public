@@ -24,6 +24,7 @@ SCRIPTS = [
     "multifloor_worldweave.py",
     "forcing_audit.py",
     "wcd_actualization.py",
+    "negative_gram_holonomy.py",
 ]
 
 

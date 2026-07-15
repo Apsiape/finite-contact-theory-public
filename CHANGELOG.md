@@ -2,6 +2,47 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.10.0
+
+Tenth public release: **Chapter 10 — Negative-Gram Identity Holonomy: The
+Program's First Divergence**. The program's first EXTENSION chapter — it
+recovers nothing and instead predicts a possible violation of Hilbert-space
+positivity. Version DOI recorded at mint; concept DOI
+`10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/10-negative-gram-holonomy/` — chapter, claim snapshot, freeze
+  record, and a frozen copy of the shipped script with expected output;
+- claim rows FCT-60 (the theorem — universal accessible positivity,
+  `THEOREM / UNCONDITIONAL / EXTENSION-MATH`) and FCT-61 (the prediction —
+  negative-Gram identity holonomy, `CONDITIONAL EXTENSION / EXPERIMENT-OPEN /
+  BRIDGE-PREMISE-GATED`), and theorem rows T-44 (universal accessible
+  positivity, unconditional) and T-45 (odd-holonomy Gram discriminant and PSD
+  exclusion);
+- `verification/scripts/negative_gram_holonomy.py`, wired into `run_all.py`
+  (now fifteen scripts): the core numbers and analytic proof-lemmas exact, the
+  toric identity, and the accessible-positivity margin verified exactly over
+  small-rational and Gaussian-rational matrices plus a large well-conditioned
+  float sweep;
+- **the new live release ceiling** (three recovery lines plus a first
+  extension line, with the conditional/experiment-open scope of the
+  negative-Gram prediction), quoted in the README, the claim register, the
+  chapter-10 paper, and the v0.10.0 notes.
+
+Changed:
+
+- README, theorem bank, and `scripts/release_audit.py` updated to the v0.10
+  state (required files, migrated canonical ceilings — the v0.9 ceiling moves
+  to its frozen chapter-9 and notes locations — and divergence-tuned overclaim
+  bans that forbid any settled-discovery phrasing of the prediction);
+  `.zenodo.json` and `CITATION.cff` refreshed to the v0.10 deposit metadata.
+
+The scope fence is explicit: the theorem (A) is unconditional; the prediction
+(B) is conditional, preregistered, experiment-open, and gated by bridge
+premises and external expert review. This release is an archival/priority
+record, not an empirical discovery.
+
 ## 0.9.0
 
 Ninth public release: **Chapter 9 — The Multi-Floor Worldweave: A Forcing
