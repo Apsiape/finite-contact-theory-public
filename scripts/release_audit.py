@@ -51,6 +51,7 @@ REQUIRED_FILES = [
     "RELEASE-NOTES-v0.8.0.md",
     "RELEASE-NOTES-v0.9.0.md",
     "RELEASE-NOTES-v0.10.0.md",
+    "RELEASE-NOTES-v0.11.0.md",
     "docs/mathematical-core.md",
     "docs/public-claim-register.md",
     "docs/theorem-bank.md",
@@ -85,6 +86,9 @@ REQUIRED_FILES = [
     "papers/10-negative-gram-holonomy/paper.md",
     "papers/10-negative-gram-holonomy/claims.md",
     "papers/10-negative-gram-holonomy/RELEASE.md",
+    "papers/11-mixed-state-exclusion/paper.md",
+    "papers/11-mixed-state-exclusion/claims.md",
+    "papers/11-mixed-state-exclusion/RELEASE.md",
     "verification/evidence-manifest.md",
     "verification/scripts/run_all.py",
     "verification/scripts/exact_gap_certificate.py",
@@ -93,6 +97,7 @@ REQUIRED_FILES = [
     "verification/scripts/forcing_audit.py",
     "verification/scripts/wcd_actualization.py",
     "verification/scripts/negative_gram_holonomy.py",
+    "verification/scripts/mixed_state_exclusion.py",
 ]
 
 STALE_HOLD_STATUS = [
@@ -379,10 +384,18 @@ CANONICAL_CEILINGS = [
         "v0.10",
         'Finite Contact Theory is a finite reconstruction program with a scoped theorem stack on three published recovery lines — a quantum-facing axis, from one-use contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a behavior-conditioned contextual capacity with an exact strict preparation gap; a finite-epistemics axis, from the identifiability and debt calculus to the inquiry calculus and its second law of asking, four theorems separating the structure of time, and a measured generative floor; and a contact-interface reconstruction, in which a retained interface forces a quaternionic state/receiver cell whose self-dual closure is the 24-cell and the F_4 root system and whose finite measurement calculus forces the quadratic Born frame rule (a finite Gleason theorem) exactly where a triality Kochen-Specker obstruction forbids a global noncontextual assignment, and in which independently generated cells recover the E_8–hexacode closure spine under named receiver laws that a forcing audit shows the floor does not select over matched lawful alternatives, so the floor forces the atlas of lawful closures and the terminal self-dual class but never the specific member, and the selection of a world-phase is a conserved, received input — and a fourth, first-extension line that is conditional and experiment-open: an unconditional accessible-positivity theorem exhibits a three-contact sector whose every passive-linear-optical probability is nonnegative yet which lies outside the positive-semidefinite Hilbert Gram cone, and on one received apparatus anchor this predicts a possible violation of Hilbert-space positivity — a negative three-state Gram discriminant Delta_3 < 0 where ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its protocol, nulls, and kill conditions — under which the quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the preparation gap is an exact theorem at KCBS-pentagon scope, the interface reconstruction is a finite model-scope recovery on a real-quantum cell, the multi-floor closures are model-scope recoveries whose forcing boundary is exactly mapped, the accessible-positivity theorem is unconditional while its physical realization is a conditional, bridge-premise-gated prediction awaiting a dedicated experiment and external expert review, and every unearned generalization — complex quantum mechanics, the actuality of one outcome, the universal Born rule, whether nature realizes any of these structures, which world-phase is selected, and whether nature contains the odd identity-holonomy sector — is left open by name; this chapter is an archival priority record of a mathematically closed conditional prediction, not an empirical discovery.',
         [
-            "README.md",
-            "docs/public-claim-register.md",
             "papers/10-negative-gram-holonomy/paper.md",
             "RELEASE-NOTES-v0.10.0.md",
+        ],
+    ),
+    (
+        "v0.11",
+        'Finite Contact Theory is a finite reconstruction program with a scoped theorem stack on three published recovery lines — a quantum-facing axis, from one-use contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a behavior-conditioned contextual capacity with an exact strict preparation gap; a finite-epistemics axis, from the identifiability and debt calculus to the inquiry calculus and its second law of asking, four theorems separating the structure of time, and a measured generative floor; and a contact-interface reconstruction, in which a retained interface forces a quaternionic state/receiver cell whose self-dual closure is the 24-cell and the F_4 root system and whose finite measurement calculus forces the quadratic Born frame rule (a finite Gleason theorem) exactly where a triality Kochen-Specker obstruction forbids a global noncontextual assignment, and in which independently generated cells recover the E_8–hexacode closure spine under named receiver laws that a forcing audit shows the floor does not select over matched lawful alternatives, so the floor forces the atlas of lawful closures and the terminal self-dual class but never the specific member, and the selection of a world-phase is a conserved, received input — and a fourth, first-extension line that is conditional and experiment-open: an unconditional accessible-positivity theorem exhibits a three-contact sector whose every passive-linear-optical probability is nonnegative yet which lies outside the positive-semidefinite Hilbert Gram cone, and on one received apparatus anchor this predicts a possible violation of Hilbert-space positivity — a negative three-state Gram discriminant Delta_3 < 0 where ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its protocol, nulls, and kill conditions, and a clean mixed-state exclusion theorem then proves the gauge-free count witness W = P111 + D2 - 2/3 equals (2/9) det G, nonnegative for every partially-distinguishable Hilbert model whether pure or mixed, so the registered negative-Gram vector lies outside the entire clean partial-distinguishability class by the raw-count test P111 + D2 >= 2/3, closing the clean core of the exclusion while multiphoton, detector, transfer-matrix, and source-drift nuisances remain the experimental layer for an external expert — under which the quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the preparation gap is an exact theorem at KCBS-pentagon scope, the interface reconstruction is a finite model-scope recovery on a real-quantum cell, the multi-floor closures are model-scope recoveries whose forcing boundary is exactly mapped, the accessible-positivity and mixed-state exclusion theorems are unconditional while the physical realization is a conditional, bridge-premise-gated prediction awaiting a dedicated experiment and external expert review, and every unearned generalization — complex quantum mechanics, the actuality of one outcome, the universal Born rule, whether nature realizes any of these structures, which world-phase is selected, whether nature contains the odd identity-holonomy sector, and whether the apparatus nuisances close the full exclusion — is left open by name; this chapter is an archival priority record of mathematically closed theorems and a conditional prediction, not an empirical discovery.',
+        [
+            "README.md",
+            "docs/public-claim-register.md",
+            "papers/11-mixed-state-exclusion/paper.md",
+            "RELEASE-NOTES-v0.11.0.md",
         ],
     ),
 ]

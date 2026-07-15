@@ -2,6 +2,47 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.11.0
+
+Eleventh public release: **Chapter 11 — The Clean Mixed-State Exclusion**. An
+unconditional theorem that closes the *clean core* of the open crux Chapter 10
+left for an external expert: no partially-distinguishable Hilbert model, pure or
+mixed, can reproduce the registered negative-Gram counts. Version DOI recorded
+at mint; concept DOI `10.5281/zenodo.21253591`.
+
+Added:
+
+- `papers/11-mixed-state-exclusion/` — chapter, claim snapshot, freeze record,
+  and a frozen copy of the shipped script with expected output;
+- claim row FCT-62 (the clean mixed-state exclusion, `THEOREM / UNCONDITIONAL /
+  EXTENSION-MATH`) and theorem row T-46 (the count witness equals the Gram
+  determinant, `W = (2/9) det G ≥ 0`); FCT-61's residual updated (the clean
+  mixed-state exclusion is now closed; the apparatus-nuisance layer remains
+  open);
+- `verification/scripts/mixed_state_exclusion.py`, wired into `run_all.py`
+  (now sixteen scripts): the partial-distinguishability count formula
+  `P111 = (2 − S + 4τ)/9` derived from first principles (exact on a rational
+  witness, numerical over random models); the identity `W = P111 + D2 − 2/3 =
+  (2/9) det G`; the antisymmetrizer certificate `⟨A₋⟩ = det G/6` with the
+  `Q[S₃]` projector property; `W ≥ 0` on exact rational PSD Grams and under an
+  adversarial descent; convexity; and the exclusion with the raw-count test
+  `P111 + D2 ≥ 2/3`;
+- **the new live release ceiling** (adds the clean mixed-state exclusion to the
+  first-extension line), quoted in the README, the claim register, the
+  chapter-11 paper, and the v0.11.0 notes.
+
+Changed:
+
+- README, theorem bank, and `scripts/release_audit.py` updated to the v0.11
+  state (required files, migrated canonical ceilings — the v0.10 ceiling moves
+  to its frozen chapter-10 and notes locations); `.zenodo.json` and
+  `CITATION.cff` refreshed to the v0.11 deposit metadata.
+
+The scope fence is explicit: this closes the **clean** mixed-state + mode-
+mismatch exclusion; multiphoton contamination, detector response, transfer-
+matrix uncertainty, and source drift remain the external experimental layer,
+and the Chapter-10 bridge premises are unchanged. Not an empirical discovery.
+
 ## 0.10.0
 
 Tenth public release: **Chapter 10 — Negative-Gram Identity Holonomy: The

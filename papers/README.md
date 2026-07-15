@@ -56,8 +56,15 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   — **Chapter 10** (v0.10.0): _Negative-Gram Identity Holonomy: The Program's
   First Divergence_ (the first extension: an unconditional accessible-positivity
   theorem plus a conditional, preregistered, experiment-open prediction of a
-  Hilbert-positivity violation; carries the live release ceiling). DOIs recorded
-  in its [`RELEASE.md`](10-negative-gram-holonomy/RELEASE.md) at tagging.
+  Hilbert-positivity violation). DOIs recorded in its
+  [`RELEASE.md`](10-negative-gram-holonomy/RELEASE.md) at tagging.
+- [`11-mixed-state-exclusion/`](11-mixed-state-exclusion/paper.md)
+  — **Chapter 11** (v0.11.0): _The Clean Mixed-State Exclusion_ (an
+  unconditional theorem closing the clean core of the Chapter-10 crux: the
+  count witness `W = (2/9) det G ≥ 0` excludes every partial-distinguishability
+  Hilbert model, pure or mixed, via the raw-count test `P111 + D2 ≥ 2/3`;
+  carries the live release ceiling). DOIs recorded in its
+  [`RELEASE.md`](11-mixed-state-exclusion/RELEASE.md) at tagging.
 
 ## Chapter directory convention (v0.2 onward)
 

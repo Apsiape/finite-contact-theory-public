@@ -639,3 +639,26 @@ the sector plus the received anchor r = 3/5 -- the CONDITIONAL prediction
 (FCT-61), whose bridge premises to nature (that a particle class carries this
 holonomy; that photons receive it; that passive linear optics is the complete
 grammar) are held open and whose mixed-state PSD-exclusion is the open crux.
+
+### T-46 The Clean Mixed-State Exclusion (Chapter 11) -- UNCONDITIONAL
+
+Closes the clean core of the Chapter-10 open crux. For every partially-
+distinguishable Hilbert model at the Fourier tritter, the gauge-free raw-count
+witness W = P111 + D2 - 2/3 satisfies the identity W = (2/9) det G, where G is
+the 3x3 internal-state Gram matrix (P111 = (2 - S + 4 tau)/9 and D2 = 2/3 - S/9
+are the standard partial-distinguishability formulas -- P111 derived from first
+principles in the verifier -- with S = sum |g_ij|^2, tau = Re(g12 g23 g31), and
+det G = 1 - S + 2 tau). Gram positivity forces det G >= 0, so W >= 0 for every
+pure config, and -- since W is affine in the measured counts -- for every mixed
+state by convexity. Operator certificate: the antisymmetrizer A_- = (1/6) sum
+sgn(pi) P_pi is a positive projector (A_-^2 = A_-) and <A_-> = det(G)/6 by the
+Leibniz formula, so W = (4/3) Tr(A_- Omega) >= 0. The registered extension has
+W = (2/9) Delta_3 = -128/1125 < 0, hence lies outside the entire class; the
+exact separating raw-count test is P111 + D2 >= 2/3. Verified exactly (the
+first-principles count formula on a rational witness, the determinant identity,
+the count-witness algebra, the antisymmetrizer certificate, positivity on
+rational Grams, convexity, the exclusion) plus numerical corroboration. Scope:
+this closes the CLEAN mixed-state + mode-mismatch exclusion; multiphoton,
+detector, transfer-matrix, and drift nuisances remain the external experimental
+layer, and the Chapter-10 bridge premises are unchanged. Not an empirical
+discovery.

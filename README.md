@@ -110,12 +110,25 @@ complete grammar) are held open, and the decisive mixed-state PSD-exclusion is
 an **open crux awaiting an external quantum-optics expert**. The DOI is an
 archival/priority record.
 
+**Chapter 11 (new in v0.11)** closes the *clean core* of that crux — and it is
+a **proof**, not a bet. The gauge-free raw-count witness `W = P111 + D2 − 2/3`
+turns out to equal `(2/9) det G` for *every* partial-distinguishability model,
+where `G` is the internal-state Gram matrix; Gram positivity forces
+`det G ≥ 0`, so `W ≥ 0` for every Hilbert model — pure *or* mixed (by convexity,
+certified by the antisymmetrizer projector). The extension predicts
+`W = (2/9)Δ₃ = −128/1125 < 0`, so **no partially-distinguishable Hilbert model,
+of any purity, reproduces the registered counts**, and the exclusion is a single
+raw-count test: `P111 + D2 ≥ 2/3`. This upgrades the Chapter-10 divergence from
+"a mixed source might fake it" to "clean-grammar quantum mechanics cannot."
+(Still open, and still the experimentalist's layer: multiphoton, detector,
+transfer-matrix, and drift nuisances; the bridge premises are unchanged.)
+
 ## The live ceiling
 
 The whole release is bounded by one sentence, quoted identically in this
 README, the [claim register](docs/public-claim-register.md), the
-[chapter-10 paper](papers/10-negative-gram-holonomy/paper.md), and the
-[v0.10.0 release notes](RELEASE-NOTES-v0.10.0.md):
+[chapter-11 paper](papers/11-mixed-state-exclusion/paper.md), and the
+[v0.11.0 release notes](RELEASE-NOTES-v0.11.0.md):
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
 > theorem stack on three published recovery lines — a quantum-facing axis,
@@ -142,19 +155,28 @@ README, the [claim register](docs/public-claim-register.md), the
 > received apparatus anchor this predicts a possible violation of Hilbert-space
 > positivity — a negative three-state Gram discriminant Delta_3 < 0 where
 > ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its
-> protocol, nulls, and kill conditions — under which the quantum boundary is a
-> floor theorem at binary-Bell finite-carrier scope, the preparation gap is an
-> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
-> finite model-scope recovery on a real-quantum cell, the multi-floor closures
-> are model-scope recoveries whose forcing boundary is exactly mapped, the
-> accessible-positivity theorem is unconditional while its physical realization
-> is a conditional, bridge-premise-gated prediction awaiting a dedicated
-> experiment and external expert review, and every unearned generalization —
-> complex quantum mechanics, the actuality of one outcome, the universal Born
-> rule, whether nature realizes any of these structures, which world-phase is
-> selected, and whether nature contains the odd identity-holonomy sector — is
-> left open by name; this chapter is an archival priority record of a
-> mathematically closed conditional prediction, not an empirical discovery.
+> protocol, nulls, and kill conditions, and a clean mixed-state exclusion
+> theorem then proves the gauge-free count witness W = P111 + D2 - 2/3 equals
+> (2/9) det G, nonnegative for every partially-distinguishable Hilbert model
+> whether pure or mixed, so the registered negative-Gram vector lies outside
+> the entire clean partial-distinguishability class by the raw-count test
+> P111 + D2 >= 2/3, closing the clean core of the exclusion while multiphoton,
+> detector, transfer-matrix, and source-drift nuisances remain the experimental
+> layer for an external expert — under which the quantum boundary is a floor
+> theorem at binary-Bell finite-carrier scope, the preparation gap is an exact
+> theorem at KCBS-pentagon scope, the interface reconstruction is a finite
+> model-scope recovery on a real-quantum cell, the multi-floor closures are
+> model-scope recoveries whose forcing boundary is exactly mapped, the
+> accessible-positivity and mixed-state exclusion theorems are unconditional
+> while the physical realization is a conditional, bridge-premise-gated
+> prediction awaiting a dedicated experiment and external expert review, and
+> every unearned generalization — complex quantum mechanics, the actuality of
+> one outcome, the universal Born rule, whether nature realizes any of these
+> structures, which world-phase is selected, whether nature contains the odd
+> identity-holonomy sector, and whether the apparatus nuisances close the full
+> exclusion — is left open by name; this chapter is an archival priority record
+> of mathematically closed theorems and a conditional prediction, not an
+> empirical discovery.
 
 The scope fence is the result, not an apology. In particular this does **not**
 claim all quantum mechanics is derived: Chapter 8 is a *real-quantum* cell
@@ -170,7 +192,7 @@ No dependencies beyond Python's standard library.
 python verification\scripts\run_all.py
 ```
 
-Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Fifteen dependency-free
+Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Sixteen dependency-free
 scripts run — the no-jam core, the rational Born weights, the CHSH ladder
 climbing to `2*sqrt(2)` on the Pell fence `p^2 - 2q^2 = -1`, the exact
 preparation gap, the debt/asking/time theorems, the floor engine, and — new
@@ -185,9 +207,12 @@ actual phase's response but not the Born rule); and — new in v0.10 —
 `negative_gram_holonomy.py`, which proves the universal accessible-positivity
 theorem (`152N + 9|per|² − 36|det|² ≥ 0` for every interferometer, from the
 toric relation alone) and carries the exact negative-Gram prediction and the
-`−495` witness that keeps the false `(7/2)`-margin killed. All in exact
-arithmetic in a few seconds. This is the shipped public subset — not the full
-private corpus.
+`−495` witness that keeps the false `(7/2)`-margin killed; and — new in v0.11 —
+`mixed_state_exclusion.py`, which derives the partial-distinguishability count
+formula from first principles and proves the count witness equals `(2/9) det G`,
+excluding every mixed-state Hilbert model (the raw-count test `P111 + D2 ≥ 2/3`).
+All in exact arithmetic in a few seconds. This is the shipped public subset —
+not the full private corpus.
 
 ## Recoveries, honestly named
 
@@ -235,19 +260,20 @@ theorem, a recovery, a model result, or a clean failure:
 
 ## Read it
 
-1. [papers/10-negative-gram-holonomy/paper.md](papers/10-negative-gram-holonomy/paper.md) — **Chapter 10** (v0.10): negative-Gram identity holonomy — the program's first divergence (an unconditional accessible-positivity theorem + a conditional, experiment-open prediction; the newest result).
-2. [papers/09-multifloor-worldweave/paper.md](papers/09-multifloor-worldweave/paper.md) — **Chapter 9** (v0.9): the multi-floor worldweave (E₈, octonions, self-dual codes).
-3. [papers/08-nonexact-return/paper.md](papers/08-nonexact-return/paper.md) — **Chapter 8** (v0.8): the non-exact-return reconstruction (finite Born + contextuality).
-4. [papers/07-program-map/paper.md](papers/07-program-map/paper.md) — **Chapter 7**: the program map (start here for the whole picture).
-5. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — **Chapter 2**: the exact preparation gap, in standard contextuality language.
-6. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — **Chapter 1**: the v0.1 release narrative.
-7. Chapters 3–6 (the finite-epistemics axis):
+1. [papers/11-mixed-state-exclusion/paper.md](papers/11-mixed-state-exclusion/paper.md) — **Chapter 11** (v0.11): the clean mixed-state exclusion — `W = (2/9) det G ≥ 0` proves no partial-distinguishability Hilbert model reproduces the negative-Gram counts (the newest result).
+2. [papers/10-negative-gram-holonomy/paper.md](papers/10-negative-gram-holonomy/paper.md) — **Chapter 10** (v0.10): negative-Gram identity holonomy — the program's first divergence (an unconditional accessible-positivity theorem + a conditional, experiment-open prediction).
+3. [papers/09-multifloor-worldweave/paper.md](papers/09-multifloor-worldweave/paper.md) — **Chapter 9** (v0.9): the multi-floor worldweave (E₈, octonions, self-dual codes).
+4. [papers/08-nonexact-return/paper.md](papers/08-nonexact-return/paper.md) — **Chapter 8** (v0.8): the non-exact-return reconstruction (finite Born + contextuality).
+5. [papers/07-program-map/paper.md](papers/07-program-map/paper.md) — **Chapter 7**: the program map (start here for the whole picture).
+6. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — **Chapter 2**: the exact preparation gap, in standard contextuality language.
+7. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — **Chapter 1**: the v0.1 release narrative.
+8. Chapters 3–6 (the finite-epistemics axis):
    [the debt calculus](papers/03-identifiability-and-debt/paper.md) ·
    [the inquiry calculus](papers/04-inquiry-calculus/paper.md) ·
    [becoming webs](papers/05-becoming-webs/paper.md) ·
    [the measured floor](papers/06-measured-floor/paper.md).
-8. [docs/theorem-bank.md](docs/theorem-bank.md) · [docs/public-claim-register.md](docs/public-claim-register.md) — theorem rows and the controlling claim list.
-9. [docs/mathematical-core.md](docs/mathematical-core.md) · [docs/glossary.md](docs/glossary.md) · [docs/how-to-read.md](docs/how-to-read.md).
+9. [docs/theorem-bank.md](docs/theorem-bank.md) · [docs/public-claim-register.md](docs/public-claim-register.md) — theorem rows and the controlling claim list.
+10. [docs/mathematical-core.md](docs/mathematical-core.md) · [docs/glossary.md](docs/glossary.md) · [docs/how-to-read.md](docs/how-to-read.md).
 
 How the repository grows without rewriting its past is [EVOLUTION.md](EVOLUTION.md); what remains open is in [docs/roadmap.md](docs/roadmap.md).
 
@@ -265,12 +291,14 @@ much — and the bold frame at the top of this page is held to that same audit.
 
 ## Status
 
-This is v0.10.0: ten chapters on three recovery lines plus a first extension
-line — 61 claim rows (FCT-01..61), 45 theorem rows (T-01..45), fifteen shipped
+This is v0.11.0: eleven chapters on three recovery lines plus a first extension
+line — 62 claim rows (FCT-01..62), 46 theorem rows (T-01..46), sixteen shipped
 dependency-free scripts, a public correction ledger, and one live ceiling
 sentence. The one nature-facing item — Chapter 10's negative-Gram divergence —
 is explicitly conditional, preregistered, and experiment-open (an
-archival/priority record, not a discovery). Complex quantum mechanics, the
+archival/priority record, not a discovery); Chapter 11 proves the clean core of
+its mixed-state exclusion, leaving only the apparatus-nuisance layer to the
+experimentalist. Complex quantum mechanics, the
 actuality of one outcome, the universal Born rule, whether nature realizes any
 of these structures, spacetime/gravity/continuum, and every *confirmed*
 nature-facing claim are deliberately held or open, and named as such.
@@ -283,9 +311,9 @@ nature-facing claim are deliberately held or open, and named as such.
 
 Archived and citable via Zenodo. Cite the program by its **concept DOI**
 (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591).
-The v0.10.0 version DOI is recorded in
-[papers/10-negative-gram-holonomy/RELEASE.md](papers/10-negative-gram-holonomy/RELEASE.md)
-and [CITATION.cff](CITATION.cff) at mint. Earlier version DOIs (v0.1.0–v0.9.0)
+The v0.11.0 version DOI is recorded in
+[papers/11-mixed-state-exclusion/RELEASE.md](papers/11-mixed-state-exclusion/RELEASE.md)
+and [CITATION.cff](CITATION.cff) at mint. Earlier version DOIs (v0.1.0–v0.10.0)
 are listed in [CITATION.cff](CITATION.cff).
 
 ## Rights

@@ -18,8 +18,8 @@ For label meanings, see `status-labels.md`. For verification posture, see
 
 ## Release Ceiling
 
-The v0.10 public ceiling is (quoted identically in the README, the chapter-10
-paper, and the v0.10.0 release notes):
+The v0.11 public ceiling is (quoted identically in the README, the chapter-11
+paper, and the v0.11.0 release notes):
 
 > Finite Contact Theory is a finite reconstruction program with a scoped
 > theorem stack on three published recovery lines — a quantum-facing axis,
@@ -46,23 +46,32 @@ paper, and the v0.10.0 release notes):
 > received apparatus anchor this predicts a possible violation of Hilbert-space
 > positivity — a negative three-state Gram discriminant Delta_3 < 0 where
 > ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its
-> protocol, nulls, and kill conditions — under which the quantum boundary is a
-> floor theorem at binary-Bell finite-carrier scope, the preparation gap is an
-> exact theorem at KCBS-pentagon scope, the interface reconstruction is a
-> finite model-scope recovery on a real-quantum cell, the multi-floor closures
-> are model-scope recoveries whose forcing boundary is exactly mapped, the
-> accessible-positivity theorem is unconditional while its physical realization
-> is a conditional, bridge-premise-gated prediction awaiting a dedicated
-> experiment and external expert review, and every unearned generalization —
-> complex quantum mechanics, the actuality of one outcome, the universal Born
-> rule, whether nature realizes any of these structures, which world-phase is
-> selected, and whether nature contains the odd identity-holonomy sector — is
-> left open by name; this chapter is an archival priority record of a
-> mathematically closed conditional prediction, not an empirical discovery.
+> protocol, nulls, and kill conditions, and a clean mixed-state exclusion
+> theorem then proves the gauge-free count witness W = P111 + D2 - 2/3 equals
+> (2/9) det G, nonnegative for every partially-distinguishable Hilbert model
+> whether pure or mixed, so the registered negative-Gram vector lies outside
+> the entire clean partial-distinguishability class by the raw-count test
+> P111 + D2 >= 2/3, closing the clean core of the exclusion while multiphoton,
+> detector, transfer-matrix, and source-drift nuisances remain the experimental
+> layer for an external expert — under which the quantum boundary is a floor
+> theorem at binary-Bell finite-carrier scope, the preparation gap is an exact
+> theorem at KCBS-pentagon scope, the interface reconstruction is a finite
+> model-scope recovery on a real-quantum cell, the multi-floor closures are
+> model-scope recoveries whose forcing boundary is exactly mapped, the
+> accessible-positivity and mixed-state exclusion theorems are unconditional
+> while the physical realization is a conditional, bridge-premise-gated
+> prediction awaiting a dedicated experiment and external expert review, and
+> every unearned generalization — complex quantum mechanics, the actuality of
+> one outcome, the universal Born rule, whether nature realizes any of these
+> structures, which world-phase is selected, whether nature contains the odd
+> identity-holonomy sector, and whether the apparatus nuisances close the full
+> exclusion — is left open by name; this chapter is an archival priority record
+> of mathematically closed theorems and a conditional prediction, not an
+> empirical discovery.
 
-The v0.1, v0.2, v0.7, v0.8, and v0.9 ceilings remain quoted, unchanged, in
-their frozen chapters and release notes; this row supersedes them as the live
-ceiling.
+The v0.1, v0.2, v0.7, v0.8, v0.9, and v0.10 ceilings remain quoted, unchanged,
+in their frozen chapters and release notes; this row supersedes them as the
+live ceiling.
 
 The release does not claim all quantum mechanics, quantum gravity, or
 nature-facing prediction is solved; the one nature-facing item — the
@@ -2008,11 +2017,61 @@ Bridge premises (NOT floor theorems; held open):
 
 Residuals / the open crux:
 
-- the decisive MIXED-STATE + mode-mismatch + multiphoton PSD-exclusion is OPEN
-  and has NOT been vetted by a quantum-optics expert; external expert review is
-  the gate before any outreach.
+- the CLEAN mixed-state + mode-mismatch PSD-exclusion is now CLOSED (proven):
+  FCT-62 shows no partially-distinguishable Hilbert model, pure or mixed,
+  reproduces the registered `(Delta_3, W, Q_3)`. The remaining open part of the
+  crux is the APPARATUS-NUISANCE layer -- multiphoton contamination, detector
+  response, transfer-matrix uncertainty, source drift -- which has NOT been
+  vetted by a quantum-optics expert; external expert review is the gate before
+  any outreach.
 - this DOI is an archival/priority record of a mathematically closed
   conditional prediction, NOT an empirical discovery.
+
+## FCT-62 - The Clean Mixed-State Exclusion (The Theorem)
+
+Status: `THEOREM / UNCONDITIONAL / EXTENSION-MATH`
+Scope: the partially-distinguishable Hilbert model (pure and mixed) at the
+Fourier tritter, at the registered anchor `r = 3/5`.
+Evidence state: `shipped`.
+
+Public statement:
+
+Closes the CLEAN core of the Chapter-10 crux. For every partial-
+distinguishability model, the gauge-free raw-count witness
+`W = P111 + D2 - 2/3` satisfies `W = (2/9) det G`, where `G` is the `3x3`
+internal-state Gram matrix (`P111 = (2 - S + 4tau)/9`, `D2 = 2/3 - S/9`,
+`S = sum |g_ij|^2`, `tau = Re(g12 g23 g31)`, `det G = 1 - S + 2tau`; the count
+formula is derived from first principles in the verifier). Gram positivity
+forces `det G >= 0`, hence `W >= 0` for every pure config, hence -- because `W`
+is affine in the counts -- for every MIXED state (convexity), certified
+operator-level by the antisymmetrizer `A_- = (1/6) sum sgn(pi) P_pi` (a positive
+projector, `A_-^2 = A_-`) via `W = (4/3) Tr(A_- Omega) >= 0`. The registered
+extension has `W = (2/9) Delta_3 = -128/1125 < 0`, so it lies OUTSIDE the entire
+class; the exact separating raw-count test is `P111 + D2 >= 2/3` (the extension
+gives `622/1125 < 750/1125`, violation `128/1125`). So no partially-
+distinguishable Hilbert model, pure or mixed, reproduces the registered count
+vector. Unconditional mathematics.
+
+Evidence:
+
+- shipped: `verification/scripts/mixed_state_exclusion.py` (the first-principles
+  `P111` formula, exact on a rational witness and numerical over random models;
+  `det G = 1 - S + 2tau`; the count-witness identity `W = (2/9) det G`; the
+  antisymmetrizer certificate `<A_-> = det G/6` with the `Q[S_3]` projector
+  property; `W >= 0` on exact rational PSD Grams and under an adversarial
+  descent; convexity for mixtures; the exclusion and raw-count test).
+
+Checks / controls:
+
+- all load-bearing steps are exact (`fractions.Fraction` over `Q(sqrt 3)`); the
+  count formula is verified from first principles, not asserted.
+
+Residuals:
+
+- closes the CLEAN mixed-state + mode-mismatch exclusion ONLY. Multiphoton
+  contamination, detector response, transfer-matrix uncertainty, and source
+  drift remain the external experimental layer (FCT-61); the Chapter-10 bridge
+  premises are unchanged.
 
 ## Held Claim Families
 

@@ -25,6 +25,7 @@ SCRIPTS = [
     "forcing_audit.py",
     "wcd_actualization.py",
     "negative_gram_holonomy.py",
+    "mixed_state_exclusion.py",
 ]
 
 
