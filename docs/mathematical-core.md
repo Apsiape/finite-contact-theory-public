@@ -1,6 +1,6 @@
 # Mathematical Core
 
-Status: first public extraction draft.
+Status: public mathematical core (current as of v0.10).
 
 This document records the mathematical spine currently suitable for public
 drafting. It is not a complete proof text. It is the bridge between the theory
@@ -55,6 +55,18 @@ finite one-use contact
   -> CHSH-family boundary / Pell fence
   -> native carrier grammar at binary-Bell scope
   -> finite tensor certificates binding a floor-grown carrier
+  -> [finite-epistemics axis] identifiability/debt calculus -> inquiry calculus
+     -> the structure of time -> a measured generative floor
+  -> [contact-interface reconstruction, ch. 8] a retained interface forces a
+     quaternionic receiver / 24-cell / F_4, a finite Gleason theorem, and a
+     triality Kochen-Specker obstruction
+  -> [multi-floor, ch. 9] independently generated cells close into the
+     E_8-hexacode spine; a forcing audit maps what the floor does and does not
+     force (the atlas and the class, never the member)
+  -> [first extension, ch. 10] a proven universal accessible-positivity theorem
+     places a negative-holonomy sector OUTSIDE the PSD Hilbert Gram cone, and a
+     conditional, experiment-open prediction (a possible Hilbert-positivity
+     violation) diverges from quantum mechanics
 ```
 
 This is a theorem stack only at the scopes stated in
@@ -87,16 +99,18 @@ public job is to show:
 5. which claims remain private because their verification artifacts or scopes
    are not yet public-clean.
 
-## First-Release Boundary
+## Scope Boundary
 
-For the first public release, the mathematical core should be stated as a
-finite reconstruction program with a scoped theorem stack. It should not claim
-to solve:
+The mathematical core is a finite reconstruction program with a scoped theorem
+stack (now with a first extension line). It does not claim to solve:
 
 - general quantum theory;
 - quantum gravity;
 - 3+1 dimensions;
 - the continuum limit of interacting QFT;
-- nature-facing prediction beyond the registered shelf.
+- a *confirmed* nature-facing prediction — the Chapter-10 negative-Gram
+  divergence is a proven internal-consistency theorem plus a conditional,
+  experiment-open prediction gated by bridge premises and the mixed-state
+  PSD-exclusion crux, not an empirical discovery.
 
 Those may appear as named horizons, not as completed results.

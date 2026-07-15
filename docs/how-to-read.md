@@ -1,6 +1,6 @@
 # How To Read This Repository
 
-Status: reader guide for the first public release.
+Status: reader guide (current as of v0.10 — ten chapters).
 
 ## Start Here
 

@@ -44,8 +44,11 @@ Version numbers carry meaning:
   fixes that change public meaning, each carried by a correction-ledger
   entry. Typo-level fixes do not require a release.
 - **MAJOR** (`v1.0.0`): reserved for a change in the *kind* of release
-  ceiling — for example, the first nature-facing prediction package with a
-  registered discriminator. Not a prestige bump.
+  ceiling — for example, the first *confirmed* nature-facing prediction (an
+  empirical divergence that survives an experiment), not merely a conditional,
+  experiment-open one. Chapter 10 (v0.10) ships the first nature-facing
+  *prediction* with a registered discriminator, but it is conditional and
+  archival, so it remains a MINOR. Not a prestige bump.
 
 Every release passes the gate in
 [`docs/release-checklist.md`](docs/release-checklist.md) before tagging. The

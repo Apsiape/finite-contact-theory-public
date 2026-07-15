@@ -8,7 +8,9 @@
 > erase. With no Hilbert space, no probability, no spacetime, and no continuum
 > granted at the start, this program grows the machinery of physics back — the
 > quantum boundary, the Born rule, contextuality, the structure of time — and
-> it ships a dependency-free script for every piece it calls finished.
+> then, for the first time, points *past* it: a preregistered prediction (Chapter
+> 10) where a three-particle sector can carry statistics **no Hilbert space
+> allows**. Every piece it calls finished ships a dependency-free script.
 
 This is a program with a large ambition and a strict rule. The ambition is to
 sort every feature of physical law into what a generative floor *forces* and
@@ -16,11 +18,14 @@ what it merely *receives* — a taxonomy of inevitability. The rule is that
 nothing enters as a *result* until it is a runnable theorem, a recovery of
 known mathematics from the deeper floor, a scoped model result, or a clean,
 logged failure. The bold frame and the exact scope are both true at once, and
-the difference between them is labeled on every claim.
+the difference between them is labeled on every claim. Most results **recover**
+known structure from the deeper floor; the newest (Chapter 10) is the program's
+first **extension** — a proven theorem paired with a conditional,
+experiment-open prediction that *diverges* from quantum mechanics.
 
-![The finite-contact reconstruction: three published lines growing from one one-use floor, ending in the state/receiver closure where the Born rule and contextuality meet, then extended across cells.](assets/reconstruction-map.svg)
+![The finite-contact reconstruction: three recovery lines growing from one one-use floor, ending in the state/receiver closure where the Born rule and contextuality meet, extended across cells, and then met by a first extension that predicts a divergence from quantum mechanics.](assets/reconstruction-map.svg)
 
-## What is proven now — three published lines
+## What is proven now — three recovery lines, and a first divergence
 
 **The quantum-facing axis** grows a fragment of quantum mechanics from pure
 finite counting: one-use contact → coherent counting → one-receiver gluing →
@@ -36,9 +41,10 @@ theorems disassembling time (no derivable "now"; an arrow without
 thermodynamics; lawfulness without foundation), and a measured generative
 floor with an independent-implementation agreement (Chapters 3–6, mapped in 7).
 
-**The contact-interface reconstruction** (Chapter 8, new in v0.8) is the
-newest and, for a quantum-foundations reader, the sharpest. From a *retained*
-contact interface — one whose second use cannot silently become a non-use —
+**The contact-interface reconstruction** (Chapter 8) is, for a
+quantum-foundations reader, the sharpest of the recovery results. From a
+*retained* contact interface — one whose second use cannot silently become a
+non-use —
 it derives, entirely by exact finite checks, a single object on which
 measurement lives:
 
@@ -164,18 +170,24 @@ No dependencies beyond Python's standard library.
 python verification\scripts\run_all.py
 ```
 
-Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Twelve dependency-free
+Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Fifteen dependency-free
 scripts run — the no-jam core, the rational Born weights, the CHSH ladder
 climbing to `2*sqrt(2)` on the Pell fence `p^2 - 2q^2 = -1`, the exact
 preparation gap, the debt/asking/time theorems, the floor engine, and — new
 in v0.8 — `nonexact_return_reconstruction.py`, which verifies the quaternionic
 receiver, the 24-cell self-duality, the F₄ closure, the forced `1/2`, the
-finite Gleason theorem, and the triality Kochen–Specker obstruction; and — new
-in v0.9 — `multifloor_worldweave.py` (the E₈ two-cell closure, octonionic
-fusion, the `|GU(k,2)|` code census, the hexacode) and `forcing_audit.py`
-(the counterworlds and the selection-equivalence theorem that map exactly what
-the closure does and does not force). All in exact arithmetic in a fraction of
-a second. This is the shipped public subset — not the full private corpus.
+finite Gleason theorem, and the triality Kochen–Specker obstruction; new in
+v0.9 — `multifloor_worldweave.py` (the E₈ two-cell closure, octonionic fusion,
+the `|GU(k,2)|` code census, the hexacode), `forcing_audit.py` (the
+counterworlds and the selection-equivalence theorem), and `wcd_actualization.py`
+(the actualization-by-counting family, where counting forces the *form* of an
+actual phase's response but not the Born rule); and — new in v0.10 —
+`negative_gram_holonomy.py`, which proves the universal accessible-positivity
+theorem (`152N + 9|per|² − 36|det|² ≥ 0` for every interferometer, from the
+toric relation alone) and carries the exact negative-Gram prediction and the
+`−495` witness that keeps the false `(7/2)`-margin killed. All in exact
+arithmetic in a few seconds. This is the shipped public subset — not the full
+private corpus.
 
 ## Recoveries, honestly named
 
@@ -226,16 +238,16 @@ theorem, a recovery, a model result, or a clean failure:
 1. [papers/10-negative-gram-holonomy/paper.md](papers/10-negative-gram-holonomy/paper.md) — **Chapter 10** (v0.10): negative-Gram identity holonomy — the program's first divergence (an unconditional accessible-positivity theorem + a conditional, experiment-open prediction; the newest result).
 2. [papers/09-multifloor-worldweave/paper.md](papers/09-multifloor-worldweave/paper.md) — **Chapter 9** (v0.9): the multi-floor worldweave (E₈, octonions, self-dual codes).
 3. [papers/08-nonexact-return/paper.md](papers/08-nonexact-return/paper.md) — **Chapter 8** (v0.8): the non-exact-return reconstruction (finite Born + contextuality).
-2. [papers/07-program-map/paper.md](papers/07-program-map/paper.md) — **Chapter 7**: the program map (start here for the whole picture).
-3. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — **Chapter 2**: the exact preparation gap, in standard contextuality language.
-4. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — **Chapter 1**: the v0.1 release narrative.
-5. Chapters 3–6 (the finite-epistemics axis):
+4. [papers/07-program-map/paper.md](papers/07-program-map/paper.md) — **Chapter 7**: the program map (start here for the whole picture).
+5. [papers/02-behavior-conditioned-capacity/paper.md](papers/02-behavior-conditioned-capacity/paper.md) — **Chapter 2**: the exact preparation gap, in standard contextuality language.
+6. [papers/finite-contact-theory-v0.1.md](papers/finite-contact-theory-v0.1.md) — **Chapter 1**: the v0.1 release narrative.
+7. Chapters 3–6 (the finite-epistemics axis):
    [the debt calculus](papers/03-identifiability-and-debt/paper.md) ·
    [the inquiry calculus](papers/04-inquiry-calculus/paper.md) ·
    [becoming webs](papers/05-becoming-webs/paper.md) ·
    [the measured floor](papers/06-measured-floor/paper.md).
-6. [docs/theorem-bank.md](docs/theorem-bank.md) · [docs/public-claim-register.md](docs/public-claim-register.md) — theorem rows and the controlling claim list.
-7. [docs/mathematical-core.md](docs/mathematical-core.md) · [docs/glossary.md](docs/glossary.md) · [docs/how-to-read.md](docs/how-to-read.md).
+8. [docs/theorem-bank.md](docs/theorem-bank.md) · [docs/public-claim-register.md](docs/public-claim-register.md) — theorem rows and the controlling claim list.
+9. [docs/mathematical-core.md](docs/mathematical-core.md) · [docs/glossary.md](docs/glossary.md) · [docs/how-to-read.md](docs/how-to-read.md).
 
 How the repository grows without rewriting its past is [EVOLUTION.md](EVOLUTION.md); what remains open is in [docs/roadmap.md](docs/roadmap.md).
 
@@ -271,9 +283,9 @@ nature-facing claim are deliberately held or open, and named as such.
 
 Archived and citable via Zenodo. Cite the program by its **concept DOI**
 (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591).
-The v0.9.0 version DOI is recorded in
-[papers/09-multifloor-worldweave/RELEASE.md](papers/09-multifloor-worldweave/RELEASE.md)
-and [CITATION.cff](CITATION.cff) at mint. Earlier version DOIs (v0.1.0–v0.8.0)
+The v0.10.0 version DOI is recorded in
+[papers/10-negative-gram-holonomy/RELEASE.md](papers/10-negative-gram-holonomy/RELEASE.md)
+and [CITATION.cff](CITATION.cff) at mint. Earlier version DOIs (v0.1.0–v0.9.0)
 are listed in [CITATION.cff](CITATION.cff).
 
 ## Rights

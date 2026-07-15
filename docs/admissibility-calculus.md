@@ -15,6 +15,10 @@ The calculus sorts claims into public classes:
 
 - what is forced by finite contact;
 - what is recovered from known mathematics or physics;
+- what is an extension that diverges from the incumbent — split into an
+  unconditional theorem and a conditional, experiment-open, bridge-premise-gated
+  prediction (introduced by Chapter 10; tested by internal rigor and a sharp
+  observable divergence, not by reduction to the incumbent);
 - what is model-scope only;
 - what is received or admitted as overlay;
 - what is open;

@@ -1,6 +1,6 @@
 # Correction Ledger
 
-Status: public correction ledger, first curated pass.
+Status: public correction ledger (current through v0.10; entries C-01..C-17).
 
 The correction ledger is part of the method. It records claims that were killed,
 demoted, narrowed, or moved to a hold. A failed claim may leave a useful
@@ -35,6 +35,7 @@ Every correction should preserve:
 | C-14 | Completed continuum is derived as a native object. | Finite skeletons and algebraic/computable horizons are recovered; completed continuum structures are admitted overlays unless reconstructed for prediction. | Corrected; see FCT-12. | A completed-real structure is required by a physical prediction with no finite reconstruction. |
 | C-15 | Cardinality fragmentation `m/c` is a confirmed second R-style prediction. | Strict graph controls demoted it to a lens/recovery readout unless a physical arena survives stronger controls. | Demoted. | A domain target survives degree, triangle, component, nontransitivity, and clustering controls. |
 | C-16 | Level-2 sourcing or Einstein gravity is already derived. | Energy/temperature and area-law export are scoped results; sourcing remains open and instrument-sensitive. | Narrowed; see FCT-13. | A powered within-geometry or equivalent flux/sourcing instrument passes its positive controls and real test. |
+| C-17 | The negative-Gram accessible-positivity theorem holds with the strict `(7/2)`-margin `152N + 9|per|^2 - 36|det|^2 >= (7/2)N` for every complex `3x3` matrix. | False as stated: the `(7/2)`-margin fails for arbitrary matrices. Explicit witness `A = [[-4,-1,1],[-7,1,-3],[6,-3,-5]]` gives `-495`, and it obeys the toric identity `prod_even z = prod_odd z` (so it is accessible), caught at the Chapter-10 pre-mint review before any DOI. The physically sufficient ZERO-margin statement `152N + 9|per|^2 - 36|det|^2 >= 0` is instead PROVEN for every matrix (toric relation only, no unitarity), and the strict `(7/2)`-margin survives only on the lossless unitary core `U(3)` (saturated by the Fourier tritter). | Corrected before mint; see FCT-60 / T-44. The `(7/2)`-universal stays killed (the `-495` witness is carried as a shipped regression); the zero-margin universal theorem and the `U(3)` corollary are shipped in Chapter 10 (v0.10). | A strict-margin (`> 0`, not merely `>= 0`) universal bound holds for all matrices, or a tighter accessible set than the toric variety is characterized. |
 
 ## Active Holds, Not Corrections
 

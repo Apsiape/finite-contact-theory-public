@@ -2,9 +2,9 @@
 
 Status: release-draft public ledger.
 
-This register is the controlling public list of what Finite Contact Theory v0.1
-is allowed to say. Every claim is scoped. A label stronger than the written
-scope is not implied.
+This register is the controlling public list of what Finite Contact Theory
+(v0.10) is allowed to say. Every claim is scoped. A label stronger than the
+written scope is not implied.
 
 Evidence states:
 
@@ -1323,10 +1323,10 @@ Residuals:
 ## FCT-42 - The Two-Axis Public Stack
 
 Status: `PROGRAM / INDEX` — **frozen v0.7.0-tag snapshot; superseded as the
-live index by the three-line state at v0.8.0** (the live ceiling above,
-Chapter 8, and rows through FCT-50 / T-36 / eleven scripts). Index rows are
-append-only and not rewritten; this row remains the accurate index *as of
-the v0.7.0 tag*.
+live index by the v0.10 state** (the live ceiling above: three recovery lines
+plus a first extension/divergence line, Chapter 10, and rows through
+FCT-61 / T-45 / fifteen scripts). Index rows are append-only and not rewritten;
+this row remains the accurate index *as of the v0.7.0 tag*.
 Scope: the public repository at the v0.7.0 tag — claim rows FCT-01..FCT-41,
 theorem rows T-01..T-32, organized as a quantum-facing axis (chapters 1–2)
 and a finite-epistemics axis (chapters 3–6).

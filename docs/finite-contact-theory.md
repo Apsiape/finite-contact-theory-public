@@ -14,10 +14,12 @@ true of any reality built from finite contact, one-use occasions, admissible
 composition, and local reception.
 
 The public theory should not be framed as a finished academic consensus or as a
-replacement for all existing physics. Its first public form should be framed as:
+replacement for all existing physics. It is framed as:
 
 > a finite, non-anthropic reconstruction program that recovers, relocates, or
-> dissolves major structures normally treated as primitive.
+> dissolves major structures normally treated as primitive — and that, in its
+> first extension (Chapter 10), makes a conditional, experiment-open prediction
+> that *diverges* from quantum mechanics.
 
 ## Extraction Principle
 

@@ -2,7 +2,7 @@
 
 Status: reconciliation gate.
 
-This file separates what may enter the first public release at scoped strength
+This file separates what may enter a public release at scoped strength
 from what still stays private, frontier, or citation-only.
 
 `HOLD` is not a claim label. It is a release decision. A held item may be
@@ -29,7 +29,7 @@ travel with them:
 | CHSH weights and magic bridge | `HOLD / FRONTIER` | The reservoir-to-behavior engine and site-interlocking dynamics must be stated without laundering terminalized model scope into floor dynamics. |
 | Cross-site interlocking | `HOLD / OPEN` | Needed for super-classical weights on the staged arena; not supplied by the flat floor. |
 | q >= 3 and more outcomes | `HOLD / OPEN` | Native lift currently scopes to binary two-setting sites. |
-| Sliwa-41 rerun artifacts | `HOLD / PACKAGING` | Private reruns may be cited, but first public release needs either copied artifacts or citation-only wording. |
+| Sliwa-41 rerun artifacts | `HOLD / PACKAGING` | Private reruns may be cited, but public-load-bearing use needs either copied artifacts or citation-only wording. |
 
 ## Required Public Wording
 

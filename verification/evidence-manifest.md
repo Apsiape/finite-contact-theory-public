@@ -15,11 +15,13 @@ the locked private corpus, historical only, or held.
 | `historical` | Source is provenance or context, not public-load-bearing evidence. |
 | `held` | Source is not used as public evidence until scope, rights, dependencies, or packaging are resolved. |
 
-## First-Release Evidence Posture
+## Evidence Posture
 
-The first public release now has a small shipped verification subset plus cited
-private evidence. The shipped subset is intentionally narrow and
-dependency-free. It does not replace the larger locked private research ledgers.
+The public repository now spans ten chapters on three recovery lines plus a
+first extension line, with fifteen shipped, dependency-free verification
+scripts alongside cited private evidence. The shipped subset is intentionally
+self-contained and exact where it can be; it does not replace the larger locked
+private research ledgers.
 
 ## Candidate Evidence Items
 
@@ -35,6 +37,9 @@ dependency-free. It does not replace the larger locked private research ledgers.
 | Inquiry calculus (chapter 4) | `shipped` + `cited` | Public `inquiry_calculus.py`; cited private asking-algebra and update-calculus ledgers | Public script proves the residual algebra, the exact EC = H + KL + O decomposition, the adaptivity interest, and the typing witnesses (FCT-30..33); the program-facing noncommutative-asking readings remain cited. |
 | Becoming webs / time structure (chapter 5) | `shipped` + `cited` | Public `becoming_webs.py`; cited private becoming-web, law-hysteresis, and chronofiber ledgers | Public script proves the torsor, helix, ledger-arrow, and no-foundation theorems at finite-model scope (FCT-34..37); the floor-native measurements and readings remain cited. |
 | Measured floor phenomena (chapter 6) | `shipped` + `cited` | Public `floor_engine_measurements.py` (engine + suite); cited private twin-wait census, counterfactual-perturbation campaign, redundancy-inversion result | Public engine measures s-hat = 0.927, the short-tailed wait law, and the ballistic defect (FCT-38..41); the inversion and radius instruments remain cited with their scale fences stated. |
+| Contact-interface reconstruction (chapter 8) | `shipped` + `cited` | Public `nonexact_return_reconstruction.py`; cited private NXR corpus | Public script verifies the quaternionic receiver, the 24-cell self-dual fixed point, the F_4 closure, the forced `1/2`, the finite Gleason theorem, and the triality Kochen-Specker obstruction (FCT-45..50); the full reconstruction study remains cited. |
+| Multi-floor worldweave / forcing audit (chapter 9) | `shipped` + `cited` | Public `multifloor_worldweave.py`, `forcing_audit.py`, `wcd_actualization.py`; cited private MFW/ESFA/ESL/WCD corpus | Public scripts verify the `E_8`-hexacode closure atlas (FCT-51..56), the static/dynamic forcing audit (FCT-57/58), and actualization-by-counting where counting forces the FORM but not Born (FCT-59); the full audits remain cited. |
+| Negative-Gram identity holonomy (chapter 10) | `shipped` | Public `negative_gram_holonomy.py` | Public script PROVES the universal accessible-positivity theorem `152N + 9\|per\|^2 - 36\|det\|^2 >= 0` for every complex `3x3` matrix (FCT-60 / T-44), verified exactly on rational toric witnesses plus an independent adversarial descent, with the `U(3)` strict `(7/2)`-margin corollary and the `-495` kill of the `(7/2)`-universal; and carries the exact conditional negative-Gram prediction (FCT-61). The empirical mixed-state PSD-exclusion is the open crux (external quantum-optics expert). |
 | Sliwa-23/41 certificates | `cited` / `held` split | cited admissibility-calculus tensor-carrier notes; private Sliwa scripts | Cite only as imported recovery unless public artifacts are copied. |
 | CHSH weights / magic bridge | `held` | cited private research corpus (tensor-carrier and frontier notes) | Keep frontier/model-scope; no public-load-bearing use yet. |
 | Level-2 thermodynamics | `cited` | The private research corpus | Cite for aperture/temperature row; avoid gravity overclaim. |
@@ -54,7 +59,7 @@ Run release hygiene:
 python scripts\release_audit.py
 ```
 
-Current shipped scripts:
+Current shipped scripts (fifteen, wired into `run_all.py`):
 
 - `verification/scripts/no_jam_open_rule.py`
 - `verification/scripts/frequency_bridge_exchangeable.py`
@@ -62,6 +67,15 @@ Current shipped scripts:
 - `verification/scripts/chsh_pell_boundary.py`
 - `verification/scripts/native_lift_binary_bell.py`
 - `verification/scripts/exact_gap_certificate.py`
+- `verification/scripts/identifiability_debt_calculus.py`
+- `verification/scripts/inquiry_calculus.py`
+- `verification/scripts/becoming_webs.py`
+- `verification/scripts/floor_engine_measurements.py`
+- `verification/scripts/nonexact_return_reconstruction.py` (chapter 8)
+- `verification/scripts/multifloor_worldweave.py` (chapter 9)
+- `verification/scripts/forcing_audit.py` (chapter 9)
+- `verification/scripts/wcd_actualization.py` (chapter 9)
+- `verification/scripts/negative_gram_holonomy.py` (chapter 10)
 
 Current shipped result ledgers:
 
@@ -71,8 +85,16 @@ Current shipped result ledgers:
 - `verification/results/FCT-16-chsh-pell-boundary-RESULTS.md`
 - `verification/results/FCT-17-FCT-18-native-lift-binary-bell-RESULTS.md`
 - `verification/results/FCT-22-exact-gap-certificate-RESULTS.md`
+- `verification/results/FCT-26-FCT-29-identifiability-debt-calculus-RESULTS.md`
+- `verification/results/FCT-30-FCT-33-inquiry-calculus-RESULTS.md`
+- `verification/results/FCT-34-FCT-37-becoming-webs-RESULTS.md`
+- `verification/results/FCT-38-FCT-41-measured-floor-RESULTS.md`
 - `verification/results/run-all-RESULTS.md`
 - `verification/results/release-audit-RESULTS.md`
+
+Chapters 8-10 ship their expected output as frozen `EXPECTED-OUTPUT*.md` files
+under each chapter's `papers/<NN>-*/verification/` directory rather than as
+separate result ledgers.
 
 ## Packaging Rule
 
