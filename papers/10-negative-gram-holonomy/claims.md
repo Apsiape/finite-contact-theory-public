@@ -25,8 +25,8 @@ probabilities, for **every** interferometer. The accessible amplitudes
 `z_σ = ∏_i A[i][σ(i)]` obey the toric identity `∏_even z = ∏_odd z`, and for
 every complex `3×3` `A`, `152‖z‖² + 9|per A|² − 36|det A|² ≥ 0` (equality only
 at `A = 0`) — proven using **only** the toric relation (no unitarity), via a
-`C₃`-Fourier reduction `Q = 456R + 213M + 810 Re(αδ̄)` closed by a
-cubic-deviation bound. Being degree-6 homogeneous, positivity on all matrices =
+`C₃`-Fourier reduction `Q = 152N − 243M + 810 Re(αδ̄)` (`α, δ` the sector
+means, `M = |α|²+|δ|²`) closed by a cubic-deviation bound. Being degree-6 homogeneous, positivity on all matrices =
 positivity on all contractions = **every passive-linear-optical apparatus,
 lossless or lossy**. So the sector is a lawful probabilistic model on the
 complete grammar that lies **outside** the PSD Hilbert Gram cone: global

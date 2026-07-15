@@ -607,8 +607,9 @@ sign-sector eigenvalue (1 - 3r^2 - 2r^3 < 0 for r > 1/2) still yields only
 nonnegative accessible probabilities: global Hilbert PSD fails while
 operational block positivity survives. Proof uses ONLY the toric relation (no
 unitarity): with x = even monomials, y = odd monomials and x0x1x2 = y0y1y2, a
-C_3-Fourier change of coordinates gives Q = 456R + 213M + 810 Re(alpha conj
-delta), closed by the zero-sum-triple / cubic-deviation bound. Because Q is
+C_3-Fourier change of coordinates gives Q = 152N - 243M + 810 Re(alpha conj
+delta) (alpha, delta the sector means, M = |alpha|^2+|delta|^2), closed by the
+zero-sum-triple / cubic-deviation bound. Because Q is
 degree-6 homogeneous, positivity on all matrices = positivity on all
 contractions = every passive linear-optical transfer matrix, LOSSLESS OR LOSSY
 (no lossless-only restriction). On the lossless unitary core U(3) the sharper

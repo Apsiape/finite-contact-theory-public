@@ -1928,8 +1928,9 @@ toric identity `prod_{even} z = prod_{odd} z`; and for every complex `3x3` `A`,
 `152||z||^2 + 9|per A|^2 - 36|det A|^2 >= 0` (with `per A = sum z`,
 `det A = sum sgn(sigma) z`), equality only at `A = 0`. The proof uses ONLY the
 toric relation (no unitarity): a C_3-Fourier change of coordinates gives
-`Q = 456R + 213M + 810 Re(alpha conj delta)`, closed by a cubic-deviation
-bound. Because the form is degree-6 homogeneous, positivity on all matrices is
+`Q = 152N - 243M + 810 Re(alpha conj delta)` (with `alpha = (sum x)/3`,
+`delta = (sum y)/3` the sector means and `M = |alpha|^2 + |delta|^2`), closed
+by a cubic-deviation bound -- exactly the identity the shipped script verifies. Because the form is degree-6 homogeneous, positivity on all matrices is
 equivalent to positivity on all contractions -- i.e. on every passive
 linear-optical transfer matrix, LOSSLESS OR LOSSY. So the sector is a lawful
 probabilistic model on the complete admitted grammar that lies OUTSIDE the

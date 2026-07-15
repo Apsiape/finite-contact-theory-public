@@ -133,9 +133,9 @@ Since `Σ z_σ = per A` and `Σ sgn(σ) z_σ = det A`, this says **every admitte
 probability is nonnegative for every interferometer**. The proof needs *no
 unitarity*: writing `x = (z_σ)_{σ even}`, `y = (z_σ)_{σ odd}`, the toric
 constraint is `x₀x₁x₂ = y₀y₁y₂`; a `C₃`-Fourier change of coordinates turns the
-form into `Q = 456R + 213M + 810 Re(αδ̄)` (with `α, δ` the sector means and `M`,
-`R` the mean/standard-mode energies), and a cubic-deviation bound closes
-`Q ≥ 0` on the toric variety. The shipped script verifies the foundational
+form into `Q = 152N − 243M + 810 Re(αδ̄)` (with `α = (Σx)/3`, `δ = (Σy)/3` the
+sector means and `M = |α|² + |δ|²`), and a cubic-deviation bound closes `Q ≥ 0`
+on the toric variety. The shipped script verifies the foundational
 identity and positivity **exactly** on rational toric witnesses, and an
 independent adversarial descent over the full toric set finds no violation
 (`verification`, Section C). This is the campaign's principal mathematical
