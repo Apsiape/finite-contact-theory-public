@@ -714,3 +714,32 @@ excluding the real-internal-states + mode-only-optics model class (it does NOT
 falsify all real QM: the McKague realification uses a universal rebit not
 implementable in the fixed grammar), not a performed experiment and not a claim
 about nature.
+
+### T-51 The Ternary Pincer (Chapter 13)
+
+Given (S) + (R): a future-readable order scar forces a third anticommuting
+involutive mode (the anticommutant of two anticommuting involutions in
+M_2(R) is span{XZ}, squares negative -- no involution), and the
+carrier-parity model caps families at f(n) = largest odd <= n with the n=3
+maximum unique (the pair-channels). Exactly three modes. Conditional on the
+named inputs; every lemma standard (reverse oddtown = Babai-Frankl
+Ex. 1.1.5; anticommuting Pauli families; Hurwitz-Radon), cited.
+
+### T-52 Retention Selects 2T (Chapter 13)
+
+H^2(C_3;C_2) = 0; H^2(A_4;C_2) = C_2 with both classes witnessed: in
+2T = SL(2,3) (unique involution, nonsplit) every V_4 preimage squares to
+the central z; in the split twin A_4 x C_2 every involution lift squares to
+the identity. Given the named axiom (SH) -- retention carried internally --
+the split twin dies and 2T is forced; without it the projective class is
+available, not forced. z -> -I_4 yields real quarter-turns with the
+anticommuting triple.
+
+### T-53 The Minimal Receiver Is H (Chapter 13)
+
+The minimal faithful real representation of the retained residue z -> -1
+has dimension 4 (dims 1/2/3 killed by arithmetic / Frobenius-Schur -1 /
+derived-subgroup determinant), commutant exactly H, invariant form unique
+up to scale = I_4: the Euclidean 1+3 split with spinor return (visible
+period 2, complete period 4). Verbatim the Chapter-8 starting datum
+(FCT-45): the floor-to-interface weld, conditional on (S)+(R)+(SH)+(C).

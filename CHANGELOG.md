@@ -2,6 +2,52 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.14.0
+
+Fourteenth public release: **Chapter 13 — From the Floor to the Interface:
+What Forces the Quaternions**. Closes the starting-datum residual disclosed
+at v0.13 (FCT-45): an exact finite forcing chain from three named floor
+hypotheses to Chapter 8's quaternionic interface. Concept DOI
+`10.5281/zenodo.21253591`; version DOI recorded at mint.
+
+Added:
+
+- `papers/13-floor-to-interface/` — chapter, claim snapshot, freeze record,
+  frozen verifier copy with expected output;
+- claim rows FCT-68..71 (the pincer; central i / quaternion even sector /
+  the 1/2 / phase plateau; retention selects the double cover given the
+  named self-hosting axiom; the minimal receiver H and the handoff to
+  Chapter 8) and theorem rows T-51..53;
+- `verification/scripts/floor_to_interface.py`, wired into `run_all.py`
+  (now eighteen scripts): twelve exact checks (fractions + exhaustive
+  enumeration, no floats);
+- **the new live release ceiling** (adds the floor-to-interface line),
+  quoted in the README, the claim register, the chapter-13 paper, and the
+  v0.14.0 notes;
+- the chapter's related-work section runs the release-checklist novelty
+  gate (2a) introduced at v0.13: every ingredient cited (reverse oddtown =
+  Babai-Frankl Ex. 1.1.5; Sarkar-van den Berg; Hurwitz-Radon; Lounesto;
+  Conway-Smith; Serre; Baez), the Moretti-Oppio reduction engaged by name,
+  and the composition graded INTERNAL-BLIND.
+
+Changed:
+
+- README: chapter blurb, read-it list, status, run-it (eighteen scripts);
+  one honesty fix from an adversarial review of the Chapter-8 framing —
+  "Born and contextuality are two faces of one finite closure" is restated
+  as co-residence of two independently-proven theorems (no common-generator
+  theorem is claimed);
+- claim-register header to v0.14; `scripts/release_audit.py` ceilings
+  migrated (v0.12 ceiling now frozen in its chapter + notes; v0.14 ceiling
+  live in README/register/chapter-13/notes) and required files extended;
+- `CITATION.cff` and `.zenodo.json` refreshed to v0.14.0 metadata.
+
+The chain is conditional and says so: (R) readability is the program's
+standing received fork (proven not-forced), (S) arity is measured, (SH)
+self-hosting is a named axiom, (C) orientation is a received C_2 torsor.
+GIVEN these, the interface is forced — that placement of the
+forced/received boundary is the result.
+
 ## 0.13.0
 
 Thirteenth public release: **a governance and prior-art release**. No new

@@ -27,6 +27,7 @@ SCRIPTS = [
     "negative_gram_holonomy.py",
     "mixed_state_exclusion.py",
     "count_regions.py",
+    "floor_to_interface.py",
 ]
 
 

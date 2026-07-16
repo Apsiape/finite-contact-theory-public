@@ -3,7 +3,7 @@
 Status: release-draft public ledger.
 
 This register is the controlling public list of what Finite Contact Theory
-(v0.12) is allowed to say. Every claim is scoped. A label stronger than the
+(v0.14) is allowed to say. Every claim is scoped. A label stronger than the
 written scope is not implied.
 
 Evidence states:
@@ -21,69 +21,7 @@ For label meanings, see `status-labels.md`. For verification posture, see
 The v0.12 public ceiling is (quoted identically in the README, the chapter-12
 paper, and the v0.12.0 release notes):
 
-> Finite Contact Theory is a finite reconstruction program with a scoped theorem
-> stack on three published recovery lines — a quantum-facing axis, from one-use
-> contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell
-> boundary, a carrier grammar grown from one-use contact, and a
-> behavior-conditioned contextual capacity with an exact strict preparation gap;
-> a finite-epistemics axis, from the identifiability and debt calculus to the
-> inquiry calculus and its second law of asking, four theorems separating the
-> structure of time, and a measured generative floor; and a contact-interface
-> reconstruction, in which a retained interface forces a quaternionic
-> state/receiver cell whose self-dual closure is the 24-cell and the F_4 root
-> system and whose finite measurement calculus forces the quadratic Born frame
-> rule (a finite Gleason theorem) exactly where a triality Kochen-Specker
-> obstruction forbids a global noncontextual assignment, and in which
-> independently generated cells recover the E_8–hexacode closure spine under
-> named receiver laws that a forcing audit shows the floor does not select over
-> matched lawful alternatives, so the floor forces the atlas of lawful closures
-> and the terminal self-dual class but never the specific member, and the
-> selection of a world-phase is a conserved, received input — a fourth,
-> first-extension line that is conditional and experiment-open: an unconditional
-> accessible-positivity theorem exhibits a three-contact sector whose every
-> passive-linear-optical probability is nonnegative yet which lies outside the
-> positive-semidefinite Hilbert Gram cone, and on one received apparatus anchor
-> this predicts a possible violation of Hilbert-space positivity — a negative
-> three-state Gram discriminant Delta_3 < 0 where ordinary quantum mechanics
-> forces Delta_3 >= 0 — preregistered with its protocol, nulls, and kill
-> conditions, and a clean mixed-state exclusion theorem then proves the
-> gauge-free count witness W = P111 + D2 - 2/3 equals (2/9) det G, nonnegative
-> for every partially-distinguishable Hilbert model whether pure or mixed, so
-> the registered negative-Gram vector lies outside the entire clean
-> partial-distinguishability class by the raw-count test P111 + D2 >= 2/3,
-> closing the clean core of the exclusion while multiphoton, detector,
-> transfer-matrix, and source-drift nuisances remain the experimental layer for
-> an external expert — and a fifth line mapping the exact quantum count regions:
-> for n indistinguishable bosons in the n-mode Fourier interferometer the
-> achievable region of count statistics is an exact simplex for n <= 4 (at n = 3
-> the negative-Gram inequality P111 + D2 >= 2/3 is the complete boundary and the
-> registered protocol reduces to tritter counts alone), central-projector
-> positivity is insufficient at n = 4 with six new raw-count laws, and a
-> structural phase transition at n = 5 produces an emergent logical qubit from
-> permutation symmetry and counting alone, where a rebit-blindness theorem shows
-> single-shot cyclic counts cannot expose sigma_y and a single-source
-> real/complex/quaternionic counting no-go holds, both overcome by general
-> passive networks, culminating in a registered, experiment-open single-source
-> conjugation-witness protocol (gap 5 sqrt2 / 256, about 1304 trials per
-> setting) that excludes a named real-internal-states plus mode-only-optics
-> model class but does not falsify all real quantum mechanics — under which the
-> quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the
-> preparation gap is an exact theorem at KCBS-pentagon scope, the interface
-> reconstruction is a finite model-scope recovery on a real-quantum cell, the
-> multi-floor closures are model-scope recoveries whose forcing boundary is
-> exactly mapped, the accessible-positivity and mixed-state exclusion theorems
-> and the count-region theorems are unconditional and independently reproduced,
-> while the physical realizations — the negative-Gram prediction and the
-> conjugation witness — are conditional, bridge-premise-gated, experiment-open
-> registered protocols awaiting a dedicated experiment and external expert
-> review, and every unearned generalization — complex quantum mechanics, the
-> actuality of one outcome, the universal Born rule, whether nature realizes any
-> of these structures, which world-phase is selected, whether nature contains
-> the odd identity-holonomy sector, whether the apparatus nuisances close the
-> full exclusion, and whether any experiment realizes the conjugation witness —
-> is left open by name; these chapters are an archival priority record of
-> mathematically closed theorems and registered conditional protocols, not
-> empirical discoveries.
+> Finite Contact Theory is a finite reconstruction program with a scoped theorem stack on three published recovery lines — a quantum-facing axis, from one-use contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a behavior-conditioned contextual capacity with an exact strict preparation gap; a finite-epistemics axis, from the identifiability and debt calculus to the inquiry calculus and its second law of asking, four theorems separating the structure of time, and a measured generative floor; and a contact-interface reconstruction, in which a retained interface forces a quaternionic state/receiver cell whose self-dual closure is the 24-cell and the F_4 root system and whose finite measurement calculus forces the quadratic Born frame rule (a finite Gleason theorem) exactly where a triality Kochen-Specker obstruction forbids a global noncontextual assignment, and in which independently generated cells recover the E_8–hexacode closure spine under named receiver laws that a forcing audit shows the floor does not select over matched lawful alternatives, so the floor forces the atlas of lawful closures and the terminal self-dual class but never the specific member, and the selection of a world-phase is a conserved, received input, and in which a floor-to-interface theorem now closes the chain one layer down: given a ternary contact whose order scars stay future-readable and whose retention is carried internally, exactly three mutually anticommuting involutive identity modes are forced — their oriented volume element is a central square root of minus one, their even sector is the quaternions, their reflection symmetry forces exact one-half weights, and the retained central residue forces the minimal faithful receiver to be the quaternions with the 1+3 split and the unique Euclidean form — while the residual inputs are named as received: the readability of order, the measured ternary arity, the internal-retention axiom, and one orientation bit — a fourth, first-extension line that is conditional and experiment-open: an unconditional accessible-positivity theorem exhibits a three-contact sector whose every passive-linear-optical probability is nonnegative yet which lies outside the positive-semidefinite Hilbert Gram cone, and on one received apparatus anchor this predicts a possible violation of Hilbert-space positivity — a negative three-state Gram discriminant Delta_3 < 0 where ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its protocol, nulls, and kill conditions, and a clean mixed-state exclusion theorem then proves the gauge-free count witness W = P111 + D2 - 2/3 equals (2/9) det G, nonnegative for every partially-distinguishable Hilbert model whether pure or mixed, so the registered negative-Gram vector lies outside the entire clean partial-distinguishability class by the raw-count test P111 + D2 >= 2/3, closing the clean core of the exclusion while multiphoton, detector, transfer-matrix, and source-drift nuisances remain the experimental layer for an external expert — and a fifth line mapping the exact quantum count regions: for n indistinguishable bosons in the n-mode Fourier interferometer the achievable region of count statistics is an exact simplex for n <= 4 (at n = 3 the negative-Gram inequality P111 + D2 >= 2/3 is the complete boundary and the registered protocol reduces to tritter counts alone), central-projector positivity is insufficient at n = 4 with six new raw-count laws, and a structural phase transition at n = 5 produces an emergent logical qubit from permutation symmetry and counting alone, where a rebit-blindness theorem shows single-shot cyclic counts cannot expose sigma_y and a single-source real/complex/quaternionic counting no-go holds, both overcome by general passive networks, culminating in a registered, experiment-open single-source conjugation-witness protocol (gap 5 sqrt2 / 256, about 1304 trials per setting) that excludes a named real-internal-states plus mode-only-optics model class but does not falsify all real quantum mechanics — under which the quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the preparation gap is an exact theorem at KCBS-pentagon scope, the interface reconstruction is a finite model-scope recovery on a real-quantum cell, the multi-floor closures are model-scope recoveries whose forcing boundary is exactly mapped, the floor-to-interface chain is an exact finite theorem conditional on its four named received inputs, the accessible-positivity and mixed-state exclusion theorems and the count-region theorems are unconditional and independently reproduced, while the physical realizations — the negative-Gram prediction and the conjugation witness — are conditional, bridge-premise-gated, experiment-open registered protocols awaiting a dedicated experiment and external expert review, and every unearned generalization — complex quantum mechanics, the actuality of one outcome, the universal Born rule, whether nature realizes any of these structures, which world-phase is selected, whether nature contains the odd identity-holonomy sector, whether the apparatus nuisances close the full exclusion, and whether any experiment realizes the conjugation witness — is left open by name; these chapters are an archival priority record of mathematically closed theorems and registered conditional protocols, not empirical discoveries.
 
 The v0.1, v0.2, v0.7, v0.8, v0.9, v0.10, and v0.11 ceilings remain quoted,
 unchanged, in their frozen chapters and release notes; this row supersedes them
@@ -2241,6 +2179,156 @@ The following are not public-load-bearing in this register:
 - claims that the floor derives all quantum theory.
 
 See `hold-register.md`.
+
+## FCT-68 - The Pincer: Exactly Three Identity Modes
+
+Status: `THEOREM / MODEL-SCOPE / RECOVERY`
+Scope: involutive identity modes of a ternary contact, given the named
+inputs (S) ternary arity (measured) and (R) readability (received).
+Evidence state: `shipped`.
+
+Public statement:
+
+A future-readable order scar forces a third anticommuting involutive mode:
+the reader condition `XYX = -Y` is exactly anticommutation (a linear-map
+identity, `X^2 = I`), and the two-mode algebra `M_2(R) = Cl(2,0)` hosts no
+such involution -- its anticommutant of `{X, Z}` is exactly `span{XZ}`,
+whose squares are negative. The carrier-parity model caps the family at
+`f(n) =` largest odd `<= n` (the reverse-oddtown bound), and at `n = 3` the
+maximum family is unique: the three pair-channels. Exactly three mutually
+anticommuting involutive identity modes per ternary contact.
+
+Evidence:
+
+- shipped: `verification/scripts/floor_to_interface.py` sections 1a-1b
+  (anticommutant nullspace, integer `M_4(R)` triple, exhaustive ladder
+  `n = 2..7`, uniqueness at `n = 3`).
+
+Checks / controls:
+
+- the reader-iff-anticommutation equivalence checked on a full `M_2` basis;
+  the anticommutant computed as an exact nullspace; the ladder exhaustive.
+
+Residuals:
+
+- (R) is the program's standing received fork (proven not-forced; private
+  corpus, cited); the chain is conditional on it by construction;
+- the upper bound is Babai-Frankl Ex. 1.1.5 (reverse oddtown) and the
+  anticommuting-family question is standard (Sarkar-van den Berg 2021;
+  Hurwitz-Radon) -- recovery, cited in the chapter.
+
+## FCT-69 - Central i, Quaternion Even Sector, the 1/2, the Plateau
+
+Status: `THEOREM / MODEL-SCOPE / RECOVERY`
+Scope: the real algebra generated by three anticommuting involutions.
+Evidence state: `shipped`.
+
+Public statement:
+
+Three anticommuting involutions generate `Cl(3,0)`: the pseudoscalar
+`Omega = ABC` is central with `Omega^2 = -I` (the complex unit as the
+oriented volume element of the three identity directions); the even sector
+satisfies the quaternion relations with exact dimension 4; an anticommuting
+partner swaps a mode's eigenprojectors, so any reflection-invariant state
+assigns exactly `1/2` to each outcome, prior to any Born postulate; and the
+central square root of `-1` exists iff `m = 3 (mod 4)`, so with `m = f(n)`
+the phase-stable arity window is exactly `{3, 4}` -- where the floor's
+measured saturation sits.
+
+Evidence:
+
+- shipped: `verification/scripts/floor_to_interface.py` section 2.
+
+Checks / controls:
+
+- all identities in exact integer/rational matrices; the even-sector
+  dimension by exact rank; the plateau by the mod-4 sign formula.
+
+Residuals:
+
+- the plateau upgrades (S) from measured to internal ONLY under the
+  additional premise "retention requires central phase" -- stated as a
+  conditional, not claimed;
+- all ingredients standard (Clifford periodicity; the mutually-unbiased
+  swap lemma) -- recovery, cited in the chapter.
+
+## FCT-70 - Retention Selects the Double Cover (Given Self-Hosting)
+
+Status: `THEOREM / MODEL-SCOPE / RECOVERY` (conditional on the named
+axiom (SH))
+Scope: central `C_2` extensions of the four-mark chiral contact symmetry.
+Evidence state: `shipped`.
+
+Public statement:
+
+`H^2(C_3;C_2) = 0` (a triangular contact cannot host the central lift;
+capability begins at four marks, ternary arity); `H^2(A_4;C_2) = C_2` with
+both classes witnessed: `2T = SL(2,3)` has a unique involution (nonsplit)
+and every `V_4` preimage squares to the central `z` -- a repeated
+involutive use is retained -- while in the split twin `A_4 x C_2` every
+involution lift squares to the identity -- a repeated use is invisible
+without an external ledger. GIVEN (SH), internal retention, the split twin
+dies and `2T` is forced; without (SH) the projective class is available,
+not forced. Representing `z -> -I_4` gives real quarter-turns `J^2 = -I_4`
+with the full anticommuting triple, no complex numbers presupposed.
+
+Evidence:
+
+- shipped: `verification/scripts/floor_to_interface.py` section 3
+  (cocycle census, exact `SL(2,3)` and `A_4 x C_2` constructions,
+  presentation-gauge orbits).
+
+Checks / controls:
+
+- both extension classes constructed and distinguished by the
+  involution-square invariant; the census exhaustive.
+
+Residuals:
+
+- (SH) is a named axiom (ledger-regress defense), not a theorem -- the one
+  genuine assertion in the chain, stated in the chapter and here;
+- the restriction to the chiral group `A_4` (from `S_4`) is the
+  orientation input (C), a received `C_2` torsor;
+- Schur multipliers and the binary tetrahedral double cover are standard
+  (Conway-Smith) -- recovery, cited.
+
+## FCT-71 - The Minimal Receiver Is H; the Handoff to Chapter 8
+
+Status: `THEOREM / MODEL-SCOPE / RECOVERY`
+Scope: faithful real representations of the retained residue `z -> -1`.
+Evidence state: `shipped`.
+
+Public statement:
+
+The minimal faithful real receiver representing the retained residue as
+`-1` has dimension exactly 4: dimension 1 dies by arithmetic, dimension 2
+by the Frobenius-Schur indicator `-1` (quaternionic type), dimension 3 by
+the derived-subgroup determinant; the 4-dimensional carrier has commutant
+exactly the quaternions (a division algebra, hence irreducible), and the
+invariant symmetric form is unique up to scale (`I_4`) -- the Euclidean
+`1+3` split, one return-even direction plus three anticommuting
+quarter-turns, with spinor return `J^2 = z`, `J^4 = 1`. This object is
+verbatim the starting datum of Chapter 8 (FCT-45): the starting-datum
+residual disclosed at v0.13.0 is closed one layer down, conditional on the
+four named received inputs.
+
+Evidence:
+
+- shipped: `verification/scripts/floor_to_interface.py` sections 4-5.
+
+Checks / controls:
+
+- the Frobenius-Schur sum, commutant nullspace, invariant-form nullspace,
+  and division samples all exact; the dimension kills each by a separate
+  argument.
+
+Residuals:
+
+- an ALGEBRA grading `1+3`, not a spacetime metric (the fence holds);
+- the quaternionic-representation mechanism is standard (Serre 13.2; Baez
+  2012 threefold way) -- recovery; the forced-composition claim is graded
+  INTERNAL-BLIND in the chapter's related-work section, where the
+  Moretti-Oppio reduction is engaged by name.
 
 ## Future Claim Template
 

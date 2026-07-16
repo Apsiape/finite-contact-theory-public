@@ -73,6 +73,16 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   conjugation-witness protocol; carries the live release ceiling). DOIs recorded
   in its [`RELEASE.md`](12-count-regions/RELEASE.md) at tagging.
 
+- [`13-floor-to-interface/`](13-floor-to-interface/paper.md)
+  — **Chapter 13** (v0.14.0): _From the Floor to the Interface: What Forces
+  the Quaternions_ (closes Chapter 8's starting datum one layer down: an
+  exact forcing chain from named floor hypotheses — ternary contact,
+  readable order, internal retention — to exactly three anticommuting
+  identity modes, the central i, the quaternions, the 1/2, and the minimal
+  receiver H; the residual inputs are named as received; carries the live
+  release ceiling). DOIs recorded in its
+  [`RELEASE.md`](13-floor-to-interface/RELEASE.md) at tagging.
+
 ## Chapter directory convention (v0.2 onward)
 
 Each new chapter lives in its own directory:

@@ -17,9 +17,10 @@ the locked private corpus, historical only, or held.
 
 ## Evidence Posture
 
-The public repository now spans ten chapters on three recovery lines plus a
-first extension line, with fifteen shipped, dependency-free verification
-scripts alongside cited private evidence. The shipped subset is intentionally
+The public repository now spans thirteen chapters on three recovery lines, a
+first extension line, a count-regions line, and a floor-to-interface line,
+with eighteen shipped, dependency-free verification scripts alongside cited
+private evidence. The shipped subset is intentionally
 self-contained and exact where it can be; it does not replace the larger locked
 private research ledgers.
 
@@ -27,6 +28,8 @@ private research ledgers.
 
 | claim area | current evidence state | private source examples | public action |
 |---|---|---|---|
+| Floor-to-interface forcing chain (FCT-68..71) | `shipped` + `cited` | Public `floor_to_interface.py`; the private corpus for the retention laws and the door verdict | Public script proves the pincer, Cl(3,0)/i/1/2, the double-cover selection, and the H minimality in exact arithmetic; the received inputs (readability, arity measurement, self-hosting, orientation) are named, with readability's not-forced status cited from the private corpus. |
+| Mixed-state exclusion + count regions (FCT-62..67) | `shipped` | Public `mixed_state_exclusion.py`, `count_regions.py` | Exact public verifiers; frozen copies in the chapter directories. |
 | No-totality/open fresh-mark rule | `shipped` + `cited` | Public `no_jam_open_rule.py`; The private research corpus, `blind_open_rule_RECORD.md` | Public script verifies the open-rule no-jam core; private evidence carries capped controls/blind. |
 | Frequency bridge | `shipped` + `cited` | Public `frequency_bridge_exchangeable.py`; The private research corpus | Public script verifies exchangeable finite-counting core; private evidence carries growing-floor compensator and controls. |
 | Born composition and witness decomposition | `shipped` + `cited` | Public `rational_born_gluing.py`; cited private research corpus | Public script verifies the exact pushforward-counting, exclusivity-lift, and witness-interchange uniqueness core; private evidence carries the gluing-consistency certificate. |
