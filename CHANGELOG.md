@@ -5,8 +5,8 @@ All notable public-release changes will be recorded here.
 ## 0.13.0
 
 Thirteenth public release: **a governance and prior-art release**. No new
-scientific claim; the live release ceiling is unchanged from v0.12. Concept
-DOI `10.5281/zenodo.21253591`; version DOI assigned at mint.
+scientific claim; the live release ceiling is unchanged from v0.12. Version
+DOI `10.5281/zenodo.21401821`; concept DOI `10.5281/zenodo.21253591`.
 
 Added:
 
