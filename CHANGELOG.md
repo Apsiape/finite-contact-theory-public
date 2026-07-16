@@ -8,7 +8,7 @@ Fourteenth public release: **Chapter 13 — From the Floor to the Interface:
 What Forces the Quaternions**. Closes the starting-datum residual disclosed
 at v0.13 (FCT-45): an exact finite forcing chain from three named floor
 hypotheses to Chapter 8's quaternionic interface. Concept DOI
-`10.5281/zenodo.21253591`; version DOI recorded at mint.
+`10.5281/zenodo.21253591`; version DOI `10.5281/zenodo.21402267`.
 
 Added:
 
