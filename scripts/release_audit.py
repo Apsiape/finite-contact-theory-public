@@ -494,6 +494,55 @@ def check_markdown_links() -> None:
     print("[PASS] local Markdown links")
 
 
+# Agent attribution must never appear in a public commit message. The file
+# scans above cannot catch this: commit messages are not files. This is the
+# gate that would have caught the co-author trailer that once reached this
+# repository and left a stale entry on GitHub's contributor graph.
+AGENT_ATTRIBUTION = re.compile(
+    r"noreply@anthropic\.com"
+    r"|co-authored-by:\s*[^\n]*(claude|fable)"
+    r"|generated with[^\n]*claude"
+    r"|\bclaude\b"
+    r"|\bfable\b",
+    re.IGNORECASE,
+)
+
+
+def check_commit_trailers() -> None:
+    """No commit reachable from HEAD may carry agent attribution."""
+    try:
+        proc = subprocess.run(
+            ["git", "log", "-z", "--format=%H%n%B", "HEAD"],
+            cwd=ROOT,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+    except FileNotFoundError:
+        print("[SKIP] commit-trailer scan (git not available)")
+        return
+    if proc.returncode != 0:
+        print("[SKIP] commit-trailer scan (no git history available)")
+        return
+
+    hits: list[str] = []
+    for record in proc.stdout.split("\x00"):
+        record = record.strip("\n")
+        if not record:
+            continue
+        sha, _, body = record.partition("\n")
+        match = AGENT_ATTRIBUTION.search(body)
+        if match:
+            hits.append(f"{sha[:9]}: {match.group(0)!r}")
+
+    if hits:
+        raise AuditFailure(
+            "agent attribution in commit messages (public commits must carry "
+            "none):\n  " + "\n  ".join(hits)
+        )
+    print(f"[PASS] commit messages carry no agent attribution ({proc.stdout.count(chr(0))} commits)")
+
+
 def main() -> int:
     try:
         check_required_files()
@@ -518,6 +567,7 @@ def main() -> int:
         check_canonical_ceiling()
         check_overclaims()
         check_markdown_links()
+        check_commit_trailers()
         run_command("shipped verification", [sys.executable, "verification/scripts/run_all.py"])
         run_command("git whitespace check", ["git", "diff", "--check"])
     except AuditFailure as exc:
