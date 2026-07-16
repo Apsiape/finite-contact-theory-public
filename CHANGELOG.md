@@ -2,6 +2,39 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.13.0
+
+Thirteenth public release: **a governance and prior-art release**. No new
+scientific claim; the live release ceiling is unchanged from v0.12. Concept
+DOI `10.5281/zenodo.21253591`; version DOI assigned at mint.
+
+Added:
+
+- `docs/related-work-linear-optics.md` — retroactive application of the
+  Chapter-2 blind novelty protocol to the quantum-optics literature
+  (multiphoton interference, partial distinguishability, real-vs-complex QM)
+  that Chapters 10–12 build on. A 15-reference must-cite list; each Chapter
+  10–12 result graded recovery / sharpening / plausibly-new; the surviving
+  contributions narrowed to the specific closed forms and the `n=5`
+  count-region geometry;
+- correction **C-18** — the missing related-work section on the
+  quantum-optics pivot, and its retroactive fix;
+- release-checklist **§2a** — a novelty-protocol gate for any chapter
+  entering a literature not previously swept;
+- `RELEASE-NOTES-v0.13.0.md`.
+
+Changed:
+
+- `README.md` — headline realigned from "Reality, rebuilt" to the live-ceiling
+  framing; a recovery pointer to the new note; v0.13.0 status (governance
+  release, ceiling unchanged);
+- `docs/public-claim-register.md` — FCT-45 gains a starting-datum disclosure
+  naming the Chapter-8 retained-interface corpus dependency;
+- `CITATION.cff` and `.zenodo.json` refreshed to v0.13.0.
+
+Not changed: all frozen chapter directories, every claim/theorem proof
+status, all seventeen shipped scripts, and the v0.12 canonical ceiling.
+
 ## 0.12.0
 
 Twelfth public release: **Chapter 12 — The Exact Quantum Count Regions and the

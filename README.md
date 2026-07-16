@@ -2,15 +2,19 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21253591.svg)](https://doi.org/10.5281/zenodo.21253591)
 
-> **Reality, rebuilt from a single finite event — and you can run the proofs.**
+> **A finite reconstruction program: grow the machinery of physics from a
+> single one-use event, and run every proof yourself.**
 > Start with the least that can happen when something finite touches what it
 > cannot fully take in: a mark, made once, that leaves a difference it cannot
 > erase. With no Hilbert space, no probability, no spacetime, and no continuum
-> granted at the start, this program grows the machinery of physics back — the
-> quantum boundary, the Born rule, contextuality, the structure of time — and
-> then, for the first time, points *past* it: a preregistered prediction (Chapter
-> 10) where a three-particle sector can carry statistics **no Hilbert space
-> allows**. Every piece it calls finished ships a dependency-free script.
+> granted at the start, this program recovers a scoped stack of physics'
+> machinery — the quantum boundary, rational Born weights, contextuality, the
+> structure of time — and then, at one seam, points *past* it: a preregistered,
+> experiment-open prediction (Chapter 10) of a three-particle sector whose
+> statistics **no Hilbert space allows**. Every piece it calls finished ships a
+> dependency-free script; the exact scope of each claim is labeled, and the
+> difference between the bold frame and the scoped result is the point, not an
+> apology.
 
 This is a program with a large ambition and a strict rule. The ambition is to
 sort every feature of physical law into what a generative floor *forces* and
@@ -263,6 +267,19 @@ exact object, and that Born and contextuality are its two faces. Per the
 program's discipline, that is graded in the [claim register](docs/public-claim-register.md),
 never asserted above its evidence.
 
+The same discipline is applied, honestly and after the fact, to the
+quantum-optics literature that Chapters 10–12 build on. Their partial-
+distinguishability formalism, the `det G ≥ 0` positivity mechanism, the
+σ_y/collective-phase blindness, and the real-versus-complex witness are
+**recovery of standard results** — Tichy, Shchesnovich, de Guise,
+Brod–Galvão, Menssen, Seron–Novo–Cerf, Renou, and others — cited in
+[docs/related-work-linear-optics.md](docs/related-work-linear-optics.md).
+That note (new in v0.13) records the 15-reference must-cite list, grades each
+Chapter 10–12 result recovery / sharpening / plausibly-new, and logs the
+missing prior-art section as correction **C-18**. The surviving citable
+contributions narrow to the specific closed forms and the `n=5` count-region
+geometry.
+
 ## What we killed — and why that is the point
 
 A theory that never discards anything is a mood, not a theory. This one keeps
@@ -329,10 +346,17 @@ much — and the bold frame at the top of this page is held to that same audit.
 
 ## Status
 
-This is v0.12.0: twelve chapters on three recovery lines, a first extension
-line, and a count-regions line — 67 claim rows (FCT-01..67), 50 theorem rows
-(T-01..50), seventeen shipped dependency-free scripts, a public correction
-ledger, and one live ceiling sentence. The one nature-facing item — Chapter 10's negative-Gram divergence —
+This is v0.13.0: a **governance and prior-art release** on top of the twelve
+chapters — no new scientific claim and the live ceiling is unchanged from
+v0.12. It adds a retroactive quantum-optics prior-art confrontation for
+Chapters 10–12 ([docs/related-work-linear-optics.md](docs/related-work-linear-optics.md),
+correction C-18), a new release-checklist novelty gate so the Chapter-2
+blind-search protocol runs for any chapter entering a new literature, and an
+honesty pass on the front-page framing. The content stack is unchanged:
+twelve chapters on three recovery lines, a first extension line, and a
+count-regions line — 67 claim rows (FCT-01..67), 50 theorem rows (T-01..50),
+seventeen shipped dependency-free scripts, a public correction ledger, and
+one live ceiling sentence. The one nature-facing item — Chapter 10's negative-Gram divergence —
 is explicitly conditional, preregistered, and experiment-open (an
 archival/priority record, not a discovery); Chapter 11 proves the clean core of
 its mixed-state exclusion; Chapter 12 shows that inequality is the complete n=3

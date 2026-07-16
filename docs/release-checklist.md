@@ -25,6 +25,19 @@ Governance context: [`../EVOLUTION.md`](../EVOLUTION.md).
       date and reason.
 - [ ] No row was deleted; no ID was reused.
 
+## 2a. Novelty protocol (prior-art gate)
+
+- [ ] If the chapter enters a literature not swept by an earlier chapter, the
+      Chapter-2 four-lens blind novelty search is **rerun** for the new
+      subfield before tagging.
+- [ ] The nearest published precedents are named in the chapter or in a
+      companion related-work note tied to the claim register, and each result
+      is graded recovery / sharpening / plausibly-new against them.
+- [ ] Any result whose mechanism is standard is labeled recovery, not
+      presented as new. (Prompted by C-18: Chapters 10-12 shipped into the
+      quantum-optics literature without this gate; the retroactive fix is
+      [`related-work-linear-optics.md`](related-work-linear-optics.md).)
+
 ## 3. Theorem bank
 
 - [ ] New theorem rows have proof sketches or explicit `cited-only` marks.

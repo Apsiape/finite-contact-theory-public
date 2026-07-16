@@ -1473,7 +1473,21 @@ Checks / controls:
 Residuals:
 
 - the `1+3` split is an algebra grading, not a spacetime metric;
-- the projective phase that would complexify the cell is held open.
+- the projective phase that would complexify the cell is held open;
+- **starting-datum disclosure (corpus dependency).** The public forcing
+  chain of Chapter 8 begins at the *retained interface* — it takes the
+  three retained quarter-turns (equivalently, the retained central return
+  `z -> -1` and its chirality) as its given datum and derives `H`, the
+  24-cell, `F_4`, the forced `1/2`, finite Gleason, and triality
+  Kochen-Specker from there, all by shipped exact checks. Why exactly those
+  quarter-turns are the retained ones — the floor-level selection/chirality
+  analysis upstream of the interface — is `cited` from the private corpus,
+  not shipped here. So this row and FCT-46..50 are forced *given the
+  retained interface*; the link from the bare contact floor to that
+  interface is a named cited dependency, not a public theorem. This is the
+  program's deepest current corpus dependency and is called out as such
+  (see also [related-work note discipline](related-work-linear-optics.md)
+  for the sibling recovery-grading pass on Chapters 10-12).
 
 ## FCT-46 - The Self-Hosting State/Receiver Fixed Point (24-cell)
 
