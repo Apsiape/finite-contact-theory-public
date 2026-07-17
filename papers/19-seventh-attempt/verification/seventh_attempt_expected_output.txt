@@ -1,0 +1,76 @@
+### Movement A: the price
+## P1: registration schemes exist (coverage + legibility)
+  [PASS] the tiny floor hosts registration schemes: coverage (True) + legibility (True) by explicit matching; the coding is TIGHT (register trace alphabet 6 = W-history count 6); the scheme space has 720 x 6^6 = 33592320 members. **P1: banking works under a scheme -- the floor CAN host a registrar, in the capability sense.**
+## P2: no free scheme -- the keyless deficit
+  [PASS] keylessly, EVERY register trace is consistent with all [6] W-histories and every interleaving (fiber sizes [36]: 6 W x 6 placements = 36 each): the register alone identifies NOTHING -- keyless deficit = log2 36 = 5.17 bits per trace, and what the reader lacks is exactly the scheme key (25.0 bits of scheme space). **P2: there is no free scheme. The register without its key is noise; the sampler absence (a corpus result, cited) reappears PRICED: self-hosting costs exactly its key. The fork-staging is not secretly self-labeling.**
+
+## Q1: the keyless deficit is a floor invariant
+  [PASS] one-register floor: keyless fibers are UNIFORM over all 6 traces (sizes [36]: 6 W-histories x C(4,2) = 6 placements = 36), and the fiber computation never references a scheme -- the deficit log2 36 = 5.17 bits is a FLOOR INVARIANT, not a property any scheme can improve.
+## Q2: the anti-regress -- more capacity, more deficit
+  [PASS] two-register floor: keyless fibers uniform at [540] (= 6 W x multinomial placements 6!/(2!2!2!) = 90); deficit grows 5.17 -> 9.08 bits: the added register's visible capacity (2.58 bits) is strictly less than the placement entropy it adds (3.91 bits at minimum). **THE ANTI-REGRESS: keyless self-knowledge is anti-monotone in recording capacity -- the more the floor writes about itself, the more there is to know. The record-of-record tower cannot even start without a key.**
+  [PASS] anti-regress accounting exact: fiber per (G,H)-trace pair = 6 x 90 = 540 (540 computed, uniform True); deficit 5.17 -> 9.08 bits, strictly increasing.
+## Q3: the seed -- the key suffices exactly and is underived
+  [PASS] the scheme key SUFFICES (given the scheme, Section-A legibility resolves every trace exactly; outside info = the deficit, achieved) and is UNDERIVED: no nontrivial G-relabeling fixes a trace assignment (True -- the law's automorphisms permute schemes without fixed points), so no equivariant scheme selection exists. **THE SEED: a world can carry a complete record of itself, but only relative to a key the world cannot write -- and the key is a column-2 registration: underived, identification-enabling, paid once. The seventh attempt closes by DERIVING the necessity of the received element the first six smuggled.**
+
+### Movement B: the books
+## B1: minted = banked + deficit, exactly, zero slack
+  [PASS] one-register: 216 full histories = 6 traces x 36 fiber (exact: True); two-register: 19440 = 36 x 540 (exact: True). In bits: minted 7.75 = banked 2.58 + deficit 5.17; and 14.25 = 5.17 + 9.08. **The books are uniform: every trace carries the same outstanding balance. Zero slack -- the ledger frame has no hole at self-reference on these models.**
+## B2: the seed closes the books; internally they never close
+  [PASS] with the seed: every trace resolves to one scheme member (residual 0; the key spends >= the deficit: 5.17 bits per trace, 9.08 on the bigger floor); without it: the deficit grows with recording capacity (36 -> 540; the anti-regress, recomputed). **THE BALANCE THEOREM at model scope: minted = banked + deficit exactly; the deficit is retired only by injected capital; adding internal capacity deepens the hole it tries to fill. Every self-describing world runs on injected capital -- and the capital is a constant (Section B: the seed is column-2).**
+
+## K1: the key outweighs the world
+  [PASS] model 1: 33,592,320 schemes vs 216 full histories (True); model 2: 90! (~138 digits) schemes vs 162,000 histories (True) -- factorial vs polynomial: **the key outweighs the world at every size. The complete interpretation map is unwritable by the entire floor, not merely by a register: self-interpretation is not just unpaid, it is UNWRITABLE.**
+## K2: no equivariant convention at any level
+  [PASS] the relabeling group acts on the token register's 6 traces with 1 orbit(s) -- a single orbit (True) forces every invariant token-convention to be CONSTANT across tokens. The Q3 argument lifts to level 2: no equivariant convention exists there either, and the same relabeling argument applies at every level of any tower (each level's register has its own mark symmetry).
+## K3: grounding is received
+  [PASS] a constant convention still requires WHICH constant: the 36 resolving choices are permuted by world-mark relabelings (the 6 W-histories form 1 orbit(s): transitive True), so no choice is invariant -- at EVERY level, the terminator of the interpretation tower is an underived selection. **GROUNDING IS RECEIVED: the floor can carry unlimited records and records-about-records, but the map from marks to meaning passes, at exactly one point, through a paid constant. The seventh-attempt thesis is complete: what the six failures smuggled, the theory now prices, locates (column 2), and proves irreducible (unwritable in full, unselectable equivariantly at any level).**
+
+### Movement C: the observer
+## I1: the law is readable from inside
+  [PASS] edge-disjoint rule family (True): every decoded history's FIRST record identifies the law (True and True; 3 vs 3 histories) -- the inhabitant learns WHICH law in O(1) from any banked record. Column 1 survives the move inside.
+## I2: the transparent key
+  [PASS] over all keys, the SAME trace decodes to every W-history (6/6: True), and every decoding is a valid full history -- the inhabitant cannot falsify its own scheme from inside. **THE KEY IS TRANSPARENT: operative as the lens, invisible as an object. Two kinds of column-2 objects now exhibited: world-parameters (readable from every window, I1 / Chapter 17) and semantic keys (unfalsifiable from inside).**
+## I3: the hosted now has exact width
+  [PASS] consistent-history counts as records bank: (none, first, both) = (6, 1, 1) per world (uniform: True); unbanked frontier = 6 = the product of unbanked fork widths (6 x 1), narrowing to [1] after one record and 1 after both. **THE HOSTED NOW: the register's world is always exactly the unbanked segment wide; records narrow it, world forks widen it -- the present, from inside, is the outstanding balance.**
+
+## N1: bandwidth -- alignment iff stepwise capacity
+  [PASS] matched 6-clique register: prefix-aligned scheme constructed for all 90 W-histories (every step's fork width matches: 15/15, 6/6, 1/1) with injective full traces (True); under-capacity 4-clique register: 6 traces < 90 histories -- coverage IMPOSSIBLE (True). **THE BANDWIDTH THEOREM: a registrar exists iff total capacity >= total mint, and can stay CURRENT (prefix-aligned) iff its fork width matches the world's at every step -- the exchange rate, per step.**
+## N2: the breathing now
+  [PASS] consistent-history counts through the run: [90, 6, 6, 1, 1] (90 -> 6 -> 6 -> 1 -> 1): the now NARROWS on each banked record and HOLDS while the world runs ahead unbanked -- **the breathing now: the hosted present's width at any instant equals the world's mint since the last banked record. Gradual narrowing exhibited (round 1's 6 -> 1 was the degenerate tight case).**
+## N3: non-clique honesty leg
+  [PASS] path-world x 4-clique register: W-history lengths [2, 3] (variable: the path floor has runs of different depths), keyless fiber sizes [96] -- uniformity HOLDS (registered: uniformity is a clique artifact -- REFUTED, uniformity is deeper); the exact balance (sum of fibers = 576 total histories: True) and deficit positivity (True) SURVIVE. Round-1 invariants correctly scoped: balance and positivity are the theorems; uniformity was model decoration.
+
+## M1: factorization -- eaten marks carry zero ambiguity
+  [PASS] over all 12 visible traces (270 runs): every fiber has a single eaten-set (the trace SHOWS what it ate) and factorizes exactly as (uneaten-W structures) x (uniform placements) -- sample rows (fiber, W-structs, eaten-fixed, factorizes): [(36, 6, True, True), (36, 6, True, True), (36, 6, True, True)]. **Eaten marks carry zero ambiguity; the uneaten world stays opaque.**
+## M2: read = eat -- REGISTERED MISS, upgraded to null-result info
+  [PASS] CONTROL (no cross edges): keyless W-info identically zero (True -- the decoupled sections recovered as the ZERO-COUPLING limit, the corrected statement); COUPLED floor: crossed traces carry [1.585] bits AND uncrossed traces carry [0.585] bits -- **the registered READ=EAT missed half the truth: on an exhaustion floor, SILENCE INFORMS. Null-result information is real: not-having-been-measured constrains the world exactly as interaction-free measurement suggests. Key-free reference exists wherever the register was PARTY to the fork -- by consumption or by conspicuous abstention.**
+## M3: the trade-off -- REGISTERED MISS, upgraded to MEASUREMENT MINTS
+  [PASS] the joint floor mints MORE than the uncoupled product (270 runs vs 216: True) -- the measurement forks are NEW, co-minted distinction; keyless info (up to 1.585 bits) can exceed the private mint destroyed (1.000 bits) BECAUSE it reads co-minted forks, not stolen private ones; every fiber's consistent structures share one eaten-set (True: the conventional residue is exactly the private W-mint). **MEASUREMENT MINTS: information is key-free exactly when the register CO-MINTED it. You can read without a key precisely what you helped mint -- first-person knowledge is co-minted distinction; the key is only ever needed for OTHERS' mint.**
+## M4: partition -- conventional + consumptive = total
+  [PASS] per trace: consumptive information + conventional residue = total W-information, exactly -- the two semantics PARTITION the identification problem. The ledger prices each side in its own currency: the convention costs the seed, the consumption costs the world's mint.
+
+  coupling | runs | traces | info(min,max) | residue(min,max) | key-free traces
+           0 |  216 |      6 | (0.0, 0.0) | (2.585, 2.585) | 0
+           1 |  270 |     12 | (0.585, 1.585) | (1.585, 2.585) | 0
+           2 |  336 |     24 | (0.874, 3.459) | (0.0, 2.585) | 6
+           4 |  528 |     90 | (1.115, 3.7) | (0.0, 2.585) | 60
+  [PASS] THE MEASUREMENT DIAL: as coupling grows 0 -> 4, the joint mint is nondecreasing (True: measurement mints), the worst-case conventional residue (key requirement) is nonincreasing (True), the minimum keyless information is nondecreasing (True), and fully key-free traces appear only with coupling (True). **The dial runs from the pure-convention world (all knowledge second-hand, priced in the seed) to the co-minted world (knowledge first-hand, priced in participation). A hosted observer's key burden is exactly its non-participation: what it did not help mint, it must be told.**
+
+### Movement D: the community
+## S1: the participation resolution of the anti-regress
+  [PASS] (|O|, traces, worst fiber, residual bits) = [(0, 1, 90, 6.492), (1, 5, 18, 4.17), (2, 25, 18, 4.17), (3, 54, 3, 1.585), (4, 78, 3, 1.585), (5, 90, 1, 0.0), (6, 90, 1, 0.0)]: the keyless residual is MONOTONE DECREASING in observer size (True) -- participation FILLS the hole that inert capacity deepened (Section B's anti-regress inverted; that theorem was about non-participants). **Capacity heals exactly when it participates.**
+## S2: the proper-part theorem
+  [PASS] residual = 0 at |O| = 6 (the whole: knowing = being, nothing separable holds the knowledge) AND at |O| = 5 (residual 0.0: a one-mark exterior can never contact privately -- an isolated singleton has NO private life on a pair-contact floor); every observer leaving >= 2 exterior marks pays (True). **PROPER-PART THEOREM, sharpened by the model: opacity requires an exterior that can act privately -- at least one PAIR beyond the observer's reach. Aloneness in twos: the unit of privacy is the unobserved contact, not the unobserved mark.**
+## S3: biography + proper time
+  [PASS] for a 3-mark observer: every fiber factorizes exactly as (exterior-private structures) x (uniform placements) -- the observer's complete causal biography, in its internal order, is key-free and exact; the ONLY unknowns are the exterior's private contacts and WHERE the observer's life sits among them (True). **PROPER TIME IS FREE; the residual is always and only the embedding in the exterior's time. No one is opaque to themselves; the unknown is when-relative-to-others.**
+
+## W1: the four-sector partition
+  [PASS] every contact of every history classifies into exactly one of four sectors (shared / private-1 / private-2 / exterior-private); sector profiles over 90 histories: {('ext', 'p1', 'p2'): 6, ('ext', 'shared', 'shared'): 12, ('p1', 'p1', 'p2'): 12, ('p1', 'p2', 'p2'): 12, ('p1', 'p2', 'shared'): 48}. The partition is exhaustive and exclusive by construction (True) -- the multi-observer ledger has four columns.
+## W2: no Rashomon on co-minted facts
+  [PASS] in every one of 90 histories, the co-witnessed events appear in BOTH observers' traces in the identical relative order (True) -- **NO RASHOMON: agreement on co-minted facts is forced by participation itself, not negotiated. Intersubjective objectivity is automatic exactly on the shared sector.**
+## W3: mutual opacity
+  [PASS] from O1's trace: the shared sector is fully determined in every fiber (True), while O2's private sector varies within fibers (hidden in at least one: True) -- **mutual opacity: each observer knows the other exactly where they touched, and nothing more. First-person privilege is symmetric.**
+## W4: the pooling theorem
+  [PASS] pooling both traces: every joint fiber factorizes as (exterior-private structures) x (uniform placements) (True; worst joint fiber 6) -- **THE POOLING THEOREM: two observers' combined key-free knowledge covers everything except what neither touched. Objectivity grows by union of participation; the last opacity is the world's untouched private life.**
+
+# RESULT: 29 passed, 0 failed

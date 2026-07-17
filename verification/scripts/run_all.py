@@ -33,6 +33,7 @@ SCRIPTS = [
     "debt_ledger.py",
     "mint_and_bill.py",
     "emergent_hierarchy.py",
+    "seventh_attempt.py",
 ]
 
 

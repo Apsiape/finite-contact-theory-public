@@ -1,80 +1,136 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 588" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="The finite-contact reconstruction: one one-use floor, three published lines, ending in the Chapter 8 state/receiver closure where the Born rule and contextuality meet.">
-  <style>
-    text{fill:#111418}
-    .mut{fill:#5b6470}
-    .bg{fill:#ffffff}
-    .card{fill:#f4f6f8;stroke:#c6ccd4;stroke-width:1.2}
-    .q{fill:#e6f0fb;stroke:#0b5cad;stroke-width:1.3}
-    .e{fill:#e6f4ee;stroke:#0b6b52;stroke-width:1.3}
-    .c{fill:#f1e9f9;stroke:#7a3fb0;stroke-width:1.3}
-    .edge{stroke:#aeb6bf;stroke-width:1.5;fill:none}
-    .floor{fill:#1f2937;stroke:none}
-    .ftext{fill:#f7fafc}
-    @media (prefers-color-scheme: dark){
-      text{fill:#e6edf3}.mut{fill:#9aa5b1}.bg{fill:#0d1117}
-      .card{fill:#161b22;stroke:#30363d}
-      .q{fill:#10233a;stroke:#5aa9f0}.e{fill:#0f2a22;stroke:#3fbf98}.c{fill:#241733;stroke:#c194e6}
-      .edge{stroke:#3d444d}.floor{fill:#e6edf3}.ftext{fill:#0d1117}
-    }
-  </style>
-  <rect class="bg" x="0" y="0" width="900" height="588"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="The finite-contact reconstruction map: from the one-use floor, six lines of results rise — the quantum axis, finite epistemics, the interface reconstruction, the atlas and ladder, the counting grammar, and the ledger frame — meeting the hosted-observer layer at the top, with the registered divergence seam pointing beyond quantum mechanics.">
+  <defs>
+    <style>
+      .t   { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .ttl { fill:#e8edf6; font-size:26px; font-weight:700; letter-spacing:3px; }
+      .sub { fill:#8fa3c0; font-size:13.5px; }
+      .h   { fill:#dbe4f2; font-size:14.5px; font-weight:650; }
+      .b   { fill:#a8b8d0; font-size:12px; }
+      .s   { fill:#7d90ad; font-size:11px; }
+      .fl  { fill:#cfe6e2; font-size:14px; font-weight:650; letter-spacing:1px; }
+      .flb { fill:#93b5b0; font-size:12px; }
+      .ob  { fill:#d9f2ec; font-size:15px; font-weight:700; letter-spacing:1.5px; }
+      .obb { fill:#9ccfc4; font-size:12.5px; }
+      .dv  { fill:#f2d29b; font-size:13.5px; font-weight:700; letter-spacing:1px; }
+      .dvb { fill:#d9b87c; font-size:11.5px; }
+    </style>
+    <marker id="up" viewBox="0 0 10 10" refX="5" refY="3" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 10 L 5 0 L 10 10 z" fill="#41546f"/>
+    </marker>
+    <marker id="upT" viewBox="0 0 10 10" refX="5" refY="3" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 10 L 5 0 L 10 10 z" fill="#3d7a6e"/>
+    </marker>
+    <marker id="upA" viewBox="0 0 10 10" refX="5" refY="3" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 10 L 5 0 L 10 10 z" fill="#c9a35e"/>
+    </marker>
+  </defs>
 
-  <text x="40" y="40" font-size="22" font-weight="700">Finite Contact Theory &#8212; the reconstruction</text>
-  <text class="mut" x="40" y="63" font-size="13">One one-use floor. Three published lines. Every rung is a runnable theorem, a named recovery, a scoped model result, or a logged failure.</text>
+  <rect x="1" y="1" width="1198" height="698" rx="18" fill="#0e1726" stroke="#24344d" stroke-width="2"/>
 
-  <!-- floor -->
-  <rect class="floor" x="330" y="88" width="240" height="48" rx="10"/>
-  <text x="450" y="110" text-anchor="middle" font-size="15" font-weight="700" class="ftext">finite one-use contact floor</text>
-  <text x="450" y="127" text-anchor="middle" font-size="10.5" class="ftext" opacity="0.82">a mark, made once, leaving a difference it cannot erase</text>
+  <!-- header -->
+  <text x="60" y="56" class="t ttl">FINITE CONTACT THEORY</text>
+  <text x="60" y="80" class="t sub">the reconstruction map &#183; nineteen chapters &#183; every result ships a runnable, dependency-free proof</text>
+  <text x="1140" y="56" text-anchor="end" class="t sub">recoveries are labeled recoveries &#183; extensions are labeled extensions</text>
+  <text x="1140" y="74" text-anchor="end" class="t sub">scope is printed on every claim</text>
 
-  <!-- floor -> line cards (top-centers at x = 170, 450, 730; y = 185) -->
-  <path class="edge" d="M450 136 L170 185"/>
-  <path class="edge" d="M450 136 L450 185"/>
-  <path class="edge" d="M450 136 L730 185"/>
+  <!-- observers layer (top) -->
+  <rect x="60" y="104" width="880" height="74" rx="12" fill="#12262e" stroke="#3d7a6e" stroke-width="1.6"/>
+  <text x="82" y="134" class="t ob">HOSTED OBSERVERS &#183; Ch 19</text>
+  <text x="82" y="156" class="t obb">the interpretation key is a constant of the world &#183; participation is key-free &#183; silence informs &#183; no Rashomon &#183; pooled experience covers all but the untouched</text>
 
-  <!-- line 1: quantum-facing -->
-  <rect class="q" x="40" y="185" width="260" height="180" rx="10"/>
-  <text x="170" y="211" text-anchor="middle" font-size="13.5" font-weight="700">Quantum-facing axis</text>
-  <text class="mut" x="58" y="238" font-size="11">counting, one-receiver gluing</text>
-  <text class="mut" x="58" y="258" font-size="11">rational Born weights</text>
-  <text class="mut" x="58" y="278" font-size="11">CHSH/Pell boundary -&gt; 2 sqrt2</text>
-  <text class="mut" x="58" y="298" font-size="11">native carrier grammar</text>
-  <text class="mut" x="58" y="318" font-size="11">exact preparation gap</text>
-  <text class="mut" x="58" y="348" font-size="9.5" font-weight="700">Chapters 1-2 &#183; THEOREM (scoped)</text>
+  <!-- divergence seam (top right) -->
+  <rect x="962" y="104" width="178" height="74" rx="12" fill="#231c10" stroke="#c9a35e" stroke-width="1.6" stroke-dasharray="7 4"/>
+  <text x="978" y="128" class="t dv">THE SEAM &#183; Ch 10&#8211;11</text>
+  <text x="978" y="146" class="t dvb">a registered, experiment-open</text>
+  <text x="978" y="161" class="t dvb">divergence: &#916;&#8323; &lt; 0 where every</text>
+  <text x="978" y="176" class="t dvb">Hilbert space forbids it</text>
+  <line x1="1051" y1="102" x2="1051" y2="78" stroke="#c9a35e" stroke-width="2" marker-end="url(#upA)"/>
 
-  <!-- line 2: finite-epistemics -->
-  <rect class="e" x="320" y="185" width="260" height="180" rx="10"/>
-  <text x="450" y="211" text-anchor="middle" font-size="13.5" font-weight="700">Finite-epistemics axis</text>
-  <text class="mut" x="338" y="238" font-size="11">identifiability + log2(m) debt</text>
-  <text class="mut" x="338" y="258" font-size="11">inquiry calculus, EC = H+KL+O</text>
-  <text class="mut" x="338" y="278" font-size="11">four theorems on time</text>
-  <text class="mut" x="338" y="298" font-size="11">no derivable &#8220;now&#8221;</text>
-  <text class="mut" x="338" y="318" font-size="11">a measured generative floor</text>
-  <text class="mut" x="338" y="348" font-size="9.5" font-weight="700">Chapters 3-6 &#183; THEOREM / MEASURED</text>
+  <!-- arrows: columns to observers layer -->
+  <line x1="142" y1="212" x2="142" y2="186" stroke="#3d7a6e" stroke-width="1.8" marker-end="url(#upT)"/>
+  <line x1="322" y1="212" x2="322" y2="186" stroke="#3d7a6e" stroke-width="1.8" marker-end="url(#upT)"/>
+  <line x1="502" y1="212" x2="502" y2="186" stroke="#3d7a6e" stroke-width="1.8" marker-end="url(#upT)"/>
+  <line x1="682" y1="212" x2="682" y2="186" stroke="#3d7a6e" stroke-width="1.8" marker-end="url(#upT)"/>
+  <line x1="862" y1="212" x2="862" y2="186" stroke="#3d7a6e" stroke-width="1.8" marker-end="url(#upT)"/>
+  <line x1="1051" y1="212" x2="1051" y2="186" stroke="#c9a35e" stroke-width="1.8" marker-end="url(#upA)"/>
 
-  <!-- line 3: contact-interface -->
-  <rect class="c" x="600" y="185" width="260" height="180" rx="10"/>
-  <text x="730" y="211" text-anchor="middle" font-size="13.5" font-weight="700">Contact-interface line</text>
-  <text class="mut" x="618" y="238" font-size="11">non-exact return -&gt; H receiver</text>
-  <text class="mut" x="618" y="258" font-size="11">24-cell &lt;-&gt; dual 24-cell</text>
-  <text class="mut" x="618" y="278" font-size="11">F4 closure (|W| = 1152)</text>
-  <text class="mut" x="618" y="298" font-size="11">forced overlap ratio 1/2</text>
-  <text class="mut" x="618" y="318" font-size="11">finite Gleason + triality KS</text>
-  <text class="mut" x="618" y="348" font-size="9.5" font-weight="700">Chapter 8 (v0.8) &#183; MODEL-SCOPE</text>
+  <!-- six line-columns -->
+  <!-- 1 quantum axis -->
+  <rect x="60" y="214" width="164" height="266" rx="12" fill="#131f33" stroke="#2c3e5c" stroke-width="1.4"/>
+  <text x="76" y="243" class="t h">The quantum axis</text>
+  <text x="76" y="261" class="t s">Chapters 1&#8211;2, 8</text>
+  <text x="76" y="291" class="t b">one-use counting</text>
+  <text x="76" y="311" class="t b">rational Born weights</text>
+  <text x="76" y="331" class="t b">CHSH boundary at 2&#8730;2</text>
+  <text x="76" y="351" class="t b">carrier grammar</text>
+  <text x="76" y="371" class="t b">exact contextual gap</text>
+  <text x="76" y="391" class="t b">finite Gleason &#183; 24-cell</text>
 
-  <!-- line cards -> closure (bottom-centers at y = 365; closure top-center 450,404) -->
-  <path class="edge" d="M170 365 L450 404"/>
-  <path class="edge" d="M450 365 L450 404"/>
-  <path class="edge" d="M730 365 L450 404"/>
+  <!-- 2 epistemics -->
+  <rect x="240" y="214" width="164" height="266" rx="12" fill="#131f33" stroke="#2c3e5c" stroke-width="1.4"/>
+  <text x="256" y="243" class="t h">Finite epistemics</text>
+  <text x="256" y="261" class="t s">Chapters 3&#8211;6</text>
+  <text x="256" y="291" class="t b">identifiability &amp; debt</text>
+  <text x="256" y="311" class="t b">the inquiry calculus</text>
+  <text x="256" y="331" class="t b">four time theorems</text>
+  <text x="256" y="351" class="t b">no global now</text>
+  <text x="256" y="371" class="t b">a measured floor</text>
 
-  <!-- the closure -->
-  <rect class="card" x="210" y="404" width="480" height="76" rx="12"/>
-  <text x="450" y="431" text-anchor="middle" font-size="14.5" font-weight="700">the state / receiver closure</text>
-  <text class="mut" x="450" y="452" text-anchor="middle" font-size="11.5">Born valuation forced by a finite Gleason theorem &#8212;</text>
-  <text class="mut" x="450" y="469" text-anchor="middle" font-size="11.5">exactly where triality Kochen-Specker forbids a global pointing</text>
+  <!-- 3 interface -->
+  <rect x="420" y="214" width="164" height="266" rx="12" fill="#131f33" stroke="#2c3e5c" stroke-width="1.4"/>
+  <text x="436" y="243" class="t h">The interface</text>
+  <text x="436" y="261" class="t s">Chapters 8&#8211;9, 13</text>
+  <text x="436" y="291" class="t b">non-exact return</text>
+  <text x="436" y="311" class="t b">retention forces &#8461;</text>
+  <text x="436" y="331" class="t b">the 1+3 split</text>
+  <text x="436" y="351" class="t b">E&#8328;&#8211;hexacode weave</text>
+  <text x="436" y="371" class="t b">world-phase: received</text>
 
-  <!-- the sentence -->
-  <rect class="card" x="120" y="506" width="660" height="58" rx="10" fill="none"/>
-  <text x="450" y="530" text-anchor="middle" font-size="12.5" font-weight="700">&#8220;The valuation is uniquely lawful exactly where a global pointing is impossible.&#8221;</text>
-  <text class="mut" x="450" y="549" text-anchor="middle" font-size="10">Born and contextuality are two faces of one finite closure. Scope: a real-quantum cell; more is held open by name.</text>
+  <!-- 4 atlas + ladder -->
+  <rect x="600" y="214" width="164" height="266" rx="12" fill="#131f33" stroke="#2c3e5c" stroke-width="1.4"/>
+  <text x="616" y="243" class="t h">Atlas &amp; ladder</text>
+  <text x="616" y="261" class="t s">Chapters 14&#8211;15</text>
+  <text x="616" y="291" class="t b">capability cells</text>
+  <text x="616" y="311" class="t b">arrow &#8594; now &#8594; retention</text>
+  <text x="616" y="331" class="t b">&#8594; associator &#8594; H&#8308;=u&#8322;&#178;</text>
+  <text x="616" y="351" class="t b">boundary pinning</text>
+  <text x="616" y="371" class="t b">the trine, explained</text>
+
+  <!-- 5 counting grammar -->
+  <rect x="780" y="214" width="164" height="266" rx="12" fill="#131f33" stroke="#2c3e5c" stroke-width="1.4"/>
+  <text x="796" y="243" class="t h">Counting grammar</text>
+  <text x="796" y="261" class="t s">Chapters 12, 18</text>
+  <text x="796" y="291" class="t b">exact count regions</text>
+  <text x="796" y="311" class="t b">emergent qubit at 5</text>
+  <text x="796" y="331" class="t b">forced qutrit at 6</text>
+  <text x="796" y="351" class="t b">the exposure law</text>
+  <text x="796" y="371" class="t b">width, not depth</text>
+
+  <!-- 6 ledger -->
+  <rect x="960" y="214" width="180" height="266" rx="12" fill="#131f33" stroke="#2c3e5c" stroke-width="1.4"/>
+  <text x="976" y="243" class="t h">The ledger frame</text>
+  <text x="976" y="261" class="t s">Chapters 16&#8211;17</text>
+  <text x="976" y="291" class="t b">mint = bill</text>
+  <text x="976" y="311" class="t b">no theft, only waste</text>
+  <text x="976" y="331" class="t b">the Cut, flow-typed</text>
+  <text x="976" y="351" class="t b">constants: column two</text>
+  <text x="976" y="371" class="t b">the two bills</text>
+
+  <!-- footnote strip -->
+  <text x="600" y="516" text-anchor="middle" class="t s">recoveries of known structure are wins &#183; the one extension is fenced, preregistered, and waiting for an experiment</text>
+
+  <!-- arrows: floor to columns -->
+  <line x1="142" y1="558" x2="142" y2="530" stroke="#41546f" stroke-width="1.8" marker-end="url(#up)"/>
+  <line x1="322" y1="558" x2="322" y2="530" stroke="#41546f" stroke-width="1.8" marker-end="url(#up)"/>
+  <line x1="502" y1="558" x2="502" y2="530" stroke="#41546f" stroke-width="1.8" marker-end="url(#up)"/>
+  <line x1="682" y1="558" x2="682" y2="530" stroke="#41546f" stroke-width="1.8" marker-end="url(#up)"/>
+  <line x1="862" y1="558" x2="862" y2="530" stroke="#41546f" stroke-width="1.8" marker-end="url(#up)"/>
+  <line x1="1050" y1="558" x2="1050" y2="530" stroke="#41546f" stroke-width="1.8" marker-end="url(#up)"/>
+
+  <!-- the floor -->
+  <rect x="60" y="560" width="1080" height="84" rx="12" fill="#15253f" stroke="#3f5f8f" stroke-width="1.6"/>
+  <text x="82" y="592" class="t fl">THE FLOOR</text>
+  <text x="82" y="616" class="t flb">marks made once &#183; a tolerance that stages forks &#183; no law selects the outcome &#8212; staging is now a theorem; the refusal to select is the one named postulate</text>
+  <text x="1118" y="592" text-anchor="end" class="t flb">no Hilbert space granted</text>
+  <text x="1118" y="616" text-anchor="end" class="t flb">no probability &#183; no continuum</text>
 </svg>

@@ -909,3 +909,44 @@ symmetric generators + one multiplication layer span M_m exactly
 (m = 2, 3, 4). The exposure law (all 22 fibers at n = 6 span exactly
 their symmetric part; one multiplication opens m^2) is cited at
 discovery grade from the research corpus.
+
+### T-71 The Price of Self-Description (Chapter 19)
+
+Schemes exist (tight coding); keylessly every register trace has a
+uniform, scheme-independent fiber (the deficit is a floor invariant);
+adding inert capacity strictly increases it (36 -> 540: visible
+capacity < placement entropy); the key suffices exactly and no
+equivariant scheme selection exists. Impossibility core cited (Breuer;
+Wolpert); the price structure is the theorem.
+
+### T-72 The Books (Chapter 19)
+
+Minted = banked + deficit exactly and uniformly (chain-rule-form
+bookkeeping, labeled); the scheme space outweighs the history space
+factorially; no equivariant convention at any tower level (single
+orbits force constants; a constant still needs WHICH). Every
+interpretation tower terminates in a paid, underived registration.
+
+### T-73 The Two Semantics (Chapter 19)
+
+Coupling mints (270 joint runs vs 216 decoupled); key-free information
+= co-minted forks exactly; null-result information exact (0.585 bits
+on the uncrossed trace; Renninger/Elitzur-Vaidman recovered);
+consumptive + conventional = total per trace; the dial: key burden =
+non-participation (mint 216 -> 528, key-free traces 0 -> 60).
+
+### T-74 First-Person Theorems (Chapter 19)
+
+Keyless residual monotone decreasing in observer size (6.49 -> 0);
+privacy's unit is the unobserved contact; every fiber factorizes as
+(exterior-private structures) x (placements): biography and proper
+time free, the unknown is when-relative-to-others. The
+inert-worsens/participation-heals juxtaposition is the claim.
+
+### T-75 Intersubjectivity (Chapter 19)
+
+Four-sector partition; forced order-agreement on co-witnessed events
+in every history (no Rashomon; trace-theory recovery, cited); mutual
+opacity; pooling determines all but the untouched. Presented against
+the contested quantum intersubjectivity backdrop (Frauchiger-Renner;
+Ozawa).

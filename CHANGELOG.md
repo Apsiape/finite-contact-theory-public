@@ -2,6 +2,44 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.18.0
+
+Eighteenth public release: **Chapter 19 — The Seventh Attempt:
+Self-Description and Its Price**. An exact, finite, pre-probabilistic
+theory of hosted observers — subsystems whose records are floor events.
+Concept DOI `10.5281/zenodo.21253591`; version DOI recorded at mint.
+
+Added:
+
+- `papers/19-seventh-attempt/` — chapter, claim snapshot (FCT-93..97),
+  freeze record, frozen verifier copy with expected output;
+- claim rows FCT-93..97 and theorem rows T-71..T-75;
+- `verification/scripts/seventh_attempt.py` (29 checks in four
+  movements: the price — no free scheme, the anti-regress, the seed;
+  the books — chain-rule accounting, the unwritable key, the
+  tower-level equivariance no-go; the observer — the transparent key,
+  the bandwidth theorem, the breathing now, null-result information,
+  measurement mints, the dial; the community — the participation
+  resolution, privacy's unit, biography/proper time, no Rashomon,
+  mutual opacity, pooling), wired into `run_all.py` (twenty-four
+  scripts);
+- a blind-sweep prior-art record in the chapter (labels follow the
+  sweep; the impossibility core and intersubjectivity semantics cited:
+  Breuer, Wolpert, Dalla Chiara, Löfgren, Putnam, Harnad, Kripke,
+  Renninger, Elitzur–Vaidman, Wheeler, Rovelli, QBism, Everett,
+  Lamport, Pratt, Mazurkiewicz, Zielonka, Ozawa, Zurek, Rosen; the
+  zero-slack identity presented as Shannon-chain-rule bookkeeping at
+  the sweep's demand);
+- the v0.18 live ceiling (a tenth line: hosting the observer), quoted
+  in all advertised locations;
+- a redrawn `assets/reconstruction-map.svg` (the full nineteen-chapter
+  map) and a full README repass.
+
+Changed:
+
+- README narrative updated from the v0.10-era framing to the current
+  program state; repository description and topics refreshed.
+
 ## 0.17.0
 
 Seventeenth public release, a double chapter: **Chapter 17 — The Mint and
