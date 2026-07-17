@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.21.0 - 2026-07-17
+## v0.21.0 - 2026-07-17 (DOI 10.5281/zenodo.21420245)
 
 - Chapter 25: The Up (surplus identity + conservation sector,
   immortality at tested scope, the dial and the first equilibrium,

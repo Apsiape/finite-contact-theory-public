@@ -1,5 +1,7 @@
 # Release notes - v0.21.0
 
+Version DOI: `10.5281/zenodo.21420245` · Concept DOI: `10.5281/zenodo.21253591`
+
 Two chapters completing the constructive account of the genesis
 floor: how worlds persist, what persistence costs, and who can pay.
 
