@@ -1022,3 +1022,46 @@ breaking on primes.
 
 A lifetime is a census; the measure needs eternity (TV floor);
 mortality bends chance; the three-currency ladder.
+
+### T-90 The Rational Decay Spectrum (Chapter 23)
+
+No temporal cycles; triangular transfer; spectrum = laziness
+diagonal, closed form on the wounded family.
+
+### T-91 The Urn Identification (Chapter 23)
+
+Wounded sector = Eggenberger-Polya urn from (1,1), exactly;
+uniform profiles, branching 2/(n-1), size-biased healthy fates,
+exact lifetimes.
+
+### T-92 The Self-Location Split (Chapter 23)
+
+Mass-weighted self-location forced given any weighting; no
+self-location key; the weighting free (recovery of the
+Sebens-Carroll dialectic as exact theorem).
+
+### T-93 Fate Laws + Breeding Wounds (Chapter 23)
+
+Clock address; wounded-uniform vs healthy-size-biased; 3-fission
+at 76/495; octahedron profile law with no isolation.
+
+### T-94 The Opposition Calculus (Chapter 24)
+
+Genesis = join protocol (CRDT/gossip primitive, cited); sign
+vectors over wound coordinates; conflict = opposition.
+
+### T-95 Bound States + Profile Universality (Chapter 24)
+
+Adjacent wounds = one urn at (1,2); same profile law as the single
+wound; no three-way fission from composites.
+
+### T-96 The Charge Law (Chapter 24)
+
+P(isolation) = k/(n-1) exactly, three topologies; charge is a fate
+rate.
+
+### T-97 Selection Rules + r-Cliques (Chapter 24)
+
+The healthy floor; the octahedron exhaustion bound (4 < 5);
+r-cliques = r-color urns, uniform compositions, exactly r pieces;
+triangle sector predicted before measurement.

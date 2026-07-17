@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.20.0 - 2026-07-17
+
+- Chapter 23: The Decay of Worlds (rational spectrum + triangularity,
+  the Eggenberger-Polya urn identification, the clock address, the
+  self-location split, breeding wounds). 30 checks,
+  `decay_of_worlds.py`.
+- Chapter 24: The Particles of the Floor (the opposition calculus =
+  CRDT/gossip join identity, bound states + profile universality,
+  the charge law k/(n-1), selection rules + the healthy floor +
+  exhaustion mechanism, opposition r-cliques). 21 checks,
+  `particles_of_floor.py`. Carries the v0.20 ceiling.
+- FCT-112..119; T-90..97; run_all now 29 scripts; blind sweeps ran
+  before labeling; one sweep-mandated downgrade absorbed in print
+  (cluster factorization is trivial, not the Haag-Wightman theorem).
+
 ## v0.19.0 — 2026-07-17 (DOI 10.5281/zenodo.21418859)
 
 - Chapter 20: The Observer's Price List (hierarchy, tuition, the

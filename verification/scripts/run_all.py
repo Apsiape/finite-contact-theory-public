@@ -37,6 +37,8 @@ SCRIPTS = [
     "observers_price.py",
     "genesis_of_space.py",
     "price_of_chance.py",
+    "decay_of_worlds.py",
+    "particles_of_floor.py",
 ]
 
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="The finite-contact reconstruction map: from the one-use floor, six lines of results rise — the quantum axis, finite epistemics, the interface reconstruction, the atlas and ladder, the counting grammar, and the ledger frame — meeting the hosted-observer layer, above which sit the two worlds the observer forces: space and chance. The registered divergence seam rises from the counting grammar past every layer, pointing beyond quantum mechanics.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="The finite-contact reconstruction map: from the one-use floor, six lines of results rise — the quantum axis, finite epistemics, the interface reconstruction, the atlas and ladder, the counting grammar, and the ledger frame — meeting the hosted-observer layer, above which sit the worlds the observer forces: space, chance, and matter. The registered divergence seam rises from the counting grammar past every layer, pointing beyond quantum mechanics.">
   <defs>
     <style>
       .t   { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
@@ -34,20 +34,25 @@
 
   <!-- header -->
   <text x="60" y="54" class="t ttl">FINITE CONTACT THEORY</text>
-  <text x="60" y="78" class="t sub">the reconstruction map &#183; twenty-two chapters &#183; every result ships a runnable, dependency-free proof</text>
+  <text x="60" y="78" class="t sub">the reconstruction map &#183; twenty-four chapters &#183; every result ships a runnable, dependency-free proof</text>
   <text x="1140" y="54" text-anchor="end" class="t sub">recoveries are labeled recoveries &#183; extensions are labeled extensions</text>
   <text x="1140" y="72" text-anchor="end" class="t sub">scope is printed on every claim</text>
 
   <!-- top band: the worlds the observer forces -->
-  <rect x="60" y="100" width="428" height="78" rx="12" fill="#101d2c" stroke="#5b8fb8" stroke-width="1.6"/>
-  <text x="80" y="128" class="t sp">SPACE &#183; Ch 21</text>
-  <text x="80" y="147" class="t spb">only the mixed cell can host an asker &#183; locality is what a bounded knower can afford</text>
-  <text x="80" y="164" class="t spb">a paid floor can only sparsify &#183; a light cone exists iff the world is sparse</text>
+  <rect x="60" y="100" width="284" height="78" rx="12" fill="#101d2c" stroke="#5b8fb8" stroke-width="1.6"/>
+  <text x="78" y="128" class="t sp">SPACE &#183; Ch 21</text>
+  <text x="78" y="147" class="t spb">locality is what bounded knowers</text>
+  <text x="78" y="164" class="t spb">can afford &#183; a cone iff sparse</text>
 
-  <rect x="508" y="100" width="428" height="78" rx="12" fill="#101d2c" stroke="#5b8fb8" stroke-width="1.6"/>
-  <text x="528" y="128" class="t sp">CHANCE &#183; Ch 22</text>
-  <text x="528" y="147" class="t spb">a measure can be shared or affordable, never both &#183; one propagated field serves every seat</text>
-  <text x="528" y="164" class="t spb">the limits are forced algebraic numbers &#183; one life reads structure, never weights</text>
+  <rect x="356" y="100" width="284" height="78" rx="12" fill="#101d2c" stroke="#5b8fb8" stroke-width="1.6"/>
+  <text x="374" y="128" class="t sp">CHANCE &#183; Ch 22&#8211;23</text>
+  <text x="374" y="147" class="t spb">shared or affordable, never both</text>
+  <text x="374" y="164" class="t spb">decay spectra: counting fractions</text>
+
+  <rect x="652" y="100" width="284" height="78" rx="12" fill="#101d2c" stroke="#5b8fb8" stroke-width="1.6"/>
+  <text x="670" y="128" class="t sp">MATTER &#183; Ch 24</text>
+  <text x="670" y="147" class="t spb">particles are wounds: mass, charge,</text>
+  <text x="670" y="164" class="t spb">bound states &#183; P(alone) = k/(n&#8722;1)</text>
 
   <!-- divergence seam (top right) -->
   <rect x="956" y="100" width="184" height="78" rx="12" fill="#231c10" stroke="#c9a35e" stroke-width="1.6" stroke-dasharray="7 4"/>
@@ -58,10 +63,9 @@
   <line x1="1048" y1="98" x2="1048" y2="76" stroke="#c9a35e" stroke-width="2" marker-end="url(#upA)"/>
 
   <!-- arrows: observers to the forced worlds -->
-  <line x1="200" y1="204" x2="200" y2="182" stroke="#5b8fb8" stroke-width="1.8" marker-end="url(#upB)"/>
-  <line x1="348" y1="204" x2="348" y2="182" stroke="#5b8fb8" stroke-width="1.8" marker-end="url(#upB)"/>
-  <line x1="648" y1="204" x2="648" y2="182" stroke="#5b8fb8" stroke-width="1.8" marker-end="url(#upB)"/>
-  <line x1="796" y1="204" x2="796" y2="182" stroke="#5b8fb8" stroke-width="1.8" marker-end="url(#upB)"/>
+  <line x1="202" y1="204" x2="202" y2="182" stroke="#5b8fb8" stroke-width="1.8" marker-end="url(#upB)"/>
+  <line x1="498" y1="204" x2="498" y2="182" stroke="#5b8fb8" stroke-width="1.8" marker-end="url(#upB)"/>
+  <line x1="794" y1="204" x2="794" y2="182" stroke="#5b8fb8" stroke-width="1.8" marker-end="url(#upB)"/>
 
   <!-- observers layer -->
   <rect x="60" y="206" width="880" height="80" rx="12" fill="#12262e" stroke="#3d7a6e" stroke-width="1.6"/>

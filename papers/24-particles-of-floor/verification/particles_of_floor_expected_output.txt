@@ -1,0 +1,48 @@
+## X1: opposition heredity (exhaustive n=5)
+  [PASS] 23040 (world, contact, opposition) triples: a non-tolerant line pair NEVER becomes tolerant under any genesis step (0 violations) -- **OPPOSITION IS ABSOLUTELY CONSERVED: the offspring's tolerance is inherited through the intersection, and the missing partner is never in it. Oppositions are monotone -- mintable, indestructible. The particle sector's first conservation law.**
+## X2: flux conservation in the two-wound sector
+  [PASS] two-wound K6 sector (34 wound-tracked classes, 6 absorbing): in EVERY final state both original wound pairs lie in different components (True) -- **WOUND FLUX IS CONSERVED: every original opposition survives as a component boundary. A wound, once made, must eventually be a fracture.**
+## X3: breeding without annihilation
+  [PASS] minted oppositions per final state (line pairs tolerant at start, opposed at the end): counts [6, 7, 9, 10] -- always positive (True), while X1 shows the reverse never happens. **CREATION WITHOUT ANNIHILATION: the particle sector has a strict arrow -- oppositions breed and never heal. The floor's particle physics is radioactive only: everything decays, nothing recombines -- and the UP (Pole 3) must therefore live outside the paid sector entirely.**
+## B1: the composite is the W family from (1,2)
+  [PASS] the adjacent-wound sector has 8 reachable classes == the W family grown from (1,2) (True); start mass L = 4/13 (frozen 4/13: True). **Adjacent wounds are ONE particle: the same urn machinery, entered at (1,2) — a bound state with its own mass.**
+## B2: profile universality and the fate laws
+  [PASS] the charge-2 mark's fate law {1: '2/5', 2: '3/10', 3: '1/5', 4: '1/10'} == the Polya(1,2) law (frozen 2/5, 3/10, 1/5, 1/10); the fission profile law {'(1, 5)': '2/5', '(2, 4)': '2/5', '(3, 3)': '1/5'} == the SINGLE wound's law (True). **PROFILE UNIVERSALITY: the world breaks the same way; WHO ends where differs — the doubly-opposed mark is biased small (isolation odds 2/5 vs the lone wound's 1/5).**
+## B3: composites do not breed
+  [PASS] the composite's maximum fission arity = 2 (True) vs the disjoint pair's 3 (the multi-wound section, 76/495). **THE FIRST SCATTERING TABLE: adjacent oppositions form a bound state and decay two-body; only DISJOINT wounds interact and breed. Interaction requires separation — the floor's first two-particle rule.**
+## S1: who can be the singleton (two-wound sector)
+  [PASS] founder line's fate {1: '83/2970', 2: '64/189', 3: '3914/10395', 4: '763/2970'} (102 classes) -- isolation possible; undecided line's fate {2: '17/231', 3: '4289/10395', 4: '763/1485'} (50 classes) -- NO mass at home=1 (True). **THE FOUNDER RULE: only wound-founder lines can end isolated; healthy lines always keep company. The (1,2,3) singleton is always a founder.**
+## S2: the octahedron -- founders that cannot fall
+  [PASS] octahedron line's fate law {2: '1/5', 3: '4/5'} (8 classes): zero isolation (True) although EVERY line is a founder -- **founder status is necessary, not sufficient. The octahedron has a forbidden channel: a genuine selection rule.**
+## S3: the invariant behind the rule
+  [PASS] maximum opposition count of any line over the octahedron's reachable states = 4 < 5 (True) -- **THE MECHANISM: isolation needs 5 oppositions and the sector's dynamics never mints past 4. The selection rule is an exhaustion bound on opposition minting -- the octahedron's symmetric wounds leave too little intersection asymmetry to breed enough. (Reported as the sector's exhaustive bound; a general minting-capacity formula is the campaign's open target.)**
+## C1: cluster decomposition
+  [PASS] K4 u (K4-e): 4 reachable classes == the wounded factor's 4 (the crystal factor contributes one), and no cross-component tolerance ever appears (True). **CLUSTER FACTORIZATION, exact: separated systems evolve as products, trivially, by non-tolerance heredity. Scope note per the novelty sweep: this recovers the TRIVIAL product structure only -- NOT the Haag-Wightman cluster theorem (correlation falloff), which is a far deeper analytic statement.**
+## C2: charge-k stars are Polya(1,k)
+  [PASS] charge-3 star on K6: the charged mark's fate law {1: '3/5', 2: '3/10', 3: '1/10'} == the frozen Polya(1,3) law (3/5, 3/10, 1/10) (True). **Charged stars are urns from (1,k): the composite particle family is one Pólya family, graded by charge.**
+## C3: THE CHARGE LAW
+  [PASS] P(isolation of a charge-k mark) on K6 = {1: '1/5', 2: '2/5', 3: '3/5'} == k/(n-1) exactly (True); urn recursion confirms k/(n-1) at n = 10, 25, 40 for k = 1, 2, 5 (True). **THE CHARGE LAW: a mark's oppositions are its isolation odds -- P(dying alone) = charge/(n-1). Charge is not a label; it is a fate rate, exactly.**
+## O1: the union rule (exhaustive n=5)
+  [PASS] 5120 contacts across all 1024 worlds: after every contact, both offspring lines' opposition sets equal the UNION of the parents' (minus the sibling), and each bystander gains oppositions to both offspring iff it opposed either parent (0 violations). **THE COMPLEMENT DYNAMICS: genesis is a JOIN PROTOCOL on oppositions -- contact = merge your grudges. Every structural theorem of the campaign is one line in this calculus.**
+## O2: the sign-vector representation
+  [PASS] two-wound K6 sector, 647 labeled states: the sign-vector conflict graph EQUALS the opposition graph at every reachable state (True) -- **lines are partial sign vectors over wounds; contact is the consistent JOIN; opposition is coordinate conflict. The sector physics is a gossip protocol over wound-sides.**
+## O3: the one-line re-proofs
+  [PASS] in the calculus: HEREDITY (unions never shrink -- oppositions indestructible), FLUX (original coordinates persist in their founders), TWINS (lazy = equal sets; reproduction = equal-join), CLUSTER (components never share coordinates -- no conflict can ever form across) are each one line, and all four were previously verified by independent graph engines (wound_flux.py, genesis_attractor.py, charge_law.py). The calculus is the campaign's master bookkeeping.
+## T1: the triangle sector's laws (predicted, then measured)
+  [PASS] triangle-wound K6 (7 classes): profile law {'(1, 1, 4)': '3/10', '(1, 2, 3)': '3/5', '(2, 2, 2)': '1/10'} == the frozen 3-color-urn prediction (3/10, 3/5, 1/10); arity always 3 (True). **A NEW SECTOR'S COMPLETE LAWS PREDICTED BEFORE MEASUREMENT: the opposition triangle is the three-color Polya urn from (1,1,1) -- uniform over ordered compositions, the Dirichlet(1,1,1) law at finite size.**
+## T2: the charge law on a new topology
+  [PASS] triangle founder's fate law {1: '2/5', 2: '3/10', 3: '1/5', 4: '1/10'} (13 classes): isolation probability 2/5 == charge/(n-1) = 2/5 (True). **THE CHARGE LAW confirmed on a third topology (lone wound, star, triangle): oppositions ARE isolation odds, structure-independent.**
+## T3: the r-color urn scales
+  [PASS] exact recursion: the r-color urn from (1,..,1) is UNIFORM over ordered compositions at (r=3, n=12), (r=3, n=30), (r=4, n=20) (True) -- **opposition r-cliques fission by the flat Dirichlet law at every size: the sector family is solved wholesale. An opposition r-clique always breaks into exactly r pieces, sized uniformly.**
+    single-wound  :    81 states,   16 absorbing; founder-iso True; healthy-iso False; max-conflict 5
+    two-wound     :   647 states,   76 absorbing; founder-iso True; healthy-iso False; max-conflict 5
+    octahedron    :   519 states,   36 absorbing; founder-iso False; healthy-iso False; max-conflict 4
+    triangle      :    64 states,   27 absorbing; founder-iso True; healthy-iso False; max-conflict 5
+## I1: ground truths reproduced by the pure calculus
+  [PASS] founder isolation reachable in single-wound, two-wound, and triangle sectors; UNREACHABLE in the octahedron, whose max conflict count is exactly 4 -- matching every graph-engine ground truth (True). **The pure sign-vector calculus IS the sector physics: no graphs needed anywhere.**
+## I2: the healthy floor (frozen bet)
+  [PASS] in ALL four sectors, no initially-undecided line is isolated in any absorbing state (True) -- **THE HEALTHY FLOOR: isolation requires a birthright coordinate. A line that starts without a wound can acquire grudges only by joining, and its every join leaves at least one companion it cannot conflict. The founder rule is now a sector-independent law at this scope.**
+## I3: the master theorem's status
+  [PASS] STATUS, honestly: the opposition calculus REDUCES isolation (and every selection rule) to reachability in a finite join dynamics -- decidable exactly, per sector, as I1 demonstrates without any graph computation. The closed-form capacity formula (max conflicts as a function of the wound graph alone) remains OPEN: the octahedron's 4 versus the two-wound's higher capacity shows it depends on wound topology, not wound count. Named open target; the calculus is the tool that will decide it.
+
+# RESULT: 21 passed, 0 failed

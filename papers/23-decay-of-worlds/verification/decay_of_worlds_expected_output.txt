@@ -1,0 +1,64 @@
+## A1: no temporal cycles (exhaustive, all 5-mark classes)
+  [PASS] every non-lazy class transition strictly decreases |E| (True) and the class digraph minus self-loops is acyclic (True, 34 classes) -- **NO TEMPORAL CYCLES: recurrence in the genesis dynamics is fixed-points-only. Time cannot close; space can (the closed-field results) -- the two closures are not symmetric. The ledger arrow is absolute at class level.**
+## A2: triangularity = quantization
+  [PASS] lazy <=> class-reproducing on every contact of every 5-mark world (True) -- with A1 this makes the transition operator TRIANGULAR in the tolerance grading: **the spectrum is the diagonal -- each class's eigenvalue is its laziness fraction L(c), an exact rational. The floor's decay constants are quantized because the ledger is graded.**
+## A3: frozen laziness values
+  [PASS] L(K6-e) = 3/7 (frozen 3/7), L(K5-e) = 1/3 (frozen 1/3), L(K4-e) = 1/5 (frozen 1/5); crystals L = 1, 1 (True). A wounded world's occupancy decays exactly as L^t -- **the first exact lifetime constants of the genesis floor.**
+## W1: the system, triangularity, and the spectrum
+  [PASS] 9 reachable classes; the transition matrix is TRIANGULAR in the |E| grading (True) with diagonal = laziness (True); spectrum (exact rationals) = ['1', '1/3', '3/11', '3/7', '4/13', '4/9', '6/11']; eigenvalue-1 multiplicity = 3, all crystals (True), component profiles [(1, 5), (2, 4), (3, 3)]. **THE DECAY SPECTRUM IS QUANTIZED AND RATIONAL: the wounded K6 sector's modes are counting fractions, not fitted constants.**
+## W2: the branching ratios
+  [PASS] exact absorption from the wounded K6 (probabilities sum to 1): branching ratios by fission profile = {'(1, 5)': '2/5', '(2, 4)': '2/5', '(3, 3)': '1/5'} -- all three big-component channels positive as registered (True). **THE FLOOR'S FIRST DECAY BRANCHING FRACTIONS: exact rationals, forced by counting.**
+## W3: the relaxation constant
+  [PASS] the sector's slowest transient mode has L = 6/11 -- the wounded-K6 sector relaxes geometrically with exact rational base 6/11 (True). (The research corpus's measured correspondence-decay constants get their exact ancestor here; rhyme logged, not claimed. Frame recovery noted: transfer-operator spectra are Ruelle-Pollicott territory -- the exact rational grading-forced spectrum is the claim.)
+## C1: the rate table
+  [PASS] asymptotic clock rates by home-component size: {1: '0', 2: '1', 3: '2/3', 4: '1/2', 5: '2/5'} -- all distinct (True). **THE CLOCK ADDRESS: after the wound decays, the observer's own waiting times identify both the fission channel and its home component; isolation is rate zero -- death by silence is readable from the inside.**
+## C2: the wound biases fate
+  [PASS] exact fate distributions over home-component size (marked chains: 16/15 classes): full mark {2: '1/10', 3: '1/5', 4: '3/10', 5: '2/5'} (mean home 4 = 4.0000); wound-adjacent mark {1: '1/5', 2: '1/5', 3: '1/5', 4: '1/5', 5: '1/5'} (mean home 3 = 3.0000); normalized (True); the distributions DIFFER (True) -- **THE WOUND BIASES FATE, exactly: where you stand relative to the world's damage changes where your line ends up. Registered direction (wound worsens prospects) adjudicated by the mean-home comparison above and scored either way in the results.**
+## C3: fate is learnable during decay
+  [PASS] transient classes expose 10 distinct observer-participation probabilities (['1/3', '2/9', '3/11', '4/11', '4/13', '5/11', '5/12', '5/13', '5/14', '5/9']) -- the decay path is a transient first-person signal (True). **Contrast with the mortality bound: one life cannot learn the MEASURE, but it can watch its world decay -- structure-in-time is first-person knowledge; only the weights need eternity.**
+## S1: the mixture law (frozen: m/15)
+  [PASS] uniform-random line on the wounded K6: home law {1: '1/15', 2: '2/15', 3: '1/5', 4: '4/15', 5: '1/3'} == frozen m/15 == the mass-fraction expectation over the branching ratios (True). **The mixture is exactly mass-weighted self-location.**
+## S2: the decomposition
+  [PASS] conservation (the mixture law) plus wounded-uniformity IMPLIES the healthy linear law (m-1)/10 exactly (True) -- **THE DEFLATION: the fate laws contain ONE independent discovery (the wounded are uniform); the healthy law and the size-bias are conservation bookkeeping. The flagged 'participation = size-biased sampling' conjecture is SCORED: its naive form is linearity of expectation, not physics.**
+## S3: dynamics-independence on an asymmetric world
+  [PASS] asymmetric wounded world (K5 minus an edge plus a pendant): uniform-random-line home law {1: '2/9', 2: '11/45', 3: '4/15', 4: '4/15'}, normalized and relabel-invariant (True) -- the conservation identity holds with NO symmetry anywhere: **the self-location measure is dynamics-free and world-free -- mathematically trivial, and physically load-bearing for exactly that reason: no world can escape it.**
+## U1: wounded uniformity at K7-e
+  [PASS] wound-adjacent line on K7-e (21 marked classes): fate law {1: '1/6', 2: '1/6', 3: '1/6', 4: '1/6', 5: '1/6', 6: '1/6'}; support [1, 2, 3, 4, 5, 6]; EXACTLY UNIFORM: True. Registered bet said uniformity BREAKS -- adjudicated above and scored in the results either way.
+## U2: the healthy line at K7-e
+  [PASS] full line on K7-e (24 marked classes): fate law {2: '1/15', 3: '2/15', 4: '1/5', 5: '4/15', 6: '1/3'}; EXACTLY LINEAR in (m-1): True. Reported exactly; the K6 linearity was derived from conservation + wounded-uniformity, so it stands or falls with U1.
+## U3: the conservation cross-check
+  [PASS] unmarked K7-e branching ratios (12 classes): {'(1, 6)': '1/3', '(2, 5)': '1/3', '(3, 4)': '1/3'}; marked-chain mixture == unmarked mass-fraction law (True) -- two independent exact computations agree: **the conservation theorem holds at n=7, and both chains cross-validate.**
+## T1: conditional forcing under a biased weighting
+  [PASS] biased mu (min-degree contacts doubled): branching {'(1, 5)': '1/5', '(2, 4)': '2/5', '(3, 3)': '2/5'}; marked mixture == biased mass-fraction law (True) and differs from the uniform-mu law (True). **CONDITIONAL FORCING: change the branch weighting and the self-location law changes WITH it, never independently -- given any mu, where-am-I has zero residual freedom. There is no self-location key.**
+## T2: the split
+  [PASS] assembled with Chapter 22: the branch weighting mu is FREE (the invariant simplex; the measure dilemma; the received field/earned statistic ladder) while self-location GIVEN mu is FORCED (T1; the conservation identity on symmetric, asymmetric, and biased worlds). **THE SPLIT: the entire measure key of this campaign lives in which-branch; where-in-the-branch costs nothing. Sebens-Carroll's self-locating uncertainty is thereby LOCATED: their premise is a floor theorem exactly as far as it goes, and extending it to branch weights imports exactly what the floor leaves free. Palm calculus / size-biased sampling cited as the classical frame (recovery); the forced/free boundary at floor level is the claim.**
+## T3: the fence
+  [PASS] fences held: 'where am I' = home-component self-location at absorption, model scope; the conservation identity's mathematical triviality (linearity of expectation) is stated in print -- its value is the boundary it draws, not its proof; nothing about nature claimed.
+## W1: separation (double-marked, n=6,7)
+    n=6: 15 double-marked classes; P(wound-lines together) = 0
+    n=7: 21 double-marked classes; P(wound-lines together) = 0
+  [PASS] the two wound-lines end in DIFFERENT components with probability 1 at n=6 and n=7 (True) -- **the wound is the fission line: the missing tolerance propagates into the fracture. SEPARATION holds exactly.**
+## W2: the identity
+  [PASS] wounded-uniform + separation => P(profile {s, n-s}) = 2/(n-1) asymmetric, 1/(n-1) symmetric -- matches the measured branching at n=6 (2/5:2/5:1/5) and n=7 (1/3:1/3:1/3) exactly (True). **ONE LAW GENERATES EVERYTHING: the wounded line's uniform home law + separation yields the branching ratios; conservation then yields the healthy linear law.**
+## W3: n=8 (all frozen before computing)
+  [PASS] n=8: wounded fate {1: '1/7', 2: '1/7', 3: '1/7', 4: '1/7', 5: '1/7', 6: '1/7', 7: '1/7'} (frozen: uniform 1/7; 28 classes); healthy fate {2: '1/21', 3: '2/21', 4: '1/7', 5: '4/21', 6: '5/21', 7: '2/7'} (frozen: (m-1)/21; 33 classes) -- ALL FROZEN PREDICTIONS HIT (True). **THE WOUND'S LAW STANDS AT THREE SIZES: the wounded line's home is uniform on {1..n-1}; the healthy line inherits size-biasedly; the branching ratios follow. The killed break-bet has become a law.**
+## E1: the W-family classification and the transitions
+  [PASS] n=6,7: the reachable class set of the wounded clique EQUALS the W(a,b,u) family exactly, every lazy contact reproduces its class, and every spend is a recruitment with counts a*u / b*u (True). **The wounded sector's anatomy is fully identified: two growing sides, a shrinking undecided pool, nothing else.**
+## E2: the chain is the Polya urn
+  [PASS] given a spend, the recruiting side is chosen with probability a/(a+b) -- the undecided count cancels (True). **This is the Eggenberger-Polya urn started (1,1), exactly: each recruitment reinforces the side proportionally to its size. The mechanism of wounded uniformity is the classical urn (Eggenberger-Polya 1923, recovery of mechanism; the identification is the claim).**
+## E3: the urn law to n=60
+  [PASS] exact urn recursion: side-0's final size is uniform 1/(n-1) at n = 6, 7, 8, 20, 40, 60 (True) -- **the wound's law now scales two orders of magnitude beyond any graph engine: a wounded K60's fission profile is uniform on {1..59}, by the urn.**
+## F1: the spectrum formula
+  [PASS] L(a,b,u) = [C(a,2)+C(b,2)+C(u,2)]/[C(n,2)-ab] equals the direct laziness of every W representative at n=6,7,8 and reproduces the full measured n=6 spectrum ['1', '1/3', '3/11', '3/7', '4/13', '4/9', '6/11'] (True). **The decay spectrum has a CLOSED FORM: every eigenvalue of the wounded sector is a ratio of binomial counts. The rung-five spectrum is explained, not just measured.**
+## F2: the healthy law, derived
+  [PASS] P(healthy home = s) = 2(s-1)/((n-1)(n-2)), derived from urn uniformity + exchangeability of the undecided, equals the measured (s-1)/10, (s-1)/15, (s-1)/21 at n=6,7,8 (True). **The size-biased inheritance of the healthy is the urn's shadow: to be recruited is to be sampled by the side's growth.**
+## F3: exact expected decay times
+  [PASS] exact expected decay times (contacts to full fission): n=6: 479/72 = 6.6528; n=7: 809/90 = 8.9889; n=8: 459/40 = 11.4750 (True). Reported exactly as registered (a clean closed form was hunted, not promised; the recursion IS the closed computation, and the values stand as the sector's exact lifetimes).
+## M1: two disjoint wounds -- REGISTERED BET KILLED
+  [PASS] K6 minus two disjoint wounds (20 reachable classes): final profiles {'(1, 2, 3)': '166/1485', '(2, 2, 2)': '62/1485', '(2, 4)': '763/1485', '(3, 3)': '494/1485'} -- arities [2, 3], with THREE-way fission at probability 76/495 = 76/495 (True). **THE BET IS KILLED AND THE KILL IS THE FINDING: WOUNDS BREED. Intersection inheritance mints new oppositions, so fission arity is NOT bounded by the initial wound count -- the two-wound sector escapes the block model that made the single wound an exact urn. The urn is the law of the ISOLATED wound; interacting wounds are a richer theory.**
+## M2: the coupling
+  [PASS] the two-wound profile law {'(1, 2, 3)': '166/1485', '(2, 2, 2)': '62/1485', '(2, 4)': '763/1485', '(3, 3)': '494/1485'} vs the single-wound law {'(1, 5)': '2/5', '(2, 4)': '2/5', '(3, 3)': '1/5'}: identical = False. Registered loosely as 'not independent urns' -- adjudicated: the OUTCOME law differs from the single-wound law, and the mechanism differs (two wounds' sides can merge across, sharing undecided marks). Reported exactly; scored in the results.
+## M3: three wounds -- 3-fission (frozen: reachable)
+  [PASS] K6 minus a perfect matching (5 reachable classes): final profiles {'(2, 2, 2)': '1/5', '(3, 3)': '4/5'}; arity law {2: '4/5', 3: '1/5'} -- THREE-way fission reachable with positive probability (True), as frozen. **Fission arity is governed by the wound matching: three pairwise-disjoint wounds can supply three pairwise oppositions, and the world can break into three pieces. The wound graph is the fracture blueprint.**
+
+# RESULT: 30 passed, 0 failed
