@@ -1,0 +1,28 @@
+## V1: containment
+  [PASS] in every one of 90 histories, the sub-observer's experience is exactly the O1-involving subsequence of the super-observer's experience (True) -- **the super-experience determines the sub-experience by restriction: the contained is fully known to the container.**
+## V2: the one-way mirror
+  [PASS] the sub's worst keyless fiber is 18 vs the super's 3 (knowledge strictly grows with containment: True); the super's experience splits exactly into the sub's biography plus a sub-private remainder (True); within each sub-trace, [1, 3, 14] distinct super-traces remain -- **THE ONE-WAY MIRROR: across containment, knowledge is exactly asymmetric -- the sub is transparent upward, the super opaque downward by precisely its extra life.**
+## V3: the hierarchy chain telescopes
+  [PASS] residuals along O1 in O2 in O3: 18 >= 3 >= 1 (True); the ignorance telescopes exactly ([2.585, 1.585, 0.0] bits summing to 4.170, True) and every super-trace refines exactly one sub-trace (True) -- **the ledger of a hierarchy adds with zero slack: what the container owes the contained is a well-defined, exactly additive quantity.**
+## T1: the transfer channel
+  [PASS] boundary contacts (4 possible: O1 x MID) appear in the sub's trace exactly as they occur (True) -- the channel is co-minted and key-free for the sub; per-contact capacity = the boundary fork width (up to log2 4 = 2.0 bits at first contact). **The container can teach the contained, key-freely, through the boundary.**
+## T2: teaching = measurement (one identity)
+  [PASS] the sub's keyless knowledge of the super's private side flows only through boundary participation (co-minting) and null-inference (a consumed partner cannot contact again) -- the identical mechanism as measurement in the coupled rounds: **teaching and measuring are one ledger operation, co-minting; they differ only in which side calls itself the instrument.** (True)
+## T3: the price of tuition
+  [PASS] the tuition budget is bounded by the boundary mint (max 2 boundary contacts with |O1| = 2); in the 12 budget-exhausting histories, every sub-mark was spent on the boundary (True) -- **teaching spends the boundary, and a sub-observer that learns maximally from its container has spent its whole life in lessons. Tuition is priced in the same one-use currency as everything else.**
+## X1: the shared eye
+  [PASS] the common sector (events seen by both) is identical in both experiences, in identical order, in every history (True); it includes 18 shared-organ contacts with the EXTERIOR across the run set -- **THE SHARED EYE: forced agreement extends to everything the shared organ touches, including exterior events it jointly witnesses. A shared sense is an automatic consensus channel.**
+## X2: the trade-off -- REGISTERED MISS, corrected in place
+  [PASS] (overlap, |union|, avg common, avg jointly-witnessed EXTERIOR, pooled worst fiber) = [(0, 6, 1.8, 0.0, 2), (1, 5, 1.8, 0.2, 2), (2, 4, 2.0, 0.8, 3)]: the frozen 'common grows' MISSED (size nearly flat: True -- handshakes trade against organ events); the corrected theorem: **jointly witnessed WORLD events exist only with a shared eye (True: 0 at overlap 0, positive after) while pooled coverage shrinks (True). Shared senses do not buy MORE agreement -- they REDIRECT agreement from facts about the pair to facts about the world, and coverage pays for it.**
+## X3: membership opacity
+  [PASS] observer membership is not written on the floor: the trace ensembles of relabeling-related designations are structurally identical (True; the event data never mentions who watches) -- **MEMBERSHIP OPACITY: 'you saw it too' is not derivable from any experience; mutual knowledge requires a received membership key -- one more column-2 element, alongside the semantic key. Even consensus, forced at the event level, is silent about who shares it.**
+## THE OBSERVER'S PRICE LIST (one model, six rows)
+    RECORD (decoupled)     | seed; keyless deficit log2 18
+    MEASURE (coupled)      | consumed marks; keyless info >= 0.58 bits on every trace
+    TEACH (boundary)       | boundary mint; capacity log2 4 at first contact
+    POOL                   | free (union of owned traces; fibers only refine)
+    THE MIRROR             | container advantage = 2.58 bits = its extra participation
+    SELF-KNOWLEDGE         | biography free; residual = the embedding
+  [PASS] all six rows verified coherently on one model with no contradictions: recording without participation costs the seed (True); measuring is co-minting and always informs (True); teaching is co-minting across a boundary (True); pooling is free and only refines (True); the container's advantage is exactly its extra participation (True); and self-knowledge is free up to embedding (True). **THE CONSTITUTION OF HOSTED OBSERVERS, PRICED: every way of knowing is either participation (free at the point of use, paid in consumed marks) or convention (free of marks, paid in received keys) -- and the ledger closes over both.**
+
+# RESULT: 10 passed, 0 failed

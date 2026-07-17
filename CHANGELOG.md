@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.19.0 — 2026-07-17
+
+- Chapter 20: The Observer's Price List (hierarchy, tuition, the
+  shared eye/redirection, membership opacity, the two-currency price
+  list). 10 checks, `observers_price.py`.
+- Chapter 21: The Genesis of Space (capability anthropic filter,
+  bandwidth locality, inheritance budget theorem, sparsification
+  arrow, twin/crystal/fission, radius-1 light cone). 18 checks,
+  `genesis_of_space.py`.
+- Chapter 22: The Price of Chance (two arrows/frozen wound,
+  participation calendar, the measure dilemma, the field carrier,
+  forced limits/boundary layer/Perrin closure, the earned key and
+  the ladder). 52 checks, `price_of_chance.py`. Carries the v0.19
+  ceiling.
+- FCT-98..111; T-76..89; run_all now 27 scripts; blind novelty
+  sweeps ran before labeling, classical components cited as
+  recovery throughout.
+
 All notable public-release changes will be recorded here.
 
 ## 0.18.0

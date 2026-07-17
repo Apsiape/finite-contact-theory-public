@@ -34,6 +34,9 @@ SCRIPTS = [
     "mint_and_bill.py",
     "emergent_hierarchy.py",
     "seventh_attempt.py",
+    "observers_price.py",
+    "genesis_of_space.py",
+    "price_of_chance.py",
 ]
 
 

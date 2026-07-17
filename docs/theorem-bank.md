@@ -950,3 +950,75 @@ in every history (no Rashomon; trace-theory recovery, cited); mutual
 opacity; pooling determines all but the untouched. Presented against
 the contested quantum intersubjectivity backdrop (Frauchiger-Renner;
 Ozawa).
+
+### T-76 The Observer Hierarchy (Chapter 20)
+
+Containment restriction, the one-way mirror, exact telescoping —
+recovery of interpreted-systems laws from one-use counting.
+
+### T-77 Teaching = Measurement (Chapter 20)
+
+One boundary co-minting operation; capacity = boundary fork width;
+tuition = the boundary mint.
+
+### T-78 The Redirection Conservation (Chapter 20)
+
+Overlap redirects agreement from pair-facts to world-facts; the
+common sector does not grow; coverage pays.
+
+### T-79 Membership Opacity + the Price List (Chapter 20)
+
+Mutual knowledge needs a received key; every knowing = participation
+or convention, coherently priced across six operations.
+
+### T-80 The Capability Anthropic Filter (Chapter 21)
+
+Three exact capability predicates select the mixed cell; the
+asker-compatible class, measure-free.
+
+### T-81 Locality Is Affordability (Chapter 21)
+
+Bounded frontier iff bounded degree; space is what makes small
+knowers possible.
+
+### T-82 The Inheritance Budget + Sparsification Arrow (Chapter 21)
+
+Intersection paid always; union unpaid exactly off local cliques;
+degrees never increase; total tolerance monotone non-increasing.
+
+### T-83 Crystals, Germs, Fission (Chapter 21)
+
+Twin theorem; cliques-union universality; gradient flow with
+plateaus; fission-only healing; triangle the minimal witnessed
+durable structure.
+
+### T-84 The Radius-1 Cone (Chapter 21)
+
+Pass-through exactness; saturation at k−1; erasable wounds; cone
+exists iff sparse (Lieb-Robinson-shaped recovery).
+
+### T-85 Two Arrows + the Frozen Wound (Chapter 22)
+
+Clock/ledger factorization of time; divergence frozen through lazy
+contacts; dynamics on the spend sector.
+
+### T-86 The Participation Calendar (Chapter 22)
+
+Seat un-forces counting; calendar coordinates with closed form;
+exchangeability collapse to interaction types.
+
+### T-87 The Measure Dilemma (Chapter 22)
+
+Shared xor affordable: agreement forces counting; counting is
+nonlocal; no bounded insider computes the consensus weighting.
+
+### T-88 The Field Carrier + Forced Limits (Chapter 22)
+
+3-dim local carrier; one field serves all seats; forced algebraic
+limits; boundary layer; pure-bulk closure; Perrin counts; mandatory
+breaking on primes.
+
+### T-89 The Earned Key + the Ladder (Chapter 22)
+
+A lifetime is a census; the measure needs eternity (TV floor);
+mortality bends chance; the three-currency ladder.
