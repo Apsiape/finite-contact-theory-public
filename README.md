@@ -31,7 +31,7 @@ proven theorem paired with a conditional, experiment-open prediction that
 program's instruments on the hardest remaining object: **the observer inside
 the world**.
 
-![The finite-contact reconstruction map: from the one-use floor, six lines of results rise — the quantum axis, finite epistemics, the interface reconstruction, the atlas and ladder, the counting grammar, and the ledger frame — meeting the hosted-observer layer at the top, with the registered divergence seam pointing beyond quantum mechanics.](assets/reconstruction-map.svg)
+![The finite-contact reconstruction map: from the one-use floor, six lines of results rise — the quantum axis, finite epistemics, the interface reconstruction, the atlas and ladder, the counting grammar, and the ledger frame — meeting the hosted-observer layer, above which sit the two worlds the observer forces: space and chance. The registered divergence seam rises from the counting grammar past every layer, pointing beyond quantum mechanics.](assets/reconstruction-map.svg)
 
 ## What is proven now
 
