@@ -363,8 +363,9 @@ nature-facing claim are deliberately held or open, and named as such.
 
 Archived and citable via Zenodo. Cite the program by its **concept DOI**
 (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591).
-The v0.15.0 version DOI is recorded in [CITATION.cff](CITATION.cff) and the
-chapter's [RELEASE.md](papers/14-atlas-of-floors/RELEASE.md) at mint.
+The v0.15.0 version DOI is [10.5281/zenodo.21402979](https://doi.org/10.5281/zenodo.21402979),
+recorded in [CITATION.cff](CITATION.cff) and the chapter's
+[RELEASE.md](papers/14-atlas-of-floors/RELEASE.md).
 Earlier version DOIs (v0.1.0–v0.14.0) are listed in
 [CITATION.cff](CITATION.cff).
 

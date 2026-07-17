@@ -7,6 +7,7 @@ failures without trying to decide whether a theory claim is correct.
 
 from __future__ import annotations
 
+import json
 import re
 import subprocess
 import sys
@@ -264,6 +265,18 @@ def check_metadata() -> None:
 
     if "CC BY-NC-ND 4.0" not in license_text:
         raise AuditFailure("LICENSE.md does not state the CC BY-NC-ND 4.0 license")
+
+    zen = json.loads(read_text(ROOT / ".zenodo.json"))
+    m = re.search(r'^version: "([^"]+)"$', citation, flags=re.MULTILINE)
+    cff_version = m.group(1).replace("-pre", "") if m else ""
+    if zen.get("version") != cff_version:
+        raise AuditFailure(
+            f".zenodo.json version {zen.get('version')!r} does not match "
+            f"CITATION.cff version {cff_version!r} -- Zenodo will mint the "
+            f"deposit with stale metadata (the v0.3-v0.7 drift gotcha)"
+        )
+    if "v0." + cff_version.split(".")[1] not in zen.get("title", ""):
+        raise AuditFailure(".zenodo.json title does not match the release version")
 
     print("[PASS] citation and rights metadata")
 

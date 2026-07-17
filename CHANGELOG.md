@@ -7,7 +7,7 @@ All notable public-release changes will be recorded here.
 Fifteenth public release: **Chapter 14 — The Atlas of Floors: What Any
 Generative Floor Can Carry**. The capability classification that answers
 the charter question — inevitability is cell-relative. Concept DOI
-`10.5281/zenodo.21253591`; version DOI recorded at mint.
+`10.5281/zenodo.21253591`; version DOI `10.5281/zenodo.21402979`.
 
 Added:
 

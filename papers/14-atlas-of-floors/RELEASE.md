@@ -2,9 +2,9 @@
 
 - Release tag: `v0.15.0`
 - Concept DOI (the program, all versions): `10.5281/zenodo.21253591`
-- Version DOI (v0.15.0): recorded here at mint.
+- Version DOI (v0.15.0): `10.5281/zenodo.21402979`
 - Chapter deposit DOI: none (repository deposit only).
-- Freeze date: recorded at tag.
+- Freeze date: 2026-07-16.
 
 Frozen contents: `paper.md`, `claims.md` (FCT-72..77 snapshot),
 `verification/atlas_of_floors.py` (frozen copy; the live script is
