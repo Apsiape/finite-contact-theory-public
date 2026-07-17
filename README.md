@@ -427,10 +427,9 @@ nature-facing claim are deliberately held or open, and named as such.
 
 Archived and citable via Zenodo. Cite the program by its **concept DOI**
 (always the latest version): [10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591).
-The latest minted version DOI is v0.16.0's,
-[10.5281/zenodo.21404549](https://doi.org/10.5281/zenodo.21404549); the
-v0.17.0 version DOI is recorded at mint in [CITATION.cff](CITATION.cff)
-and the chapter freeze records
+The v0.17.0 version DOI is
+[10.5281/zenodo.21407130](https://doi.org/10.5281/zenodo.21407130),
+recorded in [CITATION.cff](CITATION.cff) and the chapter freeze records
 ([17](papers/17-mint-and-bill/RELEASE.md),
 [18](papers/18-emergent-hierarchy/RELEASE.md)).
 Earlier version DOIs (v0.1.0–v0.14.0) are listed in

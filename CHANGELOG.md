@@ -8,7 +8,7 @@ Seventeenth public release, a double chapter: **Chapter 17 — The Mint and
 the Bill** (the ledger completed into the program's load-bearing frame)
 and **Chapter 18 — The Emergent Hierarchy and the Exposure Law** (the
 Chapter 12 extension). Concept DOI `10.5281/zenodo.21253591`; version DOI
-recorded at mint.
+`10.5281/zenodo.21407130`.
 
 Added:
 
