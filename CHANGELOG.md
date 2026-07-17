@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.20.0 - 2026-07-17
+## v0.20.0 - 2026-07-17 (DOI 10.5281/zenodo.21419767)
 
 - Chapter 23: The Decay of Worlds (rational spectrum + triangularity,
   the Eggenberger-Polya urn identification, the clock address, the

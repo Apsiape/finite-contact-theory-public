@@ -1,5 +1,7 @@
 # Release notes - v0.20.0
 
+Version DOI: `10.5281/zenodo.21419767` · Concept DOI: `10.5281/zenodo.21253591`
+
 Two chapters: the genesis floor's decay physics, solved, and its
 particle reading, priced.
 
