@@ -3,7 +3,7 @@
 Status: release-draft public ledger.
 
 This register is the controlling public list of what Finite Contact Theory
-(v0.16) is allowed to say. Every claim is scoped. A label stronger than the
+(v0.17) is allowed to say. Every claim is scoped. A label stronger than the
 written scope is not implied.
 
 Evidence states:
@@ -18,12 +18,12 @@ For label meanings, see `status-labels.md`. For verification posture, see
 
 ## Release Ceiling
 
-The v0.16 public ceiling is (quoted identically in the README, the chapter-15
-and chapter-16 papers, and the v0.16.0 release notes):
+The v0.17 public ceiling is (quoted identically in the README, the chapter-17
+and chapter-18 papers, and the v0.17.0 release notes):
 
-> Finite Contact Theory is a finite reconstruction program with a scoped theorem stack on three published recovery lines — a quantum-facing axis, from one-use contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a behavior-conditioned contextual capacity with an exact strict preparation gap; a finite-epistemics axis, from the identifiability and debt calculus to the inquiry calculus and its second law of asking, four theorems separating the structure of time, and a measured generative floor; and a contact-interface reconstruction, in which a retained interface forces a quaternionic state/receiver cell whose self-dual closure is the 24-cell and the F_4 root system and whose finite measurement calculus forces the quadratic Born frame rule (a finite Gleason theorem) exactly where a triality Kochen-Specker obstruction forbids a global noncontextual assignment, and in which independently generated cells recover the E_8–hexacode closure spine under named receiver laws that a forcing audit shows the floor does not select over matched lawful alternatives, so the floor forces the atlas of lawful closures and the terminal self-dual class but never the specific member, and the selection of a world-phase is a conserved, received input, and in which a floor-to-interface theorem closes the chain one layer down: given a ternary contact whose order scars stay future-readable and whose retention is carried internally, exactly three mutually anticommuting involutive identity modes are forced — their oriented volume element is a central square root of minus one, their even sector is the quaternions, their reflection symmetry forces exact one-half weights, and the retained central residue forces the minimal faithful receiver to be the quaternions with the 1+3 split and the unique Euclidean form — while the residual inputs are named as received: the readability of order, the measured ternary arity, the internal-retention axiom, and one orientation bit, and in which an atlas of generative floors now classifies what any floor can carry: order-writability and residue-retention are independent, presentation-relative capabilities whose four cells are exemplified and fenced by exact theorems — lattice floors are orderless in their settled states, reversible floors write order but can never scar, commutative creation scars without order, and the marks floor carries both — with the retained contact containing an exact one-mode fermionic kernel whose complex structure is the central square root of minus one, a retention tower computed through third order (a unique first-order scar class, four second-order classes read by a gauge-invariant bracket witness, and exactly one third-order class), and the measurement obstruction relocated: no equivariant selector from the law quotient to its history space exists, the retained bit is tomographically silent at law level yet certainty-grade to a scar reader, and promoting a registration into the law-state lifts prediction from exact chance to certainty — a fourth, first-extension line that is conditional and experiment-open: an unconditional accessible-positivity theorem exhibits a three-contact sector whose every passive-linear-optical probability is nonnegative yet which lies outside the positive-semidefinite Hilbert Gram cone, and on one received apparatus anchor this predicts a possible violation of Hilbert-space positivity — a negative three-state Gram discriminant Delta_3 < 0 where ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its protocol, nulls, and kill conditions, and a clean mixed-state exclusion theorem then proves the gauge-free count witness W = P111 + D2 - 2/3 equals (2/9) det G, nonnegative for every partially-distinguishable Hilbert model whether pure or mixed, so the registered negative-Gram vector lies outside the entire clean partial-distinguishability class by the raw-count test P111 + D2 >= 2/3, closing the clean core of the exclusion while multiphoton, detector, transfer-matrix, and source-drift nuisances remain the experimental layer for an external expert — and a fifth line mapping the exact quantum count regions: for n indistinguishable bosons in the n-mode Fourier interferometer the achievable region of count statistics is an exact simplex for n <= 4 (at n = 3 the negative-Gram inequality P111 + D2 >= 2/3 is the complete boundary and the registered protocol reduces to tritter counts alone), central-projector positivity is insufficient at n = 4 with six new raw-count laws, and a structural phase transition at n = 5 produces an emergent logical qubit from permutation symmetry and counting alone, where a rebit-blindness theorem shows single-shot cyclic counts cannot expose sigma_y and a single-source real/complex/quaternionic counting no-go holds, both overcome by general passive networks, culminating in a registered, experiment-open single-source conjugation-witness protocol (gap 5 sqrt2 / 256, about 1304 trials per setting) that excludes a named real-internal-states plus mode-only-optics model class but does not falsify all real quantum mechanics — a sixth line reading the obstruction tower itself: the retention tower of the four-mark contact group is one ladder of gauge-invariant witnesses, in which the unique fourth-order class is the retention class cup-squared and is read as value one by a quadruple involutive self-contact, the involution-silent third-order class is read by an explicit twenty-five-word cycle witness, the no-global-now of the time chapter and the no-outcome-selector of the interface chapters are adjacent instances of one torsor-obstruction pattern with the arrow of time strictly below the whole tower as act-monoid non-invertibility, the retention cover itself is first-order-scar-free yet carries exactly one coherence scar whose reading requires a four-word composite cycle, and a boundary-pinning theorem shows that every Hilbert carrier with two-dimensional twisted sectors pins the odd identity-holonomy class at the trine overlap one-half exactly — explaining the r = 1/2 saturation of current photonic experiments, placing the registered r = 3/5 bet exactly one contact beyond every such carrier, and making overlap rigidity and the fourth contact count-level witnesses of the carrier grade — and a seventh line, an exact combinatorial debt ledger built from counting alone: no fixed carrier reversibly absorbs a merging act, one fresh one-use register per step always does, the minimal register alphabet is exactly the largest merge multiplicity, distinction is never destroyed unpaid — existence bits equal surviving bits plus paid bits, with waste possible and theft impossible — the n-fork's collapse cost, question depth, and record alphabet are one number log2 n, and every completion that resolves a staged fork books exactly that price, so the no-selector law is a refused debt and lawlike evolution is exactly the debt-free sector — under which the quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the preparation gap is an exact theorem at KCBS-pentagon scope, the interface reconstruction is a finite model-scope recovery on a real-quantum cell, the multi-floor closures are model-scope recoveries whose forcing boundary is exactly mapped, the floor-to-interface chain is an exact finite theorem conditional on its four named received inputs, the atlas capability theorems, the tower censuses, and the relocation model are exact, shipped, and presentation-relative by stated scope while the boundary-layer measurements are cited from the research corpus and nature is not claimed to realize any particular cell, the accessible-positivity and mixed-state exclusion theorems and the count-region theorems are unconditional and independently reproduced, the ladder witnesses and second-storey censuses are exact and shipped with their classical cohomology dimensions and the torsor pattern cited as known rather than claimed, the debt-ledger theorems are exact finite counting whose component results are classical and cited — with the contribution claimed only for the witness suite, the capability separation of the arrow, the pinning consequences, and the pre-probabilistic derivation route of the selection price — while the physical realizations — the negative-Gram prediction and the conjugation witness — are conditional, bridge-premise-gated, experiment-open registered protocols awaiting a dedicated experiment and external expert review, and every unearned generalization — complex quantum mechanics, the actuality of one outcome, the universal Born rule, whether nature realizes any of these structures, which world-phase is selected, whether nature contains the odd identity-holonomy sector, whether the apparatus nuisances close the full exclusion, whether any physical carrier realizes the pinned or the floppy grade, whether the combinatorial act-price is met by any measured dissipation rate, and whether any experiment realizes the conjugation witness — is left open by name; these chapters are an archival priority record of mathematically closed theorems and registered conditional protocols, not empirical discoveries.
+> Finite Contact Theory is a finite reconstruction program with a scoped theorem stack on three published recovery lines — a quantum-facing axis, from one-use contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a behavior-conditioned contextual capacity with an exact strict preparation gap; a finite-epistemics axis, from the identifiability and debt calculus to the inquiry calculus and its second law of asking, four theorems separating the structure of time, and a measured generative floor; and a contact-interface reconstruction, in which a retained interface forces a quaternionic state/receiver cell whose self-dual closure is the 24-cell and the F_4 root system and whose finite measurement calculus forces the quadratic Born frame rule (a finite Gleason theorem) exactly where a triality Kochen-Specker obstruction forbids a global noncontextual assignment, and in which independently generated cells recover the E_8–hexacode closure spine under named receiver laws that a forcing audit shows the floor does not select over matched lawful alternatives, so the floor forces the atlas of lawful closures and the terminal self-dual class but never the specific member, and the selection of a world-phase is a conserved, received input, and in which a floor-to-interface theorem closes the chain one layer down: given a ternary contact whose order scars stay future-readable and whose retention is carried internally, exactly three mutually anticommuting involutive identity modes are forced — their oriented volume element is a central square root of minus one, their even sector is the quaternions, their reflection symmetry forces exact one-half weights, and the retained central residue forces the minimal faithful receiver to be the quaternions with the 1+3 split and the unique Euclidean form — while the residual inputs are named as received: the readability of order, the measured ternary arity, the internal-retention axiom, and one orientation bit, and in which an atlas of generative floors now classifies what any floor can carry: order-writability and residue-retention are independent, presentation-relative capabilities whose four cells are exemplified and fenced by exact theorems — lattice floors are orderless in their settled states, reversible floors write order but can never scar, commutative creation scars without order, and the marks floor carries both — with the retained contact containing an exact one-mode fermionic kernel whose complex structure is the central square root of minus one, a retention tower computed through third order (a unique first-order scar class, four second-order classes read by a gauge-invariant bracket witness, and exactly one third-order class), and the measurement obstruction relocated: no equivariant selector from the law quotient to its history space exists, the retained bit is tomographically silent at law level yet certainty-grade to a scar reader, and promoting a registration into the law-state lifts prediction from exact chance to certainty — a fourth, first-extension line that is conditional and experiment-open: an unconditional accessible-positivity theorem exhibits a three-contact sector whose every passive-linear-optical probability is nonnegative yet which lies outside the positive-semidefinite Hilbert Gram cone, and on one received apparatus anchor this predicts a possible violation of Hilbert-space positivity — a negative three-state Gram discriminant Delta_3 < 0 where ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its protocol, nulls, and kill conditions, and a clean mixed-state exclusion theorem then proves the gauge-free count witness W = P111 + D2 - 2/3 equals (2/9) det G, nonnegative for every partially-distinguishable Hilbert model whether pure or mixed, so the registered negative-Gram vector lies outside the entire clean partial-distinguishability class by the raw-count test P111 + D2 >= 2/3, closing the clean core of the exclusion while multiphoton, detector, transfer-matrix, and source-drift nuisances remain the experimental layer for an external expert — and a fifth line mapping the exact quantum count regions: for n indistinguishable bosons in the n-mode Fourier interferometer the achievable region of count statistics is an exact simplex for n <= 4 (at n = 3 the negative-Gram inequality P111 + D2 >= 2/3 is the complete boundary and the registered protocol reduces to tritter counts alone), central-projector positivity is insufficient at n = 4 with six new raw-count laws, and a structural phase transition at n = 5 produces an emergent logical qubit from permutation symmetry and counting alone, where a rebit-blindness theorem shows single-shot cyclic counts cannot expose sigma_y and a single-source real/complex/quaternionic counting no-go holds, both overcome by general passive networks, culminating in a registered, experiment-open single-source conjugation-witness protocol (gap 5 sqrt2 / 256, about 1304 trials per setting) that excludes a named real-internal-states plus mode-only-optics model class but does not falsify all real quantum mechanics — a sixth line reading the obstruction tower itself: the retention tower of the four-mark contact group is one ladder of gauge-invariant witnesses, in which the unique fourth-order class is the retention class cup-squared and is read as value one by a quadruple involutive self-contact, the involution-silent third-order class is read by an explicit twenty-five-word cycle witness, the no-global-now of the time chapter and the no-outcome-selector of the interface chapters are adjacent instances of one torsor-obstruction pattern with the arrow of time strictly below the whole tower as act-monoid non-invertibility, the retention cover itself is first-order-scar-free yet carries exactly one coherence scar whose reading requires a four-word composite cycle, and a boundary-pinning theorem shows that every Hilbert carrier with two-dimensional twisted sectors pins the odd identity-holonomy class at the trine overlap one-half exactly — explaining the r = 1/2 saturation of current photonic experiments, placing the registered r = 3/5 bet exactly one contact beyond every such carrier, and making overlap rigidity and the fourth contact count-level witnesses of the carrier grade — and a seventh line, an exact combinatorial debt ledger built from counting alone: no fixed carrier reversibly absorbs a merging act, one fresh one-use register per step always does, the minimal register alphabet is exactly the largest merge multiplicity, distinction is never destroyed unpaid — existence bits equal surviving bits plus paid bits, with waste possible and theft impossible — the n-fork's collapse cost, question depth, and record alphabet are one number log2 n, and every completion that resolves a staged fork books exactly that price, so the no-selector law is a refused debt and lawlike evolution is exactly the debt-free sector — an eighth line completing the ledger: ledger flow types the atlas cells — paid settlement (confluence is bought), flat reversibility, free creation, and the mixed marks cell where history is written free while the law quotient prices at exactly one bit, the retained central residue, so the registration promotion is a one-bit ledger transaction and the marks cell is the only floor whose ledger balances internally — deterministic multi-step one-use floors do not exist (the fork-staging half of the central law is a theorem at model scope while the no-selector half remains the named postulate), the admissible orderings of every content class equal the order-forgetting quotient fiber exactly, the law/present identification asymmetry is derived and flow-typed (the present is expensive because it is minted; paid cells erase their present at their terminals and reversible cells never grow one — the Cut is the signature of the mint), the identifiability and debt calculus instantiates on every rival floor with order bits future-inert (re-deriving the readability-of-order axiom as necessary) and its receipt bound equal to the ledger price of the floor evolution map, a constant acquires a structural definition as a fork-registration the law action inherits — underived, readable from every window at constant cost, paid once and replicated free — separating constants from laws and states in a three-column cut, and a driven floor steady-state dissipation is shown orthogonal to the ledger price, which floors the erasure bill only — and a ninth line extending the count-region hierarchy: the cyclic-multiplicity width grows 1, 1, 2, 3, 5, 12 for three through eight photons with the first emergent qutrit forced at six by pigeonhole, and the exposure law holds fiber-exhaustively at six photons — single-shot counting spans exactly the symmetric part of every emergent fiber, its orientation always and only one multiplication away — so the hidden resource of the counting grammar grows in width, never in depth — under which the quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the preparation gap is an exact theorem at KCBS-pentagon scope, the interface reconstruction is a finite model-scope recovery on a real-quantum cell, the multi-floor closures are model-scope recoveries whose forcing boundary is exactly mapped, the floor-to-interface chain is an exact finite theorem conditional on its four named received inputs, the atlas capability theorems, the tower censuses, and the relocation model are exact, shipped, and presentation-relative by stated scope while the boundary-layer measurements are cited from the research corpus and nature is not claimed to realize any particular cell, the accessible-positivity and mixed-state exclusion theorems and the count-region theorems are unconditional and independently reproduced, the ladder witnesses and second-storey censuses are exact and shipped with their classical cohomology dimensions and the torsor pattern cited as known rather than claimed, the debt-ledger theorems are exact finite counting whose component results are classical and cited — with the contribution claimed only for the witness suite, the capability separation of the arrow, the pinning consequences, and the pre-probabilistic derivation route of the selection price — the ledger-completion results are exact at their stated finite model scopes with every classical component cited — the persistence/diamond lemma, trace linearization counting, sorting under partial information, and the housekeeping/excess decomposition — and the two-bills section labeled numeric discovery grade, the hierarchy extension ships its exact tableau-counting engine while the fiber-exhaustive exposure law is cited at discovery grade from the research corpus, while the physical realizations — the negative-Gram prediction and the conjugation witness — are conditional, bridge-premise-gated, experiment-open registered protocols awaiting a dedicated experiment and external expert review, and every unearned generalization — complex quantum mechanics, the actuality of one outcome, the universal Born rule, whether nature realizes any of these structures, which world-phase is selected, whether nature contains the odd identity-holonomy sector, whether the apparatus nuisances close the full exclusion, whether any physical carrier realizes the pinned or the floppy grade, whether nature realizes constants as column-two registrations, whether any emergent qutrit fiber admits a practical encoding, and whether any experiment realizes the conjugation witness — is left open by name; these chapters are an archival priority record of mathematically closed theorems and registered conditional protocols, not empirical discoveries.
 
-The v0.1–v0.15 ceilings remain quoted, unchanged, in their frozen chapters
+The v0.1–v0.16 ceilings remain quoted, unchanged, in their frozen chapters
 and release notes; this row supersedes them as the live ceiling.
 
 The release does not claim all quantum mechanics, quantum gravity, or
@@ -2799,6 +2799,297 @@ Residuals:
 
 - whether nature's measured dissipation realizes this price is open by
   name; the chapter prices selection, it does not perform it.
+
+## FCT-85 - The Price Field on the Atlas
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: the atlas cells of Chapter 14, exact small models; the 2T/A_4
+relocation model of Chapter 14 (24 elements).
+Evidence state: `shipped`.
+
+Public statement:
+
+Ledger flow types the atlas cells: lattice settlement is a PAID quotient
+(confluence is bought; max basin 25/64 in the shipped model) and
+coagulation pays its whole state space; reversible floors are FLAT
+(permutations neither pay nor mint); creation floors run in CREDIT
+(injective acts mint distinction free); and the marks cell is MIXED — on
+the relocation model, contact acts are permutations (history written
+free) while the law quotient has maxfiber exactly 2, uniformly: the
+price of lawfulness is exactly one bit, the retained central bit, and
+Chapter 14's chance-to-certainty registration promotion is a 1-bit
+ledger transaction (minimal record alphabet = 2 = maxfiber). The marks
+cell is the only floor whose ledger balances internally.
+
+Evidence:
+
+- shipped: `verification/scripts/mint_and_bill.py` §A.
+
+Checks / controls:
+
+- exhaustive small models per cell; exact rational arithmetic on the
+  24-element relocation model.
+
+Residuals:
+
+- the flow labels are model-scope; nature is not claimed to realize any
+  cell (Chapter 14's fence carries over).
+
+## FCT-86 - The Funding Identity: Forced Fork, Mint = Bill
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: one-use floors (static symmetric tolerance, pair-consuming
+contacts), exhaustive smalls; lemma and identity components cited.
+Evidence state: `shipped`.
+
+Public statement:
+
+All minted distinction is consumption-choice distinction (the mint is
+faithful; every contact step injective). THE FORCED FORK: deterministic
+multi-step one-use floors do not exist — any floor admitting a two-step
+history has at least two admissible choices at step one (exhaustive,
+4752 floors); the lemma is an instance of the persistence/diamond
+property of consume-only transition systems (Winskel;
+Nielsen-Plotkin-Winskel; conflict-free nets — cited), and its use here
+demotes the fork-staging half of the program's central law from axiom
+to theorem at model scope, leaving the no-selector half as the named
+irreducible postulate. MINT = BILL: the admissible orderings of each
+reachable content class equal exactly the fiber of the order-forgetting
+quotient (Mazurkiewicz/Cartier-Foata linearization counting; the query
+side is Kahn-Kim sorting under partial information — cited); the
+accounting reading (credit minted forward = debt paid backward, class
+by class) is commentary on the known identity.
+
+Evidence:
+
+- shipped: `verification/scripts/mint_and_bill.py` §B.
+
+Checks / controls:
+
+- exhaustive floor censuses; exact ordering/fiber counts per class.
+
+Residuals:
+
+- the forced-fork scope is static tolerances; state-dependent
+  admissibility is out of scope here.
+
+## FCT-87 - The Cut Flow-Typed; the Debt Calculus Unified
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: exact small floors per atlas cell; Chapter 3's calculus in its
+own vocabulary; the flow-typing claim adjudicated PLAUSIBLY-NEW by the
+release's blind sweep (two-part-code frame cited).
+Evidence state: `shipped`.
+
+Public statement:
+
+The law/present identification asymmetry (Chapter 3's Cut) is derived
+and delimited: the present is expensive because it is MINTED (exact
+reachable counts grow geometrically; identification cost = the log of
+the mint), and the asymmetry is FLOW-TYPED — paid cells erase their own
+present at their terminals (settlement collapses 64 to 16 candidates;
+coagulation's terminal costs zero), reversible cells never grow one
+(orbits bounded by the group order). The Cut is the signature of the
+mint. On the rival floors, Chapter 3's theorems instantiate in their
+own vocabulary: content descriptions satisfy the waist everywhere and
+order bits are FUTURE-INERT for contact protocols — re-deriving
+Chapter 13's readability-of-order axiom as necessary; the T-19 receipt
+bound equals the ledger price of the floor's own choice-to-outcome map,
+cell by cell (coagulation full debt, reversible zero, marks-content the
+order bit); future-completeness holds exactly when the mint is closed.
+
+Evidence:
+
+- shipped: `verification/scripts/mint_and_bill.py` §C-D.
+
+Checks / controls:
+
+- exact reachable counts; exhaustive future-tree comparisons; the
+  law-side O(1) at model scope is stipulative (declared rule family) —
+  Chapter 3's U-statistic theorem is the published law-side result.
+
+Residuals:
+
+- the trichotomy's necessity/sufficiency is established at the shipped
+  model scope; broader dynamical classes are open by name.
+
+## FCT-88 - The Three-Column Cut: Constants as Registrations
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: rule families exchanged by a relabeling symmetry, exact smalls;
+the operational definition adjudicated PLAUSIBLY-NEW by the blind
+sweep; informal ancestors cited (Gell-Mann frozen accidents; Wheeler;
+Smolin; Weinberg; Duff; Mueller 2018 checked as nearest).
+Evidence state: `shipped`.
+
+Public statement:
+
+A CONSTANT is a fork-registration that the law action inherits: (a)
+underived — no equivariant selector exists at the level of rules; (b)
+O(1)-identifiable from every observation window at every depth (it
+parameterizes the transition structure every event obeys); (c) paid
+once (one bit at the genesis branch) and replicated in all windows for
+free (R = 1, versus decaying replication for present bits). The Cut
+gains a third column: law = derivable, O(1) | constant = underived,
+O(1) | present = underived, Theta(N). Omnipresence of constants is
+thereby the definition of column two, not a puzzle. Column-two objects
+already in this program: Chapter 13's orientation bit, Chapter 9's
+world-phase, the research corpus's retrodicted constants (cited).
+
+Evidence:
+
+- shipped: `verification/scripts/mint_and_bill.py` §E.
+
+Checks / controls:
+
+- edge-disjoint isomorphic rule pair; exhaustive window census;
+  monoid-deformation check. Honesty note: present-bit replication decay
+  is established as a separation (R = 1 vs R < 1), not exhibited as a
+  gradient, in the shipped model.
+
+Residuals:
+
+- whether nature's constants are column-two registrations is open by
+  name (a structural definition is offered, not an empirical
+  identification).
+
+## FCT-89 - The Two Bills
+
+Status: `MEASURED / MODEL-SCOPE / RECOVERY-VARIANT`
+Scope: master-equation models, numeric discovery grade (labeled); an
+organizing restatement of the housekeeping/excess decomposition
+(Hatano-Sasa; Speck-Seifert) with Maroney and Kolchinsky-Wolpert as the
+logical/thermodynamic-reversibility prior art (all cited); the claimed
+sliver is the identification of Chapter 16's combinatorial merge price
+as the excess floor.
+Evidence state: `shipped` (labeled grade).
+
+Public statement:
+
+A driven floor's steady-state dissipation is housekeeping — cycle
+driving with zero contraction (EP = 0.0327 in the shipped model, system
+entropy rate zero; the structure-blind point has detailed balance and
+EP = 0) — and carries no logical merging; the ledger price floors the
+EXCESS (erasure) bill only (every 2-state erasure protocol dissipates
+at least the entropy contraction, whose clean limit is ln 2 = the
+2-merge price in nats). The corners tune independently. The floor pays
+two independent bills — exploration (per unit time) and selection (per
+merge) — and the ledger prices selection only.
+
+Evidence:
+
+- shipped: `verification/scripts/mint_and_bill.py` §F (numeric
+  discovery grade, labeled in-script).
+
+Checks / controls:
+
+- Euler master-equation integration; Landauer bound checked across four
+  protocols; detailed-balance null.
+
+Residuals:
+
+- exact-arithmetic certification of Section F is not claimed; the
+  section is an organizing demonstration over cited theory.
+
+## FCT-90 - The Width Hierarchy and the Forced Qutrit
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: the cyclic commutant of C[S_n], n = 3..8, exact combinatorics;
+engine mathematics KNOWN and cited (Kraskiewicz-Weyman; Klyachko;
+Springer; Stembridge; Reiner-Stanton-White; Swanson); the physical
+composition adjudicated PLAUSIBLY-NEW (Dittel et al. and the
+noiseless-subsystem line cited as nearest art).
+Evidence state: `shipped`.
+
+Public statement:
+
+Tableau counting (SYT by major-index residue) reproduces Chapter 12's
+commutant dimensions exactly (4, 10, 28, 136, 726, 5100 for n = 3..8)
+and computes the emergent-fiber profile: max width 1, 1, 2, 3, 5, 12;
+the FIRST EMERGENT QUTRIT is forced at n = 6 by pigeonhole on the 16
+standard tableaux of (3,2,1), appearing as four M_3 blocks at residues
+1, 2, 4, 5; the count-invisible budget is 0, 0, 2, 56, 480, 4290.
+
+Evidence:
+
+- shipped: `verification/scripts/emergent_hierarchy.py` U1-U3.
+
+Checks / controls:
+
+- RSK sanity per n; cross-engine against the closed form; exhaustive
+  shape/residue profiles.
+
+Residuals:
+
+- growth asymptotics are Swanson's theorems (cited), not re-proven.
+
+## FCT-91 - The Exposure Law
+
+Status: `MEASURED / MODEL-SCOPE`
+Scope: all 22 multiplicit fibers at n = 6; discovery-grade numeric
+engines from the research corpus (cited; the same grade as the corpus
+engine behind Chapter 12's n = 5 fiber constants); exactness
+adjudicated PLAUSIBLY-NEW with the phenomenon's prior sightings cited
+(Stueckelberg / Hardy-Wootters; Dhand et al.; Menssen et al.;
+Hickey-Gour; Wu et al.; Oszmaniec-Brod-Galvao).
+Evidence state: `cited`.
+
+Public statement:
+
+On every multiplicity-m fiber at n = 6, the compressed single-shot
+count effects span EXACTLY the m(m+1)/2-dimensional symmetric part
+(Hermitian on the fiber; real-symmetric in a suitable basis), and one
+multiplication layer opens the full m^2. Rebit-blindness is the
+universal readout law of counting: single-shot counting sees the shape
+of every emergent fiber, never its orientation, and the orientation is
+always and only one multiplication away.
+
+Evidence:
+
+- cited: research-corpus fiber engines (Young orthogonal
+  representation; tolerance-based ranks).
+
+Checks / controls:
+
+- carried in the corpus; the exact tableau layer that locates the
+  fibers is shipped (FCT-90).
+
+Residuals:
+
+- exact certification queued if the law becomes load-bearing beyond
+  this chapter; n >= 7 extension open.
+
+## FCT-92 - Width, Not Depth
+
+Status: `THEOREM / MODEL-SCOPE`
+Scope: exact rational span computations (m = 2, 3, 4); the algebraic
+lemma is folklore and cited (with Rudolph-Grover and
+McKague-Mosca-Gisin as the nearest physics); the dichotomy is claimed
+as the organizing law.
+Evidence state: `shipped`.
+
+Public statement:
+
+Real-symmetric generators plus one product/commutator layer span all
+of M_m exactly; given the exposure law, one multiplication always
+suffices where the symmetric part is exposed. The hidden resource of
+the counting grammar grows in WIDTH (the number and size of invisible
+fibers) and never in DEPTH (one multiplication opens any exposed
+fiber).
+
+Evidence:
+
+- shipped: `verification/scripts/emergent_hierarchy.py` U4; the n = 6
+  fiber instance cited (FCT-91).
+
+Checks / controls:
+
+- exact rank over Q; random rational generators.
+
+Residuals:
+
+- depth saturation is conditional on exposure; exposure is verified at
+  n = 5 (Chapter 12, exact) and n = 6 (cited grade).
 
 ## Future Claim Template
 

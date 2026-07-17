@@ -842,3 +842,70 @@ pays maxfiber = n; partial resolution to k images pays >= ceil(n/k).
 Lawlike (injective) evolution is exactly the debt-free sector; any
 selecting completion books exactly log2 n. Pre-probabilistic; nearest
 thermodynamic prior art (Cabello et al. 2016) cited and distinguished.
+
+### T-64 The Price Field (Chapter 17)
+
+Ledger flow types the atlas: settlement is a paid quotient (max basin
+25/64), coagulation pays its state space, reversible floors are flat,
+creation floors mint free, and on E = 2T over L = A_4 contact acts are
+permutations while the law quotient has maxfiber exactly 2 — the price
+of lawfulness is one bit, the retained central bit; the registration
+promotion is a 1-bit ledger transaction (record alphabet 2 = maxfiber).
+
+### T-65 The Forced Fork and the Funding Identity (Chapter 17)
+
+On one-use floors, all minted distinction is consumption-choice
+distinction; deterministic multi-step floors do not exist (exhaustive:
+every 2-step-capable floor has >= 2 choices at step one; the
+persistence/diamond lemma cited) — fork-staging is a theorem at model
+scope, no-selector remains the postulate; admissible orderings per
+content class = the order-forgetting fiber exactly (trace-theory
+identity, cited; Kahn-Kim on the query side).
+
+### T-66 The Cut, Flow-Typed (Chapter 17)
+
+The present's candidate set is the mint (exact counts 1, 45, 1260,
+18900, 113400); identification cost grows as its log while a declared
+rule family stays O(1) (Chapter 3's U-statistic is the published
+law-side theorem). Paid cells erase their present at terminals
+(64 -> 16; terminal coagulation costs zero); flat cells never grow one.
+The Cut lives exactly on credit-flow cells.
+
+### T-67 The Debt Calculus on the Rivals (Chapter 17)
+
+Chapter 3's waist holds on the rivals with order bits future-inert for
+contact protocols (exhaustive future-tree comparisons) — the
+readability-of-order axiom re-derived as necessary; the T-19 receipt
+bound equals the ledger price of the floor's choice-to-outcome map,
+cell by cell; future-completeness = the mint is closed; the
+no-equivariant-selector witness runs natively on the coagulation
+merge-fork.
+
+### T-68 The Three-Column Cut (Chapter 17)
+
+On a rule family exchanged by a relabeling symmetry (edge-disjoint
+isomorphic tolerances): the selecting parameter is underived (no
+equivariant selector at rule level), O(1)-readable from every window,
+paid once, replicated free — law derivable O(1) | constant underived
+O(1) | present underived Theta(N). It deforms the act monoid itself;
+present forks leave the rule fixed.
+
+### T-69 The Two Bills (Chapter 17; numeric discovery grade)
+
+A driven floor's steady-state EP is housekeeping (zero contraction;
+detailed-balance null at the structure-blind point); the ledger price
+floors the excess bill only (every erasure protocol dissipates at
+least the contraction; limit ln 2 = the 2-merge price); the corners
+tune independently. Organizing restatement over Hatano-Sasa /
+Speck-Seifert / Maroney / Kolchinsky-Wolpert (cited); the sliver is
+the combinatorial price as the excess floor.
+
+### T-70 The Hierarchy and the Exposure Law (Chapter 18)
+
+Tableau counting reproduces C_n = 4, 10, 28, 136, 726, 5100 exactly;
+max fiber width 1, 1, 2, 3, 5, 12 with the first qutrit forced at
+n = 6 (pigeonhole on (3,2,1)); hidden budget 0, 0, 2, 56, 480, 4290;
+symmetric generators + one multiplication layer span M_m exactly
+(m = 2, 3, 4). The exposure law (all 22 fibers at n = 6 span exactly
+their symmetric part; one multiplication opens m^2) is cited at
+discovery grade from the research corpus.

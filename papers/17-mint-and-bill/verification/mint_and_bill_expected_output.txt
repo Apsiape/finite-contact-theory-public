@@ -1,0 +1,61 @@
+### Section A: the price field on the atlas
+## Q1: constraint refinement -- the settled state is a paid quotient
+  [PASS] arc-consistency closure on 64 domain-states: idempotent (True), non-injective with max basin = 25 states (price = log2 25 > 0 bits paid per settlement) -- the settled state of the lattice floor is a PAID quotient: order-independence (confluence) is bought by ledger debt.
+## Q2: coagulation -- the whole space's distinction paid away
+  [PASS] every consequential merge act has maxfiber >= 2 on the full partition space (exhaustive n = 4, 5), and the total-coagulation history satisfies the ledger inequality with the image collapsing toward one state -- the coagulation floor PAYS ITS WHOLE STATE SPACE to its arrow. Cell 00 flow: PAID.
+## Q3: reversible -- flat ledger
+  [PASS] group-floor acts are permutations: price identically 0, image identically full (exhaustive on S_3 acting on itself). Cell 10 flow: FLAT -- no debt, and nothing minted either: the reversible cell can neither pay nor create.
+## Q4: creation -- the ledger in credit
+  [PASS] creation acts (append) are injective -- price 0 -- while the reachable space grows [3, 7, 15, 31, 63]: distinction is MINTED at zero cumulative price. Cell 01 flow: CREDIT -- the creating floor is the ledger's source term; retention-by-enrichment is free where retention-by-merging pays.
+## Q5: marks -- creation credit funds quotient debt (1 bit exactly)
+  [PASS] on the relocation model E = 2T over L = A_4: every contact act (left multiplication) is a permutation -- HISTORY IS WRITTEN FREE (price 0, True); the law quotient has maxfiber = 2, uniformly (True) -- **the price of lawfulness is EXACTLY 1 bit: the retained central bit**; and the minimal record alphabet restoring injectivity is 2 = maxfiber (Chapter 16's exchange rate on the actual relocation map) -- the chance->certainty registration promotion is a 1-BIT LEDGER TRANSACTION: the record pays back exactly what the quotient destroyed. Cell 11 flow: MIXED -- creation credit (free history) funds quotient debt (the priced law).**
+
+### Section B: the funding identity (forced fork; mint = bill)
+## W1: faithful mint -- credit is fork-width logs, nothing else
+  [PASS] on ALL tolerance graphs with <= 6 edges over 5 one-use marks (depth <= 2, 1694 graph-depth cases): distinct choice sequences always yield distinct OW states (the mint is faithful) and every contact step is injective (price 0). **All minted distinction is consumption-choice distinction: the fork is the only source term.**
+## W2: no fork, no mint -- upgraded to THE FORCED FORK
+  [PASS] REGISTERED MISS SCORED: 'deterministic multi-step floors' do not exist on static one-use tolerance -- exhaustively (4752 floors admitting a 2-step history, EVERY one has >= 2 choices at step 1; the 15 deterministic floors are all single-step and mint zero). **THE FORCED FORK: to have a future longer than one act is already to have staged a choice -- the fork-staging half of the central law is FORCED by the one-use discipline itself on this model class, not assumed.**
+## W3: mint = bill (the content quotient pays back exactly)
+  [PASS] the content quotient's fiber over each class equals EXACTLY the set of admissible orderings of that class (all instances; static one-use tolerance makes every ordering of a reachable content reachable), so price(forgetting order) = minted order-bits, class by class: (m, depth, sequences, contents, max orderings) = [(6, 2, 8, 4, 2), (6, 3, 6, 1, 6), (7, 2, 14, 7, 2), (7, 3, 12, 2, 6), (6, 2, 2, 1, 2), (6, 2, 2, 1, 2)]. **MINT = BILL: the credit the fork mints forward is precisely the debt the content presentation pays backward. The ledger balances identically, not just in total.**
+## W4: the law reading (conjunction; fork price cited)
+  [PASS] W1 (credit = fork logs only) + W3 (mint = bill) + the debt-ledger fork-resolution price (cited, debt_ledger.py D4) compose to the ledger face of the central law: **the floor's no-selector refusal keeps every fork's mint open; selection converts minted bits to paid bits at par; the fork is the mint and the selector is the bill.** The one-use discipline is not merely an axiom of scarcity -- it is the floor's monetary policy: distinction enters circulation only at forks, is never destroyed unpaid, and the refusal to select is the refusal to close the ledger.
+
+### Section C: the Cut from the ledger (flow-typed)
+## C1: the Cut derived on the marks (credit/mixed) cell
+  [PASS] present candidates by depth: [1, 45, 1260, 18900, 113400] -> query costs [0, 6, 11, 15, 17] (strictly growing from t = 1: True; growth ~log2 of a geometric mint) while the law's query cost is 3 at EVERY depth (t-independent rule family). **THE CUT, DERIVED: the present is expensive because it is minted; the law is cheap because it is never minted -- the asymmetry is the ledger's, not a floor accident.**
+## C2: paid cells kill the Cut at their terminals
+  [PASS] F1 settlement: identifying the initial domain-state costs 6 queries, the SETTLED state only 4 (64 -> 16 candidates: the paid quotient erased most of the present); coagulation: 52 partition-states flow to 1 terminal -- terminal present cost qcost(1) = 0. **Paid cells destroy the Cut at their terminals: their arrow erases the very present it wrote. The Theta(N) present is NOT generic -- it is flow-typed.**
+## C3: flat cells never had the Cut
+  [PASS] reversible floor: the reachable set saturates at the orbit (|orbit| = 6 <= |G| = 6) at EVERY later depth -- present cost qcost(6) = 3 forever, no growth, no mint, no Cut. **VERDICT: the Cut lives exactly on cells with CREDIT flow -- the Cut is the signature of the mint.**
+## C4: the debt-calculus tie (query units, exhaustive)
+  [PASS] on exhaustive small floors [(6, 3, 6, 1, 6), (7, 2, 14, 7, 2)]: the EXTRA queries an asker pays to pin the history beyond its content equal the ledger price of the content quotient on that class, in the same binary-query units, class by class -- **the finite-epistemics debt and the ledger price are ONE quantity read by the asker and the floor respectively. The debt calculus is the ledger's epistemic face.**
+
+### Section D: the debt calculus on the rivals
+## S1: the waist on the rivals (T-18 in its own form)
+  [PASS] coagulation: histories with the same partition have IDENTICAL exact future trees (30 depth-2 histories: True) -- the content description satisfies the T-18 waist for every future-merge purpose; marks floor: 12 order-differing history pairs with equal content ALL have identical contact-futures (True) -- **order bits are FUTURE-INERT for contact protocols: the waist holds without them. Ch13's 'readability of order' is thereby RE-DERIVED as a necessary named axiom: a scar READER is an extra capability no contact-future purpose supplies.**
+## S2: debt = price, in Ch3's vocabulary (T-19 per cell)
+  [PASS] the later-identification problem per cell (floor, #alternatives, max fiber, T-19 receipt bits) = [('coagulation->terminal', 6, 6, 3), ('reversible', 6, 1, 0), ('marks-OW', 12, 1, 0), ('marks-content', 12, 2, 1)]: coagulation pays FULL debt at its terminal (every first merge -> one terminal: the state remembers nothing), the reversible floor pays ZERO (injective evolution: the state IS the receipt), marks-OW pays zero, marks-content pays exactly the order bit. **T-19's receipt bound = the ledger price of the floor's own choice-to-outcome map, cell by cell, in Ch3's own vocabulary: the debt calculus and the ledger are one calculus. The debt BINDS exactly where price was paid between choice and readout.**
+## S3: the T-20 census -- future-completeness is flow-typed
+  [PASS] completion-class counts: coagulation initial state 6 > 1 (mint open: NOT future-complete), terminal 0 = 0 branches (complete -- the paid floor becomes future-complete exactly at its terminal); marks fresh floor 5 > 1 (mint open: incomplete), exhausted pool 0 = 0 (complete at exhaustion). **T-20's census is flow-typed: future-completeness = THE MINT IS CLOSED -- the same boundary Section C found for the Cut, now in Ch3's own continuation form.**
+## S4: no equivariant selector, native on the rival
+  [PASS] the coagulation merge-fork's three choices are permuted without a fixed point (no choice fixed by all of S_3: True); every candidate selection breaks equivariance (True) while the choice SET and every symmetric functional remain invariant (True) -- Ch3's no-equivariant-selector witness, NATIVE on the rival floor. The no-selector law is generic in Ch3's exact form.
+
+### Section E: the three-column cut (constants)
+## K1: omnipresence -- every window reads the constant
+  [PASS] the two family members are isomorphic 5-paths (True) with DISJOINT edge sets (True); every contact event reachable at any depth on either floor (5 vs 5 events) identifies theta (True) -- **the constant is read by EVERY window, at O(1) cost, at every depth: cheap like a law.**
+## K2: underived -- no equivariant selector on the family
+  [PASS] the relabeling sigma carries T0 to T1 (True) and back (True) with NO fixed member (True): any choice of theta breaks equivariance while the FAMILY and every symmetric functional are invariant -- Ch3's no-equivariant-selector, at the level of RULES: **the constant is registered, never derived: received like a present.**
+## K3: replication separates the columns
+  [PASS] R(theta) = 1.0 (every window); R(step-1 choice | step-2 window) = 0/3 = 0.00, R(step-1 | step-3 window) = 0/3 = 0.00 -- present bits replicate partially and DECAY with separation (True); the constant replicates totally, for free. **Replication number separates the columns.**
+## K4: the ledger typing -- constants deform the monoid
+  [PASS] theta = a COLUMN-2 object: choosing it deforms the act monoid itself (disjoint realized act alphabets: True) at a one-time genesis price of 1 bit (the 2-branch family fork; debt_ledger D4, cited); a step-1 PRESENT fork leaves the rule fixed (all downstream events still in T0: True) and is re-priced per step. **THE THREE-COLUMN CUT: law = derivable, O(1) (debt-free quotient); CONSTANT = underived, O(1) (paid-once registration inherited by the law action, replicated in every window for free); present = underived, Theta(N) (minted continuously, replication decaying). Constants are the fork-registrations the law action inherits -- 'branch registrations' made exact. Ch13's orientation bit, the worldweave's world-phase (Chapter 9), and the research corpus's retrodicted constants are all column-2 objects.**
+
+### Section F: the two bills (numeric discovery grade)
+## R1: the driven floor's EP is housekeeping (K4, 64 states)
+  [PASS] structure-responsive driving (gamma = 6): EP rate = 0.0327 > 0 at stationarity with system entropy rate |dS/dt| = 3.5e-14 ~ 0 -- ALL of it housekeeping (cycle driving, zero contraction); structure-blind gamma = 0: EP = 0.0e+00 ~ 0 (detailed balance). The driven floor's measured dissipation is the EXPLORATION bill.
+## R2: the price floors the excess bill (RECOVERY: Landauer)
+  [PASS] 2-state erasure protocols (k_erase, residual p, total EP, entropy drop): [(10.0, 0.0099, 1.6197, 0.6376), (50.0, 0.0099, 1.621, 0.6376), (5.0, 0.0099, 1.6195, 0.6376), (100.0, 0.0099, 1.6226, 0.6376)] -- every protocol dissipates at least the contraction, whose clean limit is ln 2 = THE LEDGER PRICE of the 2-merge in nats. RECOVERY (Landauer; labeled): the price is the floor of the EXCESS bill -- the cost of selection, not of exploration.
+## R3: the two bills tune independently
+  [PASS] corner A (exploration only): the driven floor dissipates EP = 0.0327 with ZERO merging acts (ledger price 0 -- all moves reversible); corner B (selection only): the 2-state erasure has no cycles, so housekeeping = 0 and ALL its dissipation is excess. **The floor pays TWO independent bills -- EXPLORATION (housekeeping, per unit time, price-orthogonal) and SELECTION (the ledger price, per merge, the Landauer floor of any implementation). The ledger prices selection and only selection.**
+
+# RESULT: 24 passed, 0 failed

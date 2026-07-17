@@ -31,6 +31,8 @@ SCRIPTS = [
     "atlas_of_floors.py",
     "ladder_of_scars.py",
     "debt_ledger.py",
+    "mint_and_bill.py",
+    "emergent_hierarchy.py",
 ]
 
 

@@ -2,6 +2,40 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.17.0
+
+Seventeenth public release, a double chapter: **Chapter 17 — The Mint and
+the Bill** (the ledger completed into the program's load-bearing frame)
+and **Chapter 18 — The Emergent Hierarchy and the Exposure Law** (the
+Chapter 12 extension). Concept DOI `10.5281/zenodo.21253591`; version DOI
+recorded at mint.
+
+Added:
+
+- `papers/17-mint-and-bill/` and `papers/18-emergent-hierarchy/` —
+  chapters, claim snapshots (FCT-85..89, FCT-90..92), freeze records,
+  frozen verifier copies with expected outputs;
+- claim rows FCT-85..92 and theorem rows T-64..T-70;
+- `verification/scripts/mint_and_bill.py` (24 checks in six sections:
+  the price field, the forced fork and mint = bill, the flow-typed Cut,
+  the debt calculus on the rival floors, the three-column cut, and the
+  labeled two-bills section) and
+  `verification/scripts/emergent_hierarchy.py` (4 checks: the tableau
+  cross-engine, the width table with the forced qutrit, the hidden
+  budget, depth saturation), wired into `run_all.py` (twenty-three
+  scripts);
+- blind-sweep prior-art records in both chapters (labels follow the
+  sweeps; recovery components cited: Winskel/persistence,
+  Mazurkiewicz/Cartier–Foata, Kahn–Kim, Gács–Tromp–Vitányi,
+  Hatano–Sasa/Speck–Seifert, Maroney, Kolchinsky–Wolpert,
+  Kraskiewicz–Weyman/Klyachko/Springer/Stembridge/Reiner–Stanton–White,
+  Swanson, Stueckelberg/Hardy–Wootters, Dittel, Menssen, Hickey–Gour,
+  Oszmaniec–Brod–Galvão, Rudolph–Grover, McKague–Mosca–Gisin, and the
+  setting-adjacent Navas-Merlo & García Escartín preprint);
+- the v0.17 live ceiling (two new lines: the completed ledger and the
+  hierarchy/exposure extension), quoted in all five advertised
+  locations.
+
 ## 0.16.0
 
 Sixteenth public release, a double chapter: **Chapter 15 — The Ladder of

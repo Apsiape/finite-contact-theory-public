@@ -1,0 +1,10 @@
+## U1: cross-engine -- KW tableau counting vs the closed form
+  [PASS] Kraskiewicz-Weyman tableau counting reproduces the shipped closed form EXACTLY for n = 3..8: (n, sum m^2, C_n) = [(3, 4, 4), (4, 10, 10), (5, 28, 28), (6, 136, 136), (7, 726, 726), (8, 5100, 5100)]; RSK sanity holds per n; and n = 5 has EXACTLY ONE width-2 block, at lambda = (3,1,1), residue 0 (True) -- Chapter 12's emergent-qubit statement re-derived by an independent method.
+## U2: the first qutrit is forced at n = 6; width growth
+  [PASS] max block width by n: {3: 1, 4: 1, 5: 2, 6: 3, 7: 5, 8: 12} -- the hierarchy 1,1,2,... is nondecreasing (True); the FIRST EMERGENT QUTRIT appears at n = 6 as registered (pigeonhole: (3,2,1) has 16 SYT over 6 residues => some m >= 3: True); all width->=3 blocks at n = 6: [((3, 2, 1), 1, 3), ((3, 2, 1), 2, 3), ((3, 2, 1), 4, 3), ((3, 2, 1), 5, 3)]. **Counting symmetry alone mints a logical qutrit at six photons, and the fiber width grows with n.**
+## U3: the visible/hidden budget
+  [PASS] (n, visible N_n, commutant C_n, hidden C_n - N_n) = [(3, 4, 4, 0), (4, 10, 10, 0), (5, 26, 28, 2), (6, 80, 136, 56), (7, 246, 726, 480), (8, 810, 5100, 4290)]: the count-visible fraction shrinks monotonically from n = 4 on (True) and the hidden budget grows super-linearly -- single-shot counting sees a vanishing fraction of the emergent algebra.
+## U4: depth saturates at ONE commutator (width, not depth)
+  [PASS] real-symmetric generators plus DEPTH-2 words (one commutator / one product layer) span all of M_m exactly, for m = 2, 3, 4 (exact rational rank m^2 each) -- the unlock resource does NOT deepen with block width. **B12 verdict: the hierarchy is STRICT IN WIDTH (qubit at 5, qutrit at 6, unbounded) and SATURATED IN DEPTH (one multiplication layer opens any fiber): the growing resource is HOW MANY hidden fibers there are and how wide, never how deep the algebra must dig.**
+
+# RESULT: 4 passed, 0 failed
