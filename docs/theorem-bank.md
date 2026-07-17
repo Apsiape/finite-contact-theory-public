@@ -779,3 +779,66 @@ action flips the retained bit exactly (silent echo); law-only prediction
 of the retained bit = exact chance, promotion = certainty. A law-defined
 outcome selector would be a section; the obstruction is the no-selector
 law.
+
+### T-58 The Witness Ladder (Chapter 15)
+
+The extension 2-cocycle alpha of 2T, built from a normalized section and a
+machine-found isomorphism, has alpha(g,g) = 1 on every involution; alpha
+cup alpha is a 4-cocycle, not a coboundary (reduction against all 1331
+coboundary generators), hence represents the H^4(A_4;C_2) generator; the
+quadruple diagonal pairing is gauge-invariant and reads 1 on every
+involution; the involution-silent H^3 class is separated by an explicit
+25-word bar-cycle (all 121 coboundary pairings vanish, pairing 1 with the
+silent class, 0 with the loud one). Classical ring facts cited, not
+claimed.
+
+### T-59 The Arrow Below the Tower (Chapter 15)
+
+The Möbius 3-patch loop witness is invariant under all 8
+re-trivializations and reads 1 exactly when no global section exists; the
+2T extension admits 0/4096 multiplicative sections; one torsor-obstruction
+pattern at H^1 and H^2. The coagulation floor carries a strict intrinsic
+arrow while provably retention-free; a transitive reversible floor admits
+no strict monotone invariant (all acts return). The arrow = act-monoid
+non-invertibility, a capability strictly below every cohomological rung.
+
+### T-60 The Second Storey (Chapter 15)
+
+H^1(2T;C_2) = 0 (rank 23/23); H^2(2T;C_2) = 0 (rank delta_2 = 506/529, im
+delta_1 = 23); dim H^3(2T;C_2) = 1 (rank delta_3 = 11660/12167, im
+delta_2 = 506). On Q_8 (odd index, restriction injective by transfer):
+dim H^3 = 1; the registered diagonal guess omega(z,z,z) = 1 missed (the
+class is silent at the unique involution, gauge-invariantly; scored); the
+witness is a 4-word composite bar-cycle found by F_2 duality.
+
+### T-61 Boundary Pinning (Chapter 15)
+
+In the quaternionic 2-dim irrep of 2T every order-6 lift satisfies
+g + g^{-1} = I exactly; orbit triples have B = -c^3 with det G = 0; B is
+invariant under unimodular character twists; all twisted irreps are 2-dim,
+so det G = (1-2r)(1+r)^2 = 0 pins the odd class (Phi = pi) at r = 1/2 in
+every twisted sector (the trine). Real Z_3-orbit carriers realize the odd
+class exactly on r in (0, 1/2] (square-positivity floor; four exact
+rational anchors). At the pinned point the 3-window Gram is grade-blind;
+the fourth contact reads the grade (-1 twisted, +1 real).
+
+### T-62 The Exchange Rate and the Ledger (Chapter 16)
+
+No non-injective act lifts to a permutation of S x A with first component
+f on the whole product (counting; slice lifts fail composition); fresh
+one-use registers dilate every act monoid reversibly (Lecerf–Bennett,
+recomputed); the minimal register alphabet equals maxfiber(f) exactly
+(alphabet form of Maslov–Dueck), so the n-fork prices at log2 n. Ledger:
+log2|S| <= log2|im w| + sum of prices, exact, with tightness (aligned
+uniform merges) and waste (re-paying for destroyed distinction)
+witnesses; support form exact; Shannon form labeled (grouping bound).
+
+### T-63 The Refused Debt (Chapter 16)
+
+For the n-fork (n = 2..16), the dilation register alphabet, the
+promotion-record alphabet, and the binary-question depth are one number
+(n; ceil(log2 n) binary). Exhaustively, resolving an n-fork to one actual
+pays maxfiber = n; partial resolution to k images pays >= ceil(n/k).
+Lawlike (injective) evolution is exactly the debt-free sector; any
+selecting completion books exactly log2 n. Pre-probabilistic; nearest
+thermodynamic prior art (Cabello et al. 2016) cited and distinguished.

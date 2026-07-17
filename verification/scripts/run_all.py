@@ -29,6 +29,8 @@ SCRIPTS = [
     "count_regions.py",
     "floor_to_interface.py",
     "atlas_of_floors.py",
+    "ladder_of_scars.py",
+    "debt_ledger.py",
 ]
 
 

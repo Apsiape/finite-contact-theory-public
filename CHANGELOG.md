@@ -2,6 +2,44 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.16.0
+
+Sixteenth public release, a double chapter: **Chapter 15 — The Ladder of
+Scars** and **Chapter 16 — The Debt Ledger**. One obstruction tower from
+the arrow of time to the pentagonator, witness-readable at every rung and
+extended to the cover's own scar spectrum and a boundary-pinning theorem;
+and an exact combinatorial price for irreversibility that makes the
+no-selector law a refused debt. Concept DOI `10.5281/zenodo.21253591`;
+version DOI recorded at mint.
+
+Added:
+
+- `papers/15-ladder-of-scars/` and `papers/16-debt-ledger/` — chapters,
+  claim snapshots (FCT-78..81, FCT-82..84), freeze records, frozen
+  verifier copies with expected outputs;
+- claim rows FCT-78..84 and theorem rows T-58..T-63;
+- `verification/scripts/ladder_of_scars.py` (15 checks: the witness
+  ladder, the time link and the arrow-below-memory separation, the
+  second-storey censuses with an honestly scored registered miss, and the
+  boundary-pinning/carrier-grade theorems) and
+  `verification/scripts/debt_ledger.py` (8 checks: the dilation
+  counting theorem, the exchange rate, the ledger inequality with waste
+  and tightness witnesses, the triality, and the refused-debt
+  dichotomy), both wired into `run_all.py` (twenty-one scripts);
+- a blind-sweep prior-art record in each chapter (novelty labels follow
+  the sweeps; recovery components cited: Adem–Milgram, Giraud,
+  Lecerf–Bennett, Maslov–Dueck, Landauer–Maroney, Cabello et al. 2016);
+- the v0.16 live ceiling (two new lines: the ladder and the ledger),
+  quoted in the README, register, both chapters, and release notes.
+
+Changed:
+
+- Chapter 10's "natural home is anyonic/topological matter" remark is
+  superseded by Chapter 15 §3 (anyonic fusion holonomy is transport-layer
+  data; the carrier requirement is a preparation-side superselected
+  grade), and the FCT-61 protocol carries the sharpened joint signature
+  and the new pinning sub-signature (register row FCT-81).
+
 ## 0.15.0
 
 Fifteenth public release: **Chapter 14 — The Atlas of Floors: What Any
