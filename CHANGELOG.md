@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.19.0 — 2026-07-17
+## v0.19.0 — 2026-07-17 (DOI 10.5281/zenodo.21418859)
 
 - Chapter 20: The Observer's Price List (hierarchy, tuition, the
   shared eye/redirection, membership opacity, the two-currency price

@@ -1,5 +1,7 @@
 # Release notes — v0.19.0
 
+Version DOI: `10.5281/zenodo.21418859` · Concept DOI: `10.5281/zenodo.21253591`
+
 Three chapters in one release, closing the program's publication debt
 from three completed research campaigns.
 
