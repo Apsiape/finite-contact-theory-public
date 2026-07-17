@@ -10,7 +10,7 @@ the arrow of time to the pentagonator, witness-readable at every rung and
 extended to the cover's own scar spectrum and a boundary-pinning theorem;
 and an exact combinatorial price for irreversibility that makes the
 no-selector law a refused debt. Concept DOI `10.5281/zenodo.21253591`;
-version DOI recorded at mint.
+version DOI `10.5281/zenodo.21404549`.
 
 Added:
 
