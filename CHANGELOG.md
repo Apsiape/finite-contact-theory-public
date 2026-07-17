@@ -7,7 +7,8 @@ All notable public-release changes will be recorded here.
 Eighteenth public release: **Chapter 19 — The Seventh Attempt:
 Self-Description and Its Price**. An exact, finite, pre-probabilistic
 theory of hosted observers — subsystems whose records are floor events.
-Concept DOI `10.5281/zenodo.21253591`; version DOI recorded at mint.
+Concept DOI `10.5281/zenodo.21253591`; version DOI
+`10.5281/zenodo.21417244`.
 
 Added:
 
