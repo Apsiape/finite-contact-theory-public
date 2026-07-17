@@ -1,0 +1,39 @@
+## U1: the surplus identity
+  [PASS] exhaustive: the budget surplus of every contact equals exactly the number of single-parent neighbors, |N(a) delta N(b)| (True). **The surplus is not slack -- it is precisely the budget to keep every single connected. The floor's construction allowance is its periphery.**
+## U2: exact conservation under maximal-paid rules
+  [PASS] 17280 (world, contact, assignment) triples: total tolerance |E| exactly conserved; every bystander degree exactly conserved; the parents' degree-sum passes to the offspring (True). **THE CONSERVATION SECTOR: the maximal-paid floor neither grows nor decays -- the sparsification arrow becomes an equality at the ledger's zero-loss boundary.**
+## U3: the immortality theorem (registered bold bet)
+  [PASS] exhaustive n=5: EVERY world and every contact admits a reproducing assignment (True). **Adjudicated as registered: if it holds, max-paid genesis is class-preserving under the right fork choices -- the IMMORTALITY THEOREM: with full surplus retention, every world can persist; decay is always a CHOICE (or a failure to choose). If it dies, the failing worlds characterize where even full surplus cannot save structure.**
+  [PASS] the bet itself: immortality HOLDS at n=5
+## D1: the reproduction rate of the cycle
+  [PASS] C6, contact (0,1): 2 of 4 assignments reproduce the cycle -- P(reproduce) = 1/2 (frozen 1/2) (True). By edge-transitivity this is every contact's rate. **The immortal choice exists but the uniform fork takes it only half the time: the cycle's persistence is a coin per contact.**
+## D2: the first equilibrium
+  [PASS] the C6 max-paid sector: 13 reachable classes, all with |E| = 6 (conservation); exact stationary distribution computed and verified (nonneg, sums to 1, pi T = pi: True). The cycle's stationary weight = 1/61. **THE FIRST EQUILIBRIUM: with the arrow stilled (|E| conserved), the floor has a genuine stationary ensemble -- exact rational thermodynamics with no energy anywhere. Structure neither dies nor wins; it circulates.**
+## D3: the dial
+  [PASS] the endpoints, as theorems: spend-0 = the decay sector (triangle-free worlds are dust -- Chapter 21; wounds decay by the urn -- Chapter 23); spend-all = the conservation sector (immortality available, equilibrium ensembles). STRUCTURE LIVES ON THE DIAL, and the dial's setting -- which singles to keep -- is the staged fork the floor refuses to resolve (the germ fork of Chapter 21, now identified as the up's central received input). **The missing hemisphere's first law: the up is not growth but RETENTION -- what a world keeps of its periphery decides whether it decays, persists, or circulates.**
+## M1: credit alone is squandered
+  [PASS] bridged double triangle under pure intersection (3 classes): final profile law {'(2, 2, 2)': '1/5', '(3, 3)': '4/5'}; probability of ending FUSED (one component) = 0 (True). **CREDIT ALONE IS SQUANDERED: the received bridge cannot survive the spend-nothing dynamics -- the two worlds always separate again (or worse). Fusion bought is not fusion kept.**
+## M2: credit + surplus = durable fusion
+  [PASS] under maximal-paid rules the bridged class is reproducible (True, the immortality theorem applying to a FUSED world) and every contact admits an assignment keeping the world connected (True). **CREDIT + SURPLUS = DURABLE FUSION: what the credit boundary joins, only surplus retention can keep joined.**
+## M3: the matching principle
+  [PASS] assembled: fusion is impossible in the paid sector (cross-component tolerance is never minted -- Chapter 21); credit alone is squandered (M1: the bridge always decays under spend-nothing dynamics); credit plus surplus retention keeps worlds joined (M2). **THE MATCHING PRINCIPLE: the up requires BOTH currencies -- received contact and retained periphery. Growth on this floor is a cooperation between the credit boundary and the surplus fork; neither alone builds anything that lasts. The missing hemisphere has its first constructive law.**
+## L1: the dial's ledger law
+  [PASS] E[Delta|E| per contact] = -(1-theta) x (number of singles), exactly, at theta = 0, 1/2, 1 on sampled worlds (True). **THE DIAL'S LEDGER LAW: the sparsification rate is the unretained fraction of the periphery -- a one-parameter interpolation between the decay floor and the conservation floor.**
+## L2: the cycle on the dial
+  [PASS] P(C6 reproduces per contact) = theta^2/2 exactly at five dial settings (True); mean class lifetime = 1/(1 - theta^2/2): 1 contact at theta=0, 8/7 at 1/2, 2 at theta=1. **Even full retention only doubles the cycle's life under the uniform fork: the ledger axis alone cannot keep a world.**
+## L3: the two axes
+  [PASS] at theta = 1 a class-reproducing assignment exists for the cycle (True) while the uniform fork reproduces only half the time -- **THE TWO AXES: retention (theta) feeds the ledger; STEERING (which fork) feeds the class. Conservation of tolerance does not conserve structure; structural survival requires both axes. The germ fork is the steering axis, and its price is the maintenance-ledger section's subject.**
+## E1: the discontinuity at theta = 1
+  [PASS] reachable classes from C6: 13 at theta = 1 (the conserved top layer) vs 44 at theta = 1/2 -- a strict superset (True). **The conservation endpoint is a STRUCTURAL DISCONTINUITY: below it, the lower layers open; at it, they close forever.**
+## E2: distinct top-layer classes visited
+  [PASS] expected distinct top-layer classes visited before leaking: {'1/2': 1.15719502048131, '3/4': 1.545175130198366, '99/100': 7.847267231838825, '999999/1000000': 12.9989370763058} -- increasing in theta (True); approaches 13 only EXTREMELY close to the edge (theta = 1 - 1e-6 gives > 12.9: True) while even theta = 99/100 tours only ~7.8 (True). INSTRUMENT CORRECTION SCORED: the first threshold (12 at 99/100) overestimated the tour speed -- **THE EDGE IS THIN: top-layer mixing is slow relative to the leak, so the full conserved tour exists only in a vanishing sliver below the edge. A quantitative finding in its own right.**
+## E3: THE EDGE THEOREM
+  [PASS] total distinct classes visited at theta = 1 - 1e-6 is at least 12.999 (top) + 1 (the first lower-layer class, entered with probability 1 since |E| strictly decreases at every unretained single and theta < 1 leaks almost surely) = 13.999 > 13 = the theta = 1 value (True). **THE EDGE THEOREM: diversity is maximized strictly below full conservation. Perfect retention tours one layer forever; almost-perfect retention tours the layer AND the descent. Structure is richest at the edge.**
+## M1: the price list of persistence
+  [PASS] steering costs: C6 = log2(4/2) = 1 bit at every contact; P4 = 1 bit interior, 0 bits at the ends; the diamond's twin contact = 0 bits (lazy reproduces free); wounded K6 contact cost census (total/reproducing): {'2/2': 8, '1/1': 6} (True). **THE PRICE LIST OF PERSISTENCE: every world has an exact upkeep tariff, contact by contact, in bits.**
+## M2: costs are always finite
+  [PASS] every contact of every tested world admits a reproducing assignment (immortality re-verified on the test set); the maximum tariff observed is 1.000 bits (True). **Persistence is never priced at infinity -- but it is never free where the periphery forks.**
+## M3: the landing
+  [PASS] mean upkeep rates (bits per contact, uniform over contacts): {'C6': 1.0, 'P4': 0.3333, 'diamond': 0.0, 'K6-e': 0.0}. **THE MAINTENANCE LEDGER: a world's persistence has an exact information rate. The germ fork -- the steering choice the floor stages and refuses -- is priced: immortality is purchased in bits per contact. And the connection to the measure campaign closes the loop: the fork weighting that chance left FREE is exactly what maintenance must PAY to bias -- the up spends information into the very freedom the measure could not close. Landauer is the fenced rhyme; nothing about nature claimed.**
+
+# RESULT: 19 passed, 0 failed

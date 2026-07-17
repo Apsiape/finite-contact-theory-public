@@ -39,6 +39,8 @@ SCRIPTS = [
     "price_of_chance.py",
     "decay_of_worlds.py",
     "particles_of_floor.py",
+    "the_up.py",
+    "habitability.py",
 ]
 
 

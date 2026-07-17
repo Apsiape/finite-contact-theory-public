@@ -1,5 +1,22 @@
 # Changelog
 
+## v0.21.0 - 2026-07-17
+
+- Chapter 25: The Up (surplus identity + conservation sector,
+  immortality at tested scope, the dial and the first equilibrium,
+  the edge theorem + thin edge as an exact edge-of-chaos recovery,
+  the maintenance ledger + inversion, the matching principle).
+  19 checks, `the_up.py`.
+- Chapter 26: Habitability (the one-hop steering radius, the gossip
+  theorem + privacy failure, the privacy census, the zero-traffic
+  bootstrap, the doom-free price list, habitable = maintainable
+  with its caution in print). 19 checks, `habitability.py`.
+  Carries the v0.21 ceiling.
+- FCT-120..127; T-98..105; run_all now 31 scripts; blind sweeps ran
+  before labeling; the locality results shipped as instances of
+  named incumbents (shotgun assembly, LOCAL model, LCL, silent
+  self-stabilization) per the sweeps.
+
 ## v0.20.0 - 2026-07-17 (DOI 10.5281/zenodo.21419767)
 
 - Chapter 23: The Decay of Worlds (rational spectrum + triangularity,

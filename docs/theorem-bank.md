@@ -1065,3 +1065,42 @@ rate.
 The healthy floor; the octahedron exhaustion bound (4 < 5);
 r-cliques = r-color urns, uniform compositions, exactly r pieces;
 triangle sector predicted before measurement.
+
+### T-98 The Conservation Sector (Chapter 25)
+
+Surplus = periphery; exact conservation of tolerance and degrees
+under maximal retention.
+
+### T-99 Immortality at Tested Scope (Chapter 25)
+
+A reproducing retention assignment exists for every world and
+contact (n=5 exhaustive; 13-class n=6 sector).
+
+### T-100 The Dial + First Equilibrium (Chapter 25)
+
+Two axes; exact rational stationary ensemble; cycle weight 1/61.
+
+### T-101 The Edge Theorem + Thin Edge (Chapter 25)
+
+Diversity peaks strictly below full retention, in a razor-thin
+band (edge-of-chaos recovery, exact).
+
+### T-102 The Maintenance Inversion + Matching Principle (Chapter 25)
+
+Sparse pays, dense is free; growth = received contact + retained
+periphery.
+
+### T-103 The Steering Radius + Gossip Theorem (Chapter 26)
+
+Rows insufficient, ball perfect; upkeep = one round of gossip;
+privacy failure exhibited.
+
+### T-104 The Privacy Census + Zero-Traffic Bootstrap (Chapter 26)
+
+One gossip-requiring shape; habitable set private; bootstrap
+closes with no channel; caches provably mislead off-sector.
+
+### T-105 No Doom States + Habitability (Chapter 26)
+
+Doom-free cost-annotated price list; habitable = maintainable
+(convergence theorem, caution in print).
