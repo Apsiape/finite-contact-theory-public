@@ -28,6 +28,7 @@ SCRIPTS = [
     "mixed_state_exclusion.py",
     "count_regions.py",
     "floor_to_interface.py",
+    "atlas_of_floors.py",
 ]
 
 

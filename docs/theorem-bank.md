@@ -743,3 +743,39 @@ derived-subgroup determinant), commutant exactly H, invariant form unique
 up to scale = I_4: the Euclidean 1+3 split with spinor return (visible
 period 2, complete period 4). Verbatim the Chapter-8 starting datum
 (FCT-45): the floor-to-interface weld, conditional on (S)+(R)+(SH)+(C).
+
+### T-54 The Capability Axes And The Four Cells (Chapter 14)
+
+On presented observed floors: OW = noncommutativity of the realized image;
+RR = failure of the history action to factor through the content
+specification (impossible in bare act systems; minimal realization = an
+idempotent-spec toggle on two states). Independent; incomplete (orbit
+growth is a third axis). Cells: lattice floors orderless at terminal scope
+(justification-stable closure; fence: noncommuting interior operators);
+group floors OW-iff-nonabelian-image, never RR; enriched counters RR-only;
+marks both. Equivariant fixed-designation quotients only destroy
+capabilities; the parity boundary is named.
+
+### T-55 The CAR Kernel (Chapter 14)
+
+f = (A + Omega B)/2, f# = (A - Omega B)/2 in Cl(3,0): f^2 = f#^2 = 0,
+f f# + f# f = 1, exactly. One complex fermionic mode per retained-contact
+cell; the central i is its complex structure. Statistics require received
+composition assumptions, named.
+
+### T-56 The Retention Tower Through H^4 (Chapter 14)
+
+Exact F_2 censuses on the four-mark chiral contact group: H^2 = C_2
+(unique), H^3 = C_2 x C_2 (pentagon-coherent, non-removable, read by the
+gauge-invariant bracket witness omega(g,g,g)), H^4 = C_2 (exactly one
+class). Free-asphericity: manufactured pentagon defects are their own
+coboundaries.
+
+### T-57 The Relocated Measurement Obstruction (Chapter 14)
+
+For the double cover E over its law quotient L: no equivariant section
+(exhaustive, 4096); law tomography scar-blind; the involutive double
+action flips the retained bit exactly (silent echo); law-only prediction
+of the retained bit = exact chance, promotion = certainty. A law-defined
+outcome selector would be a section; the obstruction is the no-selector
+law.

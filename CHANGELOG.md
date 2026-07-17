@@ -2,6 +2,45 @@
 
 All notable public-release changes will be recorded here.
 
+## 0.15.0
+
+Fifteenth public release: **Chapter 14 — The Atlas of Floors: What Any
+Generative Floor Can Carry**. The capability classification that answers
+the charter question — inevitability is cell-relative. Concept DOI
+`10.5281/zenodo.21253591`; version DOI recorded at mint.
+
+Added:
+
+- `papers/14-atlas-of-floors/` — chapter, claim snapshot (FCT-72..77),
+  freeze record, frozen verifier copy with expected output;
+- claim rows FCT-72..77 (the capability axes on presented observed floors;
+  the four fenced cells + quotient monotonicity; the CAR kernel; the
+  retention tower through H^4 with the bracket witness; the relocated
+  measurement obstruction; the cited boundary layer) and theorem rows
+  T-54..T-57;
+- `verification/scripts/atlas_of_floors.py`, wired into `run_all.py`
+  (nineteen scripts): seven exact sections including full F_2 cohomology
+  censuses (H^2 = C_2, H^3 = C_2 x C_2, H^4 = C_2) recomputed at run
+  time, the gauge-invariant bracket witness, the exhaustive 4096-section
+  obstruction, and the exact silent-echo and chance-to-certainty
+  promotion facts;
+- **the new live release ceiling** (adds the atlas line), quoted in the
+  README, the claim register, the chapter-14 paper, and the v0.15.0 notes.
+
+Changed:
+
+- README: chapter blurb, read-it list, run-it (nineteen scripts), status,
+  citation section;
+- claim-register header to v0.15; `scripts/release_audit.py` ceilings
+  migrated (v0.14 ceiling now frozen in its chapter + notes; v0.15 live)
+  and required files extended; theorem bank extended.
+
+Fences carried in the chapter and rows: the axes are
+presentation-relative (a theorem, stated as scope) and incomplete (orbit
+growth is a third axis); cell theorems ship WITH their counterexample
+fences; the boundary layer is cited, not shipped; nature is not claimed
+to realize any cell, tower rung, or the relocation model.
+
 ## 0.14.0
 
 Fourteenth public release: **Chapter 13 — From the Floor to the Interface:

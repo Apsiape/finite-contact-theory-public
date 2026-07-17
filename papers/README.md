@@ -83,6 +83,16 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   release ceiling). DOIs recorded in its
   [`RELEASE.md`](13-floor-to-interface/RELEASE.md) at tagging.
 
+- [`14-atlas-of-floors/`](14-atlas-of-floors/paper.md)
+  — **Chapter 14** (v0.15.0): _The Atlas of Floors: What Any Generative
+  Floor Can Carry_ (the capability classification — order-writability x
+  residue-retention on presented observed floors, four fenced cells; the
+  CAR kernel; the retention tower through H^4 with the gauge-invariant
+  bracket witness; the measurement obstruction relocated onto the double
+  cover, where a law-defined outcome selector is a provably nonexistent
+  equivariant section; carries the live release ceiling). DOIs recorded in
+  its [`RELEASE.md`](14-atlas-of-floors/RELEASE.md) at tagging.
+
 ## Chapter directory convention (v0.2 onward)
 
 Each new chapter lives in its own directory:
