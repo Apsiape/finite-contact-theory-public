@@ -1,5 +1,7 @@
 # Release notes — v0.25.0
 
+Version DOI `10.5281/zenodo.21425153`.
+
 One chapter (38), The Price of Separability, closing the
 correlation-grammar theory: the single-event completeness theorem
 (the v0.24 sweeps' located novelty pocket, closed

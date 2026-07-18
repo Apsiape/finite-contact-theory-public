@@ -1,6 +1,6 @@
 ## v0.25.0 — 2026-07-18
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21425153`.
 
 One chapter (38): the price of separability — single-event
 completeness theorem, the exit law, the absolute factorization
