@@ -648,7 +648,10 @@ CANONICAL_CEILINGS = [
             "RELEASE-NOTES-v0.27.0.md",
         ],
     ),
-]def check_canonical_ceiling() -> None:
+]
+
+
+def check_canonical_ceiling() -> None:
     """Every released ceiling must appear verbatim in its advertised locations."""
     def normalize(text: str) -> str:
         text = text.replace("**", "").replace("> ", " ")
