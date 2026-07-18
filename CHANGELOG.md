@@ -1,5 +1,7 @@
 ## v0.23.0 — 2026-07-17
 
+Version DOI `10.5281/zenodo.21422557`.
+
 Two chapters (32-33): the exact double-slit with the forced path
 integral and the coupling trichotomy (fringe/eraser census; the
 free-product boundary theorem for additivity failure; the

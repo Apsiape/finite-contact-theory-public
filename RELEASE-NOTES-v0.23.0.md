@@ -1,5 +1,7 @@
 # Finite Contact Theory v0.23.0 — release notes
 
+Version DOI: `10.5281/zenodo.21422557` · Concept DOI: `10.5281/zenodo.21253591`.
+
 Two chapters: 32 (The Coat and the Count) and 33 (The Codes of
 the Coat) — the quarter-turn amplitude calculus at depth and
 path-entanglement as coding theory. Ten checks in two shipped
