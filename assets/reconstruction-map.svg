@@ -34,7 +34,7 @@
 
   <!-- header -->
   <text x="60" y="54" class="t ttl">FINITE CONTACT THEORY</text>
-  <text x="60" y="78" class="t sub">the reconstruction map &#183; thirty-one chapters &#183; every result ships a runnable, dependency-free proof</text>
+  <text x="60" y="78" class="t sub">the reconstruction map &#183; thirty-three chapters &#183; every result ships a runnable, dependency-free proof</text>
   <text x="1140" y="54" text-anchor="end" class="t sub">recoveries are labeled recoveries &#183; extensions are labeled extensions</text>
   <text x="1140" y="72" text-anchor="end" class="t sub">scope is printed on every claim</text>
 
@@ -55,9 +55,9 @@
   <text x="510" y="162" class="t spb">habitable = maintainable</text>
 
   <rect x="714" y="100" width="222" height="78" rx="12" fill="#101d2c" stroke="#5b8fb8" stroke-width="1.6"/>
-  <text x="728" y="126" class="t sp">THE QUANTUM COAT &#183; 28&#8211;31</text>
+  <text x="728" y="126" class="t sp">THE QUANTUM COAT &#183; 28&#8211;33</text>
   <text x="728" y="145" class="t spb">i lives in the representation</text>
-  <text x="728" y="162" class="t spb">read = consistent &#183; rest precluded</text>
+  <text x="728" y="162" class="t spb">rest precluded &#183; the cap: what binds cannot be watched</text>
 
   <!-- divergence seam (top right) -->
   <rect x="956" y="100" width="184" height="78" rx="12" fill="#231c10" stroke="#c9a35e" stroke-width="1.6" stroke-dasharray="7 4"/>

@@ -1,3 +1,18 @@
+## v0.23.0 — 2026-07-17
+
+Two chapters (32-33): the exact double-slit with the forced path
+integral and the coupling trichotomy (fringe/eraser census; the
+free-product boundary theorem for additivity failure; the
+path-measure no-go with the actuality-measure door; the Sorkin
+grade-2 verification; the mirror-pair), and path-entanglement as
+coding theory (affine supports; the code reading law with the
+hard stabilizer identification; the strong brightness character
+theorem and the permission/prohibition gap at E8's shadow; the
+cap theorem with dual autobiography and the tilted light; the
+privacy theorem). FCT-147..154, T-122..131, run_all 38 scripts,
+twenty-four-line ceiling, map updated. Sweeps ran before labels;
+corrections absorbed in print.
+
 ## v0.22.0 — 2026-07-17
 
 Version DOI `10.5281/zenodo.21421384`.

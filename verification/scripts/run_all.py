@@ -46,6 +46,8 @@ SCRIPTS = [
     "two_kinds_of_the_given.py",
     "where_i_lives.py",
     "the_reading_law.py",
+    "the_coat_and_the_count.py",
+    "the_codes_of_the_coat.py",
 ]
 
 

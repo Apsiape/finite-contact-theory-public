@@ -1186,3 +1186,53 @@ exact; swap-pairing lemma (587 cases).
 amp = P x ((1+i)/2)^m x i^d on every channel; additivity dichotomy
 with |amp| <= P entrywise; single-path readout channels (2734);
 Zeno tier exact.
+
+### T-122 The Double-Slit Census (Chapter 32)
+
+Fringes of both signs, exact; ceiling |amp| <= P intact; branch
+partition exact; the eraser exact (2448 full recoveries).
+
+### T-123 The Forced Path Integral (Chapter 32)
+
+Determined-bits law fails exactly on correlated support; Markov
+over invisible worlds; Feynman summation forced at
+path-entanglement.
+
+### T-124 The Path-Measure No-Go (Chapter 32)
+
+Darkening and preclusion witnesses; no nonnegative path measure
+yields coat statistics; record-level actuality required.
+
+### T-125 The Linear Dictionary (Chapter 32)
+
+|amp| = P on fully-read channels; the floor's Born analogue is
+amplitude-linear (quasiprobability reading).
+
+### T-126 The Mirror-Pair (Chapter 32)
+
+Conjugate pairing uniquely positive; equals |amp|^2 channelwise.
+
+### T-127 Affine Supports + Anomaly Identity (Chapter 33)
+
+All supports are affine code cosets with uniform marginals;
+D_rel = codimension.
+
+### T-128 The Code Reading Law (Chapter 33)
+
+Amplitude = dual-codeword sum, exactly; interference corrections
+indexed by dual codewords.
+
+### T-129 The E8 Threshold (Chapter 33)
+
+Self-dual dark below length 8; e8 bright at coherence 1; one
+bright coset of sixteen.
+
+### T-130 The Cap Theorem + Dual Autobiography (Chapter 33)
+
+Distance <= 2 at verified scope; dual = per-line direct sum; pin
+lemma general proof a named gap.
+
+### T-131 The Tilted Light + Privacy (Chapter 33)
+
+Bright = sums of odd-offset pairs at any D_rel; two witnesses
+annihilate the hidden sector.
