@@ -1,3 +1,20 @@
+## v0.22.0 — 2026-07-17
+
+Five chapters (27-31): the floor's statistical mechanics from
+counting alone (kernel symmetry certified; the 61 x 60 state
+count; the free-move law; unimodal dissipation); the preservation
+calculus of maintained structures (price law with unique witness;
+control invariance; the copy-construction dichotomy; defect
+concentration); the two kinds of the given (eleven torsor-type +
+two dial-type received inputs; two retired by derivation); the
+spectral home of the native complex number (Sturm-certified phase
+windows; the sign cover's certified realness; non-real
+quarter-turn sectors at equilibrium); and the reading law (the
+decoherent-histories package exact rather than approximate;
+amplitude = P x ((1+i)/2)^m x i^d). FCT-128..146, T-106..121,
+run_all 36 scripts, twenty-two-line ceiling, map updated. Sweeps
+ran before labels; corrections absorbed in print.
+
 # Changelog
 
 ## v0.21.0 - 2026-07-17 (DOI 10.5281/zenodo.21420245)

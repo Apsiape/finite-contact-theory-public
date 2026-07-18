@@ -1,0 +1,10 @@
+## 1: locality, the price law, and the unique witness
+  [PASS] across 1700 (substructure, contact) cases in 4 worlds: external contacts never change E[S] (context preservation, standard in local rewriting -- cited) (True); the E[S]-preserving assignments are exactly the in-S-singles-stay-with-parent assignments, price = |singles in S| bits with the witness UNIQUE on in-S singles (True, True); preserving E[S] AND the labeled interface admits exactly ONE assignment for every touching contact (boundary rigidity) (True) (True). Shape is cheap -- one bit per exposed member -- and boundary-fixing is total.
+## 2: control invariance (the autonomy result)
+  [PASS] over the full reachable shape-locked space (729 states, every contact, every environment assignment) the stay-with-parent strategy keeps E[S] invariant every time (True). The tracked substructure is CONTROL-INVARIANT under any schedule and any adversarial outside assignment, steering only its own members (safety-game / controlled-invariance frame, cited).
+## 3: the copy-construction dichotomy
+  [PASS] copy-construction of E[S] in the complement: the adversarial-environment safe set contains ALL 477 not-yet-copied states (True) -- a hostile environment can prevent the copy forever from everywhere, while the structure itself stays invariant (True); with a cooperative environment the copy is reachable in 1 contact (True) (True). PERSISTENCE IS AUTONOMOUS; COPY-CONSTRUCTION REQUIRES ENVIRONMENTAL COOPERATION -- an exact, exhaustively-solved instance of the constructor-theoretic asymmetry (von Neumann; Deutsch-Marletto, cited), with the attractor/safe-set machinery classical (cited).
+## 4: preservation cost concentrates at defects
+  [PASS] in K6-e every contact's singles lie at the missing edge's endpoints (True), so a triangle avoiding the defect has total preservation cost EXACTLY ZERO (True); in the homogeneous C6 no size-3 substructure is free (min total cost 6 > 0) (True). Preservation cost is not bought down by density per se -- it CONCENTRATES AT DEFECTS: structures are affordable where the world's irregularity is somewhere else.
+
+# RESULT: 4 passed, 0 failed

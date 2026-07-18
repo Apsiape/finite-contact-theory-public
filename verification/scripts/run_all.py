@@ -41,6 +41,11 @@ SCRIPTS = [
     "particles_of_floor.py",
     "the_up.py",
     "habitability.py",
+    "floor_thermodynamics.py",
+    "maintained_structures.py",
+    "two_kinds_of_the_given.py",
+    "where_i_lives.py",
+    "the_reading_law.py",
 ]
 
 

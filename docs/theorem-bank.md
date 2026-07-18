@@ -1104,3 +1104,85 @@ closes with no channel; caches provably mislead off-sector.
 
 Doom-free cost-annotated price list; habitable = maintainable
 (convergence theorem, caution in print).
+
+### T-106 The Kernel Symmetry (Chapters 27, 29)
+
+P(E -> E') == P(E' -> E) exactly on the C4/C5/C6 closures; uniform
+labeled stationarity and the microcanonical form follow at scope.
+
+### T-107 The Microcanonical State Count (Chapter 27)
+
+pi = orbit/3660 on the 13-class sector; 3660 = 61 x 60; the 1/61
+cycle weight is a state count.
+
+### T-108 The Forced Rate Form (Chapter 27)
+
+Cost additive over disjoint components (16/16 pairs); price-only
+independent rate laws are exponential; temperature received.
+
+### T-109 The Free-Move Law (Chapter 27)
+
+Price-weighted redistribution sorted exactly by certainty-contact
+possession; mean-cost monotonicity fails (bet died, scored).
+
+### T-110 Unimodal Dissipation (Chapter 27)
+
+EP zero exactly at beta=0; measured unimodal, peak beta=2; current
+divergence-free; cost-pump cycle.
+
+### T-111 The Preservation-Price Law (Chapter 28)
+
+One bit per exposed member; unique stay-with-parent witness;
+boundary-fixing admits only the identity.
+
+### T-112 Control Invariance (Chapter 28)
+
+The stay-with-parent strategy is invariant against every schedule
+and environment (729-state exhaustive).
+
+### T-113 The Copy-Construction Dichotomy (Chapter 28)
+
+Adversary blocks complement-copy forever from every not-yet-copied
+state; cooperation reaches it in one contact.
+
+### T-114 Defect Concentration (Chapter 28)
+
+All K6-e singles lie at the defect; zero-cost triangle exists;
+homogeneous C6 hosts no free substructure.
+
+### T-115 The Two Retirements (Chapter 29)
+
+Reference measure derived from kernel symmetry; consent boundary
+reduces to membership.
+
+### T-116 The Two-Species Census (Chapter 29)
+
+Eleven torsor-type + two dial-type received inputs, graded 5/4/2;
+completeness a named conjecture.
+
+### T-117 The Certified Windows (Chapter 30)
+
+Sturm certificates: 0/2/4 complex roots at beta = +1/-1/-4 (n=6),
+2/0 at beta = -2/+3 (n=5); reversible point provably real.
+
+### T-118 The Sign Cover (Chapter 30)
+
+Nonsplit; Sturm-certified all-real at certified couplings, even
+inside the base's complex windows; gap = cited frustration
+phenomenon.
+
+### T-119 The Quarter-Turn Ring (Chapter 30)
+
+Charge-1/3 char polys exactly non-real at the reversible point;
+charge-0/2 real; Frobenius-Schur-type dichotomy.
+
+### T-120 Preclusion of Rest (Chapter 31)
+
+Cycle survival amplitude exactly zero; even-sector cancellation
+exact; swap-pairing lemma (587 cases).
+
+### T-121 The Reading Law (Chapter 31)
+
+amp = P x ((1+i)/2)^m x i^d on every channel; additivity dichotomy
+with |amp| <= P entrywise; single-path readout channels (2734);
+Zeno tier exact.
