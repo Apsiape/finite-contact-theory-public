@@ -1,3 +1,12 @@
+## v0.28.0 — 2026-07-18
+
+Version DOI: recorded on mint.
+
+One chapter (42): the phase hunt and the four-floor invariant —
+the moving parent (phase needs a reference); the return law and
+the sign table on their fourth floors. Two new scripts; ceiling
+to thirty-three lines.
+
 ## v0.27.0 — 2026-07-18
 
 Version DOI `10.5281/zenodo.21430855`.

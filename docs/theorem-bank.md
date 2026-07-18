@@ -1343,3 +1343,17 @@ record decomposability, not drift.
 
 Population clock isolated; the collider exhibited; mortal holism
 control-hardened (0/12 vs 12/12).
+
+### T-153 The Moving Parent (Chapter 42)
+
+Flatness does not globalize (335/795 mixed); derived phase needs
+a persistent reference.
+
+### T-154 The Return Law, Four Floors (Chapter 42)
+
+Dark 112/0/196/0 tracks returns free/no/priced/no exactly.
+
+### T-155 The Four-Floor Sign Invariant (Chapter 42)
+
+(zero, never-positive, both-signs) on all four dynamics; full
+fragility on the subtractive floor.

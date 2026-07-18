@@ -62,6 +62,8 @@ SCRIPTS = [
     "two_switches.py",
     "fourth_column.py",
     "controls_engine.py",
+    "phase_hunt.py",
+    "fourth_table.py",
 ]
 
 
