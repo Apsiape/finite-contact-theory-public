@@ -1,6 +1,6 @@
 ## v0.28.0 — 2026-07-18
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21431228`.
 
 One chapter (42): the phase hunt and the four-floor invariant —
 the moving parent (phase needs a reference); the return law and

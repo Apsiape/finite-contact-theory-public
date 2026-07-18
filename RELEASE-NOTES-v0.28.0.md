@@ -1,5 +1,7 @@
 # Release notes — v0.28.0
 
+Version DOI `10.5281/zenodo.21431228`.
+
 One chapter (42), The Phase Hunt and the Four-Floor Invariant:
 flatness does not globalize (the fork is flat, the protocol is
 not); THE MOVING PARENT (derived phase needs a persistent
