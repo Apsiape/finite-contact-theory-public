@@ -66,6 +66,7 @@ SCRIPTS = [
     "fourth_table.py",
     "critical_corner.py",
     "minimal_pair.py",
+    "observer_corner.py",
 ]
 
 

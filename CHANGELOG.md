@@ -1,3 +1,12 @@
+## v0.30.0 — 2026-07-18
+
+Version DOI: recorded on mint.
+
+One chapter (44): the observer corner — the kept-world theorem
+and the sterile observer (keeping is anthropic, phase is
+received). One new script; ceiling to thirty-five lines; README
+thoroughly revised.
+
 ## v0.29.0 — 2026-07-18
 
 Version DOI `10.5281/zenodo.21431842`.

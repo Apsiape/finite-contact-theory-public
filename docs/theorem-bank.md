@@ -1372,3 +1372,13 @@ switches preclusion on.
 
 Exact darkness = returns AND parent; seven floors, no
 exceptions.
+
+### T-159 The Kept-World Theorem (Chapter 44)
+
+Hostability forces returns + locality; three floors host no
+unbounded observer.
+
+### T-160 The Sterile Observer (Chapter 44)
+
+An interference-free recurrent world passes every observer
+predicate; keeping is anthropic, phase is received.
