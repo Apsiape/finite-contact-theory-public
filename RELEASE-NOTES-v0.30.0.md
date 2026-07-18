@@ -1,5 +1,7 @@
 # Release notes — v0.30.0
 
+Version DOI `10.5281/zenodo.21432153`.
+
 One chapter (44), The Observer Corner: the observer predicates
 across all seven dynamics; the bold conjecture's registered
 death (THE STERILE OBSERVER — interference is not anthropically
