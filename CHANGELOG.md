@@ -1,5 +1,7 @@
 ## v0.22.0 — 2026-07-17
 
+Version DOI `10.5281/zenodo.21421384`.
+
 Five chapters (27-31): the floor's statistical mechanics from
 counting alone (kernel symmetry certified; the 61 x 60 state
 count; the free-move law; unimodal dissipation); the preservation

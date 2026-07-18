@@ -1,5 +1,7 @@
 # Finite Contact Theory v0.22.0 — release notes
 
+Version DOI: `10.5281/zenodo.21421384` · Concept DOI: `10.5281/zenodo.21253591`.
+
 Five chapters: 27 (The Thermodynamics of the Floor), 28 (Maintained
 Structures), 29 (The Two Kinds of the Given), 30 (Where i Lives),
 31 (The Reading Law). Twenty-one new checks across five shipped
