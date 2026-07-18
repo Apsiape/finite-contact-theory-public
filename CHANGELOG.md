@@ -1,3 +1,16 @@
+## v0.31.0 — 2026-07-18
+
+Version DOI: recorded on mint.
+
+Four chapters (45-48): the coat and the refusal — the quantum
+dividend (what phase is worth, one-bit localized), the third
+root and the mirror law (preclusion needs even order — Lam-Leung
+instantiated), the six-fold coat and the resonance condition
+(phase-group order and return structure are one fact), and the
+arithmetic of refusal (return-as-negation, the converse a
+grid-verified conjecture). Five new scripts; ceiling to
+thirty-nine lines.
+
 ## v0.30.0 — 2026-07-18
 
 Version DOI `10.5281/zenodo.21432153`.

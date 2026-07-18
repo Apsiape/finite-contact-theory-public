@@ -67,6 +67,11 @@ SCRIPTS = [
     "critical_corner.py",
     "minimal_pair.py",
     "observer_corner.py",
+    "quantum_dividend.py",
+    "third_root.py",
+    "sixfold_coat.py",
+    "harmonic_law.py",
+    "octave_law.py",
 ]
 
 

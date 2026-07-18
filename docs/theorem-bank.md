@@ -1382,3 +1382,27 @@ unbounded observer.
 
 An interference-free recurrent world passes every observer
 predicate; keeping is anthropic, phase is received.
+
+### T-161 The Quantum Dividend (Chapter 45)
+
+Interference is worth two faculties to an observer (certainty of
+absence, the destructive sector), each one-bit localized; both
+recoveries, the minimal-pair method the contribution.
+
+### T-162 The Mirror Law (Chapter 46)
+
+Exact preclusion requires even phase-group order (an order-2
+mirror) — the Lam-Leung obstruction instantiated; the coat and
+the discriminator are phase-group generic.
+
+### T-163 The Resonance Condition (Chapter 47)
+
+Even order is necessary but not sufficient; the mirror must sit
+at the return cost — a world's phase-group order and its return
+structure are one fact; i unique for pair-returns.
+
+### T-164 The Half-Turn Condition (Chapter 48)
+
+Refusal first appears at depth c where 1 + zeta_n^c = 0 (forward
+trivial); refusal only in half-turn worlds is a grid-verified
+conjecture in Lam-Leung territory.
