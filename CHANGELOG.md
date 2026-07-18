@@ -1,6 +1,6 @@
 ## v0.31.0 — 2026-07-18
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21432950`.
 
 Four chapters (45-48): the coat and the refusal — the quantum
 dividend (what phase is worth, one-bit localized), the third

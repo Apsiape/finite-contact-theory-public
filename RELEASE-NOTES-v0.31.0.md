@@ -1,5 +1,7 @@
 # Release notes — v0.31.0
 
+Version DOI `10.5281/zenodo.21432950`.
+
 Four chapters (45-48), the coat and the refusal — what phase is
 worth, what sets the phase group, when coat and dynamics
 resonate, and when a world can refuse an outcome at all:
