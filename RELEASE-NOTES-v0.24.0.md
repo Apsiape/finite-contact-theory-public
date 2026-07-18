@@ -1,5 +1,7 @@
 # Release notes — v0.24.0
 
+Version DOI `10.5281/zenodo.21423514`.
+
 Four chapters (34-37), closing the amplitude arc and opening the
 cross-floor era:
 

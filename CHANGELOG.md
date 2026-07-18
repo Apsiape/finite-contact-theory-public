@@ -1,6 +1,6 @@
 ## v0.24.0 — 2026-07-18
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21423514`.
 
 Four chapters (34-37): the strata and the blindness (pin lemma
 closed with aligned wandering; stratification; operational
