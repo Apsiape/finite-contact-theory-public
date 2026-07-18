@@ -1,5 +1,7 @@
 # Release notes — v0.26.0
 
+Version DOI `10.5281/zenodo.21425689`.
+
 Two chapters (39-40): the mortal observer (the free shape-lock;
 THE EVASION FOUND — blindness is floor x instrument, closing the
 permission map's last open cell; the finite biography; one honest

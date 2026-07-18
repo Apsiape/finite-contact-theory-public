@@ -1,6 +1,6 @@
 ## v0.26.0 — 2026-07-18
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21425689`.
 
 Two chapters (39-40): the mortal observer (the evasion found;
 blindness is floor x instrument) and the breathing floor with
