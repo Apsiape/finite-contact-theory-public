@@ -1328,3 +1328,18 @@ conservation graded by drift (12/12, 201/215, 0/52).
 
 (zero, never-positive, both-signs) on all three floors; the
 registered package's bridge widens.
+
+### T-150 The Phase-Flat Fork (Chapter 41)
+
+Equal-deviation ties by the no-selector rule; the derived coat is
+inert; interference needs a parent. No-selector native 4/4.
+
+### T-151 Idle Rest + the Local Monotone Floor (Chapter 41)
+
+Survival = free/impossible/priced/idle; record locality follows
+record decomposability, not drift.
+
+### T-152 The Controls, Run (Chapter 41)
+
+Population clock isolated; the collider exhibited; mortal holism
+control-hardened (0/12 vs 12/12).

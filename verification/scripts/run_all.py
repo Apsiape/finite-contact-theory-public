@@ -60,6 +60,8 @@ SCRIPTS = [
     "mortal_observer.py",
     "breathing_floor.py",
     "two_switches.py",
+    "fourth_column.py",
+    "controls_engine.py",
 ]
 
 

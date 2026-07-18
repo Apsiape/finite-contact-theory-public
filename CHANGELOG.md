@@ -1,3 +1,14 @@
+## v0.27.0 — 2026-07-18
+
+Version DOI: recorded on mint.
+
+One chapter (41): the fourth column and the phase-flat fork —
+the subtractive floor joins the map; interference in
+derived-phase constructions needs a parent; idle rest; record
+locality follows record decomposability; the Chapters 38/40
+named-open controls run and closed. Two new scripts; ceiling to
+thirty-two lines.
+
 ## v0.26.0 — 2026-07-18
 
 Version DOI `10.5281/zenodo.21425689`.
