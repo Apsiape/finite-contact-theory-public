@@ -1357,3 +1357,18 @@ Dark 112/0/196/0 tracks returns free/no/priced/no exactly.
 
 (zero, never-positive, both-signs) on all four dynamics; full
 fragility on the subtractive floor.
+
+### T-156 The Critical Corner (Chapter 43)
+
+(Conserving, return-free) realizable; 0 dark on a live test;
+amp == supp factorization — predicted in advance.
+
+### T-157 The Sterility Lemma + Minimal Pair (Chapter 43)
+
+Uniform per-branch pricing forces phase purity; one witness bit
+switches preclusion on.
+
+### T-158 The Two-Factor Theorem (Chapter 43)
+
+Exact darkness = returns AND parent; seven floors, no
+exceptions.

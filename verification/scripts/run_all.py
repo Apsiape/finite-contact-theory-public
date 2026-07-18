@@ -64,6 +64,8 @@ SCRIPTS = [
     "controls_engine.py",
     "phase_hunt.py",
     "fourth_table.py",
+    "critical_corner.py",
+    "minimal_pair.py",
 ]
 
 

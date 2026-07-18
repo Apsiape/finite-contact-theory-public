@@ -1,3 +1,12 @@
+## v0.29.0 — 2026-07-18
+
+Version DOI: recorded on mint.
+
+One chapter (43): the switch lattice — the critical corner, the
+minimal pair, and the two-factor theorem of preclusion (darkness
+= returns AND a parent; seven floors). Two new scripts; ceiling
+to thirty-four lines.
+
 ## v0.28.0 — 2026-07-18
 
 Version DOI `10.5281/zenodo.21431228`.
