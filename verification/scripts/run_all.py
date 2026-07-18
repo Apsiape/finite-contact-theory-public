@@ -57,6 +57,9 @@ SCRIPTS = [
     "permission_map.py",
     "grammar_closure.py",
     "sequence_grammar.py",
+    "mortal_observer.py",
+    "breathing_floor.py",
+    "two_switches.py",
 ]
 
 

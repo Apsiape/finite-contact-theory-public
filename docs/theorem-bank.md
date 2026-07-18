@@ -1303,3 +1303,28 @@ support and amplitude (12/12).
 Mortal floor: support factorization 0/52 at every tested
 separation; the class record is global — conservation buys
 separability.
+
+### T-145 The Free Shape-Lock (Chapter 39)
+
+External merges never touch the interior (75/75); the mortal
+observer pays in lifespan, not admissibility.
+
+### T-146 The Evasion Found (Chapter 39)
+
+4/32 bright mortal body-reading channels persist a reveal;
+blindness is floor x instrument.
+
+### T-147 Priced Rest (Chapter 40)
+
+131 return channels; every return pays >= 1 (the fission
+surcharge); survival = free / impossible / priced.
+
+### T-148 The Switch Decomposition + Locality Gradient (Chapter 40)
+
+Preclusion follows return (112/0/196); separability follows
+conservation graded by drift (12/12, 201/215, 0/52).
+
+### T-149 The Three-Floor Sign-Table Invariant (Chapter 40)
+
+(zero, never-positive, both-signs) on all three floors; the
+registered package's bridge widens.

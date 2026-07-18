@@ -1,3 +1,14 @@
+## v0.26.0 — 2026-07-18
+
+Version DOI: recorded on mint.
+
+Two chapters (39-40): the mortal observer (the evasion found;
+blindness is floor x instrument) and the breathing floor with
+the two switches (priced rest; preclusion follows return;
+the locality gradient; the three-floor sign-table invariant).
+Three new scripts; ceiling to thirty-one lines; README
+three-floor table.
+
 ## v0.25.0 — 2026-07-18
 
 Version DOI `10.5281/zenodo.21425153`.
