@@ -1282,3 +1282,24 @@ persistency contrast recovered from record grammar.
 Twelve rows, three verdict types; grammar and persistence flip
 with observable keying; factorization persistence 6/6; the
 repetition anomaly named open.
+
+### T-141 The Orbit Lemma + Single-Event Completeness (Chapter 38)
+
+Supports = stabilizer-orbit unions; affine-cap-weight complete at
+single-event scope (24/24, extended arena).
+
+### T-142 The Exit Law (Chapter 38)
+
+Grammar exits = sequential dependence; per-floor carriers
+(repetition vs shared neighbors).
+
+### T-143 The Absolute Factorization Theorem (Chapter 38)
+
+Conserving floor: disjoint-neighborhood pairs factorize exactly,
+support and amplitude (12/12).
+
+### T-144 Mortal Holism (Chapter 38)
+
+Mortal floor: support factorization 0/52 at every tested
+separation; the class record is global — conservation buys
+separability.

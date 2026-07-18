@@ -1,3 +1,12 @@
+## v0.25.0 — 2026-07-18
+
+Version DOI: recorded on mint.
+
+One chapter (38): the price of separability — single-event
+completeness theorem, the exit law, the absolute factorization
+theorem, and mortal holism (conservation buys separability
+itself). Two new scripts; ceiling to twenty-nine lines.
+
 ## v0.24.0 — 2026-07-18
 
 Version DOI `10.5281/zenodo.21423514`.

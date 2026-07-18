@@ -55,6 +55,8 @@ SCRIPTS = [
     "alien_coat.py",
     "alien_reading.py",
     "permission_map.py",
+    "grammar_closure.py",
+    "sequence_grammar.py",
 ]
 
 
