@@ -1,6 +1,6 @@
 ## v0.27.0 — 2026-07-18
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21430855`.
 
 One chapter (41): the fourth column and the phase-flat fork —
 the subtractive floor joins the map; interference in

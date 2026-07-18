@@ -1,5 +1,7 @@
 # Release notes — v0.27.0
 
+Version DOI `10.5281/zenodo.21430855`.
+
 One chapter (41), The Fourth Column and the Phase-Flat Fork: the
 subtractive constraint-thread floor joins the matched suite (the
 map's fourth column); THE PHASE-FLAT FORK (the no-selector rule
