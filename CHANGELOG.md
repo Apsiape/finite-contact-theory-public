@@ -1,6 +1,6 @@
 ## v0.29.0 — 2026-07-18
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21431842`.
 
 One chapter (43): the switch lattice — the critical corner, the
 minimal pair, and the two-factor theorem of preclusion (darkness

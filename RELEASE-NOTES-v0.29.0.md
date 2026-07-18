@@ -1,5 +1,7 @@
 # Release notes — v0.29.0
 
+Version DOI `10.5281/zenodo.21431842`.
+
 One chapter (43), The Switch Lattice: the taxonomy inverts from
 census to design. The critical corner (conservation without
 return — realizable, with its physics predicted in advance and
