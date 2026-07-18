@@ -1,3 +1,18 @@
+## v0.24.0 — 2026-07-18
+
+Version DOI: recorded on mint.
+
+Four chapters (34-37): the strata and the blindness (pin lemma
+closed with aligned wandering; stratification; operational
+blindness; composition), the actuality protocol (the registered
+sign-separation package with open bridge premises), the alien
+coat (the first rival-floor transport: generic core vs
+genesis-contingent laws; the two grammars; the reveal law; the
+floor-contingent cap), and the permission map (the capstone
+twelve-row taxonomy with the third axis: verdicts are
+instrument-relative). Seven new scripts; ceiling to twenty-eight
+lines; README rewritten.
+
 ## v0.23.0 — 2026-07-17
 
 Version DOI `10.5281/zenodo.21422557`.

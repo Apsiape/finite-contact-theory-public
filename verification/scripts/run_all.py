@@ -48,6 +48,13 @@ SCRIPTS = [
     "the_reading_law.py",
     "the_coat_and_the_count.py",
     "the_codes_of_the_coat.py",
+    "pin_lemma.py",
+    "stratified_sector.py",
+    "coat_composition.py",
+    "actuality_protocol.py",
+    "alien_coat.py",
+    "alien_reading.py",
+    "permission_map.py",
 ]
 
 

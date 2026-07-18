@@ -1236,3 +1236,49 @@ lemma general proof a named gap.
 
 Bright = sums of odd-offset pairs at any D_rel; two witnesses
 annihilate the hidden sector.
+
+### T-132 The Pin Lemma (Chapter 34)
+
+Position autonomy + interval duals close the cap; aligned
+wandering generic (two-spot hypothesis killed).
+
+### T-133 The Stratification Theorem (Chapter 34)
+
+Misaligned = exact sum of aligned code strata; no third channel
+kind at census scope.
+
+### T-134 Operational Blindness + Darkness Needs Alignment (Chapter 34)
+
+All bright misaligned channels die to one reveal; no misaligned
+channel exactly precluded; composition multiplicative.
+
+### T-135 Counting Satisfies NSIT (Chapter 35)
+
+Exact on all 10242 channels; the macrorealist candidate
+(recovery: Kofler-Brukner / Clemente-Kofler frame).
+
+### T-136 The Sign Separation + Triple Test (Chapter 35)
+
+Zero / never-positive / both-signed NSIT violations; squared
+I3 = 0 exactly (grade 2), linear I3 witnessed nonzero.
+
+### T-137 The Mortal Contrast + Indifference Death (Chapter 36)
+
+No survival channel on the coagulation floor; counting measure
+not preserved — microcanonicality genesis-contingent.
+
+### T-138 The Transported Coat + the Floor-Contingent Cap (Chapter 36)
+
+Ceiling, dichotomy, mod-4 purity travel; six bright distance-4
+channels at coherence 1 — the genesis prohibition is local.
+
+### T-139 The Reveal Law (Chapter 36)
+
+Alien bright channels reveal-robust 459/459; the GHZ-versus-W
+persistency contrast recovered from record grammar.
+
+### T-140 The Permission Map + the Third Axis (Chapter 37)
+
+Twelve rows, three verdict types; grammar and persistence flip
+with observable keying; factorization persistence 6/6; the
+repetition anomaly named open.
