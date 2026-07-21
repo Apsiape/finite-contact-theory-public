@@ -1416,3 +1416,26 @@ root of 4r³ + 3r² − 2; equality = N = 0 or the toric Fourier orbit.
 
 D ≤ (9/2)N, equality exactly on the Fourier orbit; companion
 33N + 2P ≥ 8 on U(3), Fourier-saturated.
+
+### T-167 The Causal Bound Family (Chapter 51)
+
+(d+1)/(2d) verified exhaustively over deterministic one-way strategies
+at d = 2, 3, 4; a checked theorem at those sizes.
+
+### T-168 Exact OCB Attainment (Chapter 51)
+
+The process term K = IZZI + ZIXZ satisfies K² = 2I; W = (1/4)(I + K/√2)
+is PSD, valid, and the closed-form strategy attains (2+√2)/4 exactly in
+Q(√2); the gap over the causal bound is exactly (√2−1)/4.
+
+### T-169 The Elliptope Margin (Chapter 52)
+
+W = P111 + D2 − 2/3 = (2/9)det G exactly; odd-holonomy boundary at
+r = 1/2 via 1 − 3r² − 2r³ = (1+r)²(1−2r); the 4-cycle non-completability
+certificate is exact; the chordal path always completes.
+
+### T-170 The Rung-Value Table (Chapter 52)
+
+CHSH 2 (exhaustive) / 2√2 (certified bracket) / 4; order 3/4 and 2/3
+(exhaustive) / (2+√2)/4 (exact); pentagon 8 (exhaustive) /
+10·cos(π/10) > 8 (certified minimal-polynomial bracket).

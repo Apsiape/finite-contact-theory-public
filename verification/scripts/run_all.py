@@ -73,6 +73,8 @@ SCRIPTS = [
     "harmonic_law.py",
     "octave_law.py",
     "rf_boundary.py",
+    "causal_ceiling_family.py",
+    "amalgamation_boundary.py",
 ]
 
 

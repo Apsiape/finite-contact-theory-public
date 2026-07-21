@@ -17,7 +17,7 @@ the locked private corpus, historical only, or held.
 
 ## Evidence Posture
 
-The public repository now spans forty-nine chapters (this manifest details the
+The public repository now spans fifty-two chapters (this manifest details the
 early chapters; from Chapter 34 onward verification scripts live in
 verification/scripts/ and are indexed by run_all.py). Early scope: three recovery lines, a
 first extension line, a count-regions line, and a floor-to-interface line,
@@ -64,7 +64,7 @@ Run release hygiene:
 python scripts\release_audit.py
 ```
 
-Current shipped scripts (sixty-three, wired into `run_all.py`, one per shipped result line):
+Current shipped scripts (sixty-five, wired into `run_all.py`, one per shipped result line):
 
 - `verification/scripts/no_jam_open_rule.py`
 - `verification/scripts/frequency_bridge_exchangeable.py`
@@ -129,6 +129,8 @@ Current shipped scripts (sixty-three, wired into `run_all.py`, one per shipped r
 - `verification/scripts/harmonic_law.py` (chapter 48)
 - `verification/scripts/octave_law.py` (chapter 48)
 - `verification/scripts/rf_boundary.py` (chapter 49)
+- `verification/scripts/causal_ceiling_family.py` (chapter 51)
+- `verification/scripts/amalgamation_boundary.py` (chapter 52)
 
 Current shipped result ledgers:
 

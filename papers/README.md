@@ -250,6 +250,18 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   — **Chapter 49** (v0.32.0): _The r_F Boundary_. DOIs recorded in its
   [`RELEASE.md`](49-rf-boundary/RELEASE.md) at tagging.
 
+- [`50-bracket-1/`](50-bracket-1/paper.md)
+  — **Chapter 50** (v0.33.0): _BRACKET-1_. DOIs recorded in its
+  [`RELEASE.md`](50-bracket-1/RELEASE.md) at tagging.
+
+- [`51-causal-ceiling-family/`](51-causal-ceiling-family/paper.md)
+  — **Chapter 51** (v0.33.0): _The Causal Ceiling Family_. DOIs recorded in its
+  [`RELEASE.md`](51-causal-ceiling-family/RELEASE.md) at tagging.
+
+- [`52-amalgamation-boundary/`](52-amalgamation-boundary/paper.md)
+  — **Chapter 52** (v0.33.0): _The Amalgamation Boundary_. DOIs recorded in its
+  [`RELEASE.md`](52-amalgamation-boundary/RELEASE.md) at tagging.
+
 ## Chapter directory convention (v0.2 onward)
 
 Each new chapter lives in its own directory:

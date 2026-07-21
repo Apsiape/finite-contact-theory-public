@@ -1,3 +1,13 @@
+## v0.33.0 — 2026-07-21
+
+Version DOI: recorded on mint.
+
+Three chapters (50–52): BRACKET-1 (frozen preregistration), the causal
+ceiling family (certified d = 3 violation; the Contact-Faithful Causal
+Ceiling registered), and the amalgamation boundary (explicit synthesis;
+the elliptope-margin functional). Two new scripts; ceiling to
+forty-three lines.
+
 ## v0.32.0 — 2026-07-21
 
 Version DOI `10.5281/zenodo.21480439`.
