@@ -72,6 +72,7 @@ SCRIPTS = [
     "sixfold_coat.py",
     "harmonic_law.py",
     "octave_law.py",
+    "rf_boundary.py",
 ]
 
 

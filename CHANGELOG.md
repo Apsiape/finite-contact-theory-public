@@ -1,3 +1,13 @@
+## v0.32.0 — 2026-07-21
+
+Version DOI: recorded on mint.
+
+One chapter (49): the r_F boundary — the exact positivity threshold
+of the Q_r family (root of 4r³ + 3r² − 2), the equality-locus
+characterization, the sharp constant D ≤ (9/2)N, and the companion
+unitary inequality 33N + 2P ≥ 8. One new script; ceiling to forty
+lines.
+
 ## v0.31.0 — 2026-07-18
 
 Version DOI `10.5281/zenodo.21432950`.

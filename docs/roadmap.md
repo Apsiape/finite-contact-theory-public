@@ -1,7 +1,7 @@
 # Roadmap
 
 Status: historical research roadmap (written at v0.10; retained as a record).
-The program has since shipped through v0.31.0 (48 chapters); the live state is
+The program has since shipped through v0.32.0 (49 chapters); the live state is
 the CHANGELOG, docs/public-claim-register.md, and the README ceiling.
 
 As of v0.10 the program had shipped v0.1.0 through v0.10.0 (ten chapters on

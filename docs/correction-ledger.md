@@ -1,6 +1,6 @@
 # Correction Ledger
 
-Status: public correction ledger (current through v0.13; entries C-01..C-18).
+Status: public correction ledger (entries C-01..C-18, current through v0.32.0 — no released-claim demotions since v0.13; draft-stage corrections are scored inside their own chapters, e.g. chapter 49 §12).
 
 The correction ledger is part of the method. It records claims that were killed,
 demoted, narrowed, or moved to a hold. A failed claim may leave a useful

@@ -17,7 +17,7 @@ the locked private corpus, historical only, or held.
 
 ## Evidence Posture
 
-The public repository now spans forty-eight chapters (this manifest details the
+The public repository now spans forty-nine chapters (this manifest details the
 early chapters; from Chapter 34 onward verification scripts live in
 verification/scripts/ and are indexed by run_all.py). Early scope: three recovery lines, a
 first extension line, a count-regions line, and a floor-to-interface line,
@@ -64,7 +64,7 @@ Run release hygiene:
 python scripts\release_audit.py
 ```
 
-Current shipped scripts (fifteen, wired into `run_all.py`):
+Current shipped scripts (sixty-three, wired into `run_all.py`, one per shipped result line):
 
 - `verification/scripts/no_jam_open_rule.py`
 - `verification/scripts/frequency_bridge_exchangeable.py`
@@ -81,6 +81,54 @@ Current shipped scripts (fifteen, wired into `run_all.py`):
 - `verification/scripts/forcing_audit.py` (chapter 9)
 - `verification/scripts/wcd_actualization.py` (chapter 9)
 - `verification/scripts/negative_gram_holonomy.py` (chapter 10)
+- `verification/scripts/mixed_state_exclusion.py` (chapter 11)
+- `verification/scripts/count_regions.py` (chapter 12)
+- `verification/scripts/floor_to_interface.py` (chapter 13)
+- `verification/scripts/atlas_of_floors.py` (chapter 14)
+- `verification/scripts/ladder_of_scars.py` (chapter 15)
+- `verification/scripts/debt_ledger.py` (chapter 16)
+- `verification/scripts/mint_and_bill.py` (chapter 17)
+- `verification/scripts/emergent_hierarchy.py` (chapter 18)
+- `verification/scripts/seventh_attempt.py` (chapter 19)
+- `verification/scripts/observers_price.py` (chapter 20)
+- `verification/scripts/genesis_of_space.py` (chapter 21)
+- `verification/scripts/price_of_chance.py` (chapter 22)
+- `verification/scripts/decay_of_worlds.py` (chapter 23)
+- `verification/scripts/particles_of_floor.py` (chapter 24)
+- `verification/scripts/the_up.py` (chapter 25)
+- `verification/scripts/habitability.py` (chapter 26)
+- `verification/scripts/floor_thermodynamics.py` (chapter 27)
+- `verification/scripts/maintained_structures.py` (chapter 28)
+- `verification/scripts/two_kinds_of_the_given.py` (chapter 29)
+- `verification/scripts/where_i_lives.py` (chapter 30)
+- `verification/scripts/the_reading_law.py` (chapter 31)
+- `verification/scripts/the_coat_and_the_count.py` (chapter 32)
+- `verification/scripts/the_codes_of_the_coat.py` (chapter 33)
+- `verification/scripts/pin_lemma.py` (chapter 34)
+- `verification/scripts/stratified_sector.py` (chapter 34)
+- `verification/scripts/coat_composition.py` (chapter 34)
+- `verification/scripts/actuality_protocol.py` (chapter 35)
+- `verification/scripts/alien_coat.py` (chapter 36)
+- `verification/scripts/alien_reading.py` (chapter 36)
+- `verification/scripts/permission_map.py` (chapter 37)
+- `verification/scripts/grammar_closure.py` (chapter 38)
+- `verification/scripts/sequence_grammar.py` (chapter 38)
+- `verification/scripts/mortal_observer.py` (chapter 39)
+- `verification/scripts/breathing_floor.py` (chapter 40)
+- `verification/scripts/two_switches.py` (chapter 40)
+- `verification/scripts/fourth_column.py` (chapter 41)
+- `verification/scripts/controls_engine.py` (chapter 41)
+- `verification/scripts/phase_hunt.py` (chapter 42)
+- `verification/scripts/fourth_table.py` (chapter 42)
+- `verification/scripts/critical_corner.py` (chapter 43)
+- `verification/scripts/minimal_pair.py` (chapter 43)
+- `verification/scripts/observer_corner.py` (chapter 44)
+- `verification/scripts/quantum_dividend.py` (chapter 45)
+- `verification/scripts/third_root.py` (chapter 46)
+- `verification/scripts/sixfold_coat.py` (chapter 47)
+- `verification/scripts/harmonic_law.py` (chapter 48)
+- `verification/scripts/octave_law.py` (chapter 48)
+- `verification/scripts/rf_boundary.py` (chapter 49)
 
 Current shipped result ledgers:
 

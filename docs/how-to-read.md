@@ -1,6 +1,6 @@
 # How To Read This Repository
 
-Status: reader guide (current as of v0.10 — ten chapters).
+Status: reader guide (structure current as of v0.10 — ten chapters; the repository has since grown to forty-nine — see the README and papers/README.md for the full index; the reading advice below still applies to the early arc).
 
 ## Start Here
 

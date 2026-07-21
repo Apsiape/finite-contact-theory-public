@@ -1406,3 +1406,13 @@ structure are one fact; i unique for pair-returns.
 Refusal first appears at depth c where 1 + zeta_n^c = 0 (forward
 trivial); refusal only in half-turn worlds is a grid-verified
 conjecture in Lam-Leung territory.
+
+### T-165 The r_F Boundary (Chapter 49)
+
+Q_r ≥ 0 on all complex 3×3 matrices iff −1 ≤ r ≤ r_F, the positive
+root of 4r³ + 3r² − 2; equality = N = 0 or the toric Fourier orbit.
+
+### T-166 The Sharp Constant (Chapter 49)
+
+D ≤ (9/2)N, equality exactly on the Fourier orbit; companion
+33N + 2P ≥ 8 on U(3), Fourier-saturated.

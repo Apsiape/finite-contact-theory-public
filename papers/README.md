@@ -93,6 +93,163 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   equivariant section; carries the live release ceiling). DOIs recorded in
   its [`RELEASE.md`](14-atlas-of-floors/RELEASE.md) at tagging.
 
+- [`15-ladder-of-scars/`](15-ladder-of-scars/paper.md)
+  — **Chapter 15** (v0.16.0): _The Ladder of Scars: One Obstruction Tower
+  from the Arrow to the Pentagonator_. DOIs recorded in its
+  [`RELEASE.md`](15-ladder-of-scars/RELEASE.md) at tagging.
+
+- [`16-debt-ledger/`](16-debt-ledger/paper.md)
+  — **Chapter 16** (v0.16.0): _The Debt Ledger: Irreversibility Priced by
+  Counting Alone_. DOIs recorded in its
+  [`RELEASE.md`](16-debt-ledger/RELEASE.md) at tagging.
+
+- [`17-mint-and-bill/`](17-mint-and-bill/paper.md)
+  — **Chapter 17** (v0.17.0): _The Mint and the Bill: The Ledger
+  Completed_. DOIs recorded in its
+  [`RELEASE.md`](17-mint-and-bill/RELEASE.md) at tagging.
+
+- [`18-emergent-hierarchy/`](18-emergent-hierarchy/paper.md)
+  — **Chapter 18** (v0.17.0): _The Emergent Hierarchy and the Exposure
+  Law_. DOIs recorded in its
+  [`RELEASE.md`](18-emergent-hierarchy/RELEASE.md) at tagging.
+
+- [`19-seventh-attempt/`](19-seventh-attempt/paper.md)
+  — **Chapter 19** (v0.18.0): _The Seventh Attempt: Self-Description and
+  Its Price_. DOIs recorded in its
+  [`RELEASE.md`](19-seventh-attempt/RELEASE.md) at tagging.
+
+- [`20-observers-price/`](20-observers-price/paper.md)
+  — **Chapter 20** (v0.19.0): _The Observer's Price List: Hierarchy,
+  Tuition, and the Six Prices of Knowing_. DOIs recorded in its
+  [`RELEASE.md`](20-observers-price/RELEASE.md) at tagging.
+
+- [`21-genesis-of-space/`](21-genesis-of-space/paper.md)
+  — **Chapter 21** (v0.19.0): _The Genesis of Space: The Anthropic Filter,
+  Paid Inheritance, Crystals, and the Light Cone_. DOIs recorded in its
+  [`RELEASE.md`](21-genesis-of-space/RELEASE.md) at tagging.
+
+- [`22-price-of-chance/`](22-price-of-chance/paper.md)
+  — **Chapter 22** (v0.19.0): _The Price of Chance: The Measure Dilemma,
+  the Field Carrier, and the Earned Key_. DOIs recorded in its
+  [`RELEASE.md`](22-price-of-chance/RELEASE.md) at tagging.
+
+- [`23-decay-of-worlds/`](23-decay-of-worlds/paper.md)
+  — **Chapter 23** (v0.20.0): _The Decay of Worlds: The Rational Spectrum,
+  the Urn, the Clock Address, and the Self-Location Theorem_. DOIs recorded
+  in its [`RELEASE.md`](23-decay-of-worlds/RELEASE.md) at tagging.
+
+- [`24-particles-of-floor/`](24-particles-of-floor/paper.md)
+  — **Chapter 24** (v0.20.0): _The Particles of the Floor: Wounds, Charge,
+  Bound States, and the Opposition Calculus_. DOIs recorded in its
+  [`RELEASE.md`](24-particles-of-floor/RELEASE.md) at tagging.
+
+- [`25-the-up/`](25-the-up/paper.md)
+  — **Chapter 25** (v0.21.0): _The Up: Retention, the Edge, and the Price
+  of Persistence_. DOIs recorded in its
+  [`RELEASE.md`](25-the-up/RELEASE.md) at tagging.
+
+- [`26-habitability/`](26-habitability/paper.md)
+  — **Chapter 26** (v0.21.0): _Habitability: The Steering Radius, the
+  Gossip Theorem, and the Bootstrap_. DOIs recorded in its
+  [`RELEASE.md`](26-habitability/RELEASE.md) at tagging.
+
+- [`27-floor-thermodynamics/`](27-floor-thermodynamics/paper.md)
+  — **Chapter 27** (v0.22.0): _The Thermodynamics of the Floor_. DOIs
+  recorded in its
+  [`RELEASE.md`](27-floor-thermodynamics/RELEASE.md) at tagging.
+
+- [`28-maintained-structures/`](28-maintained-structures/paper.md)
+  — **Chapter 28** (v0.22.0): _Maintained Structures_. DOIs recorded in
+  its [`RELEASE.md`](28-maintained-structures/RELEASE.md) at tagging.
+
+- [`29-two-kinds-of-the-given/`](29-two-kinds-of-the-given/paper.md)
+  — **Chapter 29** (v0.22.0): _The Two Kinds of the Given_. DOIs recorded
+  in its [`RELEASE.md`](29-two-kinds-of-the-given/RELEASE.md) at tagging.
+
+- [`30-where-i-lives/`](30-where-i-lives/paper.md)
+  — **Chapter 30** (v0.22.0): _Where i Lives_. DOIs recorded in its
+  [`RELEASE.md`](30-where-i-lives/RELEASE.md) at tagging.
+
+- [`31-the-reading-law/`](31-the-reading-law/paper.md)
+  — **Chapter 31** (v0.22.0): _The Reading Law_. DOIs recorded in its
+  [`RELEASE.md`](31-the-reading-law/RELEASE.md) at tagging.
+
+- [`32-the-coat-and-the-count/`](32-the-coat-and-the-count/paper.md)
+  — **Chapter 32** (v0.23.0): _The Coat and the Count_. DOIs recorded in
+  its [`RELEASE.md`](32-the-coat-and-the-count/RELEASE.md) at tagging.
+
+- [`33-the-codes-of-the-coat/`](33-the-codes-of-the-coat/paper.md)
+  — **Chapter 33** (v0.23.0): _The Codes of the Coat_. DOIs recorded in
+  its [`RELEASE.md`](33-the-codes-of-the-coat/RELEASE.md) at tagging.
+
+- [`34-strata-and-blindness/`](34-strata-and-blindness/paper.md)
+  — **Chapter 34** (v0.24.0): _The Strata and the Blindness_. DOIs
+  recorded in its [`RELEASE.md`](34-strata-and-blindness/RELEASE.md) at
+  tagging.
+
+- [`35-actuality-protocol/`](35-actuality-protocol/paper.md)
+  — **Chapter 35** (v0.24.0): _The Actuality Protocol_. DOIs recorded in
+  its [`RELEASE.md`](35-actuality-protocol/RELEASE.md) at tagging.
+
+- [`36-alien-coat/`](36-alien-coat/paper.md)
+  — **Chapter 36** (v0.24.0): _The Alien Coat_. DOIs recorded in its
+  [`RELEASE.md`](36-alien-coat/RELEASE.md) at tagging.
+
+- [`37-permission-map/`](37-permission-map/paper.md)
+  — **Chapter 37** (v0.24.0): _The Permission Map_. DOIs recorded in its
+  [`RELEASE.md`](37-permission-map/RELEASE.md) at tagging.
+
+- [`38-price-of-separability/`](38-price-of-separability/paper.md)
+  — **Chapter 38** (v0.25.0): _The Price of Separability_. DOIs recorded
+  in its [`RELEASE.md`](38-price-of-separability/RELEASE.md) at tagging.
+
+- [`39-mortal-observer/`](39-mortal-observer/paper.md)
+  — **Chapter 39** (v0.26.0): _The Mortal Observer_. DOIs recorded in its
+  [`RELEASE.md`](39-mortal-observer/RELEASE.md) at tagging.
+
+- [`40-breathing-floor/`](40-breathing-floor/paper.md)
+  — **Chapter 40** (v0.26.0): _The Breathing Floor and the Two Switches_.
+  DOIs recorded in its
+  [`RELEASE.md`](40-breathing-floor/RELEASE.md) at tagging.
+
+- [`41-fourth-column/`](41-fourth-column/paper.md)
+  — **Chapter 41** (v0.27.0): _The Fourth Column and the Phase-Flat Fork_.
+  DOIs recorded in its
+  [`RELEASE.md`](41-fourth-column/RELEASE.md) at tagging.
+
+- [`42-phase-hunt/`](42-phase-hunt/paper.md)
+  — **Chapter 42** (v0.28.0): _The Phase Hunt and the Four-Floor
+  Invariant_. DOIs recorded in its
+  [`RELEASE.md`](42-phase-hunt/RELEASE.md) at tagging.
+
+- [`43-switch-lattice/`](43-switch-lattice/paper.md)
+  — **Chapter 43** (v0.29.0): _The Switch Lattice_. DOIs recorded in its
+  [`RELEASE.md`](43-switch-lattice/RELEASE.md) at tagging.
+
+- [`44-observer-corner/`](44-observer-corner/paper.md)
+  — **Chapter 44** (v0.30.0): _The Observer Corner_. DOIs recorded in its
+  [`RELEASE.md`](44-observer-corner/RELEASE.md) at tagging.
+
+- [`45-quantum-dividend/`](45-quantum-dividend/paper.md)
+  — **Chapter 45** (v0.31.0): _The Quantum Dividend_. DOIs recorded in its
+  [`RELEASE.md`](45-quantum-dividend/RELEASE.md) at tagging.
+
+- [`46-third-root/`](46-third-root/paper.md)
+  — **Chapter 46** (v0.31.0): _The Third Root_. DOIs recorded in its
+  [`RELEASE.md`](46-third-root/RELEASE.md) at tagging.
+
+- [`47-six-fold-coat/`](47-six-fold-coat/paper.md)
+  — **Chapter 47** (v0.31.0): _The Six-Fold Coat_. DOIs recorded in its
+  [`RELEASE.md`](47-six-fold-coat/RELEASE.md) at tagging.
+
+- [`48-arithmetic-of-refusal/`](48-arithmetic-of-refusal/paper.md)
+  — **Chapter 48** (v0.31.0): _The Arithmetic of Refusal_. DOIs recorded
+  in its [`RELEASE.md`](48-arithmetic-of-refusal/RELEASE.md) at tagging.
+
+- [`49-rf-boundary/`](49-rf-boundary/paper.md)
+  — **Chapter 49** (v0.32.0): _The r_F Boundary_. DOIs recorded in its
+  [`RELEASE.md`](49-rf-boundary/RELEASE.md) at tagging.
+
 ## Chapter directory convention (v0.2 onward)
 
 Each new chapter lives in its own directory:
