@@ -1,5 +1,7 @@
 # Release notes — v0.32.0
 
+Version DOI `10.5281/zenodo.21480439`.
+
 One chapter (49), The r_F Boundary: an exact positivity theorem for
 the one-parameter family Q_r over all complex 3×3 matrices — the
 boundary is the positive root of 4r³ + 3r² − 2 (r_F = 0.6070073…),

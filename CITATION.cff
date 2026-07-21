@@ -3,6 +3,9 @@ message: "If you use or discuss this work, please cite it using the metadata bel
 doi: "10.5281/zenodo.21253591"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.21480439"
+    description: "The versioned DOI for v0.32.0."
+  - type: doi
     value: "10.5281/zenodo.21432950"
     description: "The versioned DOI for v0.31.0."
   - type: doi

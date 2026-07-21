@@ -1,6 +1,6 @@
 ## v0.32.0 — 2026-07-21
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21480439`.
 
 One chapter (49): the r_F boundary — the exact positivity threshold
 of the Q_r family (root of 4r³ + 3r² − 2), the equality-locus
