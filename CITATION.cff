@@ -9,6 +9,9 @@ identifiers:
     value: "10.5281/zenodo.21432153"
     description: "The versioned DOI for v0.30.0."
   - type: doi
+    value: "10.5281/zenodo.21431842"
+    description: "The versioned DOI for v0.29.0."
+  - type: doi
     value: "10.5281/zenodo.21253591"
     description: "The concept DOI for all versions of this work."
   - type: doi

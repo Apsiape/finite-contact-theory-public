@@ -2,7 +2,7 @@
 
 Figures and release media for the public package.
 
-- `reconstruction-map.svg` — the current hero figure (v0.8): one one-use
+- `reconstruction-map.svg` — the hero figure (v0.18 layout; chapter count has since grown — see the repository README): one one-use
   floor, the three published lines (quantum-facing axis, finite-epistemics
   axis, contact-interface line), and the Chapter 8 state/receiver closure
   where the Born frame rule and the triality Kochen-Specker obstruction

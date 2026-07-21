@@ -1,9 +1,11 @@
 # Roadmap
 
-Status: research roadmap, current as of v0.10.
+Status: historical research roadmap (written at v0.10; retained as a record).
+The program has since shipped through v0.31.0 (48 chapters); the live state is
+the CHANGELOG, docs/public-claim-register.md, and the README ceiling.
 
-The program has shipped v0.1.0 through v0.10.0 (ten chapters on three recovery
-lines plus a first extension line). The `release-roadmap.md` file is the
+As of v0.10 the program had shipped v0.1.0 through v0.10.0 (ten chapters on
+three recovery lines plus a first extension line). The `release-roadmap.md` file is the
 historical v0.1 DOI-readiness plan; this file is the shorter research roadmap
 and the current open frontier.
 

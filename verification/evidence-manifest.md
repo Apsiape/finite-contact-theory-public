@@ -17,7 +17,9 @@ the locked private corpus, historical only, or held.
 
 ## Evidence Posture
 
-The public repository now spans thirteen chapters on three recovery lines, a
+The public repository now spans forty-eight chapters (this manifest details the
+early chapters; from Chapter 34 onward verification scripts live in
+verification/scripts/ and are indexed by run_all.py). Early scope: three recovery lines, a
 first extension line, a count-regions line, and a floor-to-interface line,
 with eighteen shipped, dependency-free verification scripts alongside cited
 private evidence. The shipped subset is intentionally

@@ -114,7 +114,7 @@ corrections indexed by dual codewords; brightness arithmetic mod 4); the
 stochastic-versus-unitary no-cancellation dichotomy re-derived as a
 conservation switch; and the GHZ-versus-W entanglement-fragility contrast
 recovered as a theorem about what different record grammars can store
-(Chapters 1–37 — each with its classical sources named in print).
+(each chapter names its classical sources in print).
 
 **Divergences — preregistered, conditional, and experiment-open.** Two
 seams where the floor's mathematics points outside quantum mechanics, both
