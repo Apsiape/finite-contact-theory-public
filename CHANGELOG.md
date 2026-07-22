@@ -1,6 +1,6 @@
 ## v0.35.0 — 2026-07-25
 
-Version DOI: recorded on mint.
+Version DOI: `10.5281/zenodo.21500046`.
 
 Five chapters (57-61): the ledger theorems (persistence; H-theorem and
 arrow; the representation identity; the thermal-receiver anatomy), the

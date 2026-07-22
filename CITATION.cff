@@ -107,6 +107,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.21253592"
     description: "The versioned DOI for v0.1.0."
+  - type: doi
+    value: "10.5281/zenodo.21500046"
+    description: "Version DOI (v0.35.0)"
 title: "Finite Contact Theory v0.35: The Books, the Prices, and the One Import"
 type: software
 authors:

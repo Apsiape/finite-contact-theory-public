@@ -1,5 +1,7 @@
 # Release notes — v0.35.0
 
+Version DOI: `10.5281/zenodo.21500046`
+
 Five chapters (57-61): the books, the prices, the spine, the worlds above
 the pentagon, and the price of the square. Chapter 57: the ledger
 theorems — receipt-lineage persistence, the pathwise H-theorem and
