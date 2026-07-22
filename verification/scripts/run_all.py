@@ -87,6 +87,11 @@ SCRIPTS = [
     "obstruction_spectrum.py",
     "carrier_anatomy.py",
     "fixed_point_registry.py",
+    "ledger_books.py",
+    "valuation_prices.py",
+    "spine_forks.py",
+    "twisted_worlds.py",
+    "born_price.py",
 ]
 
 # The curated flagship path: one representative exact result per major line,
@@ -102,6 +107,8 @@ FAST = [
     "rf_boundary.py",
     "causal_ceiling_family.py",
     "admission_forks.py",
+    "spine_forks.py",
+    "born_price.py",
 ]
 
 

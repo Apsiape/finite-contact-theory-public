@@ -278,6 +278,26 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   — **Chapter 56** (v0.34.0): _The Fixed Point and the Five Receipts_. DOIs recorded in its
   [`RELEASE.md`](56-fixed-point-and-receipts/RELEASE.md) at tagging.
 
+- [`57-the-books/`](57-the-books/paper.md)
+  — **Chapter 57** (v0.35.0): _The Books: Ledger Theorems for the One-Use Floor_. DOIs recorded in its
+  [`RELEASE.md`](57-the-books/RELEASE.md) at tagging.
+
+- [`58-the-prices/`](58-the-prices/paper.md)
+  — **Chapter 58** (v0.35.0): _The Prices: Valuations, Chance, and What the Floor Refuses to Number_. DOIs recorded in its
+  [`RELEASE.md`](58-the-prices/RELEASE.md) at tagging.
+
+- [`59-the-spine/`](59-the-spine/paper.md)
+  — **Chapter 59** (v0.35.0): _The Spine: One Ladder of Staged Forks_. DOIs recorded in its
+  [`RELEASE.md`](59-the-spine/RELEASE.md) at tagging.
+
+- [`60-worlds-above-the-pentagon/`](60-worlds-above-the-pentagon/paper.md)
+  — **Chapter 60** (v0.35.0): _The Worlds Above the Pentagon_. DOIs recorded in its
+  [`RELEASE.md`](60-worlds-above-the-pentagon/RELEASE.md) at tagging.
+
+- [`61-price-of-the-square/`](61-price-of-the-square/paper.md)
+  — **Chapter 61** (v0.35.0): _The Price of the Square_. DOIs recorded in its
+  [`RELEASE.md`](61-price-of-the-square/RELEASE.md) at tagging.
+
 ## Chapter directory convention (v0.2 onward)
 
 Each new chapter lives in its own directory:

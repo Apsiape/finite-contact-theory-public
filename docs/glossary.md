@@ -1,6 +1,6 @@
 # Glossary
 
-**A living glossary — current through v0.34 (56 chapters).**
+**A living glossary — current through v0.35 (61 chapters).**
 
 This is a plain-language door into the vocabulary a newcomer meets in the
 [README](../README.md) and the chapters. Each entry gives a lay gloss first,

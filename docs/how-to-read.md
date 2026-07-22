@@ -77,3 +77,9 @@ ceiling family, the amalgamation boundary), and the admission-forks and
 carrier-anatomy arc (chapters 53-56), which ships with its own adversarial
 correction history — read the correction ledger's C-19..C-24 block alongside
 those chapters; the corrections are part of the result.
+
+The v0.35 arc (chapters 57-61) is the audit era: the program turned its
+adversarial instruments on its own strongest hopes, and the chapters carry
+the kills in print — read each chapter's altitude note first; the
+corrections are part of the result, and the closing thesis of chapter 61
+is the map for what comes next.

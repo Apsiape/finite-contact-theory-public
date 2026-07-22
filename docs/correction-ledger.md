@@ -1,6 +1,6 @@
 # Correction Ledger
 
-Status: public correction ledger (entries C-01..C-24, current through v0.34.0). The C-19..C-24 block records the pre-publication adversarial panel's corrections to the chapters 53-56 arc, printed alongside the results they correct; draft-stage corrections remain scored inside their own chapters (e.g. chapter 49 §12).
+Status: public correction ledger (entries C-01..C-24, current through v0.35.0 — the chapters 57-61 arc's pre-release corrections are scored inside the chapters themselves per the draft-stage policy). The C-19..C-24 block records the pre-publication adversarial panel's corrections to the chapters 53-56 arc, printed alongside the results they correct; draft-stage corrections remain scored inside their own chapters (e.g. chapter 49 §12).
 
 The correction ledger is part of the method. It records claims that were killed,
 demoted, narrowed, or moved to a hold. A failed claim may leave a useful

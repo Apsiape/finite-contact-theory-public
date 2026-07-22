@@ -1,289 +1,450 @@
-# Finite Contact Theory
+# Chapter 58 — The Prices: Valuations, Chance, and What the Floor Refuses to Number
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21253591.svg)](https://doi.org/10.5281/zenodo.21253591)
+*Finite Contact Theory. This chapter takes up the two places where the program
+has always been tempted to write down a number the floor never gave it: the
+valuation that scores a resolution (the debt, the "cost," the log) and the
+chance that weights an alternative (the probability, the Born square). Two blind
+investigations — one on valuations, one on probability — were commissioned to
+attack these temptations refutation-first, and both came back with the same
+shape of answer. The floor stages a skeleton and admits a flesh. It forces which
+things can carry a valuation or a chance, and it forces the FORM those carriers
+must take once a short list of external axioms is granted; it does not force the
+axioms, and it does not, at floor scope, force any number at all. Along the way
+three headline bets the program once flew are retired in print — that refinement
+additivity forces a logarithm, that the binary mark is a forced debt unit, and
+that the floor forces "the form up to gauge." The chapter states each theorem at
+its corrected strength, names each countermodel, and ends by localizing the Born
+exponent to a single later question it does not itself answer.*
 
-> **We grow tiny universes from a single rule, measure them with the
-> discipline of experimental science — and now build new universes to
-> order, predicting their physics before the engines run.** The rule is
-> minimal: a finite thing touches what it cannot fully take in, and the
-> contact leaves a mark that can be used once. With no Hilbert space, no
-> probability, and no spacetime granted at the start, the program has
-> recovered a scoped stack of quantum machinery from counting alone;
-> registered two preregistered predictions that diverge from what any
-> Hilbert-space model allows; and mapped, across **seven rival
-> dynamics**, which features of physics are inevitable, which are
-> purchased, and what they cost. Every result ships as a dependency-free
-> script: the flagship path runs in about a minute, the full suite in a
-> few minutes.
+## A note on altitude, first
 
-## A note from the author
+The results here are theorems, but their altitude is low on purpose. Every
+positive statement is conditional on axioms the chapter also proves the floor
+does not supply, and the honest content is exactly the ledger of forced versus
+admitted. A reader who wants "the floor derives the logarithm" or "the floor
+derives the Born rule" will not find it, and the point is that the reason is
+structural, not a gap in the argument.
+Both investigations were run in blind lanes with an independent second engine
+choosing its own parameters — fresh prime weights, independently drawn wreath
+counts, independently constructed countermodels — and both engines reproduced
+every count and every countermodel. Where a prior headline died it is scored as a
+kill, not smoothed over; the kill-count is a health metric and several of our
+prettier claims are on it. What survives is a pair of sharp scope theorems and
+one localization that hands the Born question, cleanly posed, to a later chapter.
 
-I'm not a physicist. I work in AI and software and follow physics as an
-outsider. It didn't start as a theory of physics: it started with one question
-I couldn't put down — what is the least that has to exist when something finite
-touches something it can't fully take in? A finite thing makes contact with
-something larger than itself; the contact is real but partial, so it leaves a
-difference, and that difference can't just be wiped away.
+The frame throughout: the floor stages a fork and forces no selector. A
+*valuation* scores the resulting resolutions with a nonnegative number; a
+*chance* weights the alternatives of a single unresolved fork. The question in
+both cases is the same — how much of that number is the floor's and how much is
+ours — and the answer has the same two-tier shape.
 
-The way I chased it is unusual: over about seven months I built a setup where
-several AI models work together as a research team and pointed it at that
-question. The hardest part was never the physics; it was getting the models to
-reach for something new instead of repeating what they were trained on. This is
-the piece that has been made public so far, with more built out privately that
-I'll share as it's ready. An AI-assisted theory from someone outside the field
-is easy to doubt — that's fair, and it's exactly why everything here is scoped,
-labeled, and runnable. If I've gotten something wrong, I want to know:
-apsiape@gmail.com.
+## 1. One-shot versus cascade: a non-equivalence with three names
 
-**Quick doors:** [start here (plain language)](docs/start-here-plain.md) ·
-[plain-language glossary](docs/glossary.md) ·
-[the correction ledger — what we killed, in public](docs/correction-ledger.md) ·
-[how to read this repo](docs/how-to-read.md) ·
-[what this says about reality](docs/ontology-and-interpretation.md) ·
-[open problems — 28, some framework-free](OPEN-PROBLEMS.md) ·
-[how to contribute (try to kill something)](CONTRIBUTING.md) ·
-[run it yourself](#run-it-yourself)
+Start with the structural fact that everything downstream leans on. Take a fork
+with `mn` alternatives resolved in one use — the *one-shot* `mn`-fork — and
+compare it to the *cascade*: an `m`-fork followed, on each branch, by an
+`n`-fork. Classically these are "the same": both end in `mn` outcomes, and any
+first course on probability will identify them without comment. The floor does
+not permit the identification.
 
-## The program at a glance
+**Theorem 1 (no canonical correspondence) [EXTENSION, PROVED].** There is no
+canonical structure-preserving correspondence between the one-shot `mn`-fork and
+the `m`-then-`n` cascade. The trace-isomorphism invariants simply differ, and
+they differ in ways the receipt discipline is built to record:
 
-![The reconstruction map — what is derived from what](assets/reconstruction-map.svg)
+| invariant | one-shot `mn`-fork | `m`-then-`n` cascade |
+|---|---|---|
+| fork events on a realized path | 1 | 2 |
+| resolution records | 1 | 2 |
+| causal fork depth | 1 | 2 |
+| intermediate lineage mark `z_i` | not required | required |
+| external input shape | one `mn`-choice | a sequential pair |
 
-![The reconstruction ladder — floor to Born rule, rung by rung](assets/reconstruction-ladder.svg)
+Receipt compaction — coarse-graining the nested history down to its leaves —
+does not restore equivalence, because the nested history genuinely retains two
+resolutions and the compaction is precisely the act of deleting one. This is the
+first appearance of a motif that recurs in every section: the operation that
+would make two floor-objects "the same" erases data the floor treats as real.
 
-## The question
+**Theorem 2 and Corollary 2.1 (the symmetry is a wreath product) [EXTENSION,
+PROVED].** Terminal cardinality agrees — both have `mn` leaves — but the cascade
+carries a *canonical block system*: `m` blocks of `n` leaves each, the block
+being "which first-fork branch you came down." The leaf symmetry of the one-shot
+fork is the full symmetric group `S_{mn}`; the leaf symmetry of the cascade is
+the wreath product `S_n wr S_m`, of order `(n!)^m · m!`, the subgroup of
+`S_{mn}` that permutes within blocks and permutes the blocks bodily. The number
+of distinct block systems on `mn` unstructured leaves is `(mn)! / (m! (n!)^m)`,
+which exceeds 1 whenever `m, n > 1`. That count is the exact measure of what you
+must *add* to an `mn`-fork to turn it into a cascade: a choice among
+`(mn)!/(m!(n!)^m)` block systems, none canonical. The second engine reproduced
+the counts directly — `24 / 8 / 3`, `720 / 72 / 10`, `362880 / 1296 / 280` — as
+`|S_{mn}|`, `|S_n wr S_m|`, and the block-system count.
 
-Which features of physical law would appear in *any* universe grown from a
-generative floor, and which are peculiar to ours? Not as philosophy — as a
-measured table. We call the goal a **taxonomy of inevitability**, and as of
-v0.35 it has its first full artifact: a **permission map** (Chapters 37–44), produced by running one matched instrument suite — same
-observables, same measure, literally the same code — on four genuinely rival
-dynamics.
+**Theorem 3 (refinement-additivity bundles three additions) [EXTENSION,
+PROVED].** The intuition that a valuation should satisfy `w(mn) = w(m) + w(n)` —
+refinement additivity, RA — is not one assumption but three, silently stapled
+together:
 
-| law | conserving (ours) | mortal | breathing | subtractive | verdict |
-|---|---|---|---|---|---|
-| forks staged, none selected | yes | yes | yes | yes | **generic** — the central law is everyone's |
-| coat algebra (ceiling, dichotomy, purity) | live | live | live | phase-flat forks, phase-active protocols | needs a **reference** |
-| the actuality discriminator's sign table | yes | yes | yes | yes | **generic** — a four-floor invariant |
-| rest | free | impossible | priced | idle | four-valued |
-| exact destructive interference (preclusion) | 112 | 0 | 196 | 0 | needs **return AND a parent** — seven floors, no exceptions (Ch43) |
-| separability at a distance | absolute | never (collider, exhibited) | mostly (drift-graded) | local (record decomposes) | the record's decomposability |
-| entanglement-distance cap ≤ 2 | proven | distance 4 minted | respected | — | contingent |
-| correlation grammar; reveal fragility | flips with the instrument | flips | flips | — | **instrument-indexed** |
+1. a **trace coarse-graining quotient** (agree to forget the intermediate
+   resolution, the very data Theorem 1 says is real);
+2. **selected-path accounting** rather than potential-tree accounting — RA
+   scores only the branch actually taken, `w(m) + w(n)`, whereas the frame
+   *equally* permits potential-tree accounting `D = w(m) + m·w(n)`, which counts
+   the whole staged tree and is not additive;
+3. **serial additivity** proper, the choice to add the two stages rather than
+   combine them any other lawful way.
 
-Generic, contingent, instrument-indexed — and inside the contingent column, a two-switch theory (return vs conservation; Chapter 40). The instrument-indexed class is the program's own surprise: some genericity verdicts are relative to the
-measuring instrument, and the map says so exactly (Chapter 37).
+RA is what you get only after granting all three. None is floor-derivable; the
+constant valuation `w ≡ c` is a countermodel to RA outright, so RA is a genuine
+external axiom and not a theorem in disguise. We flag this as the first bet: the
+program had
+carried "refinement should be additive" as if the floor supplied it. It does
+not. **[Program bet: RA-is-floor-forced — KILLED.]**
 
-**The laws of the lattice** — each an exact theorem or enumeration at
-stated scope, each with its killed rival bets scored in print:
+## 2. The valuation moduli, in three tiers
 
-- **The two-factor theorem of preclusion** (Ch43): exact destructive
-  interference requires a dynamics that can *return* AND a fork
-  structure with a *parent* — verified across seven floors with both
-  factors isolated by construction, including a minimal pair of floors
-  one structural bit apart: sterile on one side, dark on the other.
-- **The kept-world theorem** (Ch44): observers force returns and
-  locality — worlds that only shrink, carve, or concentrate host no
-  unbounded observer. And its converse-killer, **the sterile observer**:
-  a phase-free world can host full observers, so interference is *not*
-  anthropically forced. **Keeping is anthropic; phase is received.**
-- **Conservation buys separability** (Ch38, 41, 43): locality of
-  measure, record, and amplitude all hang from conservation —
-  control-hardened, with the collider mechanism exhibited on the mortal
-  floor and the pure-gauge mechanism on the sterile one.
-- **Phase needs a reference** (Ch41–42): a floor whose no-selector rule
-  equalizes deviation is fork-flat, yet accumulates phase at protocol
-  level through its one surviving reference — the moving parent.
-- **The four-floor invariant** (Ch42): the registered actuality
-  discriminator's sign table is identical on every dynamics built here
-  — the experiment-open package's bridge target at its widest.
-- **The completeness closure** (Ch38): a single interaction can
-  correlate only by parity and cardinality — the census-exhaustive
-  closure the external referees asked for.
-- **What phase is worth** (Ch45): the minimal pair of dynamics — one
-  structural bit apart, both hosting embodied observers — prices
-  interference for an observer at exactly two faculties (certainty of
-  absence; the destructive sector), each a recovery localized to that one
-  bit. Everything else an observer needs is free: phase is received
-  (Ch44) *and* priced.
-- **When a world can refuse** (Ch46–48): exact refusal requires the coat
-  to carry a mirror (even phase-group order — the Lam-Leung obstruction
-  instantiated) that *resonates* with the return cost — so a world's
-  phase-group order and its way of coming back are one fact, and *i* is
-  the unique coat resonant with pair-returns. The supporting arithmetic is
-  elementary and named as such; the one non-trivial converse ships as a
-  grid-verified conjecture.
+Now the central characterization. Let `L1–L3` be the bare floor axioms for a
+valuation — nonnegativity and the structural bookkeeping of marks, receipts, and
+forks, with *no* mention of the weight function `w`. Add axioms one at a time and
+watch the moduli of admissible valuations shrink. Each added axiom is shown
+external by an explicit countermodel that satisfies everything before it and
+fails only the new one.
 
-## How we work
+**Tier (i) — bare floor. Every nonnegative function is a valuation.**
+**Theorem 4 [PROVED].** Under `L1–L3` alone, *every* nonnegative function `w`
+is compatible, for the trivial and decisive reason that the axioms never
+constrain `w` at all. The gauge group (Theorem 5, under a declared ordered-scale
+convention) is the full group of strictly increasing bijections of the value
+line. There is a preliminary subtlety worth stating: until you *declare the
+numerical language* — whether the values are ordinal, ratio-scaled, or
+whole-unit counts — the gauge group is itself underdetermined, three languages
+giving three groups. This is the sharp refutation of a claim the program used to
+lean on, that "the floor forces the form of the valuation but not its values":
 
-The ambition is large, so the rules are strict — the discipline *is* the
-method:
+**Corollary 13.1 [scope kill].** *At floor scope the "form" is any nonnegative
+function whatsoever, so calling that a forced form is tautological.* A
+meaningful form appears only after RA is granted, and even then — as the next
+tier shows — the residual freedom exceeds gauge. **[Program bet: floor forces
+the form up to gauge — KILLED at floor scope; survives only as a conditional
+statement one tier up.]**
 
-- **Predictions are frozen before engines run.** Expected numbers go into
-  the design document first; the worlds regularly beat our bets, and a
-  killed bet is scored in print (this release contains three).
-- **Nothing load-bearing rests on one implementation.** Every claim that
-  matters gets a second engine or a blind solver; about a dozen artifacts
-  have been caught this way, several of them our prettiest.
-- **Blind novelty sweeps run before every release.** Repo-barred referees
-  grade each claim KNOWN / KNOWN-ADJACENT / PLAUSIBLY NEW, and the public
-  labels follow their verdicts. Recoveries are stated as recoveries.
-- **Exact arithmetic only.** Rational numbers and certified windows — no
-  floating-point result is ever load-bearing.
-- **Kills are public.** The [correction ledger](docs/correction-ledger.md)
-  is a feature: a theory that never discards anything is a mood.
+**Tier (ii) — add RA. The prime-weight cone.**
+**Theorem 6 [EXTENSION, PROVED].** Adjoin refinement additivity. The admissible
+valuations become *exactly* the nonnegative prime-weight functions
+`w(k) = Σ_p v_p(k) · a_p`, where `v_p(k)` is the exponent of the prime `p` in
+`k` and the coefficients `a_p = w(p) ≥ 0` are *free, independently, for every
+prime*. This is a large moduli space, not a point. The gauge group (Theorem 7,
+via a Cauchy-plus-order argument) collapses to positive scaling only, but after
+quotienting by scale the **projective prime cone** — the ratios `a_p / a_q` —
+remains as genuine, physical moduli.
 
-Most results **recover** known structure from less — that is the win
-condition, not a concession. A recovery here means: a piece of standard
-physics or mathematics re-derived from a floor that never assumed it.
+The consequence retires the program's single most seductive valuation bet.
+**RA does not force a logarithm.** The 2-adic valuation `w = v_2` (count the
+factors of 2, ignore every other prime) satisfies RA. So does `w = Ω(k)`, the
+total prime-factor count with all `a_p = 1`. Both are RA-valid; they disagree
+already at `k = 3`, where `v_2(3) = 0` and `Ω(3) = 1`. The logarithm is one ray
+in the prime cone — the ray `a_p = c·log p` — and nothing at this tier picks it
+out. **[Program bet: RA forces w = c·log k — KILLED; the logarithm is a chosen
+ray in a whole cone.]**
 
-## What we have found
+**Tier (iii) — add normalization. Scale dies, odd primes live on.**
+**Theorems 8–9 [PROVED].** Adjoin `w(2) = 1`. This kills the scale gauge — the
+one remaining continuous freedom of Tier (ii) — but leaves *every odd-prime
+weight still free*. Normalization is gauge-fixing, and *only* on the `w(2) > 0`
+sector; the zero valuation `w ≡ 0` is a live countermodel, so nondegeneracy is a
+separate axiom that normalization does not imply.
 
-**Recoveries — quantum machinery from counting.** A finite Gleason theorem
-(the Born frame rule forced with no continuum) arriving *together* with a
-Kochen–Specker obstruction on one finite object; the quaternionic receiver,
-the 24-cell, and F₄ forced from a retained interface; E₈ and the hexacode
-as the unique debt-free closures of multi-cell worlds; an exactly solvable
-reading law where the decoherent-histories package holds *exactly* rather
-than approximately; path-entanglement as coding theory (interference
-corrections indexed by dual codewords; brightness arithmetic mod 4); the
-stochastic-versus-unitary no-cancellation dichotomy re-derived as a
-conservation switch; and the GHZ-versus-W entanglement-fragility contrast
-recovered as a theorem about what different record grammars can store
-(each chapter names its classical sources in print).
+**The squeeze to the logarithm — and its full axiom bill.**
+**Theorem 14 [PROVED].** Add *monotonicity* in arity to RA — the demand that a
+finer fork never cost less — and a squeeze argument forces `w = c·log k`.
+**Corollary 14.1:** with `w(2) = 1` on top, `w = log₂ k` uniquely. So the
+logarithm *is* reachable — but read the invoice. The exact axiom stack for the
+unique point `log₂ k` is: selected-path serial additivity + refinement
+indifference + arity monotonicity + nondegeneracy — *all four external* — plus
+`w(2) = 1`, conventional. And monotonicity is itself not floor-derivable: `v_2`
+is again the countermodel, satisfying RA and normalization while flatly failing
+monotonicity (it is non-monotone in arity). The logarithm is not the floor's; it
+is what five granted axioms cost you.
 
-**Divergences — preregistered, conditional, and experiment-open.** Two
-seams where the floor's mathematics points outside quantum mechanics, both
-registered with frozen protocols, nulls, and kill conditions, both
-explicitly *bets, not discoveries*:
+**A separate enrichment, not a rescaling.** One more distinction the floor
+enforces and intuition erases. Whole-unit *selector counting* — how many binary
+selectors you need to name one of `k` alternatives, `⌈log₂ k⌉` — is *not* the
+same enrichment as refinement additivity. `⌈log₂ k⌉` does not even satisfy RA:
+at `k = 25` it gives `⌈log₂ 25⌉ = 5` while additivity demands
+`w(25) = 2·w(5) = 2·⌈log₂ 5⌉ = 6`. Selector counting and refinement additivity
+are different structures that happen to agree on the pure logarithm and diverge
+off it. This closes off a slide the program made more than once, treating "count
+the bits" and "add the refinements" as two views of one law. They are two laws.
 
-- **The negative-Gram prediction** (Chapters 10–12): an unconditional
-  theorem exhibits a three-contact sector outside the Hilbert Gram cone yet
-  with every passive-optical probability nonnegative; on one received
-  anchor it predicts a negative three-state Gram discriminant where quantum
-  mechanics forces a nonnegative one — reduced at n = 3 to a single
-  raw-count test (`P111 + D2 ≥ 2/3`), awaiting an external quantum-optics
-  expert for the apparatus-nuisance layer.
-- **The actuality protocol** (Chapter 35): three candidate answers to
-  "what happens?" — classical counting, a linear amplitude reading, the
-  squared reading — separated by three exact tables (one positive
-  no-signaling-in-time violation kills two candidates at once; a
-  triple-slit-type test separates the rest). Its bridge premises are open
-  and say so plainly: no physical substrate is currently named.
+**Theorem 13 (the sharp scope statement) [PROVED].** Collecting the tiers:
+`L1–L3` force only `w(k) ≥ 0` separately per arity, with *no relation between
+arities*. RA buys the prime-weight cone (gauge = scaling; projective prime
+moduli survive the quotient). RA + monotonicity + normalization buys `log₂ k`
+uniquely. Everything between the floor and the logarithm is an axiom you can
+name and a countermodel that denies it.
 
-**The boundary of observation.** A cap theorem — records kept by aligned
-solo protocols can never certify correlation beyond distance two — with an
-operational blindness law (bright channels die to a single reveal) — and
-then the discovery that both are *local* facts: the rival floor mints the
-forbidden fine correlation freely, and a different instrument keying evades
-the blindness on our own floor. What binds worlds cannot be watched binding
-— but which bindings, and which watchers, is itself a lawful, measurable
-question.
+## 3. The no-native-selector theorem
 
-## Start here
+Underneath every valuation question sits the deeper one the program treats as a
+central law, and this investigation earned it as a theorem *inside the frame*
+rather than importing it as a posit.
 
-1. **The permission map** — [Chapter 37](papers/37-permission-map/paper.md):
-   the whole program's question, answered in one table (10 minutes).
-2. **The divergence** — [Chapter 10](papers/10-negative-gram-holonomy/paper.md)
-   · [Chapter 11](papers/11-mixed-state-exclusion/paper.md): the registered
-   bet against the Hilbert Gram cone.
-3. **The sharpest recovery** — [Chapter 8](papers/08-nonexact-return/paper.md):
-   Born and Kochen–Specker co-resident on one finite closure.
-4. **The founding narrative** — [Chapter 1](papers/finite-contact-theory-v0.1.md):
-   what "one-use contact" means and why it stages forks.
-5. **The alien floor** — [Chapter 36](papers/36-alien-coat/paper.md): what
-   survives transport to a rival universe, and what dies.
-6. **The switch lattice** — [Chapter 43](papers/43-switch-lattice/paper.md) ·
-   [Chapter 44](papers/44-observer-corner/paper.md): worlds built to
-   order with physics predicted in advance; what interference costs, and
-   what observers force.
-7. **The coat and the refusal** — [Chapter 47](papers/47-six-fold-coat/paper.md) ·
-   [Chapter 48](papers/48-arithmetic-of-refusal/paper.md): a world's
-   phase-group order and its return structure are one fact; when a world
-   can refuse an outcome at all.
-8. **The full index** — [papers/](papers/) (61 chapters) ·
-   [theorem bank](docs/theorem-bank.md) ·
-   [claim register](docs/public-claim-register.md) ·
-   [glossary](docs/glossary.md) · [how to read](docs/how-to-read.md).
+**Theorem 10 (no native active selector) [EXTENSION, PROVED — the crown of the
+valuation track].** No canonical *active* selector — nothing that actually
+resolves a fork — is constructible from marks, receipts, and forks alone. The
+argument is a naturality obstruction. A `q`-fork's automorphism group contains
+the symmetric group `S_q` acting transitively on its `q` alternatives. Any
+canonical selection would have to be fixed by every automorphism, hence
+invariant under a group that is transitive on exactly the things it must choose
+between — and no alternative is so fixed. Adding more forks to try to break the
+tie only relocates the unresolved choice into the new fork. Lexical tie-breaks
+("take the least-indexed alternative") import non-native structure — an ordering
+the floor never supplied — and are disqualified for exactly that reason.
 
-## Run it yourself
+**Corollary 10.1 [PROVED].** Receipts *record* resolutions; they cannot *supply*
+them. The dependency order is fixed: a receipt is written by a resolution and
+therefore cannot be its author. This is the precise sense in which the receipts
+are witnesses and never causes — a statement the program had asserted and can now
+cite as a theorem.
 
-No dependencies beyond Python's standard library. The flagship path — one
-representative exact result per major line — takes about a minute:
+**Theorem 11 [PROVED].** Passive `q`-state interfaces — structures that read a
+resolution already made — exist freely, but *only post-resolution*. The floor is
+happy to stage the alternatives and happy to record the outcome; the act in
+between it refuses to perform.
 
-```powershell
-python verification\scripts\run_all.py --fast
-```
+Two scored corrections attach here. First, **binary is canonically the least
+arity** — the smallest nontrivial fork, and this is proved. But **binary as a
+forced debt *unit* is refuted**: the weight of the binary mark is free,
+`w(2) = 7` and `w(2) = 0` are both lawful valuations, so "the bit is the natural
+unit of debt" is a convention, not a law. **[Program bet: binary is the forced
+debt unit — KILLED; least-arity yes, unit-of-account no.]** Second,
+**Theorem 12:** discrete selector counts for different bases are *not* related by
+rescaling. The number of binary selectors to resolve a ternary fork is
+`e₂(3) = 2`; the number of ternary selectors is `e₃(3) = 1`; no constant `c`
+makes `2 = c·1` consistent with the rest of the table, so the bases are genuinely
+inequivalent accountings, not one accounting in two units. Continuous capacities
+*do* rescale (that is the content of the log being a single ray); the difference
+between the discrete and continuous stories is the *definition* — whole-unit
+versus real-valued — and not a theorem bridging them. The old universality claim,
+"all native constructions agree up to rescaling," is therefore **refuted**:
+vacuous on the active reading (there is no native active construction at all) and
+false on the passive reading (discrete counts do not rescale). **[Program bet:
+native-construction universality — KILLED, both readings.]**
 
-The full suite (parallel, with per-script progress) takes a few minutes:
+## 4. Chance is admitted, with mixed anatomy
 
-```powershell
-python verification\scripts\run_all.py
-```
+Turn from valuation to probability. The parallel question: how much of a chance —
+a weight on the alternatives of an unresolved fork — is the floor's?
 
-Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Seventy-four
-dependency-free scripts, one per shipped result line, all exact
-arithmetic. Release hygiene (scope language, links, overclaim phrases, the
-ceiling quoted verbatim) is itself audited:
+**Theorem I-1A (chance is admitted) [EXTENSION, PROVED].** Chance is not
+implicitly definable from the floor reduct. The witness is an *expansion pair*
+in the sense of Padoa's method: two models identical on the floor reduct but
+differing on the added chance relation. On one symmetric binary fork, the weight
+`(1/2, 1/2)` and the weight `(1/3, 2/3)` induce the *same* floor structure — same
+marks, same receipts, same fork — and differ only in the probability. By Padoa's
+method, a symbol that can take two values over one fixed reduct is not definable
+from that reduct: chance is *admitted*, added from outside, not read off the
+floor. A stronger countermodel sharpens it: even *natural* chance is
+undetermined on nontransitive forks. On an asymmetric fork with one branch of
+out-degree 1 and one of out-degree 2, both a uniform and a biased *natural*
+weight are admissible — naturality alone does not pin the number.
 
-```powershell
-python scripts\release_audit.py
-```
+**Theorem I-1B (the mixed-anatomy amendment) [EXTENSION, PROVED — and it
+overturns a prior program dichotomy].** The raw chance space is
+`∏_f Δ(A_f)` — a product, over forks `f`, of simplices on the alternative sets
+`A_f`. Decompose it by provenance and it comes apart into two layers of
+different origin:
 
-## What we killed
+- the **support** — the alternative sets themselves, and the simplex *vertices*
+  `δ_a` (the pure "it was outcome `a`" points) — is **staged** by the floor;
+- the **barycentric structure** — the scalars, the addition, positivity,
+  normalization, convexity, the entire apparatus of *mixing* — is **admitted**.
 
-Claims that looked beautiful and died on the evidence: binary arity as
-uniquely forced; matter fixed at dimension 2; closure dynamics reaching
-Tsirelson unaided; graph-floor gravity as a generic divergence from general
-relativity; the completed continuum as a native object; this release's
-two-spot confinement hypothesis and both of the capstone chapter's framing
-bets. Each retired under adversarial review in the
-[correction ledger](docs/correction-ledger.md). The results above are the
-survivors.
+The floor gives you the corners of the simplex; it does not give you the inside.
+This **refutes the program's pure-provenance dichotomy** — the working
+assumption that every object is *either* wholly staged *or* wholly admitted. An
+object can have mixed anatomy: a staged skeleton wearing admitted flesh, and
+chance is the exemplar. The two-species taxonomy (staged vs admitted) survives,
+but demoted from a *partition of objects* to an *operational test on features* —
+the expansion-pair test for admitted structure, the class-group test for staged
+structure — applied feature by feature within one object. **[Program bet: pure
+staged/admitted dichotomy — KILLED as a partition; survives as a per-feature
+test.]**
 
-## The fine print — the live ceiling
+**Theorem I-2A (existence/form split, exact) [PROVED].** Grant that a
+probability object *exists* — that the simplex is admitted. Then *existence +
+naturality + transitivity ⇒ uniformity*: the orbit argument plus normalization
+forces the uniform weight on a fork whose automorphism group acts transitively.
+The split is exact and worth stating twice: naturality forces the *form* (uniform
+on a transitive orbit) but does *not* supply *existence*. The floor does not
+force a probability object into being; once the simplex is admitted from outside,
+the uniform family is natural and always exists.
 
-One sentence bounds everything this release is allowed to claim. It is
-quoted identically here, in the [claim register](docs/public-claim-register.md),
-the [capstone chapter](papers/37-permission-map/paper.md), and the
-[release notes](RELEASE-NOTES-v0.24.0.md), and the audit enforces it
-verbatim. It is long because it is complete.
+**The all-maps no-go (a scope kill) [PROVED].** One tempting strengthening is
+fatal. If you demand naturality under *all* functions between alternative sets —
+not merely the isomorphisms — chance becomes *impossible*. Pushforwards of the
+singleton measure along collapsing maps force `δ₀ = δ₁`, a contradiction. The
+correct hypothesis class is the **isomorphism groupoid**: naturality under
+renamings and symmetries, not under arbitrary maps. This is a genuine
+classical-independent constraint — a real logic error avoided — and not a
+matter of taste: over-ask the naturality and you delete probability itself.
 
-<details>
-<summary><b>The v0.35 ceiling (click to expand)</b></summary>
+## 5. The invariant-simplex form theorem
+
+The positive result on the form of natural chance, at the sharpest strength the
+investigation could prove.
+
+**Theorem I-3A (invariant-simplex form) [EXTENSION, PROVED].** The `G`-natural
+weight assignments on a fork with symmetry group `G` are *exactly*
+`p(a) = q_j / |O_j|` for `a` in orbit `O_j`, with the orbit masses `q_j ≥ 0`
+free and summing to 1. Equivalently `Δ(A)^G ≅ Δ(orbits)`: the invariant weights
+are *uniform within each orbit* and *free across orbits*. The floor forces
+equalization inside an orbit — things the symmetry cannot tell apart must be
+weighted alike — and forces nothing about how mass is split between orbits.
+
+**The sharp iff-criterion.** Nonuniform natural chance exists **if and only if
+the enriched automorphism group is nontransitive** — necessary *and* sufficient.
+Only the induced orbit partition matters; the *syntax* of whatever enrichment
+produced that partition is irrelevant. Two corollaries the investigation nails
+down with explicit counter-distributions:
+
+- **Orbit size does not determine orbit mass.** Three exact counter-distributions
+  put different masses on orbits of the same size, all `G`-natural. So the form
+  theorem is a *form* theorem — it constrains the shape of natural chance — and
+  emphatically not an explanation of *why one number over another*.
+- **Renamable names cannot break symmetry.** A grading or receipt breaks the
+  symmetry — and so licenses nonuniform chance — *iff* it splits orbits.
+  `α`-renamable receipt *names* never split orbits (a bare name carries no
+  invariant content), so they cannot break the symmetry; only invariant receipt
+  *shape* can. We flag this as an isolated corroboration: it converges, blind,
+  with the Finite Individuation fresh-name result from an unrelated track — the
+  prompt for this investigation never mentioned names, and the two results were
+  not planted on each other.
+
+At carrier level the family-form is `p_X(a) = W([X, a]) / Σ_b W([X, b])` over
+pointed isomorphism types `[X, a]`. Degeneracy — how many microstates sit under
+an outcome — yields plain *counting* weights **only** if you additionally import
+a uniform microprior and a pushforward rule; degeneracy *alone* does not force
+counting weights, and claiming it does is a smuggle. Indeed the folk claim "every
+finite set has a canonical uniform measure" is itself the smuggle in miniature:
+division, normalization, and equal-weighting are all imports, and the
+orbit-simplex theorem is accepted as a *form* theorem precisely because it does
+not pretend otherwise.
+
+**OPEN — the enrichment-realizability grammar.** The iff-criterion says *which
+subgroups `H` of the symmetry, arising as orbit-stabilizers, permit nonuniform
+chance*. It does not say which subgroups `H` actually *arise from lawful
+enrichments*, because that requires a formal syntax of the allowed enrichments
+which we have not written down. This is the same gap the valuation track hit
+(the lawful-enrichment grammar), now flagged by two independent investigations
+converging on the identical missing piece. We register it as the sharpest open
+stone this chapter leaves: **[OPEN — realizability grammar of lawful
+enrichments; wanted by both tracks.]**
+
+## 6. The Born exponent, localized (I-4B)
+
+Finally the number the whole program most wants and least has a right to: the
+exponent 2 in the Born rule, `p(a) ∝ |z_a|²`.
+
+**Theorem I-4A (naturality does not select the exponent) [PROVED].** Naturality
+plus amplitude-like carriers plus phase invariance do *not* pick the exponent.
+The family `p_α ∝ |z|^α` is natural for *every* `α`. An exact counter-family
+makes it concrete: on magnitudes `(1, 2)`,
+
+- `α = 1` gives `(1/3, 2/3)`,
+- `α = 2` gives `(1/5, 4/5)`,
+- `α = 4` gives `(1/17, 16/17)`,
+
+each a perfectly natural, phase-blind, permutation-covariant weight. So the
+square is not forced by naturality, and the honest dependency list is long:
+naturality forces only orbit-equality, pointed-type dependence, phase blindness
+(and that only when phases are automorphisms), and permutation covariance. A
+*quadratic* formula requires, on top of those, eight admitted imports —
+probability scalars, carrier components, a multiplication/modulus, a magnitude, a
+locality-of-weight assumption, additive coarse-graining, a carrier composition
+law, and an empirical interpretation. Naming those eight is the point: the Born
+square is not one assumption you can accept or reject, it is eight.
+
+**Theorem I-4B (the localization — the crown of the chance track) [EXTENSION,
+PROVED].** Here is where the eight collapse to one. Suppose the carriers *merge*
+by the Pythagorean law `r ⊕ s = √(r² + s²)` — the orthogonal-sum norm — and
+suppose the weight is additive and unnormalized under that merge. Then the weight
+*must* be quadratic: `f(r) = c·r²`. The proof is a single functional-equation
+step — set `g(t) = f(√t)`; additivity under Pythagorean merge makes `g`
+Cauchy-additive and nonnegative, hence linear, hence `f(r) = c·r²`. And it
+generalizes exactly: if the carriers merge by `⊕_α` (the `α`-norm composition),
+then additive weight forces `f = c·r^α`. **The Born exponent lives *precisely* in
+the admitted carrier-composition geometry.** The square is exactly as forced as
+the orthogonal-sum norm — no more, no less. `merge_α` iff `r^α`; Pythagorean
+merge iff the square.
+
+State the consequence plainly, because it is the useful one. **This reduces the
+Born question to the merge-geometry question.** "Why the exponent 2?" is now,
+provably, the *same* question as "why do carriers compose by the Pythagorean
+norm?" — why orthogonal-sum rather than some other `α`-norm. That is a question
+about the geometry of how alternatives combine, and it is answered elsewhere: the
+merge geometry is where the later carrier-anatomy chapters do their work
+(the field skeleton, the polarization moduli, the dilation architecture). This
+chapter's contribution is the localization itself — it moves the Born exponent
+out of the list of free numbers and pins it to one prior structural choice,
+without pretending to make that choice here. **[Born-exponent-from-naturality —
+REFUTED; Born-exponent-from-Pythagorean-merge — PROVED, CONDITIONAL on the merge
+geometry, which this chapter does not derive.]**
+
+## The prices, ledgered
+
+Read the two tracks side by side and they tell one story in two vocabularies.
+
+| question | staged / forced | admitted / free | the sharp reduction |
+|---|---|---|---|
+| valuation | nonnegativity per arity; RA ⇒ prime cone; RA+M+N ⇒ log₂ | the axioms (RA, M, N); the prime ratios | "the log" = one ray in the prime cone |
+| chance | simplex vertices (support); uniform-within-orbit | barycentric structure; orbit masses | "the number" = the orbit-mass split |
+| Born exponent | quadratic *given* Pythagorean merge | the merge geometry itself | exponent = the `α` of the norm |
+
+In every row the floor forces a *skeleton* and a *conditional form* and admits
+the *flesh* and the *numbers*. The valuation is any nonnegative function until
+you spend axioms — the logarithm costs five. Chance is admitted whole, its
+support staged and its mixing imported; the Born square is the Pythagorean norm
+wearing a different hat. Nowhere does the floor hand up a number. That is not a
+failure of the derivations — they are tight and twice-engined — it is the
+content: **the floor refuses to number its own prices**, and every place we
+thought it had, it had instead staged a fork and left us to pay.
+
+**Scored bets, in print.** Five program headlines died in these two
+investigations and are retired here rather than quietly dropped:
+
+1. **RA forces the logarithm** — KILLED (`v_2` and `Ω` are RA-valid and disagree
+   at `k = 3`; the log is one ray in the prime cone).
+2. **The floor forces the valuation form up to gauge** — KILLED at floor scope
+   (the "form" there is any nonnegative function; a real form needs RA, whose
+   residual freedom then exceeds gauge).
+3. **Binary is the forced debt unit** — KILLED (`w(2)` is free; least-arity is
+   proved, unit-of-account is not).
+4. **Native-construction universality up to rescaling** — KILLED (no native
+   active selector exists; discrete base-counts do not rescale, `e₂(3) ≠ e₃(3)`).
+5. **The pure staged/admitted dichotomy partitions objects** — KILLED as a
+   partition (chance has mixed anatomy); survives as a per-feature operational
+   test.
+
+**Standing OPEN.** The realizability grammar of lawful enrichments — which
+orbit-splitting subgroups actually arise from admissible receipt shapes — is
+wanted by both tracks and supplied by neither. Until it is written, the
+invariant-simplex theorem and the valuation cone are *form* theorems with an
+unquantified moduli of realizable refinements. Both tracks flagged it
+independently — that convergence is why it is the headline open stone, not a
+footnote.
+
+**Constructive close — what the surviving whole now explains.** Set against any
+incumbent that writes down the logarithm and the Born square as primitive laws,
+this chapter's whole *dissolves* two puzzles those incumbents only name. "Why the
+logarithm?" stops being a mystery about information and becomes a visible invoice:
+five named axioms, each with its countermodel, and a prime cone of alternatives
+you declined. "Why the exponent 2?" stops being a brute empirical input and
+becomes *one* question — the geometry of carrier merge — instead of eight
+independent imports. The incumbent posits two numbers; the surviving frame posits
+zero numbers and one geometric choice, and shows exactly where every number the
+incumbent wrote down actually enters. Fewer posits, more structure forced, two
+named puzzles dissolved rather than restated. The prices are still ours to pay —
+but we hold the itemized bill.
 
 > Finite Contact Theory is a finite reconstruction program with a scoped theorem stack on three published recovery lines — a quantum-facing axis, from one-use contact to counting, one-receiver gluing, rational Born weights, the CHSH/Pell boundary, a carrier grammar grown from one-use contact, and a behavior-conditioned contextual capacity with an exact strict preparation gap; a finite-epistemics axis, from the identifiability and debt calculus to the inquiry calculus and its second law of asking, four theorems separating the structure of time, and a measured generative floor; and a contact-interface reconstruction, in which a retained interface forces a quaternionic state/receiver cell whose self-dual closure is the 24-cell and the F_4 root system and whose finite measurement calculus forces the quadratic Born frame rule (a finite Gleason theorem) exactly where a triality Kochen-Specker obstruction forbids a global noncontextual assignment, and in which independently generated cells recover the E_8–hexacode closure spine under named receiver laws that a forcing audit shows the floor does not select over matched lawful alternatives, so the floor forces the atlas of lawful closures and the terminal self-dual class but never the specific member, and the selection of a world-phase is a conserved, received input, and in which a floor-to-interface theorem closes the chain one layer down: given a ternary contact whose order scars stay future-readable and whose retention is carried internally, exactly three mutually anticommuting involutive identity modes are forced — their oriented volume element is a central square root of minus one, their even sector is the quaternions, their reflection symmetry forces exact one-half weights, and the retained central residue forces the minimal faithful receiver to be the quaternions with the 1+3 split and the unique Euclidean form — while the residual inputs are named as received: the readability of order, the measured ternary arity, the internal-retention axiom, and one orientation bit, and in which an atlas of generative floors now classifies what any floor can carry: order-writability and residue-retention are independent, presentation-relative capabilities whose four cells are exemplified and fenced by exact theorems — lattice floors are orderless in their settled states, reversible floors write order but can never scar, commutative creation scars without order, and the marks floor carries both — with the retained contact containing an exact one-mode fermionic kernel whose complex structure is the central square root of minus one, a retention tower computed through third order (a unique first-order scar class, four second-order classes read by a gauge-invariant bracket witness, and exactly one third-order class), and the measurement obstruction relocated: no equivariant selector from the law quotient to its history space exists, the retained bit is tomographically silent at law level yet certainty-grade to a scar reader, and promoting a registration into the law-state lifts prediction from exact chance to certainty — a fourth, first-extension line that is conditional and experiment-open: an unconditional accessible-positivity theorem exhibits a three-contact sector whose every passive-linear-optical probability is nonnegative yet which lies outside the positive-semidefinite Hilbert Gram cone, and on one received apparatus anchor this predicts a possible violation of Hilbert-space positivity — a negative three-state Gram discriminant Delta_3 < 0 where ordinary quantum mechanics forces Delta_3 >= 0 — preregistered with its protocol, nulls, and kill conditions, and a clean mixed-state exclusion theorem then proves the gauge-free count witness W = P111 + D2 - 2/3 equals (2/9) det G, nonnegative for every partially-distinguishable Hilbert model whether pure or mixed, so the registered negative-Gram vector lies outside the entire clean partial-distinguishability class by the raw-count test P111 + D2 >= 2/3, closing the clean core of the exclusion while multiphoton, detector, transfer-matrix, and source-drift nuisances remain the experimental layer for an external expert — and a fifth line mapping the exact quantum count regions: for n indistinguishable bosons in the n-mode Fourier interferometer the achievable region of count statistics is an exact simplex for n <= 4 (at n = 3 the negative-Gram inequality P111 + D2 >= 2/3 is the complete boundary and the registered protocol reduces to tritter counts alone), central-projector positivity is insufficient at n = 4 with six new raw-count laws, and a structural phase transition at n = 5 produces an emergent logical qubit from permutation symmetry and counting alone, where a rebit-blindness theorem shows single-shot cyclic counts cannot expose sigma_y and a single-source real/complex/quaternionic counting no-go holds, both overcome by general passive networks, culminating in a registered, experiment-open single-source conjugation-witness protocol (gap 5 sqrt2 / 256, about 1304 trials per setting) that excludes a named real-internal-states plus mode-only-optics model class but does not falsify all real quantum mechanics — a sixth line reading the obstruction tower itself: the retention tower of the four-mark contact group is one ladder of gauge-invariant witnesses, in which the unique fourth-order class is the retention class cup-squared and is read as value one by a quadruple involutive self-contact, the involution-silent third-order class is read by an explicit twenty-five-word cycle witness, the no-global-now of the time chapter and the no-outcome-selector of the interface chapters are adjacent instances of one torsor-obstruction pattern with the arrow of time strictly below the whole tower as act-monoid non-invertibility, the retention cover itself is first-order-scar-free yet carries exactly one coherence scar whose reading requires a four-word composite cycle, and a boundary-pinning theorem shows that every Hilbert carrier with two-dimensional twisted sectors pins the odd identity-holonomy class at the trine overlap one-half exactly — explaining the r = 1/2 saturation of current photonic experiments, placing the registered r = 3/5 bet exactly one contact beyond every such carrier, and making overlap rigidity and the fourth contact count-level witnesses of the carrier grade — and a seventh line, an exact combinatorial debt ledger built from counting alone: no fixed carrier reversibly absorbs a merging act, one fresh one-use register per step always does, the minimal register alphabet is exactly the largest merge multiplicity, distinction is never destroyed unpaid — existence bits equal surviving bits plus paid bits, with waste possible and theft impossible — the n-fork's collapse cost, question depth, and record alphabet are one number log2 n, and every completion that resolves a staged fork books exactly that price, so the no-selector law is a refused debt and lawlike evolution is exactly the debt-free sector — an eighth line completing the ledger: ledger flow types the atlas cells — paid settlement (confluence is bought), flat reversibility, free creation, and the mixed marks cell where history is written free while the law quotient prices at exactly one bit, the retained central residue, so the registration promotion is a one-bit ledger transaction and the marks cell is the only floor whose ledger balances internally — deterministic multi-step one-use floors do not exist (the fork-staging half of the central law is a theorem at model scope while the no-selector half remains the named postulate), the admissible orderings of every content class equal the order-forgetting quotient fiber exactly, the law/present identification asymmetry is derived and flow-typed (the present is expensive because it is minted; paid cells erase their present at their terminals and reversible cells never grow one — the Cut is the signature of the mint), the identifiability and debt calculus instantiates on every rival floor with order bits future-inert (re-deriving the readability-of-order axiom as necessary) and its receipt bound equal to the ledger price of the floor evolution map, a constant acquires a structural definition as a fork-registration the law action inherits — underived, readable from every window at constant cost, paid once and replicated free — separating constants from laws and states in a three-column cut, and a driven floor steady-state dissipation is shown orthogonal to the ledger price, which floors the erasure bill only — and a ninth line extending the count-region hierarchy: the cyclic-multiplicity width grows 1, 1, 2, 3, 5, 12 for three through eight photons with the first emergent qutrit forced at six by pigeonhole, and the exposure law holds fiber-exhaustively at six photons — single-shot counting spans exactly the symmetric part of every emergent fiber, its orientation always and only one multiplication away — so the hidden resource of the counting grammar grows in width, never in depth — and a tenth line, hosting the observer: an exact finite theory of hosted observers whose records are floor events, in which a causally decoupled register carries zero world-information without an interpretation key, the keyless deficit is a computable floor invariant that strictly grows with inert capacity, the key suffices exactly and is underived — a constant of the hosted world in the three-column sense — the complete interpretation map is unwritable by the entire floor with no equivariant convention at any level of a record-of-record tower, a matched registrar tracks the world fork-for-fork and the hosted present has width equal to the mint since the last banked record, coupling mints new joint distinction and information is key-free exactly where the observer co-minted it (null-result information recovering interaction-free measurement exactly), participation heals what inert capacity worsens, privacy requires an unobserved pair, every observer's biography and proper time are free while the unknown is always when-relative-to-others, co-witnessed order is forced to agree, and pooled experience determines everything except what neither observer touched — and an eleventh line, completing the hosted-observer constitution: for nested observers the sub-experience is exactly the restriction of the super's and knowledge across containment is exactly asymmetric with additively telescoping inter-level ignorance (the interpreted-systems and trace-theory laws recovered from one-use counting), teaching and measurement are one boundary co-minting operation differing only in which side is called the instrument, with capacity equal to the boundary fork width and a learner's budget equal to the boundary mint, a shared sense is an automatic consensus channel and overlap does not grow the common sector but redirects agreement from facts about the pair to facts about the world while pooled coverage pays, observer membership is opaque to all experience so mutual knowledge requires a received membership key, and the ways of knowing close into a two-currency price list: every knowing is participation paid in consumed marks or convention paid in received keys — and a twelfth line, the genesis of space: a measure-free anthropic filter in which three exact observer-capability predicates (faithful biography, non-vacuous participation, internal affordability) select the mixed cell as the only asker-compatible floor, locality is the affordability condition for bounded observers (frontier width is world-size-independent exactly on bounded degree), a priced inheritance dynamics on minting floors has an exact budget theorem (intersection inheritance is always paid; union inheritance is unpaid in every contact where the parents' neighborhoods differ), total tolerance is monotone non-increasing (the sparsification arrow: a paid floor can only get sparser), reproduction is classified by the twin theorem (a contact reproduces the world iff the parents are adjacent twins; every contact reproduces iff the world is a disjoint union of cliques; wounded cliques heal only by fission; triangle-free worlds decay to dust with the triangle the minimal witnessed durable structure), and a radius-one locality lemma yields a saturated discrete light cone that exists exactly when the world is sparse (a Lieb-Robinson-shaped recovery whose speed cap is the degree geometry itself) — and a thirteenth line, the price of chance: time factors into a clock arrow and a ledger arrow with all divergence dynamics on the spend sector (the frozen-wound theorem: equilibrium contacts hand differences on pointwise unchanged), symmetry forces the counting measure on bare floors while an observer's seat un-forces it (the invariant simplex is positive-dimensional with the participation calendar as exact coordinates and a closed form on cliques), received slot-exchangeability collapses the key to interaction-type propensities, no internal filter forces the value while cross-seat agreement forces exactly the counting measure and counting is provably nonlocal, giving the measure dilemma (a weighting can be shared or affordable, never both), the dilemma dissolves on structured worlds at the price of a received field (a three-dimensional strictly local transfer recurrence carrying the shared measure with all seats' joint predictions agreeing automatically; the transfer-matrix and belief-propagation machinery classical and cited), the field's ratios converge geometrically to forced algebraic constants (the Padovan-Perrin-plastic-number laws of the maximal-matching literature, cited as recovery) with a boundary layer of chance and a bulk identity in which a boundaryless world is pure bulk and cycle branch counts are the Perrin numbers whose prime divisibility is the free action of rotation on branches (spontaneous-symmetry-breaking structure with an arithmetic witness, classical components cited), and on self-reproducing worlds the measure key becomes earnable: world size is written in the observer's waiting times, one mortal life can identify world structure but provably never the measure (an exact total-variation floor), mortal and eternal worlds assign different chances to identical events, and measure-holding closes into a three-rung ladder priced in nothing, boundary data, or time — and a fourteenth line, the decay of worlds: the genesis floor's decay physics solved exactly — recurrence is fixed-points-only (time cannot close), the class-transition operator is triangular in the tolerance grading so every decay constant is an exact rational with a closed form (the triangular-chain mechanism classical and cited), the wounded clique's decay sector is identified as the Eggenberger-Polya urn exactly (the urn laws classical and cited; the identification inverts the known growth-side urn representations of graph processes), giving uniform fission profiles, closed-form branching ratios, size-biased healthy fates, certain separation, and exact lifetimes, an observer's waiting times identify its fission fate (the clock address), self-location is mass-weighted by conservation and has zero residual freedom given any branch weighting while the weighting stays free (the Sebens-Carroll dialectic recovered as an exact finite split), and wounds breed — two disjoint wounds fission three ways with exact probability while the octahedron sector forbids isolation entirely — and a fifteenth line, the particles of the floor: the particle reading with its master calculus — genesis on the complement is a join protocol (the CRDT/gossip primitive, classical and cited, with every qualitative conservation corollary labeled lattice monotonicity and the component factorization labeled trivial rather than the Haag-Wightman cluster theorem), adjacent wounds are one composite particle (the urn entered at one-two) with profile universality and no three-way fission so interaction requires separation, the charge law P(isolation) = charge/(n-1) holds exactly on three wound topologies, only wound-founder lines can ever end isolated (the healthy floor), the octahedron's forbidden channel has an exhaustion mechanism (no line ever accumulates enough oppositions), and opposition r-cliques are r-color urns fissioning into exactly r uniformly-sized pieces — with a full sector's laws frozen from the calculus before measurement and hit exactly — and a sixteenth line, the up: the constructive sector of the genesis floor — a contact's ledger surplus equals exactly its periphery, maximal retention conserves tolerance and degrees exactly (the number-conserving frame cited), a reproducing retention choice exists for every tested world and contact (decay is always a choice; the all-n statement open by name), persistence has two axes (retention feeds the ledger, steering feeds the class), the conserved sector carries an exact rational equilibrium ensemble, diversity is maximized strictly below full retention in a razor-thin band (the edge-of-chaos and quasi-stationary phenomena, cited, recovered in an exact-rational conservative substrate), steering cost is the surprisal of the reproducing set (Landauer form, cited) with the inversion that dense structure self-maintains free while sparse structure pays a bit per contact, and lasting growth requires both received contact and retained periphery — and a seventeenth line, habitability: the locality radius of self-maintenance decisions exhaustively resolved (participants' rows are insufficient; the radius-one ball decides perfectly — the neighborhood-reconstruction and LOCAL-model frames cited), the upkeep decision is always one round of neighbor gossip from the participants and never a global map, only one contact shape needs gossip and the habitable test set needs none (the private sector is a silent zero-communication self-stabilizing regime, cited), private data is fresh by construction and the task stationary so the maintenance bootstrap closes with no channel while the gossip sector provably cannot run on memory, the conserved sector's full price list is doom-free (every class steerable at bounded bits — the priority artifact), and habitability coincides with affordable upkeep (habitable = maintainable — a convergence theorem about the shared root of sparseness, with its internal-rigor caution stated in print) — and an eighteenth line, the thermodynamics of the floor: the genesis dynamics' statistical mechanics from counting alone — the labeled contact kernel is exactly symmetric on every closed sector tested, so counting measure is invariant and the microcanonical form with detailed balance follows at this scope (a discrete Liouville-type property; the all-sector statement open by name; symmetric-kernel stationarity classical and cited), the surprisal-cost identity 2^(-cost) = class-preserving fraction holds by definition (bits as energy at kT = 1 bit; Jaynes and Landauer cited), cost is exactly additive over disjoint components so any price-only independent rate law is exponential with the temperature received (the Cauchy-equation route, classical and cited), price-weighted scheduling redistributes stationary weight by possession of a zero-cost move rather than by mean cost (the min-cost-over-mean selection of Freidlin-Wentzell and the blowtorch theorem, cited, with the exact free-move split the artifact), entropy production is zero exactly at the price-blind point and measured unimodal across the sampled couplings, and the steady current is a divergence-free cost-pump cycle (Schnakenberg-Hill cycle theory, cited) — and a nineteenth line, maintained structures: a tracked substructure's preservation calculus solved exactly, in deliberately structural language with no biological claim — external contacts never touch the interior (context preservation, standard in local rewriting and cited), the preserving assignments are exactly the stay-with-parent choices at one bit per exposed member with the witness unique on in-structure singles, fixing the boundary as well admits only the identity (boundary rigidity), the stay-with-parent strategy is control-invariant against any schedule and any environment (the safety-game frame, cited), copy-construction in the complement is blockable forever by an adversarial environment from every not-yet-copied state yet reachable in one cooperative contact (an exact instance of the constructor-theoretic asymmetry — von Neumann; Deutsch-Marletto — cited): persistence is autonomous, copy-construction requires cooperation — and preservation cost concentrates at defects (a near-complete world hosts zero-cost structures; homogeneous sparse worlds host none) — and a twentieth line, the two kinds of the given: the received-input registry classified — eleven torsor-type inputs (forced option space, refused point; the torsor gloss cited) graded on the occurrence/class/phase ladder, two dial-type inputs (forced origin, free magnitude; the ratio-scale and deformation-parameter type, cited) with the reversible point of the rate family as the origin-selection criterion, two prior inputs retired by derivation (the reference measure follows from kernel symmetry; the consent boundary reduces to membership), and the completeness of the two-species split a named conjecture with a standing falsifier (the absolute-objects tradition engaged by name) — and a twenty-first line, where i lives: the spectral home of the native complex number located by exact certificates — the price-coupled family's complex eigenvalue pairs exist only in finite windows bounded by real-eigenvalue collisions (Sturm-certified at rational couplings; the exceptional-point mechanism classical and cited) with the reversible point provably outside, the deviation-parity double cover is nonsplit and its sign sector is Sturm-certified all-real at the certified couplings even inside the base's certified complex windows, while carrying the known frustrated-sector spectral gap (2-lifts and signed-graph bounds — Bilu-Linial; Zaslavsky; Belardo; Martin — cited): a sign carries mass but cannot rotate — and the Z4 lift's quarter-turn sectors have exactly non-real characteristic polynomials at the reversible point (gain-graph and covering-character machinery classical and cited; the real-versus-complex sector dichotomy is Frobenius-Schur representation-type logic), so complex structure enters through the representation, with its conjugate twin staged and unselected (Galois conjugacy, automatic and cited) — and a twenty-second line, the reading law: an exactly solvable model in which the decoherent-histories package holds exactly rather than approximately — path contributions pair under a sign-reversing involution and the stay-with-parent assignment is the exact identity, the cycle worlds' survival amplitude is precluded exactly (the identity path and its swap-mirror in antiphase; the checkerboard's i-per-deviation mechanism and Sorkin preclusion cited), amplitude never exceeds probability entrywise and every channel is additivity-exact or strictly destructive (the consistency condition of Griffiths, Omnes, and Gell-Mann-Hartle — explicitly not Born's squared-modulus rule — with phase-purity the exception, falling with size: the Dowker-Kent genericity realized exactly), a fully-anchored structure admits only the identity (the Zeno tier, cited), a shape-locked structure's touching outcome channels are single-path so consistency holds exactly on everything it reads (records imply exact consistency, structurally), and every channel obeys one closed formula — amplitude = P x ((1+i)/2)^m x i^d — consistency at m = 0, per-unread-bit visibility decay, and the recorded phase in one law, with every constant kernel-inherited — and a twenty-third line, the coat and the count: the quarter-turn amplitude calculus at depth, exactly — the double-slit is a theorem suite (2504 constructive and 1284 destructive fringe channels with the amplitude-below-probability ceiling never violated; which-path branches partition exactly; the delayed-choice eraser is exact, with 2448 full-recovery channels: what matters is not when a deviation is read but whether the record ever determines it — the eraser phenomenology of Scully-Druhl and Kim, cited, here rational arithmetic), the one-formula reading law fails at depth precisely on channels with correlated hidden-bit support, so Feynman summation is forced exactly at path-entanglement (trajectory amplitudes are Markov over invisible worlds; the Dowker-Kent genericity realized exactly), and the coupling trichotomy closes the frequency question: the coat is empirically silent on fully-read channels (amplitude equals probability there, so the floor's Born analogue is amplitude-LINEAR — a quasiprobability reading, the Kirkwood-Dirac lineage engaged), no nonnegative path measure reproduces coat statistics under any reweighting (darkening and preclusion witnesses; the no-joint-distribution structure of Fine and the quantum-measure frame of Sorkin, cited), so coat-following frequencies require actuality at the record level — exactly the floor's founding no-selector postulate — and the choice of actuality measure is a named received input with an exact separation table, while on record-sharing run pairs the conjugate pairing is the unique positive one (verification wears the conjugate coat, its algebraic status stated honestly) — and a twenty-fourth line, the codes of the coat: path-entanglement is coding theory, exactly — every hidden-bit support in the census is a coset of a binary linear code with uniform bit marginals (relational distinction without local distinction: the program's pre-Hilbert anomaly form), the amplitude obeys the code reading law with interference corrections indexed by DUAL codewords (Poisson/MacWilliams mechanism, classical and cited; the stabilizer-amplitude echo engaged), brightness is arithmetic (coherence one iff coset weight constant mod 4), every self-dual code below length eight is perfectly dark while the extended Hamming code — the binary shadow of E8 — is the first bright self-dual class (Gleason's theorem and the Pless classification, classical and cited): worldhood's glue and path-entanglement meet at the self-dual locus, and the hunt's laws bound what records can correlate: feasibility is measurement, two witnesses at small scale annihilate the hidden sector (entanglement needs privacy; copying is social while coherence is private), THE CAP THEOREM holds at verified scope (aligned solo channels never exceed correlation distance two: alignment forces per-line position pins, duals are interval codes, weight-two words always exist — the general pin lemma a named small gap) with DUAL AUTOBIOGRAPHY (no conservation law spans two lines) and THE TILTED LIGHT (every bright channel is a sum of odd-offset pairs: unlimited quantity of entanglement, coarsest quality, every bright bond twisted) — so bright doubly-even linear structure is unreachable by aligned solo records: what binds worlds cannot be watched binding — and a twenty-fifth line, the strata and the blindness: the misaligned half of the amplitude calculus charted exactly — every misaligned channel partitions by bit-key-set into aligned strata, each with affine support, the channel amplitude the exact weighted sum of code amplitudes (no third kind of channel exists at census scope), the dual-sum reading law holds within every equal-weight stratum, the cap theorem's pin lemma is proven in general with one hypothesis killed (position autonomy plus interval duals close the aligned cap; two-spot confinement fails generically — aligned wandering — and the proof never needed it), the evasion hunt returns empty (all bright misaligned channels die to a single bit reveal: the operational blindness law at body-reading scope), darkness needs alignment (no misaligned channel is ever exactly precluded), and the modulus reading composes multiplicatively across interleaved independent sectors (the real-part composition critique does not bite), so the Sorkin grade remains the sole structural discriminator among actuality candidates — and a twenty-sixth line, the actuality protocol: the actuality-measure door built into a registered discrimination package — counting-actuality satisfies no-signaling-in-time exactly on every census channel (the macrorealist candidate: Leggett-Garg non-invasive measurability, the Kofler-Brukner NSIT formulation, and the Clemente-Kofler analysis, cited as recovery), the three candidates separate by an exact sign structure of NSIT violations (counting identically zero by additivity, the linear coat never positive by the triangle inequality — an organizing corollary, stated at its one-line altitude and disambiguated from Goldstein-Page linear positivity, with the Halliwell quasi-probability program engaged — the squared coat both-signed by constructive fringes), so one positive NSIT violation kills counting- and linear-actuality in a single measurement, the triple test separates linear from squared (squared third-order interference exactly zero — Sorkin's grade two, the Sinha-type triple-slit tests cited — while the linear coat's is witnessed nonzero), and the package freezes three exact tables with kill conditions per candidate and its bridge premises named open — no physical substrate is identified, and this is said plainly, with the registered-conditional form claimed as discipline, not contribution — and a twenty-seventh line, the alien coat: the first transport of the quantum arc to a rival generative floor — a coagulation dynamics whose merges consume both parents (mortal: rest is impossible, not forbidden) and whose labeled kernel does not preserve counting measure (microcanonicality is genesis-contingent), on which the coat construction, the amplitude ceiling, the additivity dichotomy, and the mod-4 phase-purity law all travel intact, hidden-bit supports leave the linear-code class for constant-weight slices — cardinality correlation, the Dicke-state and Johnson-scheme family (Delsarte duality, the Dicke-state literature, and the stabilizer-versus-symmetric dichotomy cited as recovery, the floor-side derivation the claim), bright distance-four channels exist where the genesis cap forbids them (the cap is floor-contingent: what one floor's records forbid, another's grant), alien bright channels are reveal-robust while genesis parity channels are reveal-fragile (the GHZ-versus-W persistency contrast — Briegel-Raussendorf, Dur, and Stockton-Geremia-Doherty-Mabuchi cited — recovered as a theorem about record grammars), the NSIT sign table transports unchanged (the actuality discriminator is coat-level, not floor-level), and no dark channel exists through depth three (exact preclusion is genesis-contingent at tested scope) — and a twenty-eighth line, the permission map: the founding question given its first full artifact — one matched instrument suite (same channel keying, same drive measure, the same code) run on the genesis and coagulation floors assembles a twelve-row map with three verdict types: generic (staging, the coat ceiling, the additivity dichotomy, phase purity, the NSIT sign table), contingent (conservation, survival, indifference, darkness, and the distance cap — live and matched: genesis bright correlation never exceeds distance two while the alien floor realizes distance four), and instrument-indexed (correlation grammar and reveal persistence flip verdict with the observable keying: a pre-Hilbert exact instantiation of observable-induced structure — Zanardi, Zanardi-Lidar-Lloyd, and Barnum-Knill-Ortiz-Viola cited — extended to the genericity verdict itself), with the comparative method the narrow claim (matched exact censuses across rival generative dynamics, where the taxonomy question itself is the reconstruction literature's, cited to Hardy, Barrett, Chiribella-D'Ariano-Perinotti, Spekkens, and Sorkin), the conservation switch recovering the stochastic-versus-unitary no-cancellation dichotomy at floor level (the one-norm/two-norm argument and the stoquasticity/positivity literature cited; the necessity converse open), genesis persistence arising only by factorization (disjoint contacts are tensor factors — a no-signaling recovery, not a new principle), and the repetition anomaly (the same contact fired twice mints the census's only support beyond the affine-and-weight grammar; the temporal-correlations genre cited) shipped as a named open stone — and a twenty-ninth line, the grammar closure and the price of separability: the correlation-grammar theory completed and priced — at single-event scope the hidden-support grammar is COMPLETE (every faithful support on an extended heterogeneous arena is exactly affine-cap-weight-union, with the orbit lemma verified: supports are edge-stabilizer orbit unions, so a single interaction can only correlate by parity and cardinality — the closure statement the v0.24 sweeps requested, census-exhaustive with the structural all-sizes proof open), grammar growth beyond the two shadows happens only through sequential dependence with a per-floor exit law (the conserving floor exits only by re-firing the same contact; the mortal floor, unable to repeat, exits only through shared neighbors — the temporal-correlations genre and the Anders-Browne adaptivity threshold cited, the per-floor carrier uniqueness the claim), an absolute factorization theorem holds on the conserving floor (disjoint-neighborhood event pairs factorize exactly in support and amplitude — the tensor-locality recovery in absolute form), and MORTAL HOLISM: on the mortal floor support factorization fails at every tested separation because a shrinking world's class record is a global quantity — even the record couples spacelike events — so separability itself is floor-contingent, purchased by conservation (preclusion, the microcanonical measure, measure locality, grammar depth, and record locality all hang from the one switch; the constraint-induced-correlation, ensemble-nonequivalence, superselection, and conditioning neighbors cited as recovery per the release's blind sweep; the model-scope claim is the exact dichotomy with its anti-deflation contrast — the conserving floor's record is equally global yet factorizes exactly, so the failure is not conditioning bookkeeping — while the measure-versus-record control and the record-choice quantifier are named open and the slogan is flagged as slogan) — and a thirtieth line, the mortal observer: body-reading built on the mortal floor — the free shape-lock (an external merge can never touch a body's interior, so shape-locking costs nothing and the mortal observer pays in lifespan where the conserving observer pays admissibility), THE EVASION FOUND (of thirty-two revealable bright body-reading channels four persist a reveal: the persistent bright channel proven absent on the conserving floor exists on the mortal one, so operational blindness is genuinely floor-by-instrument — body-reading blinds the conserving floor and only dims the mortal one; the Wigner-Araki-Yanase pattern engaged: conservation as the obstruction to clean readout, here combinatorial rather than commutator-based), the finite biography (every mortal observer reads a terminating text, with zero dark channels in reading keying), and the grammar-under-the-instrument question honestly inconclusive at tested scope (every faithful support consistent with both grammars), named open — and a thirty-first line, the breathing floor and the two switches: a third rival dynamics — fusion plus priced fission, a reversal surcharge of one deviation mark — joins the map — PRICED REST exists (class-preserving returns, every one paying at least the surcharge: the survival row's third value — free, impossible, priced — adjacent in spirit to the thermodynamics-of-computation lineage including the Landauer embedding of reversible rewriting, and explicitly not a claim of Landauer's principle: the surcharge is an exact combinatorial floor, not an asymptotically saturable bound), THE SWITCH DECOMPOSES (one hundred ninety-six dark channels on a non-conserving floor: exact preclusion — Sorkin's term, cited as throughout — follows RETURN, not conservation; path reconvergence cited as elementary and the vanishing-sums arithmetic classical, the matched-floor monotonicity contrast an enumeration with its mechanism exhibited, not a universal law about absorbing dynamics), THE LOCALITY GRADIENT (factorization twelve of twelve conserving, two hundred one of two hundred fifteen breathing, zero of fifty-two mortal: separability follows conservation and degrades with net drift, not mere fluctuation — the authors' too-strong holism bet corrected in print, and the shared-budget confound named open: a control separating common-resource bookkeeping from interference-level non-factorization is unrun, with the coalescent adjacency cited), the two-switch assignment table closes at three-floor scope, the sign table is a THREE-FLOOR invariant (the registered actuality package's bridge target widens to any of the three dynamics), and the distance cap survives non-conservation (the distance-four bond was mortality-plus-cardinality specific) — and a thirty-second line, the fourth column and the phase-flat fork: the subtractive constraint-thread floor — the program's oldest adversarial rival — joins the matched suite — THE PHASE-FLAT FORK (the frozen parentless bet died into the sharper theorem: every tie-jump branch sits at the same minimal Hamming distance by the jump rule's own no-selector discipline, so a deviation-derived coat is constructible but INERT — the derived measure carries Sorkin's I2 = 0 identically — in a derived-phase construction (the Feynman-checkerboard lineage, the coat's cited ancestor) interference requires UNEQUAL deviation, a parent some branches stay closer to; the claim is scoped to derived-phase constructions, not to quantum mechanics, where phase is postulated; the no-selector law is confirmed native on all four floors while the coat is generic only over parented forks), the fourth survival value (rest is free but inconsequential — idle acts, the emergent one-use; closure-operator idempotence classical and cited, the Birkhoff-Apt lineage), a pattern broken (the subtractive floor is LOCAL at tested scope though monotone: record locality follows the record's own decomposability — a global isomorphism class couples, a per-interface profile factorizes — which conservation guarantees but monotonicity alone does not destroy — the lumpability, observable-induced-locality, and product-form/partial-balance neighbors cited as the triangulation; one arena discarded in print as an instrument lesson), and the two named-open confounds of the price-of-separability and breathing-floor chapters CLOSED BY RUN CONTROLS (the measure control: population-independent weights make mortal amplitude factorization equal support factorization exactly — the population clock isolated; the record control: local-record keying restores locality and the collider is exhibited — one global class fusing two of four local-record pairs; mortal holism in final control-hardened form: the mortal global class is irreducible to local classes while the conserving one decomposes) — and a thirty-third line, the phase hunt and the four-floor invariant: flatness does not globalize — on the subtractive floor's multi-jump protocols 335 of 795 multi-path channels carry mixed accumulated deviation (the fork is flat, the protocol is not; an impossible first witness definition corrected in print), THE MOVING PARENT completes the preconditions layer in final form (the reference for every jump is the current point — stay is the witness, distance the price — so derived phase needs a persistent REFERENCE, not per-fork inequality; the precondition framed as a floor-level recovery of relational-phase doctrine — Bartlett-Rudolph-Spekkens, Aharonov-Susskind, and the Garner-Dahlsten GPT phase framework cited — with the differential-exposure mechanism the model-internal claim), the return law holds on its fourth floor (zero dark channels: darkness tracks return across all four dynamics — one hundred twelve, zero, one hundred ninety-six, zero — stated as the enumeration it is, the folklore core named — nonnegative kernels never cancel — the Masanes-Muller reversibility axiom cited as the nearest frame, and the priced-reversible cell carrying the novelty), and the NSIT sign table holds on the fourth floor exactly (counting zero, linear never-positive, squared both-signed): THE ACTUALITY DISCRIMINATOR IS A FOUR-FLOOR INVARIANT (the Clemente-Kofler NSIT-interference bridge and the Halliwell sign analyses cited; the cross-dynamics robustness sweep the methodological claim), so the registered package's bridge target is any substrate realizing any of the four dynamics, with the subtractive floor fully reveal-fragile (no bright channel survives a reveal) — and a thirty-fourth line, the switch lattice: the taxonomy inverts from census to design — the measured laws become lattice coordinates (return, conservation, parentedness, record decomposability), unoccupied corners become construction targets with physics predicted in advance, THE CRITICAL CORNER built (a root floor conserving edge count while the root's degree strictly increases: conservation without return, realizable — and the lattice's two frozen predictions confirmed before the engine ran: zero dark channels on a live test with uniform weights and mixed phases, and amplitude factorization exactly equal to support factorization, the conserving signature), THE MINIMAL PAIR run (an exchange floor with returns, uniform weights, and no canonical branch is STERILE by the one-line uniform-pricing lemma; adding a single zero-cost stay branch — one structural bit — switches exact preclusion ON at the same arena via the checkerboard mechanism: the foil-theory methodology — Chiribella-Spekkens foils and reconstruction axiom-knockout — made combinatorial and census-exact, with the linguistics term of art named, and the sterility lemma attributed to gauge-triviality: a uniform per-branch price is a pure-gauge phase), and THE TWO-FACTOR THEOREM OF PRECLUSION at enumeration-plus-lemma strength across seven floors with both factors isolated by construction: exact darkness requires RETURNS AND A PARENT — dark one hundred twelve / zero / one hundred ninety-six / zero / zero / zero / one, tracking the conjunction with no exceptions — interference is purchased twice, by a dynamics that can come back and a structure that lets some branches stay closer to home; Meyer's coinless-automaton no-go cited as the second factor's nearest neighbor with the difference stated — Meyer constrains unitarity of scalar automata, this theorem operates on phase inequality at positive probability over non-unitary dynamics, the separating floors its witnesses — and a thirty-fifth line, the observer corner: the observer-capability predicates (unbounded biography, a protectable body, internal affordability, readable forks) run across all seven rival dynamics — the bold conjecture that hostability forces interference DIED exactly as its pre-registered death-alternative predicted: THE STERILE OBSERVER exists (a provably interference-free recurrent world passes every predicate, with the protectable-body cycles live-checked), so interference is NOT anthropically forced and quantum structure is a deeper contingency than observership — while THE KEPT-WORLD THEOREM survives: every observer-hostable floor has returns and locality, the mortal, subtractive, and root floors host no unbounded observer, and the two-region split lands at the level of the space of dynamics: KEEPING IS ANTHROPIC, PHASE IS RECEIVED — the Tegmark observer-selection line, the quantum-Darwinism record predicates, and the edge-of-chaos folklore cited as the neighbors, with the negative half (shrinking and holistic floors provably host nothing unbounded) the part with no neighbor at all — the interference our world actually shows is a genuine additional fact, not a selection effect (the classical-worlds-host-observers deflation stated before a referee states it: the content is the formal predicate-level separation under one instrument suite — a counterexample construction against structural-anthropic arguments for quantum mechanics, which currently exist only in physical form via the Dyson-Lenard/Lieb-Thirring stability line, and a limit on strong readings of Wheeler's participatory universe; the sterile observer is defined at first use against the sterile-neutrino echo; nature is not claimed to be any of these worlds) — and a thirty-sixth line, the quantum dividend: the minimal pair of the switch lattice — two dynamics one structural bit apart, both provably hosting embodied observers — prices what interference is worth to an observer, certainty of absence (a channel with positive counting probability yet exactly-zero squared amplitude, so its observer is certain an event will not occur where classical counting still licenses it — Sorkin preclusion and Elitzur-Vaidman interaction-free measurement recovered natively and localized to one structural bit) and the destructive sector (the sterile floor's NSIT sign table degenerates to counting-additive with only-constructive violations, one witness bit restoring the full invariant — a recovery of the Sorkin grade-1/grade-2 interference hierarchy and the macrorealism sign structure, the grade transition localized to one zero-cost branch), everything else an observer needs — biography, body, locality, readable records — free on both floors, the defensible contribution the ablation-on-dynamics method with observers embodied on both sides (Spekkens' toy-theory subtraction sharpened, Zurek's quantum-Darwinism the inverted-polarity cousin cited), pre-registered by the prior ceiling's named-open question — and a thirty-seventh line, the third root: the coat run under the Eisenstein (Z3) root of unity — the amplitude ceiling and the mod-k phase-purity law hold identically to the Gaussian (Z4) coat, so the interference algebra is phase-group generic (a robustness fact, the qudit-stabilizer and discrete-Wigner generality of Gross and Wootters, not a priority claim), the NSIT discriminator is coat-generic (the registered actuality package upgrades from floor-generic to coat-generic invariance), and THE MIRROR LAW: exact preclusion requires the phase group to have even order — an element of order two — a Z3 coat minting zero dark channels through depth six where Z4 mints dark, stated as the Lam-Leung obstruction (vanishing sums of roots of unity; Conway-Jones, Mann) instantiated as a dark-channel criterion, with the even-versus-odd-d dichotomy of discrete quantum theory (Gross) the framing-inverted neighbor and the model-internal content the identification of exact destructive interference with the order-2 vanishing sum — and a thirty-eighth line, the six-fold coat: even order is necessary but not sufficient — THE RESONANCE CONDITION, the round's priority claim: the mirror must sit at the dynamics' natural return cost, a Z6 coat whose mirror is at deviation distance three minting zero dark on a cost-two-return floor, so a world's phase-group order and its return structure are one fact and i is the unique coat resonant with pair-return dynamics (hedged against generic commensurability — Harper-Hofstadter flux-matching — and the pre-existing specialness-of-i literature, both named), coat spectroscopy as a possibilistic self-test (an internal observer reads the phase-group order from the support of forbidden events alone, one witness at scope, the device-independent self-testing and Hardy/GHZ support-only lineage cited), and the spectrometer reading of the NSIT sign table as a synthesis of known instruments (no-signaling-in-time, the Sorkin grades, and the Halliwell macrorealism sign structure) whose full invariant is the signature of a resonant coat-dynamics pair — and a thirty-ninth line, the arithmetic of refusal: the whole refusal story organized under one cyclotomic condition with its elementary mathematics named up front — opposition (the mirror reachable in a return channel) is the linear-congruence criterion gcd(c,n) divides n/2 (elementary, general, no novelty claimed), exact refusal first appears at depth c where the return amplitude 1 + zeta_n^c vanishes iff zeta_n^c = -1 (the full return is a half-turn of the coat), the forward direction the trivial identity 1 + zeta^c = 0 and the converse — refusal only in half-turn worlds — a grid-verified CONJECTURE in Lam-Leung and Conway-Jones territory (a non-vanishing statement about binomial-weighted sums of roots of unity, verified on the c-by-n grid to depth twelve, a general proof or counterexample a named open stone, not a proven iff), the two-factor, opposition, and refusal conditions a strict elementary filtration, and the contribution the organizing return-as-negation reading (our own pair-return Z4-coat dynamics on the half-turn line, its depth-two first refusal the checkerboard cancellation, the one-use founding intuition that a second use is not a use recovered as the statement that a completed return is a half-turn) offered on the explanatory axis with low-priority labels — and a fortieth line, the r_F boundary: the first-extension line's positivity patchwork closed by one exact theorem — the one-parameter family Q_r = (1 + r³)N + (1/2)r²(1 − r)P − (1/2)r²(1 + r)D over all complex three-by-three matrices (N the sum of squared permutation-monomial moduli, P the squared permanent, D the squared determinant) is nonnegative exactly for −1 ≤ r ≤ r_F, the positive root of 4r³ + 3r² − 2 (r_F = 0.6070073…), with the equality locus at the boundary exactly the total vanishing of all six permutation monomials or the full toric Fourier orbit — proved by a toric-to-planar reduction (the matrix problem collapses to the support geometry of one planar convex region), a two-moduli structure lemma, and a certified failure hierarchy in which the Fourier vertex fails first — 0.6070073 below the real arc's 0.6071221 by one part in ten thousand, below the interior's 0.6104650 — carrying the sharp constant D ≤ (9/2)N with the Fourier orbit its exact equality set (replacing the Cauchy–Schwarz six) and the companion sharp unitary inequality 33N + 2P ≥ 8, adjudicated by direct reading against the bunching-witness genre and claimed as a new sharp matrix inequality within a cited genre, with the whole proof independently reproduced by three routes and its two adversarially caught statement breaks (the unbounded lower domain; the mis-described equality stratum) scored in print as corrections, so the certified odd window (1/2, r_F] over all passive receivers is now theorem rather than patchwork, and the boundary mechanism is a phase-defect payment: the constraint forbids the free minimum's opposing sign vector, the distributed two-pi-over-three payment (the Fourier family) and the concentrated flipped-pair payment (the real arc) are the only extremal policies, and r_F is where they cross — and a forty-first line, the bracket registration: a preregistered, fully discrete test of whether a natural odd sector composes strictly or with a nontrivial associator — the interference mechanism adapted from the published fusion-order technique and cited as such up front with no priority claim, the frozen prediction table (strict world Ω ≡ +1 on all eight charge triples; twisted world Ω = (−1)^(q₁q₂q₃), −1 on the (1,1,1) triple alone — the unique discriminator), decision rules frozen with no optional stopping and the readout firmware audited before unblinding, a charge certificate of parity-echo and anti-encoding audits with the fusion no-go reconciled, an exact-binomial statistics template whose tolerances and sample counts are named pre-acquisition placeholders, the pentagon game presented as the known five-cycle chained test with the associahedron as organizing reading, the block curve included as elementary but unpublished, and one killed premise scored in print — the radial factorization law, killed by an exact compiler countermodel — with the contribution claimed for the preregistration discipline and the natural-sector question, never the mechanism — and a forty-second line, the causal ceiling family: the d-ary order game's definite-order bound (d+1)/(2d) as a clean closed form with its nearest published neighbor named, the floor's location recovered as the published acting-once physicality line — corroboration, never priority — with the switch-experiment record predicted and the absence of order-violating processes dissolved-by-derivation in that register only, the d = 3 violation confirmed inside the process formalism with the phenomenon labeled recovery-class and the number plausibly new: the see-saw value 0.738466 adjudicated distinct from every published game value, its lower bound 0.738443 certified by a two-engine repaired-positive certificate, and the violation shrinking from d = 2 to d = 3 — an existence claim, never growth — and the Contact-Faithful Causal Ceiling registered with eight named conditions, exact kill conditions, separated non-kills, the contested time-delocalized boundary presented honestly as sound with a hidden assumption and the counting fork stated with no third option, and the decisive experiment named: a certified one-message realization that violates kills the floor immediately — and a forty-third line, the amalgamation boundary: an organizing synthesis offered as synthesis — one amalgamation law per rung buying that rung's coherent value across the state, order, and bracket rungs, the established boundary characterization blind-rederived by the program's own machinery and presented as corroboration with every incumbent named, the master phase diagram records-below-amalgamated-below-nonamalgamated, the tritter observable shipped as a new presentation of known slack — the exact rational identification W = P111 + D2 − 2/3 = (2/9) det G, an elliptope-margin realizability functional and never a completion functional at the triangle, which is chordal, with genuine completion obstruction exhibited exactly at the four-cycle — the odd-holonomy boundary at r = 1/2 with its factorization exact, and the program's additions confined to the per-rung extension and the provenance typing — and a forty-fourth line, the escape theorems and the admission forks: the contact-faithful escape theorem, relative to its named and audited external pillars with finite dimension pinned, its acting-once door closed under activation totality; the adapted-acyclic maximality theorem — beyond-quantum is not dynamic metric geometry but non-unfoldable higher-cell geometry — with its compilation lemma at confirmed-by-instance strength; the one-cell genesis witness (exactly one primitive process cell pays the whole violation, physicalization open by name); the two admission forks, cell and process, each proved forcing-underdetermined — the floor stages the interval and selects no value — with implicit undefinability earned only for dispositional cell admissibility via an explicit finite model pair; eligibility exact at state scope (stable if and only if zero unpaid debt) and conditional at process scope on a named audit-completeness hypothesis; unreceipted erasure excluded at merge-audit scope as a recovery of the reversible-computing conservation line; and standard quantum theory the maximal value at both forks — and a forty-fifth line, the obstruction spectrum and the amalgamation completion: five independent obstruction axes for faithful acyclic implementation — routing, genealogy, token, adaptedness, capacity — each with a per-axis witness and all pairwise independent; the capacity axis converging with the published finite-dimension boundary; extensionality derived canonical at receipt-inclusive scope — retained reentrant receipts are tester content — with the visible quotient its forgetful shadow; the one-hot debt atlas five-sectored at master scope and four in the shadow, its genealogy witness a receipt-preserving amalgamation obstruction; the sixth obstruction — realization amalgamation — an existence witness with its computable criterion open; and the recurring no-forced-canonical-section pattern at its earned strength, its marginal-problem ancestry cited — and a forty-sixth line, the carrier anatomy: debt-blind universal payments do not force purification (the classical copy pays every decomposition mixedly); minimal payments steer faithfully, so any nonextremal minimal payment splits trivially or by broadcast — whence the irreducible-face purity theorem (irreducible faces force pure payments unconditionally) and the reducible verdict under a named receipt-individuation axiom whose ledger then forbids the copied payment as theft; the anti-classical statement labeled recovery — classically, universal recovery and purity are jointly unsatisfiable where quantum theory realizes both; the fold unique up to scale under calibration and echo irreducibility, distinct from the polarization sphere; the real-quaternionic skeleton forced by the registered ternary-scar package and not by admission axioms; complex structure entering by two received steps — the arrow, then a polarization with provably no natural selector — with the composite balancing fixed by one world arrow; every residual all-arity datum a genealogy receipt; and capacity unbounded under faithful composition — and a forty-seventh line, the fixed point and the five receipts: the floor-derived package assembled — thirteen theorems at corrected strengths — with exactly five received world inputs (orientation, chirality, world-phase, genealogy policy, scale), one provenance axiom, one audit-completeness closure, and two admission policies; on the maximal-cell, maximal-zero-debt-process, one-phase, collapsed-genealogy branch the architecture is that of finite-dimensional complex quantum theory; the nearest lawful departures are carried twisted genealogy and routing-open admission, each with its witness; and the closing claim deliberately bounded: the floor does not uniquely derive quantum mechanics — it derives the constrained architecture, identifies the irreducible-face mechanism, and isolates exactly what is received, posited, and chosen in the standard completion — with the pre-publication adversarial corrections scored in print — and a forty-eighth line, the ledger theorems: receipt-lineage persistence proved as the floor's conservation theorem at global-lineage scope (the local form fails under export); the strong debt-conservation reading killed by its own audit — continuity is conditional on a discharge discipline the axioms do not supply, and no numerical valuation is selected; the pathwise probability-free H-theorem and the acyclicity arrow, the statistical arrow demoted to secondary; floor-level fluctuation symmetry impossible by support, with the exact selector-mismatch factor for conjugate protocols; the Landauer gate combinatorial, its physical form conditional on a named thermal receiver; the representation identity — thermodynamic entropy as receipt capacity minus structural slack minus bias slack — exact on the receipt-complete class, incomparable in both directions outside it, its antecedent the maximum-entropy decomposition; and the thermal receiver anatomized into five components, complete passivity forced, Gibbs form forced on exchange-complete sectors, one temperature per calibrated exchange component, and no nontrivial calibrated receiver definable from the floor — and a forty-ninth line, the valuation and chance moduli: one-shot and cascaded staging structurally inequivalent (the cascade carries a block system and a wreath symmetry), so refinement-additivity is an added axiom bundling three choices; the valuation moduli characterized tier by tier — every nonnegative function at bare-floor scope, the prime-weight cone under added additivity, the logarithmic ray only under added monotonicity (the Erdős characterization), the unit only by convention — with whole-unit selector counts in different bases provably not rescalings; the no-native-selector theorem, the central law earned as a naturality obstruction inside the frame; chance classified as an admitted expansion with staged support (by the Padoa method), uniformity forced only given existence, naturality, and transitivity; the invariant-simplex form theorem — uniform within orbits, free across them; and the quadratic weighting localized exactly in carrier-composition geometry: Pythagorean merge with additive weight if and only if the square — and a fiftieth line, the staged-fork spine: coherence problems laddered at degrees zero through four with instances at every rung, staged relatively — the combinatorial skeleton floor-definable over finite receipt coefficients, carrier realization and coefficient completion declared enrichments; the fork trichotomy at corrected strength — the axis is whose group differences: outcome forks differencing by their own symmetry (the binary fork a torsor under branch-swap, larger arities not even that), lift forks by an external module without a zero, classification forks by one with a zero — with two of our own earlier statements killed in print to reach it; the must-receive/may-receive law with its four-sense received vocabulary — orientation and the chirality sign received because no equivariant default exists, phase and associator classes received despite an unforced default; a floor-native unpointed splitting torsor with its calibration bit an aperture-conditional candidate receipt; and the lawful-enrichment grammar amended to conservativity plus orbit preservation by a rigid-tag countermodel — and a fifty-first line, the worlds above the pentagon: the minimal twisted-coherent completion at the third degree constructed and identified plainly as the known semion category — the nearest lawful neighbor of the standard completion is nature's own topological order; its value-table discriminator refuted exactly, its genuine cost a program-register bound at Catalan count, tight, at exact-deterministic runtime-programmable scope only; a locally selectable associator killed by signaling, so structural coherence data cannot be a local degree of freedom; the fourth-degree pentagonator world built on the composite group by two independent cohomology computations, its statistics three-loop, its stacking a group, its receipts conserved, the registered prediction of its location and physics logged before construction and confirmed relative to the divisible coefficients; and the coefficient relativity stated plainly — over the floor's native finite coefficients a single binary grading carries a fourth-degree class that admitting the imaginary unit erases: the first concrete disagreement between the floor's own mathematics and its continuum completion — and a fifty-second line, the price of the square: coherent interference worlds for every exponent, the phase cocycle blind to the exponent, and the two exact selectors of the quadratic — linear same-ray scaling or linear-isometric phase mixing (the Jordan–von Neumann route) — both proved imports; the exponent a radial gauge at minimal scope, so that divergence angle is closed honestly and every claimed resource separation now owes a coordinate-conjugacy invariance check; the operational reconstruction axioms classified wholesale as expansion-imports by explicit countermodel pairs, only combinatorial shadows staged; the retention bridge audited to a clean boundary — the double-cover history lift is a floor theorem, and given an admitted real-linear receiver the quaternionic representation and its unique invariant metric are forced, so the metric is earned and linearity is received, the residue named as linear carrier calibration; the capacity ruler killed — receipt capacity is gauge-natural and no natural injective ruler exists; and the closing thesis with exact provenance: linearity, the continuous phase circle, divisible coefficients, and the radial ruler are four facets of one admitted import, the continuum — inside that completion the standard quantum architecture is forced-consistent, and the registered forward target is the finite-native boundary — under which the quantum boundary is a floor theorem at binary-Bell finite-carrier scope, the preparation gap is an exact theorem at KCBS-pentagon scope, the interface reconstruction is a finite model-scope recovery on a real-quantum cell, the multi-floor closures are model-scope recoveries whose forcing boundary is exactly mapped, the floor-to-interface chain is an exact finite theorem conditional on its four named received inputs, the atlas capability theorems, the tower censuses, and the relocation model are exact, shipped, and presentation-relative by stated scope while the boundary-layer measurements are cited from the research corpus and nature is not claimed to realize any particular cell, the accessible-positivity and mixed-state exclusion theorems and the count-region theorems are unconditional and independently reproduced, the ladder witnesses and second-storey censuses are exact and shipped with their classical cohomology dimensions and the torsor pattern cited as known rather than claimed, the debt-ledger theorems are exact finite counting whose component results are classical and cited — with the contribution claimed only for the witness suite, the capability separation of the arrow, the pinning consequences, and the pre-probabilistic derivation route of the selection price — the ledger-completion results are exact at their stated finite model scopes with every classical component cited — the persistence/diamond lemma, trace linearization counting, sorting under partial information, and the housekeeping/excess decomposition — and the two-bills section labeled numeric discovery grade, the hierarchy extension ships its exact tableau-counting engine while the fiber-exhaustive exposure law is cited at discovery grade from the research corpus, the hosted-observer theorems are exact and exhaustive at their model scopes with the impossibility core and the intersubjectivity semantics cited as known (Breuer, Wolpert, Löfgren, Putnam, Everett, Lamport, Mazurkiewicz) and the claims confined to the price structure, the two participation theorems, the healing/worsening juxtaposition, and the new proof route to the received key, while the physical realizations — the negative-Gram prediction and the conjugation witness — are conditional, bridge-premise-gated, experiment-open registered protocols awaiting a dedicated experiment and external expert review, the observer-hierarchy, genesis-of-space, and price-of-chance theorems are exact and exhaustive at their stated finite model scopes with every classical component cited as recovery (interpreted systems and trace theory, quantum-Darwinism consensus, Gallai twin algebra and cluster graphs, Lieb-Robinson bounds, Choquet simplices, the Padovan-Perrin-plastic-number maximal-matching literature, belief propagation, Le Cam two-point bounds, the inspection paradox, and the frequentism critiques) and the claims confined to the redirection conservation, the teaching-measurement identity, the priced two-currency exhaustiveness, the inheritance budget dichotomy, the sparsification arrow, the fission-only healing, the participation-calendar coordinates, the shared-or-affordable dilemma, the mortal-eternal chance split, and the cost-structure ladder, the decay-of-worlds and particles theorems are exact and exhaustive at their stated finite model scopes with every classical component cited as known (triangular chains, the Eggenberger-Polya and multi-color urns with their Bose-Einstein/Dirichlet laws, CRDT/gossip join protocols, occupation-rate ergodics, Palm/size-biased sampling, the Sebens-Carroll self-location dialectic, and the topological-defect selection-rule template) and the claims confined to the decay-sector urn identification, the topology-to-urn dictionary with its fission-arity rules, the charge law, the exhaustion mechanism, the exact self-location split, and the opposition-calculus identity, the up and habitability theorems are exact and exhaustive at their stated finite scopes with every classical component cited as known (number-conserving automata, von Neumann-Langton self-reproduction, edge-of-chaos and quasi-stationarity, Landauer-Bennett costs, interacting-particle reinforcement, shotgun assembly, the LOCAL model, locally checkable labelings, silent self-stabilization, reliable computation, the good-regulator and requisite-variety theorems, and autopoiesis) and the claims confined to the maintenance inversion, the exact equilibrium and thin-edge quantifications, the doom-free price list, and the habitable-equals-maintainable convergence with its stated caution, the floor-thermodynamics, maintained-structures, given-classification, spectral-home, and reading-law results are exact, exhaustive, or Sturm-certified at their stated finite sector scopes with every classical component cited as recovery (symmetric-kernel stationarity, the Cauchy-equation rate form, Freidlin-Wentzell selection and the blowtorch theorem, Schnakenberg-Hill cycle theory, context preservation and safety games, the constructor-theoretic asymmetry, torsors and measurement-scale typology and the absolute-objects tradition, exceptional points, 2-lifts and signed-graph gaps, gain graphs and covering characters and Frobenius-Schur logic, sign-reversing involutions, the Feynman checkerboard, Sorkin preclusion, decoherent-histories consistency, records and environment-as-witness, visibility decay, and the quantum Zeno effect) and the claims confined to the exact state count and free-move split, the measured unimodal dissipation, the preservation-price law with its unique witness and the autonomy/cooperation dichotomy and defect concentration, the kernel-symmetry certification with its two retirements, the certified window structure with the certified real sign sector and non-real quarter-turn sectors, and the exact reading law with its closed-form constants declared kernel-inherited, the coat-and-count and codes-of-the-coat results are exact, exhaustive, or classically-certified at their stated finite sector scopes with every classical component cited as recovery (the delayed-choice eraser, decoherent-histories genericity, no-joint-distribution and quasiprobability structure, Sorkin's quantum measure, Poisson/MacWilliams duality, Gleason's self-dual-code theorem, the Pless classification, stabilizer-state amplitudes, monogamy and distillation rhymes, and interval codes) and the claims confined to the exact fringe/eraser census, the correlated-support onset of the path integral, the path-measure no-go with the actuality-measure door, the affine-support and dual-codeword laws, the E8 brightness threshold as floor-instantiation, and the cap theorem with autobiography and tilted light at verified scope with the pin lemma's general proof a named gap, the strata-and-blindness, actuality-protocol, alien-coat, and permission-map results are exact, exhaustive, or measured at their stated finite census scopes with every classical component cited as recovery (decoherent-histories strata, the macrorealism test theory of Leggett-Garg, Kofler-Brukner, and Clemente-Kofler, Sorkin's hierarchy and preclusion with the Sinha-type tests, Dicke states and Delsarte's Johnson-scheme duality with the stabilizer-versus-symmetric dichotomy, persistency of entanglement and the GHZ-versus-W contrast, observable-induced tensor product structure and generalized entanglement, the no-signaling factorization, and the stochastic-versus-unitary no-cancellation dichotomy) and the claims confined to the stratification and pin-lemma closures with the aligned-wandering correction, the sign-separation trichotomy at its stated altitude with its registered tables, the cross-floor transport results with the floor-contingency of cap, darkness, survival, and indifference, the matched-census method itself, and the instrument-relativity of the taxonomy verdict, the grammar-closure and separability results are exact and exhaustive at their stated extended-arena census scopes with the classical components cited as recovery (orbit structure from iso-invariance, tensor locality and no-signaling, constraint-induced correlations and ensemble nonequivalence, and the temporal-correlations genre) and the claims confined to the single-event completeness theorem, the per-floor exit law, the absolute factorization theorem, and the mortal-holism contrast with its conservation-switch unification, the mortal-observer and breathing-floor results are exact and exhaustive at their stated census scopes with the classical components cited as recovery (context preservation, path reconvergence as interference's precondition, and the thermodynamics-of-computation lineage held at arm's length by name) and the claims confined to the floor-by-instrument blindness table, the free-shape-lock/lifespan trade, the priced-rest theorem, the return/conservation switch decomposition with the locality gradient, and the three-floor invariance of the sign table, the fourth-column results are exact and exhaustive at their stated census scopes with the classical components cited (idempotent closure operations, and the derived-phase precondition scoped against postulated-phase quantum mechanics by name) and the claims confined to the phase-flat precondition for derived-phase constructions, the four-floor nativity of the no-selector law, the record-decomposability clause, and the control-hardened final form of mortal holism, the phase-hunt results are exact and exhaustive at their stated protocol-census scopes with the derived-phase scoping maintained by name and the claims confined to the protocol-level phase emergence, the reference precondition, the four-floor return enumeration, and the four-floor invariance of the sign table, the switch-lattice results are exact and exhaustive at their stated small-world census scopes with the sterility lemma the only piece at full proof strength and the theorem labeled enumeration-plus-lemma accordingly and the claims confined to the corner realizability results with their advance predictions, the minimal-pair method, and the two-factor conjunction with its construction-level isolation, the observer-corner results are exact at their stated census scopes with the decisive cells live-checked and the settled cells cited to their shipped engines, the registered miss scored in print, and the claims confined to the predicate table, the kept-world theorem, and the structural (not physical) character of the sterile-observer separation, the quantum-dividend, third-root, six-fold-coat, and arithmetic-of-refusal results are exact at their stated census and grid scopes with the classical components cited as recovery (Sorkin preclusion and Elitzur-Vaidman interaction-free measurement, the Sorkin and Leggett-Garg/Kofler-Brukner/Clemente-Kofler interference and macrorealism hierarchy with the Halliwell sign structure, the qudit-stabilizer and discrete-Wigner phase-group generality of Gross and Wootters, Lam-Leung and Conway-Jones vanishing sums of roots of unity with the even-versus-odd-d discrete-quantum dichotomy, the device-independent self-testing and support-only certification lineage, and the elementary linear-congruence criterion) and the claims confined to the ablation-on-dynamics minimal-pair method with observers embodied on both sides and the one-bit localization of each priced faculty, the coat-generic invariance of the discriminator, the mirror law as an instantiated corollary, the coat-dynamics resonance condition (a world's phase-group order and its return structure are one fact) as the round's priority claim hedged against commensurability, coat spectroscopy as a possibilistic self-test at one-witness scope, and the organizing return-as-negation reading whose one non-trivial direction is a grid-verified conjecture, the r_F-boundary results are exact and unconditional at full complex three-by-three matrix scope with every classical component cited as known (the partial-distinguishability functionals and their physics floor — Shchesnovich, Menssen, the Brod–Galvão witness genre, the multiphoton sum rules, de Guise's immanants, Lieb's permanental dominance — toric lattice-ideal primality, and Sturm and Gröbner certification) and the claims confined to the sharp threshold cubic, the sharp constant with its equality orbit, the toric-to-planar reduction, the companion unitary inequality, and the phase-defect payment mechanism as organizing reading, the bracket-registration chapter is a frozen preregistration whose registered tables, decision rules, and certificates are reproduced with fidelity from the frozen record and whose statistical thresholds are named placeholders fixed before acquisition, the causal-ceiling results are exact at their stated scopes — the causal bound verified exhaustively at d = 2, 3, 4, the process term's positivity and validity and the exact attainment of (2+√2)/4 certified in exact arithmetic over Q(√2), the d = 3 number a two-engine-certified see-saw lower bound with global optimality open by name — with every incumbent cited as recovery, and the amalgamation-boundary chapter is an explicit synthesis whose every boundary component is cited to its incumbent and whose claims are confined to the per-rung extension, the provenance typing, and the elliptope-margin presentation, the escape-and-forks results are exact at their stated finite scopes with the external pillars carried as audited named-assumption clusters and every fork stated at its earned strength (forcing-underdetermination proved; implicit undefinability only dispositional and only for cells), the obstruction-spectrum results are exact with the sixth obstruction an existence witness and the extensionality scope derived rather than declared, the carrier-anatomy results are exact with purity rebased on irreducibility and every posited ingredient — receipt individuation, audit completeness — named as posited, and the fixed-point chapter is an assembly whose closing claim is deliberately bounded, with the adversarial-panel corrections that reshaped these statements printed alongside them in the correction ledger, the ledger results are exact at their stated finite receipt-complete scopes with every physical identification conditional on its named receiver, the moduli characterizations are exact per tier with every added axiom shown external by countermodel, the spine is stated at relative-staging strength with its own two corrections printed, the twisted-world results carry their known-mathematics labels with named antecedents throughout, and the price-of-the-square chapter closes its own divergence angle and states the continuum thesis as an organization with registered provenance, not as a proved theorem, and every unearned generalization — complex quantum mechanics, the actuality of one outcome, the universal Born rule, whether nature realizes any of these structures, which world-phase is selected, whether nature contains the odd identity-holonomy sector, whether the apparatus nuisances close the full exclusion, whether any physical carrier realizes the pinned or the floppy grade, whether nature realizes constants as column-two registrations, whether any emergent qutrit fiber admits a practical encoding, whether nature's observers are participation-bounded in the hosted sense, and whether any experiment realizes the conjugation witness, whether nature's chance is field-carried or earned, and whether any physical observer's measure key is received in the column-two sense, whether any physical excitation is wound-like in the fate-law sense, and whether the charge-universality conjecture survives its frozen test, whether the immortality result holds at every size, and whether any physical system's persistence budget is steering-shaped, whether the kernel symmetry holds on every closed sector, whether any physical rate law is price-coupled in this sense, whether the two-species census of the given is complete, whether nature's complex structure is representation-carried in the quarter-turn sense, and whether any physical readout realizes exact rather than approximate consistency, whether the pin lemma holds beyond the verified scope, whether any protocol at any scale exceeds correlation distance two, whether the actuality measure of nature is counting or coherence-taxed, and whether the misaligned sector carries a coherence theory of its own, whether any substrate realizes either floor's dynamics so the registered actuality tables can be read against nature, whether the two-grammar census is complete beyond censused scope, whether measure uniformity is necessary for preclusion (the conservation-switch converse), whether the alien floor's positivity persists at every depth, whether the repetition anomaly's grammar has a standard-formalism translation, and whether a body-reading instrument exists on a mortal floor, whether the single-event completeness theorem admits a structural proof at all sizes, whether mortal holism persists at every depth and separation, and whether any physical dissipative system exhibits record-level nonseparability in the mortal-holism sense, whether the grammar survives reading instruments at larger bodies, whether the two-switch assignment extends to a fourth floor, and whether any physical dissipative system realizes priced rest in the breathing-floor sense, whether any instrument mints phase variety on a phase-flat floor, and whether the record-decomposability clause admits a structural characterization, and whether the reference precondition admits a structural characterization across all parented and reference-bearing dynamics, and whether the two-factor theorem admits a structural proof across all parented recurrent dynamics, and what phase buys an observer that the sterile observer lacks — the quantum dividend, named open, whether the half-turn converse holds beyond the grid-verified scope (a binomial-weighted case of vanishing sums of roots of unity), and whether the coat-dynamics resonance condition and the one-bit dividend localization survive at larger scale, and whether the r_F boundary, its sharp constant, and its Fourier equality orbit extend beyond three-by-three matrices, and whether the registered bracket experiment's natural sector composes strictly or twisted, whether the d-ary order family admits a closed form past d = 2 and whether its d = 3 optimum is algebraic, and whether nature's receipts at the registered causal and Gram boundaries confine to them or exceed them, and whether the realization-amalgamation criterion admits a computable native form, whether the cross-tower genealogy bridge holds, whether audit completeness is derivable, and which admission values and receipt values nature's own completion runs, and whether the floor-native fourth-degree world on a single binary grading is consistent and what physics it carries, whether definability for the floor's one-use logic obeys the classical equivalence, whether the linear-carrier calibration is derivable from any part of the corpus, and whether the aperture policy promotes or quotients the splitting-calibration bit — is left open by name; these chapters are an archival priority record of mathematically closed theorems and registered conditional protocols, not empirical discoveries.
-
-</details>
-
-The scope fence is the result, not an apology. In particular: complex
-quantum mechanics in full, the actuality of one outcome, the universal Born
-rule, whether nature realizes any of these structures, and every
-*confirmed* nature-facing claim are open, and named as such.
-
-## The horizon
-
-Named targets, explicitly not results: the bridge (a physical substrate for
-either floor's dynamics, which would make the registered tables readable
-against nature); the conservation-switch converse and the completeness theorem's all-sizes proof; a third rival floor; and the first confirmatory experiment —
-reserved for whenever an external expert and a dedicated apparatus meet the
-registered protocols. How the repository grows without rewriting its past:
-[EVOLUTION.md](EVOLUTION.md) · [roadmap](docs/roadmap.md).
-
-## Author
-
-- Seth Douglas · ORCID: [0009-0007-4708-3252](https://orcid.org/0009-0007-4708-3252) · [github.com/Apsiape](https://github.com/Apsiape) · apsiape@gmail.com
-
-## Citation
-
-Archived and citable via Zenodo. Cite the program by its **concept DOI**
-(always the latest version):
-[10.5281/zenodo.21253591](https://doi.org/10.5281/zenodo.21253591).
-Version DOIs are recorded in [CITATION.cff](CITATION.cff) and each
-chapter's freeze record.
-
-## Rights
-
-This work is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-You may share it and build on it with attribution — the open problems are
-open on purpose — as long as derivatives carry the same license; commercial
-use requires the author's permission. See [LICENSE.md](LICENSE.md).

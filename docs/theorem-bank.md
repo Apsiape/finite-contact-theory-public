@@ -1474,3 +1474,68 @@ dim 1 under the right unit action — exact kernel computations.
 
 Aligned regrouped tensors evaluate to 1, cross terms to d² = 4, the
 separable mixture to 5/2 — by exact cycle counting on wiring diagrams.
+
+### T-178 Receipt-Lineage Persistence (Chapter 57)
+
+Content is re-emitted or exported, never destroyed or split; all three
+one-use axioms load-bearing; global-lineage form only.
+
+### T-179 The Selector-Mismatch Factors (Chapter 57)
+
+Conjugate protocols with capacities (2,4,4)/(3,3,3): exact fluctuation
+ratios 3/2 and 3/4 under uniform resolution; mismatch factors 4/3 and 2/3
+under the biased selector.
+
+### T-180 The Five-Copy Activation (Chapter 57)
+
+The state (1/2,1/3,1/6) at energies (0,1,2) is passive through four
+copies and yields exactly 5/7776 at five; unequal thermal slopes exchange
+exactly 1/30.
+
+### T-181 The Prime-Weight Cone (Chapter 58)
+
+Completely additive valuations are exactly the nonnegative prime-weight
+functions; the 2-adic valuation is additive, normalized, and non-monotone.
+
+### T-182 The Invariant Simplex (Chapter 58)
+
+Group-natural chance assignments are uniform on orbits with free orbit
+masses; nonuniformity exists iff the enriched automorphism group is
+nontransitive.
+
+### T-183 The Splitting Torsor and Its Exchange (Chapter 59)
+
+The split extension over the binary group has exactly two homomorphic
+sections; an exact-sequence automorphism exchanges them; the nonsplit
+companion has none; both sections inhabit the zero extension class.
+
+### T-184 The Chirality Fiber (Chapter 59)
+
+The two square roots of minus one form a torsor swapped by conjugation
+and not closed under multiplication; the ambient four-element phase group
+is pointed.
+
+### T-185 The Genealogy Phases at Catalan Count (Chapter 60)
+
+Distinct cubic phase polynomials, one per bracketing tree, at exactly the
+Catalan numbers through seven leaves.
+
+### T-186 The Fourth-Degree Cocycles and the Transgression (Chapter 60)
+
+Both Type-II four-cocycles verified on all inputs; cycle pairings form
+the identity; the slant product by a flux reduces each to the
+third-degree cubic cocycle in the complementary sector.
+
+### T-187 The Coefficient Relativity (Chapter 60)
+
+The nontrivial sign four-cochain on the binary group is a cocycle and no
+sign coboundary, yet equals the coboundary of the imaginary-unit-valued
+three-cochain: the class lives over finite coefficients and dies over the
+divisible completion.
+
+### T-188 The Merge Non-Selection Battery (Chapter 61)
+
+The alpha-one world's exact fringe table; the parallelogram criterion and
+same-ray additivity each selecting two alone; the conjugacy a merge
+homomorphism with gauge-invariant weight; the ruler no-go's exponent
+arithmetic.

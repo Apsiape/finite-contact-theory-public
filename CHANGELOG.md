@@ -1,3 +1,17 @@
+## v0.35.0 — 2026-07-25
+
+Version DOI: recorded on mint.
+
+Five chapters (57-61): the ledger theorems (persistence; H-theorem and
+arrow; the representation identity; the thermal-receiver anatomy), the
+valuation and chance moduli (prime-weight cone; no-native-selector;
+invariant simplex; merge localization), the staged-fork spine (the
+trichotomy at corrected strength; must-receive/may-receive; the
+splitting torsor), the twisted worlds (semion; pentagonator; coefficient
+relativity), and the price of the square (non-selection; the retention
+bridge; the capacity ruler; the continuum thesis). Five new scripts;
+ceiling to fifty-two lines.
+
 ## v0.34.0 — 2026-07-22
 
 Version DOI `10.5281/zenodo.21497429`.
