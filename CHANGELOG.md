@@ -1,6 +1,6 @@
 ## v0.34.0 — 2026-07-22
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21497429`.
 
 Four chapters (53–56): the admission forks (dispositional Beth pair;
 eligibility; erasure exclusion), the obstruction spectrum (receipt-inclusive

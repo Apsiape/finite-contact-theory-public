@@ -1,5 +1,7 @@
 # Release notes — v0.34.0
 
+Version DOI `10.5281/zenodo.21497429`.
+
 Four chapters (53–56), The Admission Forks and the Carrier Anatomy — the
 corrected arc, published with its adversarial history. Chapter 53: the
 escape theorems, the two admission forks at their earned strengths (the
