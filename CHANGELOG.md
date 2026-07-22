@@ -1,6 +1,6 @@
 ## v0.33.0 — 2026-07-21
 
-Version DOI: recorded on mint.
+Version DOI `10.5281/zenodo.21496432`.
 
 Three chapters (50–52): BRACKET-1 (frozen preregistration), the causal
 ceiling family (certified d = 3 violation; the Contact-Faithful Causal

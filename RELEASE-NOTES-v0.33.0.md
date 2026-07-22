@@ -1,5 +1,7 @@
 # Release notes — v0.33.0
 
+Version DOI `10.5281/zenodo.21496432`.
+
 Three chapters (50–52), The Causal Ceiling and the Amalgamation
 Boundary. Chapter 50, BRACKET-1: a frozen preregistration of the
 natural-sector bracket test (mechanism cited, discipline claimed), with
