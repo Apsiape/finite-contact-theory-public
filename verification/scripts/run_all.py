@@ -75,6 +75,10 @@ SCRIPTS = [
     "rf_boundary.py",
     "causal_ceiling_family.py",
     "amalgamation_boundary.py",
+    "admission_forks.py",
+    "obstruction_spectrum.py",
+    "carrier_anatomy.py",
+    "fixed_point_registry.py",
 ]
 
 

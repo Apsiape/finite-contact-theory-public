@@ -262,6 +262,22 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   — **Chapter 52** (v0.33.0): _The Amalgamation Boundary_. DOIs recorded in its
   [`RELEASE.md`](52-amalgamation-boundary/RELEASE.md) at tagging.
 
+- [`53-escape-and-forks/`](53-escape-and-forks/paper.md)
+  — **Chapter 53** (v0.34.0): _The Escape Theorems and the Admission Forks_. DOIs recorded in its
+  [`RELEASE.md`](53-escape-and-forks/RELEASE.md) at tagging.
+
+- [`54-obstruction-spectrum/`](54-obstruction-spectrum/paper.md)
+  — **Chapter 54** (v0.34.0): _The Obstruction Spectrum and the Amalgamation Completion_. DOIs recorded in its
+  [`RELEASE.md`](54-obstruction-spectrum/RELEASE.md) at tagging.
+
+- [`55-carrier-anatomy/`](55-carrier-anatomy/paper.md)
+  — **Chapter 55** (v0.34.0): _The Carrier Anatomy_. DOIs recorded in its
+  [`RELEASE.md`](55-carrier-anatomy/RELEASE.md) at tagging.
+
+- [`56-fixed-point-and-receipts/`](56-fixed-point-and-receipts/paper.md)
+  — **Chapter 56** (v0.34.0): _The Fixed Point and the Five Receipts_. DOIs recorded in its
+  [`RELEASE.md`](56-fixed-point-and-receipts/RELEASE.md) at tagging.
+
 ## Chapter directory convention (v0.2 onward)
 
 Each new chapter lives in its own directory:

@@ -65,3 +65,15 @@ This release does not claim:
 It does claim a scoped, auditable reconstruction stack and a public method for
 separating theorem, recovery, measurement, model-scope result, open hinge, and
 withdrawal.
+
+
+## The later arcs (added at v0.34)
+
+The reading advice above covers the early chapters. The later record divides
+into three arcs: the lattice era (chapters 34-48: rival floors, the switch
+lattice, the coat calculus, the observer corner), the boundary round
+(chapters 49-52: the r_F theorem, the bracket registration, the causal
+ceiling family, the amalgamation boundary), and the admission-forks and
+carrier-anatomy arc (chapters 53-56), which ships with its own adversarial
+correction history — read the correction ledger's C-19..C-24 block alongside
+those chapters; the corrections are part of the result.

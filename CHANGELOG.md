@@ -1,3 +1,14 @@
+## v0.34.0 — 2026-07-22
+
+Version DOI: recorded on mint.
+
+Four chapters (53–56): the admission forks (dispositional Beth pair;
+eligibility; erasure exclusion), the obstruction spectrum (receipt-inclusive
+extensionality; the one-hot atlas), the carrier anatomy (irreducible-face
+purity; two-step complex selection; the balanced sector), and the fixed
+point (five receipts; bounded closing claim). Correction-ledger block
+C-19..C-24. Four new scripts; ceiling to forty-seven lines.
+
 ## v0.33.0 — 2026-07-21
 
 Version DOI `10.5281/zenodo.21496432`.

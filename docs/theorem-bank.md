@@ -1439,3 +1439,38 @@ certificate is exact; the chordal path always completes.
 CHSH 2 (exhaustive) / 2√2 (certified bracket) / 4; order 3/4 and 2/3
 (exhaustive) / (2+√2)/4 (exact); pentagon 8 (exhaustive) /
 10·cos(π/10) > 8 (certified minimal-polynomial bracket).
+
+### T-171 The Dispositional Beth Pair (Chapter 53)
+
+Two lawful admission expansions over one identical actual-fact reduct
+disagree on the admissibility predicate; exhaustively checked.
+
+### T-172 The Eligibility Ledger (Chapter 53)
+
+E = S + P + W with theft impossible: erasure without receipt cannot
+balance; waste, transfer, and survival balance exactly.
+
+### T-173 The One-Hot Atlas and the Write-Only Diamond (Chapter 54)
+
+Five one-hot sectors with empty joint intersection; the diamond map is
+positive, tester-preserving, and nonsplit.
+
+### T-174 The Bracket Cocycle (Chapter 54)
+
+(−1)^(q1 q2 q3) is a normalized non-coboundary 3-cocycle on Z2;
+discriminator −1 exactly at (1,1,1).
+
+### T-175 Irreducible-Face Purity (Chapter 55)
+
+Faithful steering vacates the recovery-null horn; nonextremal minimal
+payments split trivially or by broadcast; irreducible faces force purity.
+
+### T-176 The Balanced Sector and the Commutant Cut (Chapter 55)
+
+K = −I balancing from one world arrow; Comm(left H) = dim 4 falling to
+dim 1 under the right unit action — exact kernel computations.
+
+### T-177 The Loop Values by Cycle Counting (Chapter 56)
+
+Aligned regrouped tensors evaluate to 1, cross terms to d² = 4, the
+separable mixture to 5/2 — by exact cycle counting on wiring diagrams.
