@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
-"""Run the shipped public verification subset."""
+"""Run the shipped public verification.
+
+Default: run all scripts in parallel with per-script progress output.
+  python run_all.py            # full suite, parallel
+  python run_all.py --fast     # curated flagship subset (about a minute)
+  python run_all.py --serial   # full suite, one at a time
+"""
 
 from __future__ import annotations
 
 import subprocess
 import sys
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 
@@ -81,18 +89,70 @@ SCRIPTS = [
     "fixed_point_registry.py",
 ]
 
+# The curated flagship path: one representative exact result per major line,
+# chosen to finish in about a minute on an ordinary machine.
+FAST = [
+    "no_jam_open_rule.py",
+    "rational_born_gluing.py",
+    "chsh_pell_boundary.py",
+    "exact_gap_certificate.py",
+    "nonexact_return_reconstruction.py",
+    "negative_gram_holonomy.py",
+    "mixed_state_exclusion.py",
+    "rf_boundary.py",
+    "causal_ceiling_family.py",
+    "admission_forks.py",
+]
+
+
+def run_one(script: str) -> tuple[str, int, float, str]:
+    path = HERE / script
+    t0 = time.time()
+    proc = subprocess.run(
+        [sys.executable, str(path)], check=False,
+        capture_output=True, text=True,
+    )
+    dt = time.time() - t0
+    tail = (proc.stdout or "").strip().splitlines()
+    last = tail[-1] if tail else ""
+    return script, proc.returncode, dt, last
+
 
 def main() -> int:
-    for script in SCRIPTS:
-        path = HERE / script
-        print("=" * 78)
-        print(f"running {path.name}")
-        proc = subprocess.run([sys.executable, str(path)], check=False)
-        if proc.returncode != 0:
-            print(f"FAILED: {path.name} exited {proc.returncode}")
-            return proc.returncode
+    args = set(sys.argv[1:])
+    scripts = FAST if "--fast" in args else SCRIPTS
+    serial = "--serial" in args
+    total = len(scripts)
+    label = "fast path" if "--fast" in args else "full suite"
+    print(f"running the {label}: {total} scripts, "
+          f"{'serial' if serial else 'parallel'}")
+    t0 = time.time()
+    failures = []
+    done = 0
+
+    def report(script, code, dt, last):
+        nonlocal done
+        done += 1
+        mark = "PASS" if code == 0 else f"FAIL ({code})"
+        print(f"[{done}/{total}] {script:<38} {mark:>9}  {dt:5.1f}s  {last}")
+        if code != 0:
+            failures.append(script)
+
+    if serial:
+        for s in scripts:
+            report(*run_one(s))
+    else:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            futures = {pool.submit(run_one, s): s for s in scripts}
+            for fut in as_completed(futures):
+                report(*fut.result())
+
+    dt = time.time() - t0
     print("=" * 78)
-    print("ALL SHIPPED VERIFICATION: PASS")
+    if failures:
+        print(f"FAILED ({len(failures)}): " + ", ".join(failures))
+        return 1
+    print(f"ALL SHIPPED VERIFICATION: PASS  ({total} scripts, {dt:.0f}s)")
     return 0
 
 

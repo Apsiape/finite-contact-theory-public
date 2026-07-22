@@ -13,7 +13,42 @@
 > Hilbert-space model allows; and mapped, across **seven rival
 > dynamics**, which features of physics are inevitable, which are
 > purchased, and what they cost. Every result ships as a dependency-free
-> script you can run in about two minutes.
+> script: the flagship path runs in about a minute, the full suite in a
+> few minutes.
+
+## A note from the author
+
+I'm not a physicist. I work in AI and software and follow physics as an
+outsider. It didn't start as a theory of physics: it started with one question
+I couldn't put down — what is the least that has to exist when something finite
+touches something it can't fully take in? A finite thing makes contact with
+something larger than itself; the contact is real but partial, so it leaves a
+difference, and that difference can't just be wiped away.
+
+The way I chased it is unusual: over about seven months I built a setup where
+several AI models work together as a research team and pointed it at that
+question. The hardest part was never the physics; it was getting the models to
+reach for something new instead of repeating what they were trained on. This is
+the piece that has been made public so far, with more built out privately that
+I'll share as it's ready. An AI-assisted theory from someone outside the field
+is easy to doubt — that's fair, and it's exactly why everything here is scoped,
+labeled, and runnable. If I've gotten something wrong, I want to know:
+apsiape@gmail.com.
+
+**Quick doors:** [start here (plain language)](docs/start-here-plain.md) ·
+[plain-language glossary](docs/glossary.md) ·
+[the correction ledger — what we killed, in public](docs/correction-ledger.md) ·
+[how to read this repo](docs/how-to-read.md) ·
+[what this says about reality](docs/ontology-and-interpretation.md) ·
+[open problems — 28, some framework-free](OPEN-PROBLEMS.md) ·
+[how to contribute (try to kill something)](CONTRIBUTING.md) ·
+[run it yourself](#run-it-yourself)
+
+## The program at a glance
+
+![The reconstruction map — what is derived from what](assets/reconstruction-map.svg)
+
+![The reconstruction ladder — floor to Born rule, rung by rung](assets/reconstruction-ladder.svg)
 
 ## The question
 
@@ -170,9 +205,16 @@ question.
    [claim register](docs/public-claim-register.md) ·
    [glossary](docs/glossary.md) · [how to read](docs/how-to-read.md).
 
-## Run it yourself (about two minutes)
+## Run it yourself
 
-No dependencies beyond Python's standard library:
+No dependencies beyond Python's standard library. The flagship path — one
+representative exact result per major line — takes about a minute:
+
+```powershell
+python verification\scripts\run_all.py --fast
+```
+
+The full suite (parallel, with per-script progress) takes a few minutes:
 
 ```powershell
 python verification\scripts\run_all.py
@@ -241,26 +283,7 @@ chapter's freeze record.
 
 ## Rights
 
-This work is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-You may share it with attribution; you may not use it commercially or
-distribute modified versions. For anything beyond that, contact the author.
-See [LICENSE.md](LICENSE.md).
-
-## A note from the author
-
-I'm not a physicist. I work in AI and software and follow physics as an
-outsider. It didn't start as a theory of physics: it started with one question
-I couldn't put down — what is the least that has to exist when something finite
-touches something it can't fully take in? A finite thing makes contact with
-something larger than itself; the contact is real but partial, so it leaves a
-difference, and that difference can't just be wiped away.
-
-The way I chased it is unusual: over about seven months I built a setup where
-several AI models work together as a research team and pointed it at that
-question. The hardest part was never the physics; it was getting the models to
-reach for something new instead of repeating what they were trained on. This is
-the piece that has been made public so far, with more built out privately that
-I'll share as it's ready. An AI-assisted theory from someone outside the field
-is easy to doubt — that's fair, and it's exactly why everything here is scoped,
-labeled, and runnable. If I've gotten something wrong, I want to know:
-apsiape@gmail.com.
+This work is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+You may share it and build on it with attribution — the open problems are
+open on purpose — as long as derivatives carry the same license; commercial
+use requires the author's permission. See [LICENSE.md](LICENSE.md).

@@ -148,8 +148,8 @@ label per the program's discipline.
   which remain conditional and bridge-premise-gated.
 - The open crux stands unchanged: the mixed-state layer (multiphoton,
   detector, transfer-matrix, drift nuisances) still awaits a dedicated
-  experiment and an external quantum-optics expert. This note is prior-art
-  discipline, not that review.
+  experiment — measurement is the arbiter there. This note is prior-art
+  discipline, not that experimental analysis.
 
 ## Governance consequence
 
