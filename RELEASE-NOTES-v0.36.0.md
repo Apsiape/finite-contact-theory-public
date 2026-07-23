@@ -1,6 +1,6 @@
 # Release Notes — v0.36.0
 
-Version DOI (v0.36.0): recorded post-mint. Concept DOI:
+Version DOI (v0.36.0): 10.5281/zenodo.21506169. Concept DOI:
 `10.5281/zenodo.21253591`. Freeze date: 2026-07-23.
 
 ## Overview

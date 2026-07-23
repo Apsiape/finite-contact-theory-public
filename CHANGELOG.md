@@ -1,6 +1,6 @@
 ## v0.36.0 — 2026-07-23
 
-Version DOI: recorded post-mint.
+Version DOI: 10.5281/zenodo.21506169.
 
 Six chapters (62-67) — the program's largest single release: one arc
 following a single distinction from the identity root to the next i. Equality

@@ -43,3 +43,4 @@ part, the outcome that would refute each claim.
 ## Runtime
 
 Under one second on a standard interpreter (well within the ~30 s budget).
+- Version DOI (v0.36.0): `10.5281/zenodo.21506169`
