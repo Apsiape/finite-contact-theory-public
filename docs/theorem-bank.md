@@ -1539,3 +1539,184 @@ The alpha-one world's exact fringe table; the parallelogram criterion and
 same-ray additivity each selecting two alone; the conjugacy a merge
 homomorphism with gauge-invariant weight; the ruler no-go's exponent
 arithmetic.
+
+### T-189 The Tolerance Relation Derived (Chapter 62)
+
+A tolerance relation is exactly an equality relation with the free-transitivity
+grant removed, reflexivity and symmetry retained; the derivation is a one-line
+model-scope proof from the identity root.
+
+### T-190 Realizability Is the Proper-2-Coloring Count (Chapter 62)
+
+The proper-2-coloring count of a graph is `2^(#components)` if bipartite and 0
+otherwise, and it equals the one-use exactly-once realizable joint-outcome
+count; two independent engines agree on every topology.
+
+### T-191 The Peres–Mermin Parity Obstruction (Chapter 62)
+
+The Peres–Mermin square has row-product parity +1 and column-product parity −1
+over exact Gaussian-integer two-qubit observables, so no global ±1 assignment
+exists — the (C) contextual case, exactly.
+
+### T-192 The Depth-2 Twin Kernel (Chapter 62)
+
+The depth-2 genesis class-amplitude matrix over C5 (resp. C6) has exact rank 4/5
+(resp. 5/6); its kernel is spanned by a difference of two canonical classes with
+coefficients ±1, computed by exact Gaussian-rational elimination.
+
+### T-193 The Closure Charge Is a Z₂ Holonomy Invariant (Chapter 63)
+
+On unit-diagonal 3×3 overlap Grams, χ = sign(g₁₂g₂₃g₃₁) is invariant under all
+local rephasings — the odd-cycle class in H¹(C₃; Z₂), a class statement and not
+a nature claim.
+
+### T-194 The Exact Visibility Factorization (Chapter 63)
+
+For the equal-magnitude odd triad, det G_odd(v) = −(2v−1)(v+1)², which is not
+positive-semidefinite iff v > 1/2 (the exact wall); the charge is present below
+the wall but Gram-invisible there.
+
+### T-195 The Fusion Algebra (Chapter 63)
+
+Under Hadamard and Kronecker fusion of triad Grams: multiplicativity
+χ(A#B) = χ(A)χ(B); odd # odd cancels to (1−v)²(1+2v) > 0; screening at v = 1/2;
+strong-even survival; det(A⊗B) = det(A)³det(B)³. Model scope; the algebra does
+not force the charge.
+
+### T-196 The Tritter Amalgamability Boundary (Chapter 63)
+
+Three-photon internal-state triads amalgamate iff cos θ ≥ (3v²−1)/(2v³), with
+θ_max = 180° at v = 1/2 and 90° at v = 1/√3 (Menssen 2017; Tichy/Brod) — a
+presentational corollary over a classical constituent.
+
+### T-197 Scalar Route-Phases Cancel in the Commutator (Chapter 63)
+
+On the 2×2 transport group, for scalar U = zI the commutator U V U⁻¹ V⁻¹ = I,
+while an anticommuting pair gives −I (Oi 2003) — the fact grounding the
+commutator witness, whose protocol is not run.
+
+### T-198 Exclusivity From Two Ledger Conservation Laws (Chapter 63)
+
+On a floor ledger with no-duplication and no-unreceipted-erasure, the two
+conservation laws force the triad exclusivity/holonomy structure that carries χ;
+novelty-flagged, with the open obligation (printed) that it must be shown not to
+reduce to a no-cloning / monogamy repackaging.
+
+### T-199 The Two-Sector Theorem (Chapter 64)
+
+The n=4 world splits into the exact sector `Π_glue = δχ` (all 4096 assignments,
+never faceless) and the essential `H⁴(Z2; Z2)` generator, with no pair-identity
+assignment crossing between them; HKR detection is OPEN and "faceless" is
+essential cohomology (Adem–Karagueuzian; Green).
+
+### T-200 The Top-Cell Half-Eraser Lemma (Chapter 64)
+
+The top-cell coboundary of a normalized (n−1)-cochain on Z2 equals
+`λ(1 + (−1)ⁿ)`: adjoining i erases even rungs only, and over mod 2 no rung is
+ever a top-cell coboundary; recovers `H^n(Z2; U(1))` as a which-half statement.
+
+### T-201 The Law Tower Is F2[x] (Chapter 64)
+
+The charge tower is the classical ring F2[x] on one generator, with exponent
+parity the appearance/law grading and every cup identity exact; the ring is
+classical, its identification as the floor's charge tower interpretive.
+
+### T-202 The Stage/Receipt Weyl Calculus and the Four-Way Law Sector (Chapter 64)
+
+With U, D on F2[x], `DU + UD = 1` and
+`ker D = im D = im Frobenius = Z(M₂(F2[x²]))`; the coincidence is exact at p = 2
+(fails at p = 3), and `x⁴ = D(x⁵)` witnesses contractibility. The operator
+centre is a recovery (Revoy 1973; BMR).
+
+### T-203 The Bockstein Carry Theorem (Double Generation) (Chapter 64)
+
+The carry of the differential is the Bockstein β, with β(x^odd) = x^{odd+1} and
+0 on even; combined with vertical exactness every law is doubly sourced (β from
+below, D from above), and the mirror is the Z/4 extension class = the first Witt
+carry. Constituents classical; the pincer packaging is an expository
+unification.
+
+### T-204 The Carry-Depth Filtration (Chapter 64)
+
+`ν₂(Catalan(n−1)) = s₂(n) − 1`; the dyadic essential classes are the zero-carry
+stratum, the lift decides depth at mod 4, and the K anomaly is an exact
+2-torsion term (Kummer; Alter–Kubota; Deutsch–Sagan). The number theory is
+classical; the ladder's physical reading is CONJ (Chapter 67).
+
+### T-205 The Pentagon Is the Coboundary; the Essential Class Is Non-Local (Chapter 65)
+
+Across 256 local rules × 16 sectors the K4 pentagon's five edges evaluate δf;
+0/256 local μ2 rules reproduce ω4 = abcd, and the μ4 i-dressing flattens it
+(δg = 2·ω4 mod 4). The HKR check is OPEN; the physical "why i" is a fenced
+EXTENSION (Mac Lane 1963; EGNO 2015; Adem–Karagueuzian; Green).
+
+### T-206 Q8 → 2T = the 24-Cell, Minimal (Chapter 65)
+
+The anticommuting lift gives Q8; adjoining the triadic ω closes to the 24
+Hurwitz units = 2T = the 24-cell, and each of the 16 units outside Q8 regenerates
+2T (index 3 prime), with the rotor τ identities exact. 2T = Hurwitz units is
+classical; the derivation from the essential class and the minimality are the
+model claim.
+
+### T-207 F4 Is the Chirality Gate; the 24-Cell Is the Received Half (Chapter 65)
+
+The reflective triad forces 2O (48) = F4 (24 + 24), and received chirality
+selects 24; the chirality datum is RECEIVED, not forced (Conway–Smith; Coxeter).
+
+### T-208 Evenness + Self-Duality Force E8 From Two 24-Cells (Chapter 65)
+
+Over (D4*/D4)² = (Z/2)⁴ there are 35 glues, 6 even, all graphs (= S3 triality),
+each giving 240 roots = E8 (the unique even unimodular lattice in dimension 8);
+the residual glue is a received triality element. NOT McKay (firewall); distinct
+from the Kitaev E8 state (Conway–Sloane SPLAG; Nikulin 1979).
+
+### T-209 The K-Projector and the Cartan Repair (Chapter 66)
+
+On the inhomogeneous bar cochains of Z2 over F2, K = δι + ιδ is an idempotent
+chain map of rank 2^{n−1}, zero on cohomology, splitting cochains 50/50;
+ι_alt² = 0 gives a total operator Q = δ + ι_alt with Q² the Cartan law flow whose
+stationary sector is the tower.
+
+### T-210 Dyadic Selection (Chapter 66)
+
+The homotopy-transferred product on the tower diagonal is
+mₙ(x,…,x) = Catalan(n−1) mod 2 · ω₂, nonzero iff n is a power of two; the dyadic
+skeleton is produced by three independent mechanisms. The physical dyadic ladder
+remains CONJ/registered (Chapter 67).
+
+### T-211 Arity-3 Rigidity and Delayed Law Memory (Chapter 66)
+
+In the degree 1–4 contraction moduli (dimension 117), the m₃ diagonal is
+witness-independent while witnesses agreeing through arity 3 first differ at
+arity 4; the m₄ difference is A∞-gauge-covariant.
+
+### T-212 The Abelian Wall (Chapter 66)
+
+Over the full linear-contraction family at n = 3, 4 all per-slot law flows
+commute; noncommutativity lives only in the lifts, and nonlinear / multi-slot
+contractions carry the burden of any future noncommutativity claim.
+
+### T-213 The Multiplicative-FGL / Doubling-Series Identity (Chapter 67)
+
+The mirror cocycle is the quadratic term of a + b + ab; `[2^k] (x) = x^{2^k}`
+over F2 (k = 1..4), the lowest term of [n] (x) is at x^{2^{v2(n)}}, and the
+additive [2] (x) = 0 — pure formal-group arithmetic.
+
+### T-214 The Three-Mechanism Depth Stratification (Chapter 67)
+
+`v2(Catalan(n−1)) = s2(n) − 1` (n = 2..64), and binomial parity, Catalan-tree
+parity, and the formal-group [n]-series agree on the 2^{s2(n)} visibility
+ladder, with an unsigned Z/16 tree-transfer reproducing it.
+
+### T-215 The Exact 2T Transport Group, Nonabelian (Chapter 67)
+
+The closure of {i, j, τ} is the 24-element binary tetrahedral group, with
+τ² = ω, τ³ = −1, and ij = −ji; exact rational quaternions establish the
+nonabelian transport architecture.
+
+### T-216 (OPEN) Formal-Group-Law Extraction From the Carry Algebra (Chapter 67)
+
+Target: a sector of the program's own composition algebra carries a 2-series of
+deformation form `[2] (x) = 2x + u₁x² + x⁴ + …` with 2T as automorphisms. Status
+OPEN — the decisive test for the chromatic frame, unrun; falsifiability: if only
+the multiplicative law arises, the frame is symmetry decoration.

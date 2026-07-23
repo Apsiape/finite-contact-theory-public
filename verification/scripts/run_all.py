@@ -92,6 +92,12 @@ SCRIPTS = [
     "spine_forks.py",
     "twisted_worlds.py",
     "born_price.py",
+    "verify_62_equality.py",
+    "verify_63_charge.py",
+    "verify_64_tower.py",
+    "verify_65_e8.py",
+    "verify_66_carry.py",
+    "verify_67_chromatic.py",
 ]
 
 # The curated flagship path: one representative exact result per major line,

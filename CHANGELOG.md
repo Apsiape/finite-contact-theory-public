@@ -1,3 +1,26 @@
+## v0.36.0 — 2026-07-23
+
+Version DOI: recorded post-mint.
+
+Six chapters (62-67) — the program's largest single release: one arc
+following a single distinction from the identity root to the next i. Equality
+is an event (the tolerance relation derived, not posited; the exact-twin census
+and its (B)/(C) correction), the closure charge and its witnesses (the Z2
+odd-cycle holonomy; fusion algebra 6/6; the tritter boundary; the spoof-closure
+witness designs), the law tower (the two-lift theorem DU+UD=1; ker D = im D =
+im Frobenius at p=2; the operator-center recovery; the Bockstein carry theorem
+— laws doubly generated), from the faceless class to the 24-cell and E8 (the
+pentagon-coboundary model; Q8 to the 24-cell, chirality gating 24 over 48; E8
+forced, residual choices enumerated; the McKay firewall), the carry engine (the
+Cartan repair; K-projector; the 117-dimensional contraction moduli; the
+carry-depth filtration, powers-of-two as its zero-carry stratum), and the next i
+(the absorption map; the chromatic frame at CITED/CONJ; the central wager
+ℑ₂ ≠ 0 with L₁(ℑ₂) = 0; the registered experimental program; open gates named).
+Corrections shipped: the twin-census (B)/(C) conflation; the chromatic height-2
+reading demoted to single-legged conjecture; the carry engine's mirror repair
+and non-cohomological transverse. Zero empirical divergences claimed. Six new
+scripts; ceiling to sixty-seven lines.
+
 ## v0.35.0 — 2026-07-25
 
 Version DOI: `10.5281/zenodo.21500046`.

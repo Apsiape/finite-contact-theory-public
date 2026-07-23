@@ -1,6 +1,6 @@
 # How To Read This Repository
 
-Status: reader guide (structure current as of v0.10 — ten chapters; the repository has since grown to forty-nine — see the README and papers/README.md for the full index; the reading advice below still applies to the early arc).
+Status: reader guide (structure current as of v0.10 — ten chapters; the repository has since grown to sixty-seven — see the README and papers/README.md for the full index; the reading advice below still applies to the early arc).
 
 ## Start Here
 
@@ -83,3 +83,12 @@ adversarial instruments on its own strongest hopes, and the chapters carry
 the kills in print — read each chapter's altitude note first; the
 corrections are part of the result, and the closing thesis of chapter 61
 is the map for what comes next.
+
+The v0.36 arc (chapters 62-67) is the largest single release: one distinction
+followed from the identity root to the program's central wager. Read chapter 62
+first (equality is an event — the tolerance relation is now derived, not
+posited), then the law tower (64) and the derivation chain to the 24-cell and
+E8 (65), then the synthesis, chapter 67 (the next i). As always, read each
+chapter's altitude note first; the three corrections shipped in this arc — the
+twin census, the chromatic height-2 demotion, and the carry engine's mirror —
+are part of the result.

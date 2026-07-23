@@ -298,6 +298,31 @@ Governance: [`../EVOLUTION.md`](../EVOLUTION.md). Release gate:
   — **Chapter 61** (v0.35.0): _The Price of the Square_. DOIs recorded in its
   [`RELEASE.md`](61-price-of-the-square/RELEASE.md) at tagging.
 
+- [`62-equality-is-an-event/`](62-equality-is-an-event/paper.md)
+  — **Chapter 62** (v0.36.0): _Equality Is an Event_. DOIs recorded in its
+  [`RELEASE.md`](62-equality-is-an-event/RELEASE.md) at tagging.
+
+- [`63-the-closure-charge/`](63-the-closure-charge/paper.md)
+  — **Chapter 63** (v0.36.0): _The Closure Charge and Its Witnesses_. DOIs
+  recorded in its [`RELEASE.md`](63-the-closure-charge/RELEASE.md) at tagging.
+
+- [`64-the-law-tower/`](64-the-law-tower/paper.md)
+  — **Chapter 64** (v0.36.0): _The Law Tower_. DOIs recorded in its
+  [`RELEASE.md`](64-the-law-tower/RELEASE.md) at tagging.
+
+- [`65-from-anomaly-to-e8/`](65-from-anomaly-to-e8/paper.md)
+  — **Chapter 65** (v0.36.0): _From the Faceless Class to the 24-Cell and E8_.
+  DOIs recorded in its [`RELEASE.md`](65-from-anomaly-to-e8/RELEASE.md) at
+  tagging.
+
+- [`66-the-carry-engine/`](66-the-carry-engine/paper.md)
+  — **Chapter 66** (v0.36.0): _The Carry Engine_. DOIs recorded in its
+  [`RELEASE.md`](66-the-carry-engine/RELEASE.md) at tagging.
+
+- [`67-the-next-i/`](67-the-next-i/paper.md)
+  — **Chapter 67** (v0.36.0): _The Next i_. DOIs recorded in its
+  [`RELEASE.md`](67-the-next-i/RELEASE.md) at tagging.
+
 ## Chapter directory convention (v0.2 onward)
 
 Each new chapter lives in its own directory:

@@ -404,9 +404,116 @@ nature-facing form is named open: could any physical scar reader separate what
 state-complete tomography calls identical? **Open:** with heavy controls, a
 physical instrument that separates the lifts — or a proof that none can.
 
+## New from the chapters 62-67 arc (the next-i era)
+
+### OP-29 — The formal-group extraction gate (the chromatic frame's second leg)
+**Difficulty:** hard · **Prerequisites:** formal group laws; Lubin–Tate / Morava
+theory; the program's carry/composition algebra · **Self-contained:**
+framework-native · **Source:** [Chapter 67](papers/67-the-next-i/paper.md).
+
+The chromatic height-2 identification currently rests on the stabilizer
+architecture plus a Galois/chirality alignment — a single leg, because the
+exponent test cannot distinguish repeated height-1 doubling from a native
+height-2 series. **Open:** extract a formal group law natively from the program's
+composition algebra and compute its 2-series. Height-2 is confirmed iff a sector
+exists with `[2] (x) = 2x + u₁x² + x⁴ + …` (the deformation form) with the
+stabilizer group acting as its automorphisms; if the algebra only ever yields the
+multiplicative law, the honest verdict is "height-1 physics with height-2
+symmetry decoration." Finite and decisive.
+
+### OP-30 — The HKR character-theory check on the essential ("faceless") classes
+**Difficulty:** substantial · **Prerequisites:** Hopkins–Kuhn–Ravenel character
+theory; essential cohomology (Adem–Karagueuzian; Green) · **Self-contained:**
+framework-light · **Source:** [Chapter 65](papers/65-from-anomaly-to-e8/paper.md),
+[Chapter 67](papers/67-the-next-i/paper.md).
+
+The facelessness-as-height claim is "one HKR check from downgrade." **Open:** does
+the essential/faceless tower fit HKR character theory — height *n* detected at
+rank *n*? A positive result gives the chromatic identification its second leg from
+established machinery; a negative one downgrades the height reading of
+facelessness. Corroboration or kill; either resolves the label.
+
+### OP-31 — The no-cloning-distinction check on the contextuality derivation
+**Difficulty:** accessible · **Prerequisites:** contextuality (CSW, exclusivity
+graphs); no-cloning / monogamy arguments · **Self-contained:** framework-light ·
+**Source:** [Chapter 63](papers/63-the-closure-charge/paper.md).
+
+The program derives the graph-exclusivity structure of contextuality from two
+conservation laws (no-duplication + no-unreceipted-erasure) — flagged
+PLAUSIBLY-NEW with a named hazard. **Open:** verify the derivation does not
+silently collapse into a repackaged no-cloning / monogamy argument. An in-house,
+finite check; a positive collapse would demote the novelty grade, a clean
+separation would confirm it.
+
+### OP-32 — The twin governing law: why chords kill and tails breed
+**Difficulty:** hard · **Prerequisites:** the exact-twin census; the coat algebra
+· **Self-contained:** framework-native · **Source:**
+[Chapter 62](papers/62-equality-is-an-event/paper.md).
+
+The census exhibits a stable pattern — certain "chord" configurations annihilate
+exact twins while "tail" configurations multiply them — verified case by case but
+not explained by a governing statement. **Open:** state and prove the law behind
+the chord-kills/tails-breed dichotomy, or exhibit the boundary case that breaks
+it. Currently a measured regularity in search of its theorem.
+
+### OP-33 — The moduli of contractions as an object of independent study
+**Difficulty:** substantial · **Prerequisites:** homotopy transfer (Kadeishvili;
+Merkulov; Markl); A-infinity gauge; BV formalism (Mnev; Costello) ·
+**Self-contained:** framework-light · **Source:**
+[Chapter 66](papers/66-the-carry-engine/paper.md).
+
+The space of contractions used by the carry engine is a 117-dimensional moduli
+object with arity-3 rigidity; the blind sweep found "the space of contractions as
+a moduli object of independent study appears genuinely underexplored." **Open:**
+characterize this moduli space intrinsically (dimension formula, rigidity locus,
+the QFT-native gauge-fixing/propagator reading), independent of the program's
+vocabulary. Pure homotopy-algebra; the theory supplies only the motivating
+example.
+
+### OP-34 — The witnessed-Witt definition problem
+**Difficulty:** hard · **Prerequisites:** Witt vectors (Witt; Serre); necklace/
+Metropolis–Rota constructions · **Self-contained:** framework-light · **Source:**
+[Chapter 66](papers/66-the-carry-engine/paper.md).
+
+The carry engine's mirror is a Z/4 extension class read as the first Witt carry;
+the blind sweep found "Witt vectors with remembered provenance: no matching
+construction, no priority obstruction — novelty contingent on a precise
+definition." **Open:** give a precise definition of Witt vectors that retain the
+provenance (transport vs fresh mint) of each ghost component, and determine
+whether it is genuinely new or an existing construction in disguise. The novelty
+of the whole witness layer is contingent on this definition.
+
+### OP-35 — The substructural identity-type calculus
+**Difficulty:** hard · **Prerequisites:** substructural type theory (linear /
+affine logic); homotopy type theory; proof-relevance (Hofmann–Streicher; HoTT
+Book) · **Self-contained:** framework-light · **Source:**
+[Chapter 62](papers/62-equality-is-an-event/paper.md).
+
+Three blind lanes independently located the same open ground: no existing
+substructural type theory grades the equality *witness itself* — all grade terms,
+never the identity type. The program's root ("identity/use is an event") demands
+exactly such a calculus: an equality witness that carries a usage grade, cannot
+be contracted, and leaves receipts. **Open:** construct this calculus (formation,
+introduction, elimination, and the substructural rules on the identity type) and
+prove its basic metatheory. This is the deepest certified-new ground of the era.
+
+### OP-36 — The seven-body and faces-of-15 witnesses
+**Difficulty:** substantial · **Prerequisites:** the carry-depth filtration; the
+faces-of-15 architecture; the arity-visibility ladder · **Self-contained:**
+framework-native · **Source:** [Chapter 66](papers/66-the-carry-engine/paper.md),
+[Chapter 67](papers/67-the-next-i/paper.md).
+
+The arity-visibility ladder predicts quantities visible only at detector arity *k*
+and exactly zero below it; the near-term instances are the seven-body witness and
+the faces-of-15 scale-simplex (dimension *d* ↔ modulus `2^{d+1}`). **Open:**
+construct the explicit seven-body and faces-of-15 witnesses at the level of a
+runnable protocol, and register their nulls and kill conditions before any
+apparatus is built. This is the constructive front of the next-i experimental
+program.
+
 ---
 
-*28 problems indexed. Corrections that reopened or bounded a claim are tracked
+*36 problems indexed. Corrections that reopened or bounded a claim are tracked
 in the [correction ledger](docs/correction-ledger.md); the "reopen only if"
 column there is itself a source of attackable conditions. If you find an open
 problem stated in a chapter that is missing here, that omission is itself worth
