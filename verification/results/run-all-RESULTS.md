@@ -1,34 +1,44 @@
-# Shipped Verification Subset - RESULTS
+# Shipped Verification Runner — RESULTS
 
-Status: PASS  
-Script: `verification/scripts/run_all.py`  
-Command: `python verification/scripts/run_all.py`  
-Date run: 2026-07-07  
-Environment: Windows, Python 3.13.12  
-Dependencies: Python standard library only  
-Expected runtime: under 30 seconds  
-Observed runtime: 0.2722391 seconds
+Status: FAST PATH PASS
+Script: `verification/scripts/run_all.py`
+Command: `python verification/scripts/run_all.py --fast`
+Date run: 2026-08-07
+Environment: Windows / Python 3.13
+Dependencies: Python standard library only
+Observed runtime: 8 seconds
 
-## Included Scripts
+## Included scripts
 
-- `verification/scripts/no_jam_open_rule.py`
-- `verification/scripts/frequency_bridge_exchangeable.py`
-- `verification/scripts/rational_born_gluing.py`
-- `verification/scripts/chsh_pell_boundary.py`
-- `verification/scripts/native_lift_binary_bell.py`
+The curated path ran 12 representative scripts:
+
+- `no_jam_open_rule.py`
+- `rational_born_gluing.py`
+- `chsh_pell_boundary.py`
+- `exact_gap_certificate.py`
+- `nonexact_return_reconstruction.py`
+- `negative_gram_holonomy.py`
+- `mixed_state_exclusion.py`
+- `rf_boundary.py`
+- `causal_ceiling_family.py`
+- `admission_forks.py`
+- `spine_forks.py`
+- `born_price.py`
 
 ## Results
 
-Stable ending:
+All 12 scripts exited zero. Stable ending:
 
 ```text
-ALL SHIPPED VERIFICATION: PASS
+ALL SHIPPED VERIFICATION: PASS  (12 scripts, 8s)
 ```
 
-Verdict: PASS.
+Verdict: FAST PATH PASS.
 
 ## Residuals
 
-This is a small public verification subset. It does not replace the locked
-private research corpus. Larger solver-heavy, long-run, or scope-sensitive
-artifacts remain `cited` or `held` in `verification/evidence-manifest.md`.
+- This record covers the curated fast path, not all 80 result scripts.
+- A full-suite PASS is not inferred from this run.
+- Run `python verification/scripts/run_all.py` for complete shipped
+  verification; use `--serial` only when one-at-a-time diagnostics are needed.
+- Repository hygiene is a separate gate: `python scripts/release_audit.py`.

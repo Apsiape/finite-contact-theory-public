@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Pre-release audit for the public Finite Contact Theory repository.
+"""Pre-release hygiene audit for the public Finite Contact Theory repository.
 
 The audit is intentionally conservative. It catches common release hygiene
-failures without trying to decide whether a theory claim is correct.
+failures without trying to decide whether a theory claim is correct. Mathematical
+verification is a separate gate and runs here only when explicitly requested.
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import subprocess
@@ -931,7 +933,27 @@ def check_commit_trailers() -> None:
     print(f"[PASS] commit messages carry no agent attribution ({proc.stdout.count(chr(0))} commits)")
 
 
-def main() -> int:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Audit repository packaging, metadata, links, scope language, and "
+            "Git hygiene. Mathematical verification is opt-in."
+        )
+    )
+    parser.add_argument(
+        "--verification",
+        choices=("none", "fast", "full"),
+        default="none",
+        help=(
+            "also run no mathematical suite (default), the curated fast path, "
+            "or the complete shipped suite"
+        ),
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
     try:
         check_required_files()
         check_metadata()
@@ -956,7 +978,19 @@ def main() -> int:
         check_overclaims()
         check_markdown_links()
         check_commit_trailers()
-        run_command("shipped verification", [sys.executable, "verification/scripts/run_all.py"])
+        if args.verification == "fast":
+            run_command(
+                "fast shipped verification",
+                [sys.executable, "verification/scripts/run_all.py", "--fast"],
+            )
+        elif args.verification == "full":
+            run_command(
+                "full shipped verification",
+                [sys.executable, "verification/scripts/run_all.py"],
+            )
+        else:
+            print("[SKIP] mathematical verification (run separately or pass "
+                  "--verification fast/full)")
         run_command("git whitespace check", ["git", "diff", "--check"])
     except AuditFailure as exc:
         print(f"[FAIL] {exc}", file=sys.stderr)

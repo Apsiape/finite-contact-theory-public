@@ -64,7 +64,7 @@ Run release hygiene:
 python scripts\release_audit.py
 ```
 
-Current shipped scripts (seventy-four, wired into `run_all.py`, one per shipped result line):
+Current shipped scripts (eighty, wired into `run_all.py`, one per shipped result line):
 
 - `verification/scripts/no_jam_open_rule.py`
 - `verification/scripts/frequency_bridge_exchangeable.py`
@@ -140,6 +140,12 @@ Current shipped scripts (seventy-four, wired into `run_all.py`, one per shipped 
 - `verification/scripts/spine_forks.py` (chapter 59)
 - `verification/scripts/twisted_worlds.py` (chapter 60)
 - `verification/scripts/born_price.py` (chapter 61)
+- `verification/scripts/verify_62_equality.py` (chapter 62)
+- `verification/scripts/verify_63_charge.py` (chapter 63)
+- `verification/scripts/verify_64_tower.py` (chapter 64)
+- `verification/scripts/verify_65_e8.py` (chapter 65)
+- `verification/scripts/verify_66_carry.py` (chapter 66)
+- `verification/scripts/verify_67_chromatic.py` (chapter 67)
 
 Current shipped result ledgers:
 

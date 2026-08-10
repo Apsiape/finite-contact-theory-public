@@ -282,11 +282,14 @@ python verification\scripts\run_all.py
 Expected final line: `ALL SHIPPED VERIFICATION: PASS`. Every shipped result line
 has one dependency-free script, all exact arithmetic. Release hygiene (scope
 language, links, overclaim phrases, the ceiling quoted verbatim) is itself
-audited:
+audited independently and does not launch mathematical verification by default:
 
 ```powershell
 python scripts\release_audit.py
 ```
+
+To request a coupled gate explicitly, use `--verification fast` or
+`--verification full`.
 
 ## The fine print — the live ceiling
 
