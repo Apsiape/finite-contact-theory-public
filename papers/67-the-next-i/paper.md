@@ -114,6 +114,23 @@ agrees on the nose [VERIFIED — checks D1, D2, D2b]. Three roads, one
 stratification. If the ladder were an encoding artifact, the three roads would
 not have to meet; they meet.
 
+**[ARTIFACT-CONTROL CORRECTION, 2026-08 — the independence was asserted, never
+demonstrated, and it does not hold.]** The three roads are **not** independent.
+Over F₂ the formal-group route is `[n](x) = (1+x)ⁿ − 1`, which *is* the
+binomial-parity statement; and `ν₂(Catalan(n−1)) = s₂(n) − 1` is Kummer's
+theorem, which is the same base-2 carry fact in a third costume. All three are
+one theorem of binary carry arithmetic presented three ways. **Three
+presentations of the same carry structure cannot fail to meet, so their meeting
+is not evidence against an encoding artifact** — it is a consistency check, and
+we should have labelled it as one. This section's artifact control is therefore
+**withdrawn as an independence argument** and retained only as a
+cross-implementation consistency check (which it passes: the shipped Z/16
+recursive tree-transfer agrees on the nose, and that agreement is real and
+useful). The stratification itself is untouched — it remains [VERIFIED]; what is
+withdrawn is the claim that its three derivations triangulate it. Naming this
+against ourselves is required by our own correlated-error hygiene rule: method
+diversity, not presentation diversity, is what defeats an artifact.
+
 ### 1.3 The transport group is nonabelian — so it cannot be height one
 
 The program's transport symmetry — the group under which its law-carriers move
@@ -155,6 +172,21 @@ that the floor's group is exactly 2T (checks C1–C3). The claim that 2T is the
 stabilizer's maximal finite subgroup is the literature's, and the value of the
 coincidence rests on that literature being right.
 
+**[CITATION PHRASING, sharpened 2026-08 — the citation itself is CONFIRMED
+correct as stated.]** An independent literature check confirms the identity and
+the sources. Two refinements are carried here rather than left implicit. First,
+the literature's statement is that the maximal finite subgroups of `𝕊₂` **are
+isomorphic to** `G₂₄` — a single conjugacy class — so the precise phrasing is
+"**a** maximal finite subgroup, unique up to conjugacy," which is both stronger
+and cleaner than "the maximal finite subgroup." Second, `G₂₄` is the standard
+name in the chromatic literature; "binary tetrahedral" is this program's usage,
+and the alias is recorded so the two are not read as different objects.
+Bibliographic detail verified: T. Hewett, "Finite subgroups of division algebras
+over local fields," *J. Algebra* **173** (1995) 518–548; Bujard, *Finite
+subgroups of extended Morava stabilizer groups*, arXiv:1206.1951. The
+strict/Galois 24-vs-48 split of §1.5 is corroborated by the same sources
+(`SD₁₆` and `G₄₈` in the extended group `𝔾₂`).
+
 ### 1.5 The strict-versus-Galois split aligns with the chirality gate [OBSERVATION]
 
 One more alignment, and we label it exactly for what it is: an observation, not
@@ -195,6 +227,25 @@ height one cannot host. Under this reading:
 We label the whole reading [CONJ / EXTENSION]: it goes beyond what any
 incumbent asserts, and it is tested by internal rigor and by the decisive
 computation of Section 6, not by whether it reduces to a known result.
+
+**[FRAME LABEL DEMOTED, 2026-08. `[CONJ]` → `[CONJ / demoted: endomorphism
+arithmetic only]`.]** The decisive computation named in the last sentence has
+been run (Section 6, gate 1). It returned negative, and the corroborating gate
+(gate 2) returned no corroboration and a rank-1 downgrade. Read this whole
+section under the corrected label: **height-one physics with height-two
+endomorphism arithmetic, conditional on two unforced inputs — the supplied
+triadic rotor and the received chirality bit — and read across an external
+correspondence; the height-two object itself is never produced.** Concretely,
+the reading that "chromatic height is a genuine physical grading of detectors"
+is **not** supported by anything the program owns: the program owns no height-2
+formal group law in any certified sector, and the tower and its transport live
+on rank-1 groups where a height-2 stratum does not exist. What the program does
+own — and this is the upgrade inside the demotion — is the **endomorphism
+ring** of the height-two object, spanned by the floor's own transports as the
+Hurwitz maximal order. The three bullets below (carry-depth filtration as the
+height stratification; half-eraser as height-blindness; essential classes as
+lower-height residues) are retained as **analogies under the demoted label**,
+not as a grading of detectors.
 
 ### 2.2 The named incumbent: the Stolz–Teichner ladder
 
@@ -379,8 +430,9 @@ dynamics, cosmology, dark sectors, and every "if iota-2 is real then …" remain
   dichotomy's exhaustiveness, where the incumbent postulates the dichotomy.
 - **Why i**: i as the minimal law-flattener and the half-eraser — a theorem
   about erasure resolution, where the incumbent posits complex scalars.
-- **The exceptional-object chain** (Q8, 24-cell, F4, E8 as forced closure
-  shells of the law transport). *This is not the McKay correspondence*: McKay
+- **The exceptional-object chain** *"…as closure shells of the law transport, forced **given the five inputs
+  enumerated in Chapter 65 §4** — three received forks and two construction
+  imports."*. *This is not the McKay correspondence*: McKay
   sends 2T to E6 and the binary icosahedral group to E8; our route is
   glue-forcing and reaches E8 differently. [EXTENSION, with the firewall noted;
   see Chapter 65 for the full distinction.]
@@ -444,6 +496,54 @@ optional; the frame is [CONJ] *because* they are unrun.
    physics with height-two symmetry decoration," and the whole chromatic frame
    retreats to a conjecture about symmetry decoration.** Nothing chromatic
    should be read as more than [CONJ] until this runs. [OPEN.]
+
+**[GATE 1 — RUN AND CLOSED, NEGATIVE. 2026-08.]** The extraction was run over
+the whole certified menu of the program's own compositions — the mirror / Z/4
+factor set / first Witt carry; the closure-charge fusion algebra; the law-tower
+cup composition; the Bockstein carry; the A∞ dyadic transfer in both its
+natural readings; and both signed mod-4 transferred germs — eight constructions
+in all, with no cherry-picking. **Sectors at height ≥ 2: zero.** Six give
+height 1 and two give the degenerate additive law (height ∞). The mirror
+coefficient `u₁` is a **unit** and is irremovable under every coordinate change
+of degree ≤ 8 over F₂, ≤ 6 over ℤ/4 and ≤ 4 over ℤ/8 — all checked
+exhaustively. The half-eraser, which this program nominated as its
+height-transition mechanism, sends `[2](x) = 2x + x²` to `2x`: to height ∞, not
+to height 2, because **there is no `x⁴` term for the erasure to leave behind**.
+The second clause fails independently of the first: `Aut` of every extracted
+law is pro-2, so the order-three rotor of 2T cannot embed, while the positive
+control (the Honda height-2 law at p = 2) does admit it. Every control passed,
+including the supersingular curve `y² + y = x³` over F₂ — a genuine height-2
+law whose automorphism group over `F̄₂` is exactly 2T. The program owns the
+symmetry group of the height-two object and does not own the object.
+
+**The verdict is the one this section pre-authorized in print, with one
+upgrade that runs against our own interest and is therefore printed too.** The
+honest label is not "symmetry decoration": the floor's own derived transports
+span the **Hurwitz maximal order**, which is `End(E)` of that curve, is
+`End(Ê)` of the height-two formal group after 2-adic completion, and whose unit
+group is `Aut(E)`. An endomorphism ring is not a symmetry group; it is the
+arithmetic invariant that *classifies* the object. The corrected label is:
+
+> **"height-one physics with height-two endomorphism arithmetic, conditional
+> on two unforced inputs (the supplied triadic rotor, the received chirality
+> bit) and read across an external correspondence; the height-two object
+> itself is never produced."**
+
+Every clause of that sentence is doing work. The first half is an upgrade over
+"decoration"; the conditional is what keeps it honest; and *reached* is not
+*produced* — the law is obtained only by classification across an external
+correspondence, never constructed. **The whole chromatic frame of Section 2
+retreats accordingly, and does not reopen on this evidence.** What survives
+untouched is exactly what was [VERIFIED] before: the mirror *is* the quadratic
+term of the multiplicative law; the dyadic tower *is* its doubling series; 2T
+*is* the group the literature attaches to the height-two stabilizer.
+
+The one concrete route by which a native height-two law could still arrive is
+registered rather than asserted: the floor would have to own a **points /
+solution-set primitive** — a functor `R ↦ {solutions}` on F₂-algebras — which
+none of its six certified objects is. Falsifier: exhibit such a functor natively
+from the certified menu.
+
 2. **The HKR character-theory check.** Unlike the first gate, this one can
    *support* the frame. Hopkins–Kuhn–Ravenel character theory detects height-n
    phenomena at transcendence rank n; if the essential-class ("faceless") tower
@@ -451,6 +551,24 @@ optional; the frame is [CONJ] *because* they are unrun.
    leg from established machinery rather than resting on the stabilizer match
    alone. Published mathematics can corroborate here, not only deflate. [OPEN —
    Hopkins, Kuhn, and Ravenel 2000.]
+
+**[GATE 2 — RUN AND CLOSED. NO CORROBORATION, AND A DOWNGRADE. 2026-08.]**
+This gate was written as the one that could *support* the frame. It does not;
+it deflates it. As stated the gate is not executable — it names no ambient
+group and no computable statistic — so it was run in its nearest executable
+form, in the groups that actually carry the tower and its transport (Z/2, Q8,
+2T), and that choice is recorded as ours. Results, all exact: essential
+cohomology of Z/2 is the whole positive-degree tower **vacuously** (the only
+proper subgroup is trivial), so facelessness on Z/2 carries no rank information
+at all; the 2-rank of Z/2, of Q8 and of 2T is **1** in every case, each having
+exactly one involution; `rank K(n)*(BZ/2) = 2ⁿ` matches `|Hom(ℤ₂ⁿ, Z/2)|` at
+*every* n, so the HKR count is consistent with the tower at every height and
+therefore **cannot select height 2** — consistency at every height is not
+evidence for one; and every homomorphism `ℤ₂ⁿ → G` has image of rank ≤ 1, so
+for n ≥ 2 the rank-n stratum is **empty** and there is nothing for HKR to
+detect at height two anywhere in this tower. The second leg the height reading
+hoped for does not exist, and the rank-1 finding is an independent downgrade.
+
 3. **The no-cloning-distinction check.** The contextuality-from-two-conservation
    -laws result (Tier A) must be shown *not* to be a repackaged
    no-cloning/monogamy argument. The check is finite and in-house: exhibit a

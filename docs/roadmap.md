@@ -15,9 +15,13 @@ The nearest open items, each held open by name in the live ceiling:
 
 - **The mixed-state PSD-exclusion (the open crux of Chapter 10).** Whether the
   registered negative-Gram count vector `(Delta_3, W, Q_3)` can be reproduced
-  by any mixed-state / mode-mismatch / multiphoton Hilbert model. This is the
-  gate before any nature-facing outreach and awaits an external quantum-optics
-  expert; the clean math core is an SDP / real-algebraic feasibility question.
+  by any mixed-state / mode-mismatch / multiphoton Hilbert model. This layer is
+  settled by exact computation on two independent engines plus refutation-first
+  adversarial review across model families; the one thing no review can supply
+  is MEASUREMENT, so the gate before any nature-facing claim is the experiment
+  itself, and outreach to an experimental group is a step toward that
+  measurement, not a validity gate. The clean math core is an SDP /
+  real-algebraic feasibility question.
 - **The Chapter-10 bridge premises**, held open: that a physical particle class
   carries `Z_2` identity holonomy; that photons receive it (the natural home is
   anyonic / topological matter, photons the clean-grammar long shot); that

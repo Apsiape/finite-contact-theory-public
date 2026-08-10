@@ -168,8 +168,17 @@ P111 + D2 ≥ 2/3,
 ```
 
 which the extension violates by `128/1125`. An experiment therefore has a
-single, model-independent exclusion test on raw counts: a measured
-`P111 + D2 < 2/3` is outside the entire clean partial-distinguishability class.
+single exclusion test on raw counts, **model-independent given a single
+internal state across settings**: a measured `P111 + D2 < 2/3` is outside the
+entire clean partial-distinguishability class. The qualifier is not
+decoration. `D2` is measured in the PAIR settings and `P111` in the TRITTER
+setting, so the test is model-independent over Hilbert models but **not** over
+apparatus configurations: if the internal state differs between the pair and
+tritter configurations, the measured combination is biased by
+`(S_tri − S_pair)/9` at first order and the inequality can be crossed with no
+exotic physics. Chapter 10's protocol paragraph carries the normative
+single-setting form that removes this exposure, and cross-setting
+inhomogeneity is named in the preregistered nuisance family there.
 
 ## 4. ⚠ Scope — what is closed, and what is not
 

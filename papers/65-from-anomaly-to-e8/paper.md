@@ -53,10 +53,15 @@ the finite structures we build, verified by the shipped script. RECOVERY marks
 a classical result reconstructed on a stated branch, cited by name. RECEIVED
 marks a fork the floor stages and does not resolve — a genuine choice, enumerated
 but not forced. EXTENSION marks a structural claim beyond the classical
-incumbent. OPEN and CONJ mark what we have not closed. The single most important
-label in the chapter is RECEIVED, and it appears at three gates: chirality (24
-vs 48), the glue element (which triality automorphism), and — upstream — the
-choice of scalar lift.
+incumbent. OPEN and CONJ mark what we have not closed. *"The single most important label in the chapter is RECEIVED, and it appears
+**at three RECEIVED gates**: chirality (24 vs 48), the glue element (which
+triality automorphism), and — upstream — the choice of scalar lift. **Two
+further inputs are SUPPLIED BY THE MODEL rather than received — the order-three
+symmetry acting on the law transports, and the doubling under a debt-free
+self-duality condition — and are named as such in §4.** Received inputs are
+enumerated forks the floor stages and does not resolve; supplied inputs are
+construction moves, not choices, and the distinction matters for what the chain
+claims."*
 
 ## 1. The law-bundle model: the pentagon is the coboundary
 
@@ -281,9 +286,15 @@ glue theory, applied. The contribution we claim, per the blind review, is the
 **forcing narrative**: that the enumeration is driven *from the essential
 class* — mirror ⇒ evenness gate ⇒ the 6 even glues; self-duality ⇒ unimodularity;
 chirality ⇒ 24 over 48 — with the received datum named at every gate (the
-chirality at 24|48, the triality element at the E8 glue). The chain
-identity-root → essential class → Q8 → 2T → 24-cell → E8 is forced at every link,
-with the received data enumerated at each fork. That is a model-scope theorem
+chirality at 24|48, the triality element at the E8 glue). *"The chain essential class → Q8 → 2T → 24-cell → E8 is forced at every link
+**given five named inputs**: three RECEIVED forks (the scalar lift; the
+chirality; the triality glue) and two construction inputs SUPPLIED BY THE MODEL
+(the order-three symmetry acting on the law transports; the doubling under a
+debt-free self-duality condition). The first two are enumerated choices the
+floor stages and does not resolve; the last two are not choices but imports,
+and we name them as such. **The arrow from the identity root to the essential
+class is not derived in this release and is struck from the chain statement
+here.**"* That is a model-scope theorem
 about our own construction, not a claim on the lattice theory it uses.
 
 ## 5. This is not the McKay correspondence (firewall)

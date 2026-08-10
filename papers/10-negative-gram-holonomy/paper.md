@@ -202,6 +202,36 @@ within a pre-frozen tolerance; the cyclic target `Φ = π`. Analysis is a
 blinded PSD-constrained profile-likelihood fit over the full nuisance family,
 unblinded only after pipeline freeze, with an independent confirmatory block.
 
+**Protocol amendment (append-only, 2026-08; see correction C-25).** The frozen
+protocol above stands unchanged as the record of what was preregistered. The
+**normative** analysis form is now Chapter 12's tritter-counts-alone reduction,
+which the pair settings do not improve on and which removes an apparatus
+exposure they carry:
+
+```
+W′ = (4/3) P111 − (2/3) q300,
+Δ₃ = (9/2) W′,
+Q₃ = q300 + W′/2 − 2/9.
+```
+
+Every registered quantity is thereby read from the TRITTER setting alone. The
+**PAIR settings are retained** — but only as a cross-setting homogeneity
+cross-check. Their residual
+
+```
+D2_meas − [ 2/3 − (T₊ − T₋)/3 ],   T₊ = (3/2) q300,  T₋ = (3/4) W′,
+```
+
+must be reported and must be consistent with zero; the settings are
+over-determined by exactly one degree of freedom, and that residual *is* the
+homogeneity test. **Cross-setting inhomogeneity — the tritter configuration
+physically differing from the pair configuration in a way correlated with the
+cyclic phase — is hereby added by name to the preregistered nuisance family.**
+This amendment withdraws no theorem: FCT-62 and FCT-63 are untouched, and the
+exclusion result is unchanged. It is reopened only if a two-setting form is
+shown to carry information the tritter counts do not, or a bound on
+`|S_tri − S_pair|` is derived from calibration.
+
 **Kill conditions (any one kills the physical claim).** An admissible PSD Gram
 fit exists; `Q3 = 0` is not rejected; late-randomization or drift correction
 removes the effect; the sign depends on post-hoc binning; nuisance
@@ -234,9 +264,12 @@ from the theorem of §1, and only the theorem is closed. §1 proves the
 extension model's *own internal consistency* — every accessible probability is
 nonnegative for **every** passive-linear-optical apparatus, lossless or lossy.
 It does **not** show that a positive-Hilbert model cannot reproduce the
-measured counts; that exclusion is exactly what remains open. **It has not been
-vetted by a quantum-optics expert, and external expert review is the gate
-before any outreach or nature-facing claim.**
+measured counts; that exclusion is exactly what remains open. **The apparatus-nuisance layer is
+settled by exact computation on two independent engines plus refutation-first
+adversarial review across model families; the one thing no review can supply is
+MEASUREMENT, so the gate before any nature-facing claim is the experiment
+itself, and outreach to an experimental group is a step toward that
+measurement, not a validity gate.**
 
 **The natural home is not photons.** The clean physical home for path-relative
 exchange with nontrivial identity holonomy is **anyonic / topological matter**,

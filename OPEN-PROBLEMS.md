@@ -421,6 +421,27 @@ stabilizer group acting as its automorphisms; if the algebra only ever yields th
 multiplicative law, the honest verdict is "height-1 physics with height-2
 symmetry decoration." Finite and decisive.
 
+**RESOLVED 2026-08 — NEGATIVE. See Chapter 67 §6 gate 1 (closed).** Eight
+constructions across the whole certified composition menu: six height 1, two
+height ∞, zero at height ≥ 2; `u₁` a unit, irremovable by exhaustive
+re-coordinatisation over F₂, ℤ/4 and ℤ/8; the automorphism clause failing
+independently (Aut is pro-2, no order-3 rotor). **Reporting defect in the gate
+as it was written, corrected here and independent of the outcome:** the printed
+form `[2](x) = 2x + u₁x² + x⁴ + …` is **not a height test as literally
+written** — read as a shape match it is satisfied by height-1 and height-2
+series alike (`2x + 1·x² + x⁴` is height **1**; `2x + 0·x² + x⁴` is height
+**2**). It is a height test only when **`u₁ ∈ 𝔪`**, the maximal ideal — i.e.
+only as the Lubin–Tate universal deformation form, whose height-2 locus is the
+discriminant `u₁ = 0`. The standard criterion (height *h* iff the lowest
+surviving exponent of `[2](x)` mod 2 is `2^h`) was used as primary and both
+readings returned the same answer here, so the ambiguity changed no verdict —
+but the formula as printed was defective and should be read with `u₁ ∈ 𝔪`
+attached wherever it appears. **Replacement open problem:** does the floor force
+the supersingular relation `℘(y) = x³`, or only its automorphism group? —
+equivalently, does the floor own a points/solution-set functor
+`R ↦ {solutions}` on F₂-algebras? Falsifier: exhibit one natively from the
+certified menu.
+
 ### OP-30 — The HKR character-theory check on the essential ("faceless") classes
 **Difficulty:** substantial · **Prerequisites:** Hopkins–Kuhn–Ravenel character
 theory; essential cohomology (Adem–Karagueuzian; Green) · **Self-contained:**
@@ -432,6 +453,14 @@ the essential/faceless tower fit HKR character theory — height *n* detected at
 rank *n*? A positive result gives the chromatic identification its second leg from
 established machinery; a negative one downgrades the height reading of
 facelessness. Corroboration or kill; either resolves the label.
+
+**RESOLVED 2026-08 — NO CORROBORATION, plus an independent downgrade. See
+Chapter 67 §6 gate 2 (closed).** Facelessness on Z/2 is essential *vacuously*
+and carries no rank information; 2-rank is 1 for Z/2, Q8 and 2T alike; the HKR
+class-function count matches at *every* height and therefore selects none; and
+every hom `ℤ₂ⁿ → G` has rank-≤1 image, so the rank-2 stratum is empty. The
+gate resolves the label in the deflating direction, as it was written to be
+able to do.
 
 ### OP-31 — The no-cloning-distinction check on the contextuality derivation
 **Difficulty:** accessible · **Prerequisites:** contextuality (CSW, exclusivity

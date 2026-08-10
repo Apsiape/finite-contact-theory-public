@@ -188,6 +188,16 @@ structural and not an artifact of any one of them — the triangulation *is* the
 artifact control, and we present it as such rather than leaning on a single
 derivation.
 
+**[ARTIFACT-CONTROL CORRECTION, 2026-08.]** The paragraph above claims the
+convergence of three mechanisms as the artifact control. The three are not
+unrelated: over F₂ the formal-group doubling series is `(1+x)ⁿ − 1`, i.e. the
+binomial-parity route itself, and the Catalan 2-adic valuation
+`ν₂(Catalan(n−1)) = s₂(n) − 1` is Kummer's theorem — one base-2 carry theorem
+in three presentations. **The triangulation is withdrawn as an artifact
+control** and retained as a cross-implementation consistency check. The
+Catalan-parity fact, the transfer engine, and the dyadic skeleton are all
+unaffected; only the independence claim is.
+
 ### 2.3 One honest failure, filed
 
 A tempting identification — that the arity-three charge χ *is* the transferred

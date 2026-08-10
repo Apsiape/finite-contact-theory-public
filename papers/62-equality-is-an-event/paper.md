@@ -88,8 +88,12 @@ reflexive (`a ~ a`), symmetric (`a ~ b ⇒ b ~ a`), but pointedly NOT transitive
 single structural choice from which the presheaf-not-sheaf character of the
 whole theory follows — the refusal of "glue for free."
 
-Under R it is a one-line consequence, and this is the chapter's first THEOREM
-(model scope):
+*"Under R the **non-transitivity clause** is a one-line consequence, and that
+is the chapter's first THEOREM (model scope). The other two clauses are **not
+derived from R and we name them as posits**: that every mark has been paid a
+self-identification (universal reflexivity), and that the identifying
+occurrence carries no orientation (undirectedness). Both are stated below with
+their costs."*
 
 - **Reflexivity** is the cost of a *re*-identification: to have `a ~ a` at all
   is to have paid one occurrence identifying `a` with itself. The relation is
@@ -119,7 +123,14 @@ a mark with its later self; *receipts* are the identifying act itself seen as
 a new mark; presheaf-not-sheaf is the sheaf axiom's "glue for free" refused at
 the level of gluing. Each of these was a floor posit. Each is R applied at a
 different scope. The claim "R explains more with fewer posits" is adjudicable
-in exactly this list.
+in exactly this list. *"— and we perform the count. **Five posits: R (identity is an event), F
+(finitude), universal reflexivity, undirectedness of the identifying
+occurrence, and the carrier/occurrence typing that fixes when two occurrences
+concern the same mark. Two firm retirements. The margin is negative.** The
+third and fourth are conventions this chapter used without declaring; the fifth
+is load-bearing rather than bookkeeping — without it the non-transitivity clause
+quantifies over nothing and is vacuous. We print the count because the claim was
+ours and it does not survive its own arithmetic in the form we stated it."*
 
 ## 2. The reception census: exactly-once is a 2-coloring
 
@@ -362,10 +373,35 @@ not a theorem. The classical mathematics it borrows (proof-relevant equality)
 is RECOVERY, cited as such; the resource discipline on the witness is the
 delta.
 
+**[FORMALIZATION NOTE, appended 2026-08 — the delta declared above is now
+computed, and the chapter's own gap is named.]** The paragraph above declares
+the delta at the level of the **witness**: the identity witness is
+resource-sensitive, one-use, receipted, finite in supply. The chapter then
+computes with the witness's **shadow** — the tolerance relation `~` — and not
+with the witness itself. That gap is now closed enough to be stated exactly.
+Write the witness structure as a finite directed multigraph of paid
+identifications, each edge carrying its receipt; write `T` for the passage from
+that structure to the tolerance relation the chapter uses (adjoin every loop,
+forget every direction). **`T` is exactly the projection from the witness level
+to the relation level, and it is lossy by a computable amount:** the fibre of
+`T` over a tolerance relation with `m` reflexive sites and `n` symmetric pairs
+has size **`3^m · 2^n`** — every loop is present-paid, present-unpaid or absent,
+and every symmetric pair may be carried by an edge in either direction or both.
+Distinct witness structures with identical shadows are exhibited and separated
+by invariants the shadow cannot see (a 5-cycle pair with identical relations and
+strongly-connected-component profiles 1 versus 5). So the resource discipline
+this chapter marks as its delta is **real and is not visible in the object the
+chapter computes with** — the tolerance relation is a lossy projection of it.
+We state this as the formalization of a delta already claimed here, not as a new
+result and not as a retraction: HoTT supplies a witness level with free reuse,
+this chapter declares a resource-sensitive one, and `T` is the exact bridge
+between them with its loss counted.
+
 ## 7. What this chapter earns
 
-One posited floor relation is now DERIVED from one sentence, at model scope: a
-tolerance is an equality with free transitivity removed. A census turned
+*"One posited floor relation is now derived from one sentence **plus two named
+conventions**, at model scope: a tolerance is an equality with free transitivity
+removed, given universal reflexivity and an undirected identifying occurrence."* A census turned
 one-use exactly-once into a proper 2-coloring and read its realizability off
 as bipartiteness, with an exact table and two agreeing engines. An overclaim
 about that census — that its object was the contextual object under the

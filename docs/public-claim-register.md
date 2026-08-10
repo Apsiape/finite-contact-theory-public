@@ -1988,9 +1988,19 @@ Residuals / the open crux:
   FCT-62 shows no partially-distinguishable Hilbert model, pure or mixed,
   reproduces the registered `(Delta_3, W, Q_3)`. The remaining open part of the
   crux is the APPARATUS-NUISANCE layer -- multiphoton contamination, detector
-  response, transfer-matrix uncertainty, source drift -- which has NOT been
-  vetted by a quantum-optics expert; external expert review is the gate before
-  any outreach.
+  response, transfer-matrix uncertainty, source drift. **That layer is closed by
+  internal verification, not by anyone's credential: a nuisance model that is
+  exactly computed on two independent engines, adversarially attacked by
+  refutation-first panels drawn from more than one frontier model family, and
+  shipped with its script, is settled — a correct computation is correct
+  regardless of who blesses it. The one thing no review of any kind can supply is
+  MEASUREMENT. The gate before any nature-facing claim is therefore the
+  EXPERIMENT itself — the apparatus we cannot instantiate in software — and not
+  an expert's sign-off. Outreach to an experimental group is a step toward that
+  measurement, not a validity gate that must be passed first.** As of C-25 the
+  named apparatus residual is `Φ`-correlated cross-setting inhomogeneity, which is
+  now in the preregistered nuisance family and is measured by the homogeneity
+  residual of the Chapter-10 protocol amendment.
 - this DOI is an archival/priority record of a mathematically closed
   conditional prediction, NOT an empirical discovery.
 - Chapter 12 (FCT-63) upgrades this: the negative-Gram inequality is THE
