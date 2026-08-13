@@ -2,6 +2,17 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21253591.svg)](https://doi.org/10.5281/zenodo.21253591)
 
+> **Succession notice (August 2026).** The closure-theoretic
+> content of this program --- when a finite representation may
+> lawfully close over what it touches --- has been absorbed and
+> generalized into **Receipt Theory / Finite Answerability**
+> ([Apsiape/receipt-theory](https://github.com/Apsiape/receipt-theory),
+> doi:[10.5281/zenodo.21911510](https://doi.org/10.5281/zenodo.21911510)),
+> where the one-use event floor persists as the flagship model
+> system. This repository is the program's founding record and is
+> preserved as released; the experimental worlds program continues
+> on its own track.
+
 > **One rule: a finite thing touches what it cannot fully take in, and the
 > contact leaves a mark that can be used once.** From that floor — no Hilbert
 > space, no probability, no spacetime granted at the start — the program grows
